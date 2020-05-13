@@ -1,31 +1,6 @@
 {
     "packages": {
         "alquemie/alquemie-config": {
-            "0.1.6": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.6",
-                "version_normalized": "0.1.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config.git",
-                    "reference": "0c20c18d85fe0b2376e8252f36f487cf4f8c87b7"
-                },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-03-20T04:26:38+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
             "0.1.8": {
                 "name": "alquemie/alquemie-config",
                 "version": "0.1.8",
@@ -75,6 +50,31 @@
                     }
                 ],
                 "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            },
+            "dev-master": {
+                "name": "alquemie/alquemie-config",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config.git",
+                    "reference": "08602708604c2ef39df2fd8ef0959e532672a34e"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-30T02:37:21+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
             }
         },
         "purdue/advanced-custom-fields-pro": {
@@ -82,6 +82,41 @@
                 "name": "purdue/advanced-custom-fields-pro",
                 "version": "5.8.11",
                 "version_normalized": "5.8.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/advanced-custom-fields-pro.git",
+                    "reference": "436f3f6d6e750b4126471a693e53c8439af4db19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/advanced-custom-fields-pro/zipball/436f3f6d6e750b4126471a693e53c8439af4db19",
+                    "reference": "436f3f6d6e750b4126471a693e53c8439af4db19",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:11:51+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "ACF Team",
+                        "homepage": "https://www.advancedcustomfields.com/"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro by ACF Team",
+                "support": {
+                    "source": "https://github.com/Purdue/advanced-custom-fields-pro/tree/5.8.11",
+                    "issues": "https://github.com/Purdue/advanced-custom-fields-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/advanced-custom-fields-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/advanced-custom-fields-pro.git",
@@ -252,11 +287,120 @@
                 }
             }
         },
+        "purdue/bulma-blocks": {
+            "1.1.0": {
+                "name": "purdue/bulma-blocks",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "863827a6660007ac31a61b6dd518fedf34ddeb78"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/863827a6660007ac31a61b6dd518fedf34ddeb78",
+                    "reference": "863827a6660007ac31a61b6dd518fedf34ddeb78",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T06:57:35+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.1.0",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "863827a6660007ac31a61b6dd518fedf34ddeb78"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/863827a6660007ac31a61b6dd518fedf34ddeb78",
+                    "reference": "863827a6660007ac31a61b6dd518fedf34ddeb78",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T06:57:35+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.1.0",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            }
+        },
         "purdue/gravityforms": {
             "2.4.18": {
                 "name": "purdue/gravityforms",
                 "version": "2.4.18",
                 "version_normalized": "2.4.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityforms.git",
+                    "reference": "baf72563994691a0c53a056fd0ae774b55a01b68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/baf72563994691a0c53a056fd0ae774b55a01b68",
+                    "reference": "baf72563994691a0c53a056fd0ae774b55a01b68",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:08:25+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.18",
+                    "issues": "https://github.com/Purdue/gravityforms/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/gravityforms",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityforms.git",
@@ -395,6 +539,151 @@
                 "support": {
                     "source": "https://github.com/Purdue/gravityformszapier/tree/3.2.1",
                     "issues": "https://github.com/Purdue/gravityformszapier/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/gravityformszapier",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformszapier.git",
+                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/3292473080f7daba10a09f2ab60a29e56d36c179",
+                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:15:26+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.2.1",
+                    "issues": "https://github.com/Purdue/gravityformszapier/issues"
+                }
+            }
+        },
+        "purdue/purdue-blocks": {
+            "1.1.0": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-blocks.git",
+                    "reference": "0879221d1d2c2d1a3e0ad80c3277c935bb1c7b8d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/0879221d1d2c2d1a3e0ad80c3277c935bb1c7b8d",
+                    "reference": "0879221d1d2c2d1a3e0ad80c3277c935bb1c7b8d",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T06:56:53+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.1.0",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "1.1.1": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-blocks.git",
+                    "reference": "a7b6981afafa9e890b6383b443d67cb86088ca36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/a7b6981afafa9e890b6383b443d67cb86088ca36",
+                    "reference": "a7b6981afafa9e890b6383b443d67cb86088ca36",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T07:31:35+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.1.1",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/purdue-blocks",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-blocks.git",
+                    "reference": "a7b6981afafa9e890b6383b443d67cb86088ca36"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/a7b6981afafa9e890b6383b443d67cb86088ca36",
+                    "reference": "a7b6981afafa9e890b6383b443d67cb86088ca36",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T07:31:35+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.1.1",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
         },
