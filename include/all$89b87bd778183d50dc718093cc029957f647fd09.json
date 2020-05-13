@@ -1,0 +1,468 @@
+{
+    "packages": {
+        "alquemie/alquemie-config": {
+            "0.1.6": {
+                "name": "alquemie/alquemie-config",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config.git",
+                    "reference": "0c20c18d85fe0b2376e8252f36f487cf4f8c87b7"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-20T04:26:38+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            },
+            "0.1.8": {
+                "name": "alquemie/alquemie-config",
+                "version": "0.1.8",
+                "version_normalized": "0.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config.git",
+                    "reference": "982010c0538249a6ea60518467df46c129df2adb"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-20T07:10:16+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            },
+            "0.1.9": {
+                "name": "alquemie/alquemie-config",
+                "version": "0.1.9",
+                "version_normalized": "0.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config.git",
+                    "reference": "08602708604c2ef39df2fd8ef0959e532672a34e"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-30T02:37:21+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            }
+        },
+        "purdue/advanced-custom-fields-pro": {
+            "5.8.11": {
+                "name": "purdue/advanced-custom-fields-pro",
+                "version": "5.8.11",
+                "version_normalized": "5.8.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/advanced-custom-fields-pro.git",
+                    "reference": "436f3f6d6e750b4126471a693e53c8439af4db19"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/advanced-custom-fields-pro/zipball/436f3f6d6e750b4126471a693e53c8439af4db19",
+                    "reference": "436f3f6d6e750b4126471a693e53c8439af4db19",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:11:51+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "ACF Team",
+                        "homepage": "https://www.advancedcustomfields.com/"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro by ACF Team",
+                "support": {
+                    "source": "https://github.com/Purdue/advanced-custom-fields-pro/tree/5.8.11",
+                    "issues": "https://github.com/Purdue/advanced-custom-fields-pro/issues"
+                }
+            }
+        },
+        "purdue/ajax-load-more-pro": {
+            "1.1.1": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "433a3465fd18efd957a59b44d8d3aa24a26d07d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/433a3465fd18efd957a59b44d8d3aa24a26d07d8",
+                    "reference": "433a3465fd18efd957a59b44d8d3aa24a26d07d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-12T13:19:50+00:00",
+                "type": "wordpress-plugin",
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "cjcarrel@purdue.edu"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.1",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "433a3465fd18efd957a59b44d8d3aa24a26d07d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/433a3465fd18efd957a59b44d8d3aa24a26d07d8",
+                    "reference": "433a3465fd18efd957a59b44d8d3aa24a26d07d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-12T13:19:50+00:00",
+                "type": "wordpress-plugin",
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "cjcarrel@purdue.edu"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.1",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            }
+        },
+        "purdue/boilerup-wp": {
+            "1.3.1": {
+                "name": "purdue/boilerup-wp",
+                "version": "1.3.1",
+                "version_normalized": "1.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/boilerup-wp.git",
+                    "reference": "1cbc882cf7c429bc70cd6a94b8f6f597df904924"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/1cbc882cf7c429bc70cd6a94b8f6f597df904924",
+                    "reference": "1cbc882cf7c429bc70cd6a94b8f6f597df904924",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T06:24:04+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digitalmarketing@groups.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
+                "support": {
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.3.1",
+                    "issues": "https://github.com/Purdue/boilerup-wp/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/boilerup-wp",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/boilerup-wp.git",
+                    "reference": "1cbc882cf7c429bc70cd6a94b8f6f597df904924"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/1cbc882cf7c429bc70cd6a94b8f6f597df904924",
+                    "reference": "1cbc882cf7c429bc70cd6a94b8f6f597df904924",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-13T06:24:04+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digitalmarketing@groups.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
+                "support": {
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.3.1",
+                    "issues": "https://github.com/Purdue/boilerup-wp/issues"
+                }
+            }
+        },
+        "purdue/gravityforms": {
+            "2.4.18": {
+                "name": "purdue/gravityforms",
+                "version": "2.4.18",
+                "version_normalized": "2.4.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityforms.git",
+                    "reference": "baf72563994691a0c53a056fd0ae774b55a01b68"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/baf72563994691a0c53a056fd0ae774b55a01b68",
+                    "reference": "baf72563994691a0c53a056fd0ae774b55a01b68",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:08:25+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.18",
+                    "issues": "https://github.com/Purdue/gravityforms/issues"
+                }
+            }
+        },
+        "purdue/gravityformsdebug": {
+            "1.0-beta12": {
+                "name": "purdue/gravityformsdebug",
+                "version": "1.0-beta12",
+                "version_normalized": "1.0.0.0-beta12",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformsdebug.git",
+                    "reference": "bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformsdebug/zipball/bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9",
+                    "reference": "bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:13:59+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Debug Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformsdebug/tree/1.0-beta12",
+                    "issues": "https://github.com/Purdue/gravityformsdebug/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/gravityformsdebug",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformsdebug.git",
+                    "reference": "bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformsdebug/zipball/bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9",
+                    "reference": "bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:13:59+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Debug Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformsdebug/tree/1.0-beta12",
+                    "issues": "https://github.com/Purdue/gravityformsdebug/issues"
+                }
+            }
+        },
+        "purdue/gravityformszapier": {
+            "3.2.1": {
+                "name": "purdue/gravityformszapier",
+                "version": "3.2.1",
+                "version_normalized": "3.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformszapier.git",
+                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/3292473080f7daba10a09f2ab60a29e56d36c179",
+                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:15:26+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.2.1",
+                    "issues": "https://github.com/Purdue/gravityformszapier/issues"
+                }
+            }
+        },
+        "purdue/user-role-editor-pro": {
+            "4.56": {
+                "name": "purdue/user-role-editor-pro",
+                "version": "4.56",
+                "version_normalized": "4.56.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/user-role-editor-pro.git",
+                    "reference": "c07277883bd1898879d4624f7792155c2fc72c26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/user-role-editor-pro/zipball/c07277883bd1898879d4624f7792155c2fc72c26",
+                    "reference": "c07277883bd1898879d4624f7792155c2fc72c26",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-12T13:24:41+00:00",
+                "type": "wordpress-plugin",
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "cjcarrel@purdue.edu"
+                    }
+                ],
+                "description": "User Role Editor WordPress plugin will help you. Edit any existing role, create new one, fill selected role with capabilities which you need. Assign new created roles or capabilities directly to the user.",
+                "support": {
+                    "source": "https://github.com/Purdue/user-role-editor-pro/tree/4.56",
+                    "issues": "https://github.com/Purdue/user-role-editor-pro/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/user-role-editor-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/user-role-editor-pro.git",
+                    "reference": "c07277883bd1898879d4624f7792155c2fc72c26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/user-role-editor-pro/zipball/c07277883bd1898879d4624f7792155c2fc72c26",
+                    "reference": "c07277883bd1898879d4624f7792155c2fc72c26",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-12T13:24:41+00:00",
+                "type": "wordpress-plugin",
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "cjcarrel@purdue.edu"
+                    }
+                ],
+                "description": "User Role Editor WordPress plugin will help you. Edit any existing role, create new one, fill selected role with capabilities which you need. Assign new created roles or capabilities directly to the user.",
+                "support": {
+                    "source": "https://github.com/Purdue/user-role-editor-pro/tree/4.56",
+                    "issues": "https://github.com/Purdue/user-role-editor-pro/issues"
+                }
+            }
+        }
+    }
+}
