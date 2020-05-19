@@ -1129,12 +1129,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-wp-theme.git",
-                    "reference": "3d13773c629cf10d2184ac296ab4c54a32b36671"
+                    "reference": "67eebace20a8aecfbd66e0f5c9eeea08ff2fdc80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/3d13773c629cf10d2184ac296ab4c54a32b36671",
-                    "reference": "3d13773c629cf10d2184ac296ab4c54a32b36671",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/67eebace20a8aecfbd66e0f5c9eeea08ff2fdc80",
+                    "reference": "67eebace20a8aecfbd66e0f5c9eeea08ff2fdc80",
                     "shasum": ""
                 },
                 "require": {
@@ -1142,7 +1142,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-05-19T19:17:11+00:00",
+                "time": "2020-05-19T19:21:55+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
