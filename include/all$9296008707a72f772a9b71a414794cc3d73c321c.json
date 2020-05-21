@@ -1233,6 +1233,44 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "0.9.8-beta": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "0.9.8-beta",
+                "version_normalized": "0.9.8.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-wp-theme.git",
+                    "reference": "645b6a2e2c307d73ee76ea650b9e634084bce657"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/645b6a2e2c307d73ee76ea650b9e634084bce657",
+                    "reference": "645b6a2e2c307d73ee76ea650b9e634084bce657",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-05-21T13:10:57+00:00",
+                "type": "wordpress-theme",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/0.9.8-beta",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
@@ -1267,7 +1305,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/0.9.8-beta",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
