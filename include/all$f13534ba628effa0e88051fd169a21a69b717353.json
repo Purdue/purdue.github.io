@@ -613,25 +613,25 @@
                     "issues": "https://github.com/Purdue/gravityformszapier/issues"
                 }
             },
-            "dev-master": {
+            "3.3": {
                 "name": "purdue/gravityformszapier",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "3.3",
+                "version_normalized": "3.3.0.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityformszapier.git",
-                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179"
+                    "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/3292473080f7daba10a09f2ab60a29e56d36c179",
-                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179",
+                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/26b9066a3826e4bef71bcbbfe07f53570912f4c0",
+                    "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2020-05-13T06:15:26+00:00",
+                "time": "2020-05-21T12:44:29+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -644,7 +644,42 @@
                 ],
                 "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.2.1",
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.3",
+                    "issues": "https://github.com/Purdue/gravityformszapier/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/gravityformszapier",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformszapier.git",
+                    "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/26b9066a3826e4bef71bcbbfe07f53570912f4c0",
+                    "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-21T12:44:29+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.3",
                     "issues": "https://github.com/Purdue/gravityformszapier/issues"
                 }
             }
@@ -873,18 +908,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-blocks.git",
-                    "reference": "fb9ebd9bc35fcbb888af766e9f5237dfb3b304b8"
+                    "reference": "18015e4c1c0e2661ab544856d383cd304d25bb92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/fb9ebd9bc35fcbb888af766e9f5237dfb3b304b8",
-                    "reference": "fb9ebd9bc35fcbb888af766e9f5237dfb3b304b8",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/18015e4c1c0e2661ab544856d383cd304d25bb92",
+                    "reference": "18015e4c1c0e2661ab544856d383cd304d25bb92",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-05-19T22:18:47+00:00",
+                "time": "2020-05-20T14:51:31+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -1157,6 +1192,44 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-wp-theme/tree/0.9.5-beta",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
+            "0.9.7-beta": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "0.9.7-beta",
+                "version_normalized": "0.9.7.0-beta",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-wp-theme.git",
+                    "reference": "48f4159747f9c3a93dddd387b29b6691534ecb6e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/48f4159747f9c3a93dddd387b29b6691534ecb6e",
+                    "reference": "48f4159747f9c3a93dddd387b29b6691534ecb6e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-05-20T14:25:37+00:00",
+                "type": "wordpress-theme",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
