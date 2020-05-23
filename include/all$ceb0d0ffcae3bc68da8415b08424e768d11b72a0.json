@@ -396,25 +396,25 @@
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
-            "dev-master": {
+            "1.2.2": {
                 "name": "purdue/bulma-blocks",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.2.2",
+                "version_normalized": "1.2.2.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "a5be07df931db31b198d3dd81cecd5f0aa65dc9f"
+                    "reference": "de536a891be21e8fd596a6dacac6617024bb7b46"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/a5be07df931db31b198d3dd81cecd5f0aa65dc9f",
-                    "reference": "a5be07df931db31b198d3dd81cecd5f0aa65dc9f",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/de536a891be21e8fd596a6dacac6617024bb7b46",
+                    "reference": "de536a891be21e8fd596a6dacac6617024bb7b46",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-05-20T01:09:55+00:00",
+                "time": "2020-05-23T11:56:31+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -428,7 +428,43 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/master",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.2.2",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "de536a891be21e8fd596a6dacac6617024bb7b46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/de536a891be21e8fd596a6dacac6617024bb7b46",
+                    "reference": "de536a891be21e8fd596a6dacac6617024bb7b46",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-23T11:56:31+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.2.2",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
@@ -1008,6 +1044,42 @@
                     "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-list-block",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
+            },
+            "dev-feat/add-proofpoint": {
+                "name": "purdue/purdue-blocks",
+                "version": "dev-feat/add-proofpoint",
+                "version_normalized": "dev-feat/add-proofpoint",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-blocks.git",
+                    "reference": "021c416ae8029f4b50ad2704fd5d6d0a1d3931cd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/021c416ae8029f4b50ad2704fd5d6d0a1d3931cd",
+                    "reference": "021c416ae8029f4b50ad2704fd5d6d0a1d3931cd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-05-22T22:45:04+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-proofpoint",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
             }
         },
         "purdue/purdue-cpt": {
@@ -1271,19 +1343,19 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
-            "dev-master": {
+            "1.0.2": {
                 "name": "purdue/purdue-wp-theme",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.2",
+                "version_normalized": "1.0.2.0",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-wp-theme.git",
-                    "reference": "2cb1c22194dd786852399cf88336e8110565786d"
+                    "reference": "ee7b0c94c92ec76797eab12b8c0dcf407ebd3df7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/2cb1c22194dd786852399cf88336e8110565786d",
-                    "reference": "2cb1c22194dd786852399cf88336e8110565786d",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/ee7b0c94c92ec76797eab12b8c0dcf407ebd3df7",
+                    "reference": "ee7b0c94c92ec76797eab12b8c0dcf407ebd3df7",
                     "shasum": ""
                 },
                 "require": {
@@ -1291,7 +1363,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-05-22T12:27:19+00:00",
+                "time": "2020-05-23T11:53:56+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -1305,29 +1377,31 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.0.2",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
-            "dev-hotfix/0.9.0-beta": {
+            "dev-master": {
                 "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/0.9.0-beta",
-                "version_normalized": "dev-hotfix/0.9.0-beta",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-wp-theme.git",
-                    "reference": "5e6b806fe8446bb0d23179910e3487cbf8a82014"
+                    "reference": "ee7b0c94c92ec76797eab12b8c0dcf407ebd3df7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/5e6b806fe8446bb0d23179910e3487cbf8a82014",
-                    "reference": "5e6b806fe8446bb0d23179910e3487cbf8a82014",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/ee7b0c94c92ec76797eab12b8c0dcf407ebd3df7",
+                    "reference": "ee7b0c94c92ec76797eab12b8c0dcf407ebd3df7",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=7.0"
+                    "php": ">=7.0",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-05-15T22:14:35+00:00",
+                "time": "2020-05-23T11:53:56+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -1341,7 +1415,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/0.9.0-beta",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.0.2",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
