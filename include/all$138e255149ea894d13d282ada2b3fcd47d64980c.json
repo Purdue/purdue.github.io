@@ -207,6 +207,38 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.1.2": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.1.2",
+                "version_normalized": "1.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "2946b4035ee7a3ca8d6e9f0b3994572a62998f3f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/2946b4035ee7a3ca8d6e9f0b3994572a62998f3f",
+                    "reference": "2946b4035ee7a3ca8d6e9f0b3994572a62998f3f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-06-03T20:50:24+00:00",
+                "type": "wordpress-plugin",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "url": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.2",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "dev-master",
@@ -214,28 +246,28 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "433a3465fd18efd957a59b44d8d3aa24a26d07d8"
+                    "reference": "2946b4035ee7a3ca8d6e9f0b3994572a62998f3f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/433a3465fd18efd957a59b44d8d3aa24a26d07d8",
-                    "reference": "433a3465fd18efd957a59b44d8d3aa24a26d07d8",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/2946b4035ee7a3ca8d6e9f0b3994572a62998f3f",
+                    "reference": "2946b4035ee7a3ca8d6e9f0b3994572a62998f3f",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-05-12T13:19:50+00:00",
+                "time": "2020-06-03T20:50:24+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
-                        "name": "Chris Carrel",
-                        "email": "cjcarrel@purdue.edu"
+                        "name": "Connekt",
+                        "url": "https://connekthq.com/"
                     }
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.1",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.2",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -1043,18 +1075,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "4661effdda0eb535ce5372e37e35f7cc23832d2f"
+                    "reference": "7c5ca1690bce117cba4d77bfbcae51384226a135"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/4661effdda0eb535ce5372e37e35f7cc23832d2f",
-                    "reference": "4661effdda0eb535ce5372e37e35f7cc23832d2f",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/7c5ca1690bce117cba4d77bfbcae51384226a135",
+                    "reference": "7c5ca1690bce117cba4d77bfbcae51384226a135",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-05-26T20:18:46+00:00",
+                "time": "2020-06-03T17:51:54+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -1105,42 +1137,6 @@
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-jump-button",
-                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
-                }
-            },
-            "dev-fix/site-hero-bugs": {
-                "name": "purdue/purdue-blocks",
-                "version": "dev-fix/site-hero-bugs",
-                "version_normalized": "dev-fix/site-hero-bugs",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "181a3af4dd05146bd464e8b16fb49483309eca08"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/181a3af4dd05146bd464e8b16fb49483309eca08",
-                    "reference": "181a3af4dd05146bd464e8b16fb49483309eca08",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-05-28T16:14:47+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "Adds Gutenberg blocks based on Purdue brand elements",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/fix/site-hero-bugs",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
