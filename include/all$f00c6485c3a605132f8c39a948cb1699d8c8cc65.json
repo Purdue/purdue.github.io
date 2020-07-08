@@ -331,18 +331,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "909ed014e994767f358e28acc0c49e42afc3cc45"
+                    "reference": "ddd327c67267aa16677d6ac9f55209d60ba4843d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/909ed014e994767f358e28acc0c49e42afc3cc45",
-                    "reference": "909ed014e994767f358e28acc0c49e42afc3cc45",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/ddd327c67267aa16677d6ac9f55209d60ba4843d",
+                    "reference": "ddd327c67267aa16677d6ac9f55209d60ba4843d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-06-23T19:49:38+00:00",
+                "time": "2020-07-08T12:11:25+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -352,7 +352,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.3",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/master",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -610,6 +610,43 @@
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
+            "1.2.4": {
+                "name": "purdue/bulma-blocks",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "2a426a01798435232a285254d3c8122853b78b7b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-2a426a01798435232a285254d3c8122853b78b7b-zip-87476a.tar",
+                    "reference": "2a426a01798435232a285254d3c8122853b78b7b",
+                    "shasum": "4a0cd393f15110d92acff70c22759ced80e325e9"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-06T18:50:09+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.2.4",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/bulma-blocks",
                 "version": "dev-master",
@@ -617,18 +654,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "c714afcf1cfa8929d1ed60af51af5b12bb5b8d9c"
+                    "reference": "2a426a01798435232a285254d3c8122853b78b7b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/c714afcf1cfa8929d1ed60af51af5b12bb5b8d9c",
-                    "reference": "c714afcf1cfa8929d1ed60af51af5b12bb5b8d9c",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/2a426a01798435232a285254d3c8122853b78b7b",
+                    "reference": "2a426a01798435232a285254d3c8122853b78b7b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-06-26T15:59:08+00:00",
+                "time": "2020-07-06T18:50:09+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -642,7 +679,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/master",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.2.4",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
@@ -2210,7 +2247,6 @@
                 },
                 "time": "2020-07-06T18:43:22+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
