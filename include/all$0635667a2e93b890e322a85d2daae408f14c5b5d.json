@@ -344,7 +344,6 @@
                 },
                 "time": "2020-07-08T12:11:25+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "source",
                 "authors": [
                     {
                         "name": "Connekt",
@@ -686,18 +685,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "2a426a01798435232a285254d3c8122853b78b7b"
+                    "reference": "f88ede3adcf7516784b9dee599c342f5d1c789f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/2a426a01798435232a285254d3c8122853b78b7b",
-                    "reference": "2a426a01798435232a285254d3c8122853b78b7b",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/f88ede3adcf7516784b9dee599c342f5d1c789f0",
+                    "reference": "f88ede3adcf7516784b9dee599c342f5d1c789f0",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-06T18:50:09+00:00",
+                "time": "2020-07-16T18:37:01+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -711,7 +710,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.2.4",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/master",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
@@ -856,6 +855,42 @@
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
                     "source": "https://github.com/Purdue/bulma-blocks/tree/feat/link-card-update",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            "dev-hotfix/column-classname": {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-hotfix/column-classname",
+                "version_normalized": "dev-hotfix/column-classname",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "9c3d36f4a33ce44c28d89548ed5fdae9b0617ba3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/9c3d36f4a33ce44c28d89548ed5fdae9b0617ba3",
+                    "reference": "9c3d36f4a33ce44c28d89548ed5fdae9b0617ba3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-16T18:36:43+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/hotfix/column-classname",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
@@ -1445,18 +1480,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "bada8222b4d83986a6dd6445cca6472fc0d12d6f"
+                    "reference": "9cf87458ccccc47d3d45dab1849609629fe926d2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/bada8222b4d83986a6dd6445cca6472fc0d12d6f",
-                    "reference": "bada8222b4d83986a6dd6445cca6472fc0d12d6f",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/9cf87458ccccc47d3d45dab1849609629fe926d2",
+                    "reference": "9cf87458ccccc47d3d45dab1849609629fe926d2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-06-24T12:58:38+00:00",
+                "time": "2020-07-16T19:34:59+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -1661,18 +1696,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "ee2ca48838241047cddc66fe71403a883ba08dfe"
+                    "reference": "affecb8086d6a77929aa9e67d65f64b75e0f49a8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/ee2ca48838241047cddc66fe71403a883ba08dfe",
-                    "reference": "ee2ca48838241047cddc66fe71403a883ba08dfe",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/affecb8086d6a77929aa9e67d65f64b75e0f49a8",
+                    "reference": "affecb8086d6a77929aa9e67d65f64b75e0f49a8",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-06-24T21:22:41+00:00",
+                "time": "2020-07-16T19:34:39+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -2302,12 +2337,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "aae1a9fcc365ba97eb9eb45f4e25234592262f9d"
+                    "reference": "7e2c94b8165ba842a833df2ef78669ecf5ed94de"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/aae1a9fcc365ba97eb9eb45f4e25234592262f9d",
-                    "reference": "aae1a9fcc365ba97eb9eb45f4e25234592262f9d",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/7e2c94b8165ba842a833df2ef78669ecf5ed94de",
+                    "reference": "7e2c94b8165ba842a833df2ef78669ecf5ed94de",
                     "shasum": ""
                 },
                 "require": {
@@ -2316,7 +2351,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-07-06T18:43:22+00:00",
+                "time": "2020-07-16T18:34:49+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -2330,23 +2365,23 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.0.9",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
-            "dev-feat/add-collapse-class": {
+            "dev-hotfix/1.1.0": {
                 "name": "purdue/purdue-wp-theme",
-                "version": "dev-feat/add-collapse-class",
-                "version_normalized": "dev-feat/add-collapse-class",
+                "version": "dev-hotfix/1.1.0",
+                "version_normalized": "dev-hotfix/1.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "80663602f721e7d2d0eef048915c3ed88a1cf34b"
+                    "reference": "48aa39acf4bdca717b4474590e3722a4d53e8746"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/80663602f721e7d2d0eef048915c3ed88a1cf34b",
-                    "reference": "80663602f721e7d2d0eef048915c3ed88a1cf34b",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/48aa39acf4bdca717b4474590e3722a4d53e8746",
+                    "reference": "48aa39acf4bdca717b4474590e3722a4d53e8746",
                     "shasum": ""
                 },
                 "require": {
@@ -2355,7 +2390,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-06-24T14:12:22+00:00",
+                "time": "2020-07-16T16:33:00+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -2369,241 +2404,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/feat/add-collapse-class",
-                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
-                }
-            },
-            "dev-hotfix/1.0.7": {
-                "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/1.0.7",
-                "version_normalized": "dev-hotfix/1.0.7",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "52c570a39584e33a06cf578c20a88f8a0159cc8a"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/52c570a39584e33a06cf578c20a88f8a0159cc8a",
-                    "reference": "52c570a39584e33a06cf578c20a88f8a0159cc8a",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0",
-                    "purdue/boilerup-wp": "1.*",
-                    "purdue/bulma-blocks": ">=1.2.1",
-                    "purdue/purdue-blocks": ">=1.2.0"
-                },
-                "time": "2020-06-08T18:19:57+00:00",
-                "type": "wordpress-theme",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "WordPress theme based on Purdue University digital brand standards ",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/1.0.7",
-                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
-                }
-            },
-            "dev-hotfix/1.0.8": {
-                "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/1.0.8",
-                "version_normalized": "dev-hotfix/1.0.8",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "bf7606ce7cb4a588abb9aa9de6d914ad07c34ba3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/bf7606ce7cb4a588abb9aa9de6d914ad07c34ba3",
-                    "reference": "bf7606ce7cb4a588abb9aa9de6d914ad07c34ba3",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0",
-                    "purdue/boilerup-wp": "1.*",
-                    "purdue/bulma-blocks": ">=1.2.1",
-                    "purdue/purdue-blocks": ">=1.2.0"
-                },
-                "time": "2020-06-24T19:24:01+00:00",
-                "type": "wordpress-theme",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "WordPress theme based on Purdue University digital brand standards ",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/1.0.8",
-                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
-                }
-            },
-            "dev-hotfix/1.0.8-footer": {
-                "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/1.0.8-footer",
-                "version_normalized": "dev-hotfix/1.0.8-footer",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "e4b5b6803c9a1ae33f75531c549b536796dfa6f9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/e4b5b6803c9a1ae33f75531c549b536796dfa6f9",
-                    "reference": "e4b5b6803c9a1ae33f75531c549b536796dfa6f9",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0",
-                    "purdue/boilerup-wp": "1.*",
-                    "purdue/bulma-blocks": ">=1.2.1",
-                    "purdue/purdue-blocks": ">=1.2.0"
-                },
-                "time": "2020-06-24T20:56:53+00:00",
-                "type": "wordpress-theme",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "WordPress theme based on Purdue University digital brand standards ",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/1.0.8-footer",
-                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
-                }
-            },
-            "dev-hotfix/button-on-header": {
-                "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/button-on-header",
-                "version_normalized": "dev-hotfix/button-on-header",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "50d395574864c309ebd0125ffb067c7b7ff93673"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/50d395574864c309ebd0125ffb067c7b7ff93673",
-                    "reference": "50d395574864c309ebd0125ffb067c7b7ff93673",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0",
-                    "purdue/boilerup-wp": "1.*",
-                    "purdue/bulma-blocks": ">=1.2.1",
-                    "purdue/purdue-blocks": ">=1.2.0"
-                },
-                "time": "2020-06-30T18:09:19+00:00",
-                "type": "wordpress-theme",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "WordPress theme based on Purdue University digital brand standards ",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/button-on-header",
-                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
-                }
-            },
-            "dev-hotfix/grid-IE-issue": {
-                "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/grid-IE-issue",
-                "version_normalized": "dev-hotfix/grid-IE-issue",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "6d77ad034dbff10480a962692410b919b30096b1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/6d77ad034dbff10480a962692410b919b30096b1",
-                    "reference": "6d77ad034dbff10480a962692410b919b30096b1",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0",
-                    "purdue/boilerup-wp": "1.*",
-                    "purdue/bulma-blocks": ">=1.2.1",
-                    "purdue/purdue-blocks": ">=1.2.0"
-                },
-                "time": "2020-06-24T21:45:14+00:00",
-                "type": "wordpress-theme",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "WordPress theme based on Purdue University digital brand standards ",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/grid-IE-issue",
-                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
-                }
-            },
-            "dev-hotfix/sidebar-image": {
-                "name": "purdue/purdue-wp-theme",
-                "version": "dev-hotfix/sidebar-image",
-                "version_normalized": "dev-hotfix/sidebar-image",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "a6840bf67f3c7e0a5809ae937c2a64ed0343908f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/a6840bf67f3c7e0a5809ae937c2a64ed0343908f",
-                    "reference": "a6840bf67f3c7e0a5809ae937c2a64ed0343908f",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=7.0",
-                    "purdue/boilerup-wp": "1.*",
-                    "purdue/bulma-blocks": ">=1.2.1",
-                    "purdue/purdue-blocks": ">=1.2.0"
-                },
-                "time": "2020-07-02T14:29:36+00:00",
-                "type": "wordpress-theme",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Media",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu"
-                    }
-                ],
-                "description": "WordPress theme based on Purdue University digital brand standards ",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/sidebar-image",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/hotfix/1.1.0",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
@@ -2704,6 +2505,1410 @@
                     "source": "https://github.com/Purdue/user-role-editor-pro/tree/4.56.2",
                     "issues": "https://github.com/Purdue/user-role-editor-pro/issues"
                 }
+            }
+        },
+        "roots/soil": {
+            "3.0.0": {
+                "name": "roots/soil",
+                "version": "3.0.0",
+                "version_normalized": "3.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "2247e2bd386d4cbc4d72ffb5fd1be6a219109db7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-2247e2bd386d4cbc4d72ffb5fd1be6a219109db7-zip-0bb2f9.tar",
+                    "reference": "2247e2bd386d4cbc4d72ffb5fd1be6a219109db7",
+                    "shasum": "83fee925fc58da1551e9cf8159758c494448ca64"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-04-01T01:30:23+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "http://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "http://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.0.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.0.1": {
+                "name": "roots/soil",
+                "version": "3.0.1",
+                "version_normalized": "3.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "d138a8677666d912440a7eaff35be1f69acdaf4b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-d138a8677666d912440a7eaff35be1f69acdaf4b-zip-30e3b8.tar",
+                    "reference": "d138a8677666d912440a7eaff35be1f69acdaf4b",
+                    "shasum": "1bef4219bbdd693681bed3507f2f00e0ab85de62"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-08-13T23:26:46+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "http://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "http://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.0.1"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.0.2": {
+                "name": "roots/soil",
+                "version": "3.0.2",
+                "version_normalized": "3.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "441478274cb124c17b948cd1ff7d1529774908cd"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-441478274cb124c17b948cd1ff7d1529774908cd-zip-5b1685.tar",
+                    "reference": "441478274cb124c17b948cd1ff7d1529774908cd",
+                    "shasum": "ed0db971f075ff94e45eda1d1bb55ffec232eb55"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-11-15T00:11:50+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "http://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "http://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.0.2"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.0.3": {
+                "name": "roots/soil",
+                "version": "3.0.3",
+                "version_normalized": "3.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "f4cb5aff4a781b1e739eb4f019eaaf11694635a9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-f4cb5aff4a781b1e739eb4f019eaaf11694635a9-zip-9173c0.tar",
+                    "reference": "f4cb5aff4a781b1e739eb4f019eaaf11694635a9",
+                    "shasum": "34a4fd50a935c97937379eb13111cc12bfae56a1"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2015-01-24T16:42:29+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "http://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "http://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.0.3"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.1.0": {
+                "name": "roots/soil",
+                "version": "3.1.0",
+                "version_normalized": "3.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "5faa77e842d9691430825ab8592babc35998053a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-5faa77e842d9691430825ab8592babc35998053a-zip-9dcade.tar",
+                    "reference": "5faa77e842d9691430825ab8592babc35998053a",
+                    "shasum": "1414531c4b3fc2959fcf8288136930aa98dccb69"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2015-03-13T15:57:18+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.1.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.2.0": {
+                "name": "roots/soil",
+                "version": "3.2.0",
+                "version_normalized": "3.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "f68f4d7c36690255d09460ccb132006101dfe9e6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-f68f4d7c36690255d09460ccb132006101dfe9e6-zip-aa474e.tar",
+                    "reference": "f68f4d7c36690255d09460ccb132006101dfe9e6",
+                    "shasum": "50db7a37473686eb59d146938ddd11687b6bb52b"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2015-04-13T01:04:57+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.2.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.3.0": {
+                "name": "roots/soil",
+                "version": "3.3.0",
+                "version_normalized": "3.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "ed8ba0448f9e49f3bdcdf4525505e231d1ae3571"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-ed8ba0448f9e49f3bdcdf4525505e231d1ae3571-zip-52b6d0.tar",
+                    "reference": "ed8ba0448f9e49f3bdcdf4525505e231d1ae3571",
+                    "shasum": "1e94d84f34fd88fd1aa18f8e5c0cfc9a58abf1ce"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-04-22T16:14:17+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.3.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.4.0": {
+                "name": "roots/soil",
+                "version": "3.4.0",
+                "version_normalized": "3.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "adaf4a0941224dfeab470a123d59dd925fc65004"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-adaf4a0941224dfeab470a123d59dd925fc65004-zip-985448.tar",
+                    "reference": "adaf4a0941224dfeab470a123d59dd925fc65004",
+                    "shasum": "fb596b3f50542c2a49490869056a3d76bb3a67b2"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-04-29T04:46:56+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.4.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.5.0": {
+                "name": "roots/soil",
+                "version": "3.5.0",
+                "version_normalized": "3.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0-zip-24e114.tar",
+                    "reference": "4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0",
+                    "shasum": "9fc3eba85c23d4756db7af31e324935544638a03"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-09-24T17:30:00+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.5.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.6.0": {
+                "name": "roots/soil",
+                "version": "3.6.0",
+                "version_normalized": "3.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "c9e224facb851011284c3ea925980d988473fb3f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-c9e224facb851011284c3ea925980d988473fb3f-zip-2979f0.tar",
+                    "reference": "c9e224facb851011284c3ea925980d988473fb3f",
+                    "shasum": "4c90298dc1bf55fc2c3209a0ce36d89e141d40ad"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-11-19T04:59:49+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.6.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.6.1": {
+                "name": "roots/soil",
+                "version": "3.6.1",
+                "version_normalized": "3.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "0bf55fee25172db672a9221dfdbc300b081df706"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-0bf55fee25172db672a9221dfdbc300b081df706-zip-122eb6.tar",
+                    "reference": "0bf55fee25172db672a9221dfdbc300b081df706",
+                    "shasum": "be0aa22dfb67f136f2c237098a0299e874e72acd"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-12-24T19:25:22+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.6.1"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.6.2": {
+                "name": "roots/soil",
+                "version": "3.6.2",
+                "version_normalized": "3.6.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "8b534d4b271033d22b8fa0d055c740f7f9c4ca58"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-8b534d4b271033d22b8fa0d055c740f7f9c4ca58-zip-2611e1.tar",
+                    "reference": "8b534d4b271033d22b8fa0d055c740f7f9c4ca58",
+                    "shasum": "74873dede620215a678ffd7097e2b4973d7e02d9"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2015-12-24T19:42:34+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.6.2"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.7.0": {
+                "name": "roots/soil",
+                "version": "3.7.0",
+                "version_normalized": "3.7.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-085fd3c9b16df5b72dce4fba09de0207937ef721-zip-9e8034.tar",
+                    "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721",
+                    "shasum": "82c9d7f75382f4a938643dbf4c8ed812fed3a422"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "time": "2016-03-07T19:49:21+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.7.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.7.1": {
+                "name": "roots/soil",
+                "version": "3.7.1",
+                "version_normalized": "3.7.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "5b9b9d8a878b295f44b35cba826c462b20cc1d9c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-5b9b9d8a878b295f44b35cba826c462b20cc1d9c-zip-d7e205.tar",
+                    "reference": "5b9b9d8a878b295f44b35cba826c462b20cc1d9c",
+                    "shasum": "38811a7db1eb5f960a15d0f62e6441bab2994ded"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2016-08-30T18:15:45+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.7.1"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.7.2": {
+                "name": "roots/soil",
+                "version": "3.7.2",
+                "version_normalized": "3.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "09368d6db8c40daa9cc94054b0d1a16e6113e3e5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-09368d6db8c40daa9cc94054b0d1a16e6113e3e5-zip-f2eb9e.tar",
+                    "reference": "09368d6db8c40daa9cc94054b0d1a16e6113e3e5",
+                    "shasum": "cd44f323674ec10bdad26338053a64e16b612491"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2017-06-12T01:25:19+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.7.2"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.7.3": {
+                "name": "roots/soil",
+                "version": "3.7.3",
+                "version_normalized": "3.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "d0e409e70dafff4ceeaa8ef941ee319e350317dd"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-d0e409e70dafff4ceeaa8ef941ee319e350317dd-zip-481e3b.tar",
+                    "reference": "d0e409e70dafff4ceeaa8ef941ee319e350317dd",
+                    "shasum": "96e01d097a23e4fb84310380f8d202201917af1f"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2017-08-14T01:36:41+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.7.3"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.8.0": {
+                "name": "roots/soil",
+                "version": "3.8.0",
+                "version_normalized": "3.8.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "a6088212296243470513b74bad1a18f277574213"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-a6088212296243470513b74bad1a18f277574213-zip-0d1922.tar",
+                    "reference": "a6088212296243470513b74bad1a18f277574213",
+                    "shasum": "10b917b62f245990116cabda26ceb71816d398a0"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2019-05-23T00:52:42+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.8.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.8.1": {
+                "name": "roots/soil",
+                "version": "3.8.1",
+                "version_normalized": "3.8.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "7920eb22bb434c1b86ff3d4d7dc318498de0c675"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-7920eb22bb434c1b86ff3d4d7dc318498de0c675-zip-437584.tar",
+                    "reference": "7920eb22bb434c1b86ff3d4d7dc318498de0c675",
+                    "shasum": "7d2b749905f6c335ef0e8d153cb1c9b3f4dfadf1"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2019-05-23T21:45:50+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.8.1"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "3.9.0": {
+                "name": "roots/soil",
+                "version": "3.9.0",
+                "version_normalized": "3.9.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "63dcd6e1754a4c806ce3d3077b44d908c58b374e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-63dcd6e1754a4c806ce3d3077b44d908c58b374e-zip-a9b020.tar",
+                    "reference": "63dcd6e1754a4c806ce3d3077b44d908c58b374e",
+                    "shasum": "b1b113452b6d66b2b0ae526e4961373dea521225"
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2019-12-07T22:25:02+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.9.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "dev-master": {
+                "name": "roots/soil",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "63dcd6e1754a4c806ce3d3077b44d908c58b374e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/63dcd6e1754a4c806ce3d3077b44d908c58b374e",
+                    "reference": "63dcd6e1754a4c806ce3d3077b44d908c58b374e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2019-12-07T22:25:02+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/3.9.0"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "dev-disable-rest-api": {
+                "name": "roots/soil",
+                "version": "dev-disable-rest-api",
+                "version_normalized": "dev-disable-rest-api",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "7827334bdee983f821277d744a7d0001a91d800e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/7827334bdee983f821277d744a7d0001a91d800e",
+                    "reference": "7827334bdee983f821277d744a7d0001a91d800e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2018-11-26T20:53:51+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/disable-rest-api"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "dev-protocol-relative-post-thumbnail-urls": {
+                "name": "roots/soil",
+                "version": "dev-protocol-relative-post-thumbnail-urls",
+                "version_normalized": "dev-protocol-relative-post-thumbnail-urls",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "f93da969414b2abb4fccdabc2c0da104d15066f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/f93da969414b2abb4fccdabc2c0da104d15066f6",
+                    "reference": "f93da969414b2abb4fccdabc2c0da104d15066f6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.3.0"
+                },
+                "time": "2014-12-07T01:00:15+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "Clean up WordPress markup, relative URLs, nice search",
+                "homepage": "http://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "http://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/protocol-relative-post-thumbnail-urls"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "dev-sponsor-button": {
+                "name": "roots/soil",
+                "version": "dev-sponsor-button",
+                "version_normalized": "dev-sponsor-button",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "ab7ddd15cdfc246d7d65dc4b331c6739251f470c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/ab7ddd15cdfc246d7d65dc4b331c6739251f470c",
+                    "reference": "ab7ddd15cdfc246d7d65dc4b331c6739251f470c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2019-05-24T21:16:53+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/sponsor-button"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
             }
         }
     }
