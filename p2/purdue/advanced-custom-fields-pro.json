@@ -1,0 +1,76 @@
+{
+    "packages": {
+        "purdue/advanced-custom-fields-pro": [
+            {
+                "name": "purdue/advanced-custom-fields-pro",
+                "version": "5.8.11",
+                "version_normalized": "5.8.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/advanced-custom-fields-pro.git",
+                    "reference": "436f3f6d6e750b4126471a693e53c8439af4db19"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/advanced-custom-fields-pro/purdue-advanced-custom-fields-pro-436f3f6d6e750b4126471a693e53c8439af4db19-zip-1b9bad.tar",
+                    "reference": "436f3f6d6e750b4126471a693e53c8439af4db19",
+                    "shasum": "5ed0961f30a7277f61657777cbe3aecd8a660ccb"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:11:51+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "ACF Team",
+                        "homepage": "https://www.advancedcustomfields.com/"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro by ACF Team",
+                "support": {
+                    "source": "https://github.com/Purdue/advanced-custom-fields-pro/tree/5.8.11",
+                    "issues": "https://github.com/Purdue/advanced-custom-fields-pro/issues"
+                }
+            },
+            {
+                "name": "purdue/advanced-custom-fields-pro",
+                "version": "5.8.12",
+                "version_normalized": "5.8.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/advanced-custom-fields-pro.git",
+                    "reference": "42175b606c664c96a2602bea149e0e81f5eb9f6b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/advanced-custom-fields-pro/purdue-advanced-custom-fields-pro-42175b606c664c96a2602bea149e0e81f5eb9f6b-zip-73628e.tar",
+                    "reference": "42175b606c664c96a2602bea149e0e81f5eb9f6b",
+                    "shasum": "413a1ec95734d61ed308acdb4a2183c7c4ceca66"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-06-11T00:23:26+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "ACF Team",
+                        "homepage": "https://www.advancedcustomfields.com/"
+                    }
+                ],
+                "description": "Advanced Custom Fields Pro by ACF Team",
+                "support": {
+                    "source": "https://github.com/Purdue/advanced-custom-fields-pro/tree/5.8.12",
+                    "issues": "https://github.com/Purdue/advanced-custom-fields-pro/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "packages": {
+        "purdue/gravityformszapier": [
+            {
+                "name": "purdue/gravityformszapier",
+                "version": "3.2.1",
+                "version_normalized": "3.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformszapier.git",
+                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-3292473080f7daba10a09f2ab60a29e56d36c179-zip-ff7beb.tar",
+                    "reference": "3292473080f7daba10a09f2ab60a29e56d36c179",
+                    "shasum": "05b06ee3c17bfe03057e4e72cbfa8be9e9ccbaaf"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:15:26+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.2.1",
+                    "issues": "https://github.com/Purdue/gravityformszapier/issues"
+                }
+            },
+            {
+                "name": "purdue/gravityformszapier",
+                "version": "3.3",
+                "version_normalized": "3.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformszapier.git",
+                    "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-26b9066a3826e4bef71bcbbfe07f53570912f4c0-zip-9f5161.tar",
+                    "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0",
+                    "shasum": "53e162cd32eb9adcce95e915d70bddf3a42944a4"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-21T12:44:29+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/3.3",
+                    "issues": "https://github.com/Purdue/gravityformszapier/issues"
+                }
+            }
+        ]
+    }
+}

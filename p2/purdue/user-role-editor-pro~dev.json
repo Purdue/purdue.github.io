@@ -1,0 +1,38 @@
+{
+    "packages": {
+        "purdue/user-role-editor-pro": [
+            {
+                "name": "purdue/user-role-editor-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/user-role-editor-pro.git",
+                    "reference": "0912a5a9e7aaa5852fea96e4d61f2a7f7a657248"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/user-role-editor-pro/zipball/0912a5a9e7aaa5852fea96e4d61f2a7f7a657248",
+                    "reference": "0912a5a9e7aaa5852fea96e4d61f2a7f7a657248",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-06-11T00:24:56+00:00",
+                "type": "wordpress-plugin",
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "cjcarrel@purdue.edu"
+                    }
+                ],
+                "description": "User Role Editor WordPress plugin will help you. Edit any existing role, create new one, fill selected role with capabilities which you need. Assign new created roles or capabilities directly to the user.",
+                "support": {
+                    "source": "https://github.com/Purdue/user-role-editor-pro/tree/4.56.2",
+                    "issues": "https://github.com/Purdue/user-role-editor-pro/issues"
+                }
+            }
+        ]
+    }
+}

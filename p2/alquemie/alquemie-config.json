@@ -1,0 +1,99 @@
+{
+    "packages": {
+        "alquemie/alquemie-config": [
+            {
+                "name": "alquemie/alquemie-config",
+                "version": "0.1.6",
+                "version_normalized": "0.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
+                    "reference": "0c20c18d85fe0b2376e8252f36f487cf4f8c87b7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.6-7f9b5c.tar",
+                    "reference": "0c20c18d85fe0b2376e8252f36f487cf4f8c87b7",
+                    "shasum": "0ead9e23b384ed44f591dfc62229aacd039e943a"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-20T04:26:38+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            },
+            {
+                "name": "alquemie/alquemie-config",
+                "version": "0.1.8",
+                "version_normalized": "0.1.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
+                    "reference": "982010c0538249a6ea60518467df46c129df2adb"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.8-82cbb8.tar",
+                    "reference": "982010c0538249a6ea60518467df46c129df2adb",
+                    "shasum": "523782b7fe16a8b962dcb9028476989d01ab6451"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-20T07:10:16+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            },
+            {
+                "name": "alquemie/alquemie-config",
+                "version": "0.1.9",
+                "version_normalized": "0.1.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
+                    "reference": "08602708604c2ef39df2fd8ef0959e532672a34e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.9-06ad75.tar",
+                    "reference": "08602708604c2ef39df2fd8ef0959e532672a34e",
+                    "shasum": "ce95c856145470c5d0b9cf896c5167b5fcd9878f"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-03-30T02:37:21+00:00",
+                "type": "wordpress-muplugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Chris Carrel",
+                        "email": "support@alquemie.net"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
+            }
+        ]
+    }
+}

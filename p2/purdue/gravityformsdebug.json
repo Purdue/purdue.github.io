@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "purdue/gravityformsdebug": [
+            {
+                "name": "purdue/gravityformsdebug",
+                "version": "1.0-beta12",
+                "version_normalized": "1.0.0.0-beta12",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformsdebug.git",
+                    "reference": "bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformsdebug/purdue-gravityformsdebug-bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9-zip-fe04c1.tar",
+                    "reference": "bc7bcd05cb31374aafcda5ac5dd8d2f3b65ac2b9",
+                    "shasum": "ba3951b8bc755d8d84666b011cad7cd1ce8cec1f"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-05-13T06:13:59+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Debug Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformsdebug/tree/1.0-beta12",
+                    "issues": "https://github.com/Purdue/gravityformsdebug/issues"
+                }
+            }
+        ]
+    }
+}
