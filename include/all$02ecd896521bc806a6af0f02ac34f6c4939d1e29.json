@@ -356,6 +356,39 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.1.5": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "d499bb636330bd046f3bd0ef45b134abd1bd8c56"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-d499bb636330bd046f3bd0ef45b134abd1bd8c56-zip-080def.tar",
+                    "reference": "d499bb636330bd046f3bd0ef45b134abd1bd8c56",
+                    "shasum": "ce04c65a59b83b18da8b6a58d32fbe40e0fa8a59"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-17T05:42:05+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "source",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "url": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.5",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "dev-master",
@@ -363,18 +396,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "ddd327c67267aa16677d6ac9f55209d60ba4843d"
+                    "reference": "d499bb636330bd046f3bd0ef45b134abd1bd8c56"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/ddd327c67267aa16677d6ac9f55209d60ba4843d",
-                    "reference": "ddd327c67267aa16677d6ac9f55209d60ba4843d",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/d499bb636330bd046f3bd0ef45b134abd1bd8c56",
+                    "reference": "d499bb636330bd046f3bd0ef45b134abd1bd8c56",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-08T12:11:25+00:00",
+                "time": "2020-07-17T05:42:05+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -384,7 +417,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.4",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.5",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -698,7 +731,6 @@
                 },
                 "time": "2020-07-16T20:43:11+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -1062,7 +1094,6 @@
                 },
                 "time": "2020-07-16T20:37:37+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "source",
                 "license": [
                     "GPLv3"
                 ],
@@ -1566,7 +1597,6 @@
                 },
                 "time": "2020-07-16T20:44:16+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -2463,7 +2493,6 @@
                 },
                 "time": "2020-07-16T18:34:49+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
