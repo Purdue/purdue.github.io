@@ -39,6 +39,42 @@
             },
             {
                 "name": "purdue/bulma-blocks",
+                "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
+                "version_normalized": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "534fc7a8c98252f9e80a928349a1c242b75fa92a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/534fc7a8c98252f9e80a928349a1c242b75fa92a",
+                    "reference": "534fc7a8c98252f9e80a928349a1c242b75fa92a",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-20T16:37:49+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/dependabot/npm_and_yarn/lodash-4.17.19",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
                 "version": "dev-feat/add-gold-bg-to-section",
                 "version_normalized": "dev-feat/add-gold-bg-to-section",
                 "source": {
