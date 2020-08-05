@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "64fdb5cd67c58dc66349d3678253a37f00ef8607"
+                    "reference": "0eb81e24350dd2041b8c8f66f67099bc795b81af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/64fdb5cd67c58dc66349d3678253a37f00ef8607",
-                    "reference": "64fdb5cd67c58dc66349d3678253a37f00ef8607",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/0eb81e24350dd2041b8c8f66f67099bc795b81af",
+                    "reference": "0eb81e24350dd2041b8c8f66f67099bc795b81af",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-16T20:43:11+00:00",
+                "time": "2020-07-30T21:48:54+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -33,7 +33,43 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.3.0",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.3.2",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-dependabot/npm_and_yarn/elliptic-6.5.3",
+                "version_normalized": "dev-dependabot/npm_and_yarn/elliptic-6.5.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "49b2838ffde205bcfd5dcbe94443a3d5ed4ce560"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/49b2838ffde205bcfd5dcbe94443a3d5ed4ce560",
+                    "reference": "49b2838ffde205bcfd5dcbe94443a3d5ed4ce560",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-30T20:57:03+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/dependabot/npm_and_yarn/elliptic-6.5.3",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
@@ -44,18 +80,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "534fc7a8c98252f9e80a928349a1c242b75fa92a"
+                    "reference": "2920b247f6672de2d719858a1a897736f12052c9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/534fc7a8c98252f9e80a928349a1c242b75fa92a",
-                    "reference": "534fc7a8c98252f9e80a928349a1c242b75fa92a",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/2920b247f6672de2d719858a1a897736f12052c9",
+                    "reference": "2920b247f6672de2d719858a1a897736f12052c9",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-20T16:37:49+00:00",
+                "time": "2020-07-30T20:57:26+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -106,6 +142,42 @@
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
                     "source": "https://github.com/Purdue/bulma-blocks/tree/feat/add-gold-bg-to-section",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-feat/add-vertical-linkCard",
+                "version_normalized": "dev-feat/add-vertical-linkCard",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "c31042df1fb97a8d0ec81d893abead797c41d161"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/c31042df1fb97a8d0ec81d893abead797c41d161",
+                    "reference": "c31042df1fb97a8d0ec81d893abead797c41d161",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-03T20:54:37+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/feat/add-vertical-linkCard",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
@@ -219,6 +291,42 @@
             },
             {
                 "name": "purdue/bulma-blocks",
+                "version": "dev-hotfix/adjust-linkCard-style",
+                "version_normalized": "dev-hotfix/adjust-linkCard-style",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "8501f726427e770f1b6f9d310d0ee47ed343b7e9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/8501f726427e770f1b6f9d310d0ee47ed343b7e9",
+                    "reference": "8501f726427e770f1b6f9d310d0ee47ed343b7e9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-30T21:43:24+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/hotfix/adjust-linkCard-style",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
                 "version": "dev-hotfix/column-classname",
                 "version_normalized": "dev-hotfix/column-classname",
                 "source": {
@@ -250,6 +358,42 @@
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
                     "source": "https://github.com/Purdue/bulma-blocks/tree/hotfix/column-classname",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-hotfix/tweak-link-card",
+                "version_normalized": "dev-hotfix/tweak-link-card",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "df3562558346cc0d1c006386a9296f8d0d559e46"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/df3562558346cc0d1c006386a9296f8d0d559e46",
+                    "reference": "df3562558346cc0d1c006386a9296f8d0d559e46",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-07-30T21:47:06+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/hotfix/tweak-link-card",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
