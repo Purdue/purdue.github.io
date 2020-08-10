@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "0eb81e24350dd2041b8c8f66f67099bc795b81af"
+                    "reference": "1d6c8649ffe0c192887bba165dd0af83a7285902"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/0eb81e24350dd2041b8c8f66f67099bc795b81af",
-                    "reference": "0eb81e24350dd2041b8c8f66f67099bc795b81af",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/1d6c8649ffe0c192887bba165dd0af83a7285902",
+                    "reference": "1d6c8649ffe0c192887bba165dd0af83a7285902",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-30T21:48:54+00:00",
+                "time": "2020-08-06T20:49:22+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -33,7 +33,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.3.2",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/master",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
@@ -286,6 +286,42 @@
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
                     "source": "https://github.com/Purdue/bulma-blocks/tree/feat/link-card-update",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
+                "version": "dev-hotfix/adjust-divider-column",
+                "version_normalized": "dev-hotfix/adjust-divider-column",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "1832acaab32ba849cc895de3d9cbe2ec41a84cfe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/1832acaab32ba849cc895de3d9cbe2ec41a84cfe",
+                    "reference": "1832acaab32ba849cc895de3d9cbe2ec41a84cfe",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-06T20:35:29+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/hotfix/adjust-divider-column",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
