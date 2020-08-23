@@ -1595,7 +1595,6 @@
                 },
                 "time": "2020-08-11T03:57:03+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "source",
                 "license": [
                     "GPLv3"
                 ],
@@ -2115,6 +2114,80 @@
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
+            "1.7.2": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.7.2",
+                "version_normalized": "1.7.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "327d7fcef1de30c167a43a7fb981835f14f02bbe"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-327d7fcef1de30c167a43a7fb981835f14f02bbe-zip-147cb8.tar",
+                    "reference": "327d7fcef1de30c167a43a7fb981835f14f02bbe",
+                    "shasum": "3038b8c54c4977e6fdc59633d517fadfd2023a21"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-18T12:55:11+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.7.2",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "1.7.3": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.7.3",
+                "version_normalized": "1.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "dcf6e7fcd0d57ec32d70f466d37b592e57782c95"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-dcf6e7fcd0d57ec32d70f466d37b592e57782c95-zip-107989.tar",
+                    "reference": "dcf6e7fcd0d57ec32d70f466d37b592e57782c95",
+                    "shasum": "c702cf33d0392f2c7d6cdc5fb7f76886f2ebd787"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-19T19:10:51+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.7.3",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-blocks",
                 "version": "dev-master",
@@ -2122,18 +2195,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "db203b4670529ffcb588cf1c4ad74f3d868e7516"
+                    "reference": "dcf6e7fcd0d57ec32d70f466d37b592e57782c95"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/db203b4670529ffcb588cf1c4ad74f3d868e7516",
-                    "reference": "db203b4670529ffcb588cf1c4ad74f3d868e7516",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/dcf6e7fcd0d57ec32d70f466d37b592e57782c95",
+                    "reference": "dcf6e7fcd0d57ec32d70f466d37b592e57782c95",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-30T20:50:07+00:00",
+                "time": "2020-08-19T19:10:51+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -2147,29 +2220,29 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.7.1",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.7.3",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/elliptic-6.5.3": {
+            "dev-feat/add-accordion": {
                 "name": "purdue/purdue-blocks",
-                "version": "dev-dependabot/npm_and_yarn/elliptic-6.5.3",
-                "version_normalized": "dev-dependabot/npm_and_yarn/elliptic-6.5.3",
+                "version": "dev-feat/add-accordion",
+                "version_normalized": "dev-feat/add-accordion",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "d5fbf9d18a143c12fba29890fefa23f565656944"
+                    "reference": "ddc5c7e6f7ed4ced54278ef72bbe679bd8fdf114"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/d5fbf9d18a143c12fba29890fefa23f565656944",
-                    "reference": "d5fbf9d18a143c12fba29890fefa23f565656944",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/ddc5c7e6f7ed4ced54278ef72bbe679bd8fdf114",
+                    "reference": "ddc5c7e6f7ed4ced54278ef72bbe679bd8fdf114",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-30T20:51:30+00:00",
+                "time": "2020-08-19T16:13:02+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -2183,29 +2256,29 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/dependabot/npm_and_yarn/elliptic-6.5.3",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-accordion",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
-            "dev-dependabot/npm_and_yarn/lodash-4.17.19": {
+            "dev-feat/add-card-block": {
                 "name": "purdue/purdue-blocks",
-                "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
-                "version_normalized": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
+                "version": "dev-feat/add-card-block",
+                "version_normalized": "dev-feat/add-card-block",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "2d6f08a4cc7caa7ff27e95eed170a062b34dac5b"
+                    "reference": "93434dad71d60572e6a3855558e347961f323c19"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/2d6f08a4cc7caa7ff27e95eed170a062b34dac5b",
-                    "reference": "2d6f08a4cc7caa7ff27e95eed170a062b34dac5b",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/93434dad71d60572e6a3855558e347961f323c19",
+                    "reference": "93434dad71d60572e6a3855558e347961f323c19",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-07-30T20:49:58+00:00",
+                "time": "2020-08-17T20:29:27+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -2219,7 +2292,43 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/dependabot/npm_and_yarn/lodash-4.17.19",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-card-block",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "dev-feat/add-cta-card": {
+                "name": "purdue/purdue-blocks",
+                "version": "dev-feat/add-cta-card",
+                "version_normalized": "dev-feat/add-cta-card",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "1ac4996be1e120413f5d4b1ce8822d34f5bd4eb9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/1ac4996be1e120413f5d4b1ce8822d34f5bd4eb9",
+                    "reference": "1ac4996be1e120413f5d4b1ce8822d34f5bd4eb9",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-21T18:37:58+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-cta-card",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
@@ -2400,6 +2509,42 @@
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-blocks/tree/feat/add-testimonial",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "dev-feat/implement-initial-e2e-testing": {
+                "name": "purdue/purdue-blocks",
+                "version": "dev-feat/implement-initial-e2e-testing",
+                "version_normalized": "dev-feat/implement-initial-e2e-testing",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "2a52b72b3523a089342d3072f54d79a8d5f1a2ed"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/2a52b72b3523a089342d3072f54d79a8d5f1a2ed",
+                    "reference": "2a52b72b3523a089342d3072f54d79a8d5f1a2ed",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-21T21:33:27+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/feat/implement-initial-e2e-testing",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
@@ -3269,6 +3414,46 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.1.4": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "01e20404837877257e7b8dc949e3a172fba45062"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-01e20404837877257e7b8dc949e3a172fba45062-zip-f4d5ac.tar",
+                    "reference": "01e20404837877257e7b8dc949e3a172fba45062",
+                    "shasum": "7d2a450b8b3ca506d5b199aaea0d0a5cef55c658"
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-08-21T20:15:42+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.1.4",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
@@ -3276,12 +3461,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "989eb5b8cde774e5c39a53f943a295d0426d9264"
+                    "reference": "01e20404837877257e7b8dc949e3a172fba45062"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/989eb5b8cde774e5c39a53f943a295d0426d9264",
-                    "reference": "989eb5b8cde774e5c39a53f943a295d0426d9264",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/01e20404837877257e7b8dc949e3a172fba45062",
+                    "reference": "01e20404837877257e7b8dc949e3a172fba45062",
                     "shasum": ""
                 },
                 "require": {
@@ -3290,7 +3475,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-08-06T20:45:54+00:00",
+                "time": "2020-08-21T20:15:42+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -3304,7 +3489,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.1.4",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
@@ -3461,6 +3646,45 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-wp-theme/tree/feat/add-js-adjustColumnDivider",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
+            "dev-feat/add-table-style": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "dev-feat/add-table-style",
+                "version_normalized": "dev-feat/add-table-style",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "b0c2610a7215b992a89ab7ae1eb04b5c567fd774"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/b0c2610a7215b992a89ab7ae1eb04b5c567fd774",
+                    "reference": "b0c2610a7215b992a89ab7ae1eb04b5c567fd774",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-08-20T14:04:18+00:00",
+                "type": "wordpress-theme",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/feat/add-table-style",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
@@ -5164,6 +5388,97 @@
                     }
                 ]
             },
+            "dev-next": {
+                "name": "roots/soil",
+                "version": "dev-next",
+                "version_normalized": "dev-next",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "d7a5ae297dd22746e053d07480375759f8d08ef4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/d7a5ae297dd22746e053d07480375759f8d08ef4",
+                    "reference": "d7a5ae297dd22746e053d07480375759f8d08ef4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "brain/monkey": "^2.4",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                    "mockery/mockery": "^1.3 | ^1.4",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpunit/phpunit": "<= 9.3",
+                    "squizlabs/php_codesniffer": "^3.5"
+                },
+                "time": "2020-08-22T20:10:02+00:00",
+                "type": "wordpress-plugin",
+                "autoload": {
+                    "psr-4": {
+                        "Roots\\Soil\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Roots\\Soil\\Tests\\": "tests/",
+                        "Roots\\Soil\\Tests\\Fixtures\\Modules\\": "tests/__fixtures__/modules/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ],
+                    "lint": [
+                        "vendor/bin/phpcs"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    },
+                    {
+                        "name": "QWp6t",
+                        "email": "craig@roots.io",
+                        "homepage": "https://github.com/qwp6t"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/next"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
             "dev-protocol-relative-post-thumbnail-urls": {
                 "name": "roots/soil",
                 "version": "dev-protocol-relative-post-thumbnail-urls",
@@ -5209,6 +5524,71 @@
                     "issues": "https://github.com/roots/soil/issues",
                     "forum": "http://discourse.roots.io/",
                     "source": "https://github.com/roots/soil/tree/protocol-relative-post-thumbnail-urls"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "dev-remove-oembed-wrapper": {
+                "name": "roots/soil",
+                "version": "dev-remove-oembed-wrapper",
+                "version_normalized": "dev-remove-oembed-wrapper",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "8bc8e3a16848e879b530f0653e432f2a21dc4cb5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/8bc8e3a16848e879b530f0653e432f2a21dc4cb5",
+                    "reference": "8bc8e3a16848e879b530f0653e432f2a21dc4cb5",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "php": ">=5.4.0"
+                },
+                "require-dev": {
+                    "squizlabs/php_codesniffer": "^2.5.1"
+                },
+                "time": "2020-08-13T00:01:14+00:00",
+                "type": "wordpress-plugin",
+                "scripts": {
+                    "test": [
+                        "vendor/bin/phpcs --extensions=php --ignore=vendor/ -n -s ."
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/remove-oembed-wrapper"
                 },
                 "funding": [
                     {
