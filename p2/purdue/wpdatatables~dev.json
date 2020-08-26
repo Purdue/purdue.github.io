@@ -1,0 +1,41 @@
+{
+    "packages": {
+        "purdue/wpdatatables": [
+            {
+                "name": "purdue/wpdatatables",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wpdatatables.git",
+                    "reference": "c11db03cc6870e8cc4dfdffc805272007c3c5ecd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/c11db03cc6870e8cc4dfdffc805272007c3c5ecd",
+                    "reference": "c11db03cc6870e8cc4dfdffc805272007c3c5ecd",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-08-23T15:13:26+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "TOUCH ME SOFT D.O.O.",
+                        "homepage": "https://www.wpdatatables.com"
+                    }
+                ],
+                "description": "WP chart and table plugin",
+                "support": {
+                    "source": "https://github.com/Purdue/wpdatatables/tree/3.0.2",
+                    "issues": "https://github.com/Purdue/wpdatatables/issues"
+                }
+            }
+        ]
+    }
+}
