@@ -198,6 +198,45 @@
             },
             {
                 "name": "purdue/purdue-wp-theme",
+                "version": "dev-feat/add-rssimage-support",
+                "version_normalized": "dev-feat/add-rssimage-support",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "0a81b95b6b7d29e42a7ff90b1a6c1b6bafca9978"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/0a81b95b6b7d29e42a7ff90b1a6c1b6bafca9978",
+                    "reference": "0a81b95b6b7d29e42a7ff90b1a6c1b6bafca9978",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-08-26T20:06:26+00:00",
+                "type": "wordpress-theme",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/feat/add-rssimage-support",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-wp-theme",
                 "version": "dev-feat/add-table-style",
                 "version_normalized": "dev-feat/add-table-style",
                 "source": {

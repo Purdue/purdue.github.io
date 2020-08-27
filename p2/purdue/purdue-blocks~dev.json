@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "dcf6e7fcd0d57ec32d70f466d37b592e57782c95"
+                    "reference": "7d22d36ac8d442fa4d49f240bf0d3256fddad113"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/dcf6e7fcd0d57ec32d70f466d37b592e57782c95",
-                    "reference": "dcf6e7fcd0d57ec32d70f466d37b592e57782c95",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/7d22d36ac8d442fa4d49f240bf0d3256fddad113",
+                    "reference": "7d22d36ac8d442fa4d49f240bf0d3256fddad113",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-08-19T19:10:51+00:00",
+                "time": "2020-08-26T20:43:19+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -33,7 +33,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.7.3",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/master",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
@@ -327,23 +327,59 @@
             },
             {
                 "name": "purdue/purdue-blocks",
-                "version": "dev-feat/implement-initial-e2e-testing",
-                "version_normalized": "dev-feat/implement-initial-e2e-testing",
+                "version": "dev-feat/e2e-title-nav",
+                "version_normalized": "dev-feat/e2e-title-nav",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "2a52b72b3523a089342d3072f54d79a8d5f1a2ed"
+                    "reference": "8a1b2435b16daa4fbbc3c5475f0f434280dc7390"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/2a52b72b3523a089342d3072f54d79a8d5f1a2ed",
-                    "reference": "2a52b72b3523a089342d3072f54d79a8d5f1a2ed",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/8a1b2435b16daa4fbbc3c5475f0f434280dc7390",
+                    "reference": "8a1b2435b16daa4fbbc3c5475f0f434280dc7390",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-08-21T21:33:27+00:00",
+                "time": "2020-08-26T20:25:15+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/feat/e2e-title-nav",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-blocks",
+                "version": "dev-feat/implement-initial-e2e-testing",
+                "version_normalized": "dev-feat/implement-initial-e2e-testing",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "21b45a2ba0481c17902e8981e6a87b3d501f1cbf"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/21b45a2ba0481c17902e8981e6a87b3d501f1cbf",
+                    "reference": "21b45a2ba0481c17902e8981e6a87b3d501f1cbf",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-08-26T17:20:48+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
