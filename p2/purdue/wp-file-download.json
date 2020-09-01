@@ -35,6 +35,42 @@
                     "source": "https://github.com/Purdue/wp-file-download/tree/4.7.14",
                     "issues": "https://github.com/Purdue/wp-file-download/issues"
                 }
+            },
+            {
+                "name": "purdue/wp-file-download",
+                "version": "4.7.15",
+                "version_normalized": "4.7.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wp-file-download.git",
+                    "reference": "5eaf8fd8920bb63e3d66df4e152a60cfbebf5b75"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wp-file-download/purdue-wp-file-download-5eaf8fd8920bb63e3d66df4e152a60cfbebf5b75-zip-1b9491.tar",
+                    "reference": "5eaf8fd8920bb63e3d66df4e152a60cfbebf5b75",
+                    "shasum": "46ceb87b10082dfd0d7fef47cb8f000fe02b1a32"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-09-01T16:29:46+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "source",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "JoomUnited",
+                        "homepage": "https://www.joomunited.com/wordpress-products/wp-file-download"
+                    }
+                ],
+                "description": "WP File Download by JoomUnited",
+                "support": {
+                    "source": "https://github.com/Purdue/wp-file-download/tree/4.7.15",
+                    "issues": "https://github.com/Purdue/wp-file-download/issues"
+                }
             }
         ]
     }
