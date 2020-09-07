@@ -1103,7 +1103,6 @@
                 },
                 "time": "2020-08-30T15:21:00+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Roots\\Soil\\": "src/"
@@ -1195,7 +1194,6 @@
                 },
                 "time": "2020-08-31T16:21:16+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Roots\\Soil\\": "src/"

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/soil.git",
-                    "reference": "e666af30e3950e1b6c548b371f16ddada7171b90"
+                    "reference": "43fd182bd287fa6348210b4aed6e9a6fe7982bb1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/roots/soil/zipball/e666af30e3950e1b6c548b371f16ddada7171b90",
-                    "reference": "e666af30e3950e1b6c548b371f16ddada7171b90",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/43fd182bd287fa6348210b4aed6e9a6fe7982bb1",
+                    "reference": "43fd182bd287fa6348210b4aed6e9a6fe7982bb1",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "phpunit/phpunit": "<= 9.3",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2020-09-01T16:33:10+00:00",
+                "time": "2020-09-01T19:04:30+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {

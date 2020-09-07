@@ -872,7 +872,6 @@
                 },
                 "time": "2020-08-31T18:05:52+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -909,7 +908,6 @@
                 },
                 "time": "2020-09-01T13:56:47+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -1834,18 +1832,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "7d22d36ac8d442fa4d49f240bf0d3256fddad113"
+                    "reference": "c0a6beb33b4b35fe9de7812f98118bdc1ae1ae24"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/7d22d36ac8d442fa4d49f240bf0d3256fddad113",
-                    "reference": "7d22d36ac8d442fa4d49f240bf0d3256fddad113",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/c0a6beb33b4b35fe9de7812f98118bdc1ae1ae24",
+                    "reference": "c0a6beb33b4b35fe9de7812f98118bdc1ae1ae24",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-08-26T20:43:19+00:00",
+                "time": "2020-09-04T18:45:47+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -2472,6 +2470,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.1.5": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.1.5",
+                "version_normalized": "1.1.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "fc49f57c7a22a68c482f9372dc7f4d365fe81079"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-fc49f57c7a22a68c482f9372dc7f4d365fe81079-zip-a7fa8c.tar",
+                    "reference": "fc49f57c7a22a68c482f9372dc7f4d365fe81079",
+                    "shasum": "a96bce17e2f395cdd41ec9d2cf4ba5e860b36ec7"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-09-07T19:01:22+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.1.5",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
@@ -2479,21 +2516,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "01e20404837877257e7b8dc949e3a172fba45062"
+                    "reference": "fc49f57c7a22a68c482f9372dc7f4d365fe81079"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/01e20404837877257e7b8dc949e3a172fba45062",
-                    "reference": "01e20404837877257e7b8dc949e3a172fba45062",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/fc49f57c7a22a68c482f9372dc7f4d365fe81079",
+                    "reference": "fc49f57c7a22a68c482f9372dc7f4d365fe81079",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=7.0",
                     "purdue/boilerup-wp": "1.*",
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-08-21T20:15:42+00:00",
+                "time": "2020-09-07T19:01:22+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -2507,7 +2543,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.1.4",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.1.5",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
@@ -2666,7 +2702,6 @@
                 },
                 "time": "2020-09-01T16:29:46+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "source",
                 "license": [
                     "GPLv2"
                 ],
@@ -2774,7 +2809,6 @@
                 },
                 "time": "2020-09-01T16:30:58+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "source",
                 "license": [
                     "GPLv2"
                 ],
@@ -4036,7 +4070,6 @@
                 },
                 "time": "2020-08-30T15:21:00+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Roots\\Soil\\": "src/"
@@ -4128,7 +4161,6 @@
                 },
                 "time": "2020-08-31T16:21:16+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Roots\\Soil\\": "src/"
@@ -4199,12 +4231,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/soil.git",
-                    "reference": "e666af30e3950e1b6c548b371f16ddada7171b90"
+                    "reference": "43fd182bd287fa6348210b4aed6e9a6fe7982bb1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/roots/soil/zipball/e666af30e3950e1b6c548b371f16ddada7171b90",
-                    "reference": "e666af30e3950e1b6c548b371f16ddada7171b90",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/43fd182bd287fa6348210b4aed6e9a6fe7982bb1",
+                    "reference": "43fd182bd287fa6348210b4aed6e9a6fe7982bb1",
                     "shasum": ""
                 },
                 "require": {
@@ -4218,7 +4250,7 @@
                     "phpunit/phpunit": "<= 9.3",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2020-09-01T16:33:10+00:00",
+                "time": "2020-09-01T19:04:30+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
