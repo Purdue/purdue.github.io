@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/soil.git",
-                    "reference": "43fd182bd287fa6348210b4aed6e9a6fe7982bb1"
+                    "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/roots/soil/zipball/43fd182bd287fa6348210b4aed6e9a6fe7982bb1",
-                    "reference": "43fd182bd287fa6348210b4aed6e9a6fe7982bb1",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/6b3aab8ea41877136f53757ef85449f2484bfd83",
+                    "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "phpunit/phpunit": "<= 9.3",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2020-09-01T19:04:30+00:00",
+                "time": "2020-09-11T00:46:10+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -41,14 +41,17 @@
                     "psr-4": {
                         "Roots\\Soil\\Tests\\": "tests/",
                         "Roots\\Soil\\Tests\\Fixtures\\Modules\\": "tests/__fixtures__/modules/"
-                    }
+                    },
+                    "exclude-from-classmap": [
+                        "/tests/TestCase56.php"
+                    ]
                 },
                 "scripts": {
                     "test": [
-                        "vendor/bin/phpunit"
+                        "phpunit"
                     ],
                     "lint": [
-                        "vendor/bin/phpcs"
+                        "phpcs"
                     ]
                 },
                 "license": [
@@ -79,7 +82,7 @@
                 "support": {
                     "issues": "https://github.com/roots/soil/issues",
                     "forum": "https://discourse.roots.io/",
-                    "source": "https://github.com/roots/soil/tree/master"
+                    "source": "https://github.com/roots/soil/tree/4.0.4"
                 },
                 "funding": [
                     {
