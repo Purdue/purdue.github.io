@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "53b9589339111cae09efb865493a0b9ca0119f01"
+                    "reference": "b105e205f2fbb52f85edcf9abf5504c7677c163d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/53b9589339111cae09efb865493a0b9ca0119f01",
-                    "reference": "53b9589339111cae09efb865493a0b9ca0119f01",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/b105e205f2fbb52f85edcf9abf5504c7677c163d",
+                    "reference": "b105e205f2fbb52f85edcf9abf5504c7677c163d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-09-24T15:41:00+00:00",
+                "time": "2020-09-25T13:39:58+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -33,7 +33,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/master",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.0",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
