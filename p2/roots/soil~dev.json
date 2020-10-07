@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/soil.git",
-                    "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83"
+                    "reference": "9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/roots/soil/zipball/6b3aab8ea41877136f53757ef85449f2484bfd83",
-                    "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8",
+                    "reference": "9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8",
                     "shasum": ""
                 },
                 "require": {
@@ -27,7 +27,7 @@
                     "phpunit/phpunit": "<= 9.3",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2020-09-11T00:46:10+00:00",
+                "time": "2020-09-25T19:23:57+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -82,7 +82,7 @@
                 "support": {
                     "issues": "https://github.com/roots/soil/issues",
                     "forum": "https://discourse.roots.io/",
-                    "source": "https://github.com/roots/soil/tree/4.0.4"
+                    "source": "https://github.com/roots/soil/tree/master"
                 },
                 "funding": [
                     {

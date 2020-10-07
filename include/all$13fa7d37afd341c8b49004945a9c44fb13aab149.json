@@ -525,6 +525,36 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.1.7.0": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.1.7.0",
+                "version_normalized": "1.1.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "f39da6d4126277fd24d6a543cfad6c2093f4f98b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-f39da6d4126277fd24d6a543cfad6c2093f4f98b-zip-5f56b7.tar",
+                    "reference": "f39da6d4126277fd24d6a543cfad6c2093f4f98b",
+                    "shasum": "c4734dd7950d3df1c57405c9e2f12d2965213004"
+                },
+                "time": "2020-10-06T20:20:30+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.7.0",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "dev-master",
@@ -532,28 +562,25 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "03e70fb1eb9e455f9bd4e00360d318e04d7b244c"
+                    "reference": "f39da6d4126277fd24d6a543cfad6c2093f4f98b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/03e70fb1eb9e455f9bd4e00360d318e04d7b244c",
-                    "reference": "03e70fb1eb9e455f9bd4e00360d318e04d7b244c",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/f39da6d4126277fd24d6a543cfad6c2093f4f98b",
+                    "reference": "f39da6d4126277fd24d6a543cfad6c2093f4f98b",
                     "shasum": ""
                 },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-09-24T21:11:54+00:00",
+                "time": "2020-10-06T20:20:30+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
                         "name": "Connekt",
-                        "url": "https://connekthq.com/"
+                        "homepage": "https://connekthq.com/"
                     }
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.6",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.1.7.0",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -1011,7 +1038,6 @@
                 },
                 "time": "2020-09-25T13:39:58+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -1659,7 +1685,6 @@
                 },
                 "time": "2020-09-25T13:46:37+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -2115,18 +2140,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "730f9b0208554bd6ba9cfcef0fb125969767b864"
+                    "reference": "fc19d3bb4477fe04305e9e0ff8460ce0bbd2370b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/730f9b0208554bd6ba9cfcef0fb125969767b864",
-                    "reference": "730f9b0208554bd6ba9cfcef0fb125969767b864",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/fc19d3bb4477fe04305e9e0ff8460ce0bbd2370b",
+                    "reference": "fc19d3bb4477fe04305e9e0ff8460ce0bbd2370b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-09-25T13:46:37+00:00",
+                "time": "2020-10-06T18:25:14+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -2140,7 +2165,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.10.0",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/master",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
@@ -2813,7 +2838,6 @@
                 },
                 "time": "2020-09-25T13:48:46+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -4860,12 +4884,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/soil.git",
-                    "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83"
+                    "reference": "9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/roots/soil/zipball/6b3aab8ea41877136f53757ef85449f2484bfd83",
-                    "reference": "6b3aab8ea41877136f53757ef85449f2484bfd83",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8",
+                    "reference": "9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8",
                     "shasum": ""
                 },
                 "require": {
@@ -4879,7 +4903,7 @@
                     "phpunit/phpunit": "<= 9.3",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2020-09-11T00:46:10+00:00",
+                "time": "2020-09-25T19:23:57+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -4934,7 +4958,7 @@
                 "support": {
                     "issues": "https://github.com/roots/soil/issues",
                     "forum": "https://discourse.roots.io/",
-                    "source": "https://github.com/roots/soil/tree/4.0.4"
+                    "source": "https://github.com/roots/soil/tree/master"
                 },
                 "funding": [
                     {
