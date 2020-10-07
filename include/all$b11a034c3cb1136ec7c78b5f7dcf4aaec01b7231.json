@@ -120,6 +120,136 @@
                 "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
             }
         },
+        "cedaro/gravity-forms-iframe": {
+            "v2.0.0": {
+                "name": "cedaro/gravity-forms-iframe",
+                "version": "v2.0.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedaro/gravity-forms-iframe.git",
+                    "reference": "ac7369979572fe93242b7bf167a0f6fda1b76baf"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/cedaro/gravity-forms-iframe/cedaro-gravity-forms-iframe-ac7369979572fe93242b7bf167a0f6fda1b76baf-zip-36ff16.tar",
+                    "reference": "ac7369979572fe93242b7bf167a0f6fda1b76baf",
+                    "shasum": "7c596bd648643684fa8b367d3f6fb8d8df9dc44c"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-07-12T22:23:31+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Brady Vercher",
+                        "email": "brady@blazersix.com",
+                        "homepage": "http://www.cedaro.com/"
+                    }
+                ],
+                "description": "Embed a Gravity Form on any site using an iframe.",
+                "homepage": "https://github.com/cedaro/gravity-forms-iframe",
+                "keywords": [
+                    "gravity forms",
+                    "iframe",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
+                    "source": "https://github.com/cedaro/gravity-forms-iframe"
+                }
+            },
+            "v2.0.1": {
+                "name": "cedaro/gravity-forms-iframe",
+                "version": "v2.0.1",
+                "version_normalized": "2.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedaro/gravity-forms-iframe.git",
+                    "reference": "f3e54fe9525c50fde7941a6bd8373be45c8538fc"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/cedaro/gravity-forms-iframe/cedaro-gravity-forms-iframe-f3e54fe9525c50fde7941a6bd8373be45c8538fc-zip-9b0b1d.tar",
+                    "reference": "f3e54fe9525c50fde7941a6bd8373be45c8538fc",
+                    "shasum": "c2bc74afbcb64962982e0d7e747f9db3936ff44f"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-07-13T02:08:44+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Brady Vercher",
+                        "email": "brady@blazersix.com",
+                        "homepage": "http://www.cedaro.com/"
+                    }
+                ],
+                "description": "Embed a Gravity Form on any site using an iframe.",
+                "homepage": "https://github.com/cedaro/gravity-forms-iframe",
+                "keywords": [
+                    "gravity forms",
+                    "iframe",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
+                    "source": "https://github.com/cedaro/gravity-forms-iframe"
+                }
+            },
+            "dev-master": {
+                "name": "cedaro/gravity-forms-iframe",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedaro/gravity-forms-iframe.git",
+                    "reference": "f3e54fe9525c50fde7941a6bd8373be45c8538fc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cedaro/gravity-forms-iframe/zipball/f3e54fe9525c50fde7941a6bd8373be45c8538fc",
+                    "reference": "f3e54fe9525c50fde7941a6bd8373be45c8538fc",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-07-13T02:08:44+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Brady Vercher",
+                        "email": "brady@blazersix.com",
+                        "homepage": "http://www.cedaro.com/"
+                    }
+                ],
+                "description": "Embed a Gravity Form on any site using an iframe.",
+                "homepage": "https://github.com/cedaro/gravity-forms-iframe",
+                "keywords": [
+                    "gravity forms",
+                    "iframe",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
+                    "source": "https://github.com/cedaro/gravity-forms-iframe"
+                }
+            }
+        },
         "purdue/advanced-custom-fields-pro": {
             "5.8.11": {
                 "name": "purdue/advanced-custom-fields-pro",
@@ -1720,7 +1850,6 @@
                 },
                 "time": "2020-10-06T18:25:14+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -1757,7 +1886,6 @@
                 },
                 "time": "2020-10-07T13:23:05+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -1794,7 +1922,6 @@
                 },
                 "time": "2020-10-07T16:46:26+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -2986,7 +3113,6 @@
                 },
                 "time": "2020-10-07T16:57:50+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
