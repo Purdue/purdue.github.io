@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/wp-file-download-addon.git",
-                    "reference": "5481644ac6da7a0e17090fce5695c470db50c6de"
+                    "reference": "2dace8b32be5ad50e11e2bc8eb496a764bded977"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wp-file-download-addon/zipball/5481644ac6da7a0e17090fce5695c470db50c6de",
-                    "reference": "5481644ac6da7a0e17090fce5695c470db50c6de",
+                    "url": "https://api.github.com/repos/Purdue/wp-file-download-addon/zipball/2dace8b32be5ad50e11e2bc8eb496a764bded977",
+                    "reference": "2dace8b32be5ad50e11e2bc8eb496a764bded977",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2020-10-07T04:13:54+00:00",
+                "time": "2020-10-19T15:46:29+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv2"
@@ -32,7 +32,7 @@
                 ],
                 "description": "WP File Download by JoomUnited",
                 "support": {
-                    "source": "https://github.com/Purdue/wp-file-download-addon/tree/4.4.9",
+                    "source": "https://github.com/Purdue/wp-file-download-addon/tree/4.4.11",
                     "issues": "https://github.com/Purdue/wp-file-download-addon/issues"
                 }
             }
