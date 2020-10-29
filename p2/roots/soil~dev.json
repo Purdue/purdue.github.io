@@ -8,26 +8,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/roots/soil.git",
-                    "reference": "9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8"
+                    "reference": "d5e7ae384f6d5141d0b017cabcd2195c52bf7d1c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/roots/soil/zipball/9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8",
-                    "reference": "9ccc524a8f9a0085c62e0a5606782c3a7a54dbd8",
+                    "url": "https://api.github.com/repos/roots/soil/zipball/d5e7ae384f6d5141d0b017cabcd2195c52bf7d1c",
+                    "reference": "d5e7ae384f6d5141d0b017cabcd2195c52bf7d1c",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6.0"
                 },
                 "require-dev": {
-                    "brain/monkey": "^2.4",
+                    "brain/monkey": "^2.5",
                     "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                     "mockery/mockery": "^1.3 | ^1.4",
                     "phpcompatibility/php-compatibility": "^9.3",
                     "phpunit/phpunit": "<= 9.3",
                     "squizlabs/php_codesniffer": "^3.5"
                 },
-                "time": "2020-09-25T19:23:57+00:00",
+                "time": "2020-10-25T21:16:20+00:00",
                 "type": "wordpress-plugin",
                 "autoload": {
                     "psr-4": {
@@ -41,10 +41,7 @@
                     "psr-4": {
                         "Roots\\Soil\\Tests\\": "tests/",
                         "Roots\\Soil\\Tests\\Fixtures\\Modules\\": "tests/__fixtures__/modules/"
-                    },
-                    "exclude-from-classmap": [
-                        "/tests/TestCase56.php"
-                    ]
+                    }
                 },
                 "scripts": {
                     "test": [
