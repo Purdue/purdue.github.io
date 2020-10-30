@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/advanced-custom-fields-pro.git",
-                    "reference": "2dcfb96f2d9ea42f8d4118c4fc406c40860ee118"
+                    "reference": "4f5c67df18299de2d0ff1c8acae7b8ef77ff0597"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/advanced-custom-fields-pro/zipball/2dcfb96f2d9ea42f8d4118c4fc406c40860ee118",
-                    "reference": "2dcfb96f2d9ea42f8d4118c4fc406c40860ee118",
+                    "url": "https://api.github.com/repos/Purdue/advanced-custom-fields-pro/zipball/4f5c67df18299de2d0ff1c8acae7b8ef77ff0597",
+                    "reference": "4f5c67df18299de2d0ff1c8acae7b8ef77ff0597",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2020-09-24T21:03:26+00:00",
+                "time": "2020-10-30T17:54:07+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -32,7 +32,7 @@
                 ],
                 "description": "Advanced Custom Fields Pro by ACF Team",
                 "support": {
-                    "source": "https://github.com/Purdue/advanced-custom-fields-pro/tree/5.9.1",
+                    "source": "https://github.com/Purdue/advanced-custom-fields-pro/tree/5.9.2",
                     "issues": "https://github.com/Purdue/advanced-custom-fields-pro/issues"
                 }
             }
