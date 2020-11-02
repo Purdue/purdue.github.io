@@ -1236,7 +1236,6 @@
                 },
                 "time": "2020-11-02T18:45:48+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -2099,7 +2098,6 @@
                 },
                 "time": "2020-11-02T19:20:20+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -3383,6 +3381,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.4.2": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.4.2",
+                "version_normalized": "1.4.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "28921a0bbdfb2921e7bbae272f2964a90a038bdd"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-28921a0bbdfb2921e7bbae272f2964a90a038bdd-zip-02d12b.tar",
+                    "reference": "28921a0bbdfb2921e7bbae272f2964a90a038bdd",
+                    "shasum": "5614cc237de9fa26af148111371dd664c1283d0d"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-11-02T20:41:55+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.2",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
@@ -3390,12 +3427,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "fc32649efc966c7e04b9397405a09241699bea39"
+                    "reference": "28921a0bbdfb2921e7bbae272f2964a90a038bdd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/fc32649efc966c7e04b9397405a09241699bea39",
-                    "reference": "fc32649efc966c7e04b9397405a09241699bea39",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/28921a0bbdfb2921e7bbae272f2964a90a038bdd",
+                    "reference": "28921a0bbdfb2921e7bbae272f2964a90a038bdd",
                     "shasum": ""
                 },
                 "require": {
@@ -3403,7 +3440,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2020-10-19T16:18:40+00:00",
+                "time": "2020-11-02T20:41:55+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -3417,7 +3454,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.1",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.2",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
