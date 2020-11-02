@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "6c8e9a388b383c77071b79299dbb088986438a15"
+                    "reference": "aec17da1c998ca69d4999273f13782fc2fe37a55"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/6c8e9a388b383c77071b79299dbb088986438a15",
-                    "reference": "6c8e9a388b383c77071b79299dbb088986438a15",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/aec17da1c998ca69d4999273f13782fc2fe37a55",
+                    "reference": "aec17da1c998ca69d4999273f13782fc2fe37a55",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-10-16T14:22:14+00:00",
+                "time": "2020-11-02T19:20:20+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -33,7 +33,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.13.0",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.13.1",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
