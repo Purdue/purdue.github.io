@@ -453,7 +453,6 @@
                 },
                 "time": "2020-11-04T18:54:03+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -467,6 +466,43 @@
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
                     "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.2",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "19c10a49fa66c4f512f7c097df633bd3672a8e4f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-19c10a49fa66c4f512f7c097df633bd3672a8e4f-zip-174b7a.tar",
+                    "reference": "19c10a49fa66c4f512f7c097df633bd3672a8e4f",
+                    "shasum": "46a38d408103b61a36583a0838ecba3bc9080b68"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-11-06T17:15:17+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.3",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
