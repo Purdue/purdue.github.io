@@ -231,7 +231,6 @@
                 },
                 "time": "2020-11-11T14:11:12+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv2"
                 ],
@@ -244,6 +243,42 @@
                 "description": "WP File Download by JoomUnited",
                 "support": {
                     "source": "https://github.com/Purdue/wp-file-download/tree/4.9.0",
+                    "issues": "https://github.com/Purdue/wp-file-download/issues"
+                }
+            },
+            {
+                "name": "purdue/wp-file-download",
+                "version": "4.9.1",
+                "version_normalized": "4.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wp-file-download.git",
+                    "reference": "2bcb92695a627397fb2646087ab7c58cb89ae402"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wp-file-download/purdue-wp-file-download-2bcb92695a627397fb2646087ab7c58cb89ae402-zip-802242.tar",
+                    "reference": "2bcb92695a627397fb2646087ab7c58cb89ae402",
+                    "shasum": "6c9baa56780dd124f286f496f7ffbc4b027a2625"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-11-14T03:12:07+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "JoomUnited",
+                        "homepage": "https://www.joomunited.com/wordpress-products/wp-file-download"
+                    }
+                ],
+                "description": "WP File Download by JoomUnited",
+                "support": {
+                    "source": "https://github.com/Purdue/wp-file-download/tree/4.9.1",
                     "issues": "https://github.com/Purdue/wp-file-download/issues"
                 }
             }
