@@ -829,7 +829,6 @@
                 },
                 "time": "2020-12-10T14:46:39+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Connekt",
@@ -3130,6 +3129,41 @@
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             },
+            "1.0.1": {
+                "name": "purdue/purdue-cpt",
+                "version": "1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-cpt.git",
+                    "reference": "57ddf04091124d60eb3845b6230222ca343fe5cc"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-cpt/purdue-purdue-cpt-57ddf04091124d60eb3845b6230222ca343fe5cc-zip-eab8c3.tar",
+                    "reference": "57ddf04091124d60eb3845b6230222ca343fe5cc",
+                    "shasum": "312db02ced71c78c388327ca83fe147c04b7bd07"
+                },
+                "require": {
+                    "jjgrainger/posttypes": "^2.1",
+                    "php": ">=7.0"
+                },
+                "time": "2020-12-10T17:15:14+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu/digital/"
+                    }
+                ],
+                "description": "Create custom post types used by Purdue University WordPress websites",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.1",
+                    "issues": "https://github.com/Purdue/purdue-cpt/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-cpt",
                 "version": "dev-master",
@@ -3137,19 +3171,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-cpt.git",
-                    "reference": "240cffac77397d7542e920e48f009c13d5859acf"
+                    "reference": "57ddf04091124d60eb3845b6230222ca343fe5cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/240cffac77397d7542e920e48f009c13d5859acf",
-                    "reference": "240cffac77397d7542e920e48f009c13d5859acf",
+                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/57ddf04091124d60eb3845b6230222ca343fe5cc",
+                    "reference": "57ddf04091124d60eb3845b6230222ca343fe5cc",
                     "shasum": ""
                 },
                 "require": {
                     "jjgrainger/posttypes": "^2.1",
                     "php": ">=7.0"
                 },
-                "time": "2020-12-10T14:34:08+00:00",
+                "time": "2020-12-10T17:15:14+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -3160,7 +3194,7 @@
                 ],
                 "description": "Create custom post types used by Purdue University WordPress websites",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.0",
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.1",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             }
@@ -4243,7 +4277,6 @@
                 },
                 "time": "2020-12-10T14:48:32+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Chris Carrel",
@@ -4590,7 +4623,6 @@
                 },
                 "time": "2020-12-10T14:50:33+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv2"
                 ],
@@ -4733,7 +4765,6 @@
                 },
                 "time": "2020-12-10T14:51:30+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv2"
                 ],
