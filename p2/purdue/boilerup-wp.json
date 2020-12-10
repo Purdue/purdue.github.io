@@ -56,7 +56,6 @@
                 },
                 "time": "2020-12-01T17:41:13+00:00",
                 "type": "wordpress-muplugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -69,6 +68,42 @@
                 "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
                 "support": {
                     "source": "https://github.com/Purdue/boilerup-wp/tree/1.4.2",
+                    "issues": "https://github.com/Purdue/boilerup-wp/issues"
+                }
+            },
+            {
+                "name": "purdue/boilerup-wp",
+                "version": "1.4.3",
+                "version_normalized": "1.4.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/boilerup-wp.git",
+                    "reference": "26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2-zip-8ac705.tar",
+                    "reference": "26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2",
+                    "shasum": "1188b6afbddd6f0c7bdcc4c6d8ca5ff3329db489"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2020-12-02T15:03:06+00:00",
+                "type": "wordpress-muplugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digitalmarketing@groups.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
+                "support": {
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.4.3",
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             }

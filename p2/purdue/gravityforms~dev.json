@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "dd7c567cb401dd45b353a440621017c5380ac244"
+                    "reference": "fa38060690a6dd7f1a40b254844d592b36f71504"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/dd7c567cb401dd45b353a440621017c5380ac244",
-                    "reference": "dd7c567cb401dd45b353a440621017c5380ac244",
+                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/fa38060690a6dd7f1a40b254844d592b36f71504",
+                    "reference": "fa38060690a6dd7f1a40b254844d592b36f71504",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2020-10-19T15:39:07+00:00",
+                "time": "2020-12-08T02:21:52+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -32,7 +32,7 @@
                 ],
                 "description": "GravityForms Plugin by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.21.1",
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.21.6",
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
             }

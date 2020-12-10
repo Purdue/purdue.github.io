@@ -883,6 +883,45 @@
                     "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.6",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
+            },
+            {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.4.7",
+                "version_normalized": "1.4.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "712dc6a05d5baf4a2da65009cffd55337f39af6b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-712dc6a05d5baf4a2da65009cffd55337f39af6b-zip-3c6018.tar",
+                    "reference": "712dc6a05d5baf4a2da65009cffd55337f39af6b",
+                    "shasum": "a54b372b498b225c18db855823d1385f4da0f85d"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2020-12-08T20:49:18+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.7",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
             }
         ]
     }

@@ -210,6 +210,42 @@
                     "source": "https://github.com/Purdue/gravityforms/tree/2.4.21.1",
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
+            },
+            {
+                "name": "purdue/gravityforms",
+                "version": "2.4.21.6",
+                "version_normalized": "2.4.21.6",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityforms.git",
+                    "reference": "fa38060690a6dd7f1a40b254844d592b36f71504"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-fa38060690a6dd7f1a40b254844d592b36f71504-zip-17d306.tar",
+                    "reference": "fa38060690a6dd7f1a40b254844d592b36f71504",
+                    "shasum": "956a6f405873fccaed3ac4314c2a97666b26a5b2"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-12-08T02:21:52+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.21.6",
+                    "issues": "https://github.com/Purdue/gravityforms/issues"
+                }
             }
         ]
     }

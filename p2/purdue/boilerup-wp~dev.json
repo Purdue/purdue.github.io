@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/boilerup-wp.git",
-                    "reference": "3f7078ad35bf46a8e44e607bdf0b24c50027f872"
+                    "reference": "26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/3f7078ad35bf46a8e44e607bdf0b24c50027f872",
-                    "reference": "3f7078ad35bf46a8e44e607bdf0b24c50027f872",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2",
+                    "reference": "26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-12-01T17:41:13+00:00",
+                "time": "2020-12-02T15:03:06+00:00",
                 "type": "wordpress-muplugin",
                 "license": [
                     "GPL-3.0+"
@@ -32,7 +32,7 @@
                 ],
                 "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
                 "support": {
-                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.4.2",
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.4.3",
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             }
