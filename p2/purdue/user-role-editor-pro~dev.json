@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/user-role-editor-pro.git",
-                    "reference": "08601ccff7f9405febb34abdfd48815548d2c655"
+                    "reference": "5361e4532445338ae3cfeacdf17a70dd650896cd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/user-role-editor-pro/zipball/08601ccff7f9405febb34abdfd48815548d2c655",
-                    "reference": "08601ccff7f9405febb34abdfd48815548d2c655",
+                    "url": "https://api.github.com/repos/Purdue/user-role-editor-pro/zipball/5361e4532445338ae3cfeacdf17a70dd650896cd",
+                    "reference": "5361e4532445338ae3cfeacdf17a70dd650896cd",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2020-09-24T21:09:27+00:00",
+                "time": "2020-12-10T14:48:32+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -29,7 +29,7 @@
                 ],
                 "description": "User Role Editor WordPress plugin will help you. Edit any existing role, create new one, fill selected role with capabilities which you need. Assign new created roles or capabilities directly to the user.",
                 "support": {
-                    "source": "https://github.com/Purdue/user-role-editor-pro/tree/4.57.1",
+                    "source": "https://github.com/Purdue/user-role-editor-pro/tree/4.58.1",
                     "issues": "https://github.com/Purdue/user-role-editor-pro/issues"
                 }
             }

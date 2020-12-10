@@ -73,6 +73,42 @@
             },
             {
                 "name": "purdue/wp-file-download-addon",
+                "version": "4.4.13",
+                "version_normalized": "4.4.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wp-file-download-addon.git",
+                    "reference": "fbc89562286c022e37b8cd08ac6a155936d141b7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wp-file-download-addon/purdue-wp-file-download-addon-fbc89562286c022e37b8cd08ac6a155936d141b7-zip-462432.tar",
+                    "reference": "fbc89562286c022e37b8cd08ac6a155936d141b7",
+                    "shasum": "7777977f40d558af0004f902bc2a5a51fbfbbeaf"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2020-12-10T14:51:30+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "JoomUnited",
+                        "homepage": "https://www.joomunited.com/wordpress-products/wp-file-download"
+                    }
+                ],
+                "description": "WP File Download by JoomUnited",
+                "support": {
+                    "source": "https://github.com/Purdue/wp-file-download-addon/tree/4.4.13",
+                    "issues": "https://github.com/Purdue/wp-file-download-addon/issues"
+                }
+            },
+            {
+                "name": "purdue/wp-file-download-addon",
                 "version": "4.4.7",
                 "version_normalized": "4.4.7.0",
                 "source": {
