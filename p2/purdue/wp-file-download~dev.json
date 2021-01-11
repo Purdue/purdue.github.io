@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/wp-file-download.git",
-                    "reference": "b0538731ef804bd2e2d5bb7c153063f2f7e07ac4"
+                    "reference": "8994b908540f7c72d1e691b1d47d53c3701d0c71"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wp-file-download/zipball/b0538731ef804bd2e2d5bb7c153063f2f7e07ac4",
-                    "reference": "b0538731ef804bd2e2d5bb7c153063f2f7e07ac4",
+                    "url": "https://api.github.com/repos/Purdue/wp-file-download/zipball/8994b908540f7c72d1e691b1d47d53c3701d0c71",
+                    "reference": "8994b908540f7c72d1e691b1d47d53c3701d0c71",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2020-12-16T04:04:20+00:00",
+                "time": "2021-01-11T03:15:09+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv2"
@@ -32,7 +32,7 @@
                 ],
                 "description": "WP File Download by JoomUnited",
                 "support": {
-                    "source": "https://github.com/Purdue/wp-file-download/tree/4.9.3",
+                    "source": "https://github.com/Purdue/wp-file-download/tree/4.9.4",
                     "issues": "https://github.com/Purdue/wp-file-download/issues"
                 }
             }
