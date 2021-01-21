@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-cpt.git",
-                    "reference": "cfc4a0117d285b492160ed8f98fb04259f67a83c"
+                    "reference": "6b84614fb09c37166d3bec37672eebc9ed250142"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/cfc4a0117d285b492160ed8f98fb04259f67a83c",
-                    "reference": "cfc4a0117d285b492160ed8f98fb04259f67a83c",
+                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/6b84614fb09c37166d3bec37672eebc9ed250142",
+                    "reference": "6b84614fb09c37166d3bec37672eebc9ed250142",
                     "shasum": ""
                 },
                 "require": {
                     "jjgrainger/posttypes": "^2.1",
                     "php": ">=7.0"
                 },
-                "time": "2020-12-10T19:07:08+00:00",
+                "time": "2021-01-21T15:33:36+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -31,7 +31,7 @@
                 ],
                 "description": "Create custom post types used by Purdue University WordPress websites",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-cpt/tree/master",
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.3",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             }
