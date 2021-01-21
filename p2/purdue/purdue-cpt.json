@@ -260,7 +260,6 @@
                 },
                 "time": "2021-01-21T17:14:16+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Purdue Marketing and Media",
@@ -271,6 +270,41 @@
                 "description": "Create custom post types used by Purdue University WordPress websites",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.4",
+                    "issues": "https://github.com/Purdue/purdue-cpt/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-cpt",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-cpt.git",
+                    "reference": "047b3ca029b703627aba02d4157644e44e2bf506"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-cpt/purdue-purdue-cpt-047b3ca029b703627aba02d4157644e44e2bf506-zip-651e3d.tar",
+                    "reference": "047b3ca029b703627aba02d4157644e44e2bf506",
+                    "shasum": "2ae569c8ead86a8259d6ffd6fa03a5753a0eb691"
+                },
+                "require": {
+                    "jjgrainger/posttypes": "^2.1",
+                    "php": ">=7.0"
+                },
+                "time": "2021-01-21T18:21:14+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu/digital/"
+                    }
+                ],
+                "description": "Create custom post types used by Purdue University WordPress websites",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.5",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             }
