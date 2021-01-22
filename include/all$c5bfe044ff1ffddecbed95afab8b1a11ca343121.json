@@ -3589,7 +3589,6 @@
                 },
                 "time": "2021-01-21T18:21:14+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Purdue Marketing and Media",
@@ -4433,6 +4432,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.4.10": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.4.10",
+                "version_normalized": "1.4.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "7c01dd827fb3a5c7283c3de22339f4b48b4c00d4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-7c01dd827fb3a5c7283c3de22339f4b48b4c00d4-zip-09deb5.tar",
+                    "reference": "7c01dd827fb3a5c7283c3de22339f4b48b4c00d4",
+                    "shasum": "f51419dbbeb1deba5e6687fee217812abec69d09"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "1.*",
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2021-01-22T22:08:48+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.10",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "1.4.2": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "1.4.2",
@@ -4744,12 +4782,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "fd1433d8ab47d72cc01eacba2217a4ef2cc616b7"
+                    "reference": "7c01dd827fb3a5c7283c3de22339f4b48b4c00d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/fd1433d8ab47d72cc01eacba2217a4ef2cc616b7",
-                    "reference": "fd1433d8ab47d72cc01eacba2217a4ef2cc616b7",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/7c01dd827fb3a5c7283c3de22339f4b48b4c00d4",
+                    "reference": "7c01dd827fb3a5c7283c3de22339f4b48b4c00d4",
                     "shasum": ""
                 },
                 "require": {
@@ -4757,7 +4795,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2021-01-12T03:08:46+00:00",
+                "time": "2021-01-22T22:08:48+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -4771,7 +4809,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.9",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.4.10",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
