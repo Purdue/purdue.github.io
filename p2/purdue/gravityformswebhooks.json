@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "purdue/gravityformswebhooks": [
+            {
+                "name": "purdue/gravityformswebhooks",
+                "version": "1.4",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformswebhooks.git",
+                    "reference": "6aa2a7fa0905cc11a0f5a215c77e26eadfb58238"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformswebhooks/purdue-gravityformswebhooks-6aa2a7fa0905cc11a0f5a215c77e26eadfb58238-zip-e10d48.tar",
+                    "reference": "6aa2a7fa0905cc11a0f5a215c77e26eadfb58238",
+                    "shasum": "4b313b408358b014acc55effcbfeebddf055b821"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2021-01-28T15:40:12+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Webhook Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformswebhooks/tree/1.4",
+                    "issues": "https://github.com/Purdue/gravityformswebhooks/issues"
+                }
+            }
+        ]
+    }
+}
