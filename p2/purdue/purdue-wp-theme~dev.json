@@ -11,10 +11,10 @@
                     "reference": "99f223c061d85be10bdd81358d12285b4816b218"
                 },
                 "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/99f223c061d85be10bdd81358d12285b4816b218",
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-99f223c061d85be10bdd81358d12285b4816b218-zip-9532ab.tar",
                     "reference": "99f223c061d85be10bdd81358d12285b4816b218",
-                    "shasum": ""
+                    "shasum": "753cc53837d3276a50f167fe8f2acb0998fc24b0"
                 },
                 "require": {
                     "purdue/boilerup-wp": "1.*",
@@ -23,6 +23,7 @@
                 },
                 "time": "2021-01-29T21:25:41+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "source",
                 "license": [
                     "GPLv3"
                 ],

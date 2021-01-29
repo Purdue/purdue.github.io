@@ -11,10 +11,10 @@
                     "reference": "0139673c628a28d734928f85c24d86519446152d"
                 },
                 "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-drupal-theme/zipball/0139673c628a28d734928f85c24d86519446152d",
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-drupal-theme/purdue-purdue-drupal-theme-0139673c628a28d734928f85c24d86519446152d-zip-7539b5.tar",
                     "reference": "0139673c628a28d734928f85c24d86519446152d",
-                    "shasum": ""
+                    "shasum": "a03158d32317f2bfba534a74cd91055b2ab9e600"
                 },
                 "require": {
                     "purdue/bulma-blocks": ">=1.2.1",
@@ -22,6 +22,7 @@
                 },
                 "time": "2021-01-17T03:52:11+00:00",
                 "type": "drupal-theme",
+                "installation-source": "source",
                 "license": [
                     "GPLv3"
                 ],

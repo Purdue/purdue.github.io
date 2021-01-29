@@ -11,16 +11,17 @@
                     "reference": "f263ead68824ca981b7bd7dc868404a7e3f82657"
                 },
                 "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/email-signature-builder/zipball/f263ead68824ca981b7bd7dc868404a7e3f82657",
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/email-signature-builder/purdue-email-signature-builder-f263ead68824ca981b7bd7dc868404a7e3f82657-zip-470c7f.tar",
                     "reference": "f263ead68824ca981b7bd7dc868404a7e3f82657",
-                    "shasum": ""
+                    "shasum": "f9deaf2d154d8e99de9f362dea62a79b25de2932"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
                 "time": "2020-06-09T19:41:16+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "source",
                 "license": [
                     "GPL-3.0+"
                 ],
