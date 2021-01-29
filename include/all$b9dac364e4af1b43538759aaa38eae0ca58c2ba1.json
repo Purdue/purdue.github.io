@@ -162,12 +162,6 @@
                     "url": "git@bitbucket.org:alquemie/alquemie-config/",
                     "reference": "2ee57edb3f564aced404cac91d8cee9fbebee9fb"
                 },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-dev-master-d8d2d9.tar",
-                    "reference": "2ee57edb3f564aced404cac91d8cee9fbebee9fb",
-                    "shasum": "8c61d75c9815feacc03b818c33f8dc619d5d7018"
-                },
                 "time": "2021-01-12T04:07:43+00:00",
                 "type": "wordpress-muplugin",
                 "license": [
@@ -277,10 +271,10 @@
                     "reference": "f3e54fe9525c50fde7941a6bd8373be45c8538fc"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/cedaro/gravity-forms-iframe/cedaro-gravity-forms-iframe-f3e54fe9525c50fde7941a6bd8373be45c8538fc-zip-9b0b1d.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/cedaro/gravity-forms-iframe/zipball/f3e54fe9525c50fde7941a6bd8373be45c8538fc",
                     "reference": "f3e54fe9525c50fde7941a6bd8373be45c8538fc",
-                    "shasum": "c2bc74afbcb64962982e0d7e747f9db3936ff44f"
+                    "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
@@ -601,10 +595,10 @@
                     "reference": "62c6dacdc1c6a63132cd5e1c1327444b46948586"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/advanced-custom-fields-pro/purdue-advanced-custom-fields-pro-62c6dacdc1c6a63132cd5e1c1327444b46948586-zip-8c7c77.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/advanced-custom-fields-pro/zipball/62c6dacdc1c6a63132cd5e1c1327444b46948586",
                     "reference": "62c6dacdc1c6a63132cd5e1c1327444b46948586",
-                    "shasum": "3283bf3c93e790c285d7a983b699632430a0e5ab"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -946,10 +940,10 @@
                     "reference": "f251631ce74a5f9cc03aeb7630b80e39e4758f56"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-f251631ce74a5f9cc03aeb7630b80e39e4758f56-zip-e51bf0.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/f251631ce74a5f9cc03aeb7630b80e39e4758f56",
                     "reference": "f251631ce74a5f9cc03aeb7630b80e39e4758f56",
-                    "shasum": "d2109e68ad3fb86a41610e397e8534f5ee55eaf5"
+                    "shasum": ""
                 },
                 "time": "2021-01-11T03:12:16+00:00",
                 "type": "wordpress-plugin",
@@ -1082,10 +1076,10 @@
                     "reference": "26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2-zip-8ac705.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2",
                     "reference": "26587b175f180f37b4ef1ad1ac57bf54ebe6b9e2",
-                    "shasum": "1188b6afbddd6f0c7bdcc4c6d8ca5ff3329db489"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
@@ -1731,10 +1725,10 @@
                     "reference": "9f1d0b10ee89c11cd86e68e946518850059ccbcf"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-9f1d0b10ee89c11cd86e68e946518850059ccbcf-zip-cc3ac2.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/9f1d0b10ee89c11cd86e68e946518850059ccbcf",
                     "reference": "9f1d0b10ee89c11cd86e68e946518850059ccbcf",
-                    "shasum": "dd607c2e591049017bf1b82b7c3dad25c08fccd8"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
@@ -1805,10 +1799,10 @@
                     "reference": "f263ead68824ca981b7bd7dc868404a7e3f82657"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/email-signature-builder/purdue-email-signature-builder-f263ead68824ca981b7bd7dc868404a7e3f82657-zip-470c7f.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/email-signature-builder/zipball/f263ead68824ca981b7bd7dc868404a7e3f82657",
                     "reference": "f263ead68824ca981b7bd7dc868404a7e3f82657",
-                    "shasum": "f9deaf2d154d8e99de9f362dea62a79b25de2932"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
@@ -2123,10 +2117,10 @@
                     "reference": "3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99-zip-172d22.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99",
                     "reference": "3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99",
-                    "shasum": "46ce6a31cc7db115ee9769d78fec7409684f1d96"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -2302,10 +2296,10 @@
                     "reference": "e83ed19d77f7f40f72ad1790f05700da90791c48"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityformssignature/purdue-gravityformssignature-e83ed19d77f7f40f72ad1790f05700da90791c48-zip-ffac0a.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/e83ed19d77f7f40f72ad1790f05700da90791c48",
                     "reference": "e83ed19d77f7f40f72ad1790f05700da90791c48",
-                    "shasum": "122bf7dde1b2c2e80d5ef032dd3719aec73ed0b1"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -2374,10 +2368,10 @@
                     "reference": "6aa2a7fa0905cc11a0f5a215c77e26eadfb58238"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityformswebhooks/purdue-gravityformswebhooks-6aa2a7fa0905cc11a0f5a215c77e26eadfb58238-zip-e10d48.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformswebhooks/zipball/6aa2a7fa0905cc11a0f5a215c77e26eadfb58238",
                     "reference": "6aa2a7fa0905cc11a0f5a215c77e26eadfb58238",
-                    "shasum": "4b313b408358b014acc55effcbfeebddf055b821"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -2481,10 +2475,10 @@
                     "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-26b9066a3826e4bef71bcbbfe07f53570912f4c0-zip-9f5161.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/26b9066a3826e4bef71bcbbfe07f53570912f4c0",
                     "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0",
-                    "shasum": "53e162cd32eb9adcce95e915d70bddf3a42944a4"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -3382,10 +3376,10 @@
                     "reference": "27a044e1619d9adc9c56caa482a63e48e3f4eb96"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-27a044e1619d9adc9c56caa482a63e48e3f4eb96-zip-710e91.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/27a044e1619d9adc9c56caa482a63e48e3f4eb96",
                     "reference": "27a044e1619d9adc9c56caa482a63e48e3f4eb96",
-                    "shasum": "619a0c786dd91004dbf3db2824073391fa1bc5a8"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
@@ -3726,10 +3720,10 @@
                     "reference": "047b3ca029b703627aba02d4157644e44e2bf506"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-cpt/purdue-purdue-cpt-047b3ca029b703627aba02d4157644e44e2bf506-zip-651e3d.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/047b3ca029b703627aba02d4157644e44e2bf506",
                     "reference": "047b3ca029b703627aba02d4157644e44e2bf506",
-                    "shasum": "2ae569c8ead86a8259d6ffd6fa03a5753a0eb691"
+                    "shasum": ""
                 },
                 "require": {
                     "jjgrainger/posttypes": "^2.1",
@@ -3762,10 +3756,10 @@
                     "reference": "0139673c628a28d734928f85c24d86519446152d"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-drupal-theme/purdue-purdue-drupal-theme-0139673c628a28d734928f85c24d86519446152d-zip-7539b5.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-drupal-theme/zipball/0139673c628a28d734928f85c24d86519446152d",
                     "reference": "0139673c628a28d734928f85c24d86519446152d",
-                    "shasum": "a03158d32317f2bfba534a74cd91055b2ab9e600"
+                    "shasum": ""
                 },
                 "require": {
                     "purdue/bulma-blocks": ">=1.2.1",
@@ -3791,10 +3785,10 @@
             }
         },
         "purdue/purdue-landingpages": {
-            "dev-master": {
+            "1.0.0": {
                 "name": "purdue/purdue-landingpages",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-landingpages.git",
@@ -3805,6 +3799,36 @@
                     "url": "https://purdue.github.io/dist/purdue/purdue-landingpages/purdue-purdue-landingpages-d7a5cde3013331955484c0c0d00e463bed7278e4-zip-cf7de1.tar",
                     "reference": "d7a5cde3013331955484c0c0d00e463bed7278e4",
                     "shasum": "56ae8bca6907bc2f3f2b323d23061cc6ec76ebb2"
+                },
+                "time": "2020-12-16T03:55:01+00:00",
+                "type": "wordpress-muplugin",
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu/"
+                    }
+                ],
+                "description": "Convert a site to support landing pages ONLY!",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-landingpages/tree/1.0.0",
+                    "issues": "https://github.com/Purdue/purdue-landingpages/issues"
+                }
+            },
+            "dev-master": {
+                "name": "purdue/purdue-landingpages",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-landingpages.git",
+                    "reference": "d7a5cde3013331955484c0c0d00e463bed7278e4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-landingpages/zipball/d7a5cde3013331955484c0c0d00e463bed7278e4",
+                    "reference": "d7a5cde3013331955484c0c0d00e463bed7278e4",
+                    "shasum": ""
                 },
                 "time": "2020-12-16T03:55:01+00:00",
                 "type": "wordpress-muplugin",
@@ -4533,7 +4557,6 @@
                 },
                 "time": "2021-01-29T22:05:20+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -4560,10 +4583,10 @@
                     "reference": "48b74744806517ca65580051336640f927f4a6a6"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-48b74744806517ca65580051336640f927f4a6a6-zip-6d23f1.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/48b74744806517ca65580051336640f927f4a6a6",
                     "reference": "48b74744806517ca65580051336640f927f4a6a6",
-                    "shasum": "909ca23fedbf5fa0cd3fa7e1ac7e8d7dc09fb998"
+                    "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "1.*",
@@ -4786,10 +4809,10 @@
                     "reference": "d6c46a56e829e4ef47525398e7a1efae8403524f"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/user-role-editor-pro/purdue-user-role-editor-pro-d6c46a56e829e4ef47525398e7a1efae8403524f-zip-25ec9d.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/user-role-editor-pro/zipball/d6c46a56e829e4ef47525398e7a1efae8403524f",
                     "reference": "d6c46a56e829e4ef47525398e7a1efae8403524f",
-                    "shasum": "353efbc2ab30e05bab4f064928ca87235d58a8d7"
+                    "shasum": ""
                 },
                 "time": "2021-01-26T19:01:50+00:00",
                 "type": "wordpress-plugin",
@@ -5237,10 +5260,10 @@
                     "reference": "fa06bbfb601380a62c10e0a43981727b36ae9989"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/wp-file-download/purdue-wp-file-download-fa06bbfb601380a62c10e0a43981727b36ae9989-zip-6b5022.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/wp-file-download/zipball/fa06bbfb601380a62c10e0a43981727b36ae9989",
                     "reference": "fa06bbfb601380a62c10e0a43981727b36ae9989",
-                    "shasum": "be007860c8a0a9819d14eef6fc829d5d56cf25fc"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -5484,10 +5507,10 @@
                     "reference": "fbc89562286c022e37b8cd08ac6a155936d141b7"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/wp-file-download-addon/purdue-wp-file-download-addon-fbc89562286c022e37b8cd08ac6a155936d141b7-zip-462432.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/wp-file-download-addon/zipball/fbc89562286c022e37b8cd08ac6a155936d141b7",
                     "reference": "fbc89562286c022e37b8cd08ac6a155936d141b7",
-                    "shasum": "7777977f40d558af0004f902bc2a5a51fbfbbeaf"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
@@ -5626,10 +5649,10 @@
                     "reference": "c05a8b2ce5329e2522ee975ba18922da6d204611"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/wpdatatables/purdue-wpdatatables-c05a8b2ce5329e2522ee975ba18922da6d204611-zip-09dcef.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/c05a8b2ce5329e2522ee975ba18922da6d204611",
                     "reference": "c05a8b2ce5329e2522ee975ba18922da6d204611",
-                    "shasum": "c40309b3462ac605bfd91c2abb59902a01e5f53e"
+                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"

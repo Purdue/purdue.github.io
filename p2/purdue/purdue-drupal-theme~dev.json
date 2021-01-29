@@ -11,10 +11,10 @@
                     "reference": "0139673c628a28d734928f85c24d86519446152d"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-drupal-theme/purdue-purdue-drupal-theme-0139673c628a28d734928f85c24d86519446152d-zip-7539b5.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-drupal-theme/zipball/0139673c628a28d734928f85c24d86519446152d",
                     "reference": "0139673c628a28d734928f85c24d86519446152d",
-                    "shasum": "a03158d32317f2bfba534a74cd91055b2ab9e600"
+                    "shasum": ""
                 },
                 "require": {
                     "purdue/bulma-blocks": ">=1.2.1",

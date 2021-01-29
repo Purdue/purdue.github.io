@@ -11,10 +11,10 @@
                     "reference": "48b74744806517ca65580051336640f927f4a6a6"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-48b74744806517ca65580051336640f927f4a6a6-zip-6d23f1.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/48b74744806517ca65580051336640f927f4a6a6",
                     "reference": "48b74744806517ca65580051336640f927f4a6a6",
-                    "shasum": "909ca23fedbf5fa0cd3fa7e1ac7e8d7dc09fb998"
+                    "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "1.*",

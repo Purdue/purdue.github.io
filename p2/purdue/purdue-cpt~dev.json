@@ -11,10 +11,10 @@
                     "reference": "047b3ca029b703627aba02d4157644e44e2bf506"
                 },
                 "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-cpt/purdue-purdue-cpt-047b3ca029b703627aba02d4157644e44e2bf506-zip-651e3d.tar",
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/047b3ca029b703627aba02d4157644e44e2bf506",
                     "reference": "047b3ca029b703627aba02d4157644e44e2bf506",
-                    "shasum": "2ae569c8ead86a8259d6ffd6fa03a5753a0eb691"
+                    "shasum": ""
                 },
                 "require": {
                     "jjgrainger/posttypes": "^2.1",
