@@ -1,36 +1,5 @@
 {
     "packages": {
-        "purdue/purdue-landingpages": [
-            {
-                "name": "purdue/purdue-landingpages",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/Purdue/purdue-landingpages.git",
-                    "reference": "d7a5cde3013331955484c0c0d00e463bed7278e4"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-landingpages/purdue-purdue-landingpages-d7a5cde3013331955484c0c0d00e463bed7278e4-zip-cf7de1.tar",
-                    "reference": "d7a5cde3013331955484c0c0d00e463bed7278e4",
-                    "shasum": "56ae8bca6907bc2f3f2b323d23061cc6ec76ebb2"
-                },
-                "time": "2020-12-16T03:55:01+00:00",
-                "type": "wordpress-muplugin",
-                "authors": [
-                    {
-                        "name": "Purdue Marketing and Communications",
-                        "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://marcom.purdue.edu/"
-                    }
-                ],
-                "description": "Convert a site to support landing pages ONLY!",
-                "support": {
-                    "source": "https://github.com/Purdue/purdue-landingpages/tree/1.0.0",
-                    "issues": "https://github.com/Purdue/purdue-landingpages/issues"
-                }
-            }
-        ]
+        "purdue/purdue-landingpages": []
     }
 }
