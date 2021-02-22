@@ -605,7 +605,6 @@
                 },
                 "time": "2021-02-15T20:24:31+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -966,6 +965,36 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.2.3.2": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.2.3.2",
+                "version_normalized": "1.2.3.2",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "2595828515b6657933da6f22fdd1ab7cd43e442d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-2595828515b6657933da6f22fdd1ab7cd43e442d-zip-ac8395.tar",
+                    "reference": "2595828515b6657933da6f22fdd1ab7cd43e442d",
+                    "shasum": "8f2fc498d8053980b6e03e3e28608b4753dc915d"
+                },
+                "time": "2021-02-22T21:20:00+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.3.2",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "dev-master",
@@ -973,15 +1002,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "f251631ce74a5f9cc03aeb7630b80e39e4758f56"
+                    "reference": "2595828515b6657933da6f22fdd1ab7cd43e442d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/f251631ce74a5f9cc03aeb7630b80e39e4758f56",
-                    "reference": "f251631ce74a5f9cc03aeb7630b80e39e4758f56",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/2595828515b6657933da6f22fdd1ab7cd43e442d",
+                    "reference": "2595828515b6657933da6f22fdd1ab7cd43e442d",
                     "shasum": ""
                 },
-                "time": "2021-01-11T03:12:16+00:00",
+                "time": "2021-02-22T21:20:00+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -991,7 +1020,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.2",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.3.2",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -4723,12 +4752,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "48b74744806517ca65580051336640f927f4a6a6"
+                    "reference": "55d64f619611cd02035d0d143a8d9bb7562c3652"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/48b74744806517ca65580051336640f927f4a6a6",
-                    "reference": "48b74744806517ca65580051336640f927f4a6a6",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/55d64f619611cd02035d0d143a8d9bb7562c3652",
+                    "reference": "55d64f619611cd02035d0d143a8d9bb7562c3652",
                     "shasum": ""
                 },
                 "require": {
@@ -4736,7 +4765,7 @@
                     "purdue/bulma-blocks": ">=1.2.1",
                     "purdue/purdue-blocks": ">=1.2.0"
                 },
-                "time": "2021-01-29T22:05:20+00:00",
+                "time": "2021-02-16T20:53:14+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -4750,7 +4779,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.2",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
