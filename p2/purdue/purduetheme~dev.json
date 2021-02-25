@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "purdue/purduetheme": [
+            {
+                "name": "purdue/purduetheme",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purduetheme.git",
+                    "reference": "fe57ff78bc9853cae168e54c36a09b99994c0fd6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purduetheme/zipball/fe57ff78bc9853cae168e54c36a09b99994c0fd6",
+                    "reference": "fe57ff78bc9853cae168e54c36a09b99994c0fd6",
+                    "shasum": ""
+                },
+                "require": {
+                    "purdue/bulma-blocks": ">=1.2.1",
+                    "purdue/purdue-blocks": ">=1.2.0"
+                },
+                "time": "2021-02-25T15:14:33+00:00",
+                "type": "drupal-theme",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "Drupal theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purduetheme/tree/0.1.1-alpha",
+                    "issues": "https://github.com/Purdue/purduetheme/issues"
+                }
+            }
+        ]
+    }
+}
