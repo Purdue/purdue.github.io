@@ -8,30 +8,29 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-cpt.git",
-                    "reference": "047b3ca029b703627aba02d4157644e44e2bf506"
+                    "reference": "1eb93533ffbde11e6c7686c53425076114f0d08f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/047b3ca029b703627aba02d4157644e44e2bf506",
-                    "reference": "047b3ca029b703627aba02d4157644e44e2bf506",
+                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/1eb93533ffbde11e6c7686c53425076114f0d08f",
+                    "reference": "1eb93533ffbde11e6c7686c53425076114f0d08f",
                     "shasum": ""
                 },
                 "require": {
-                    "jjgrainger/posttypes": "^2.1",
-                    "php": ">=7.0"
+                    "jjgrainger/posttypes": "^2.1"
                 },
-                "time": "2021-01-21T18:21:14+00:00",
+                "time": "2021-02-26T01:08:05+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
-                        "name": "Purdue Marketing and Media",
+                        "name": "Purdue Marketing and Communications",
                         "email": "digital-marketing@groups.purdue.edu",
-                        "homepage": "https://brand.purdue.edu/digital/"
+                        "homepage": "https://marcom.purdue.edu/digital/"
                     }
                 ],
                 "description": "Create custom post types used by Purdue University WordPress websites",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.0.5",
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.1.0",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             }
