@@ -339,6 +339,40 @@
                     "source": "https://github.com/Purdue/purdue-cpt/tree/1.1.0",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
+            },
+            {
+                "name": "purdue/purdue-cpt",
+                "version": "1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-cpt.git",
+                    "reference": "f4a6825d3bd1ffb0556b8a63aaad3e911ab8358e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-cpt/purdue-purdue-cpt-f4a6825d3bd1ffb0556b8a63aaad3e911ab8358e-zip-e32b1a.tar",
+                    "reference": "f4a6825d3bd1ffb0556b8a63aaad3e911ab8358e",
+                    "shasum": "bdf18a5965f67e9ebf4fa78c1dfdd3941610fff8"
+                },
+                "require": {
+                    "jjgrainger/posttypes": "^2.1"
+                },
+                "time": "2021-03-12T22:08:51+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu/digital/"
+                    }
+                ],
+                "description": "Create custom post types used by Purdue University WordPress websites",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.2.0",
+                    "issues": "https://github.com/Purdue/purdue-cpt/issues"
+                }
             }
         ]
     }
