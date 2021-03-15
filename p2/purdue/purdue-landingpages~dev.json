@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-landingpages.git",
-                    "reference": "ed1285126839cc43f82b8996988098c84130ca50"
+                    "reference": "f3a2646e57bd60d66863dcfb1fb3d2f6f5c1ec54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-landingpages/zipball/ed1285126839cc43f82b8996988098c84130ca50",
-                    "reference": "ed1285126839cc43f82b8996988098c84130ca50",
+                    "url": "https://api.github.com/repos/Purdue/purdue-landingpages/zipball/f3a2646e57bd60d66863dcfb1fb3d2f6f5c1ec54",
+                    "reference": "f3a2646e57bd60d66863dcfb1fb3d2f6f5c1ec54",
                     "shasum": ""
                 },
-                "time": "2021-03-12T18:28:00+00:00",
+                "time": "2021-03-15T14:48:41+00:00",
                 "type": "wordpress-muplugin",
                 "authors": [
                     {
@@ -27,7 +27,7 @@
                 ],
                 "description": "Convert a site to support landing pages ONLY!",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-landingpages/tree/1.1.0",
+                    "source": "https://github.com/Purdue/purdue-landingpages/tree/1.1.1",
                     "issues": "https://github.com/Purdue/purdue-landingpages/issues"
                 }
             }

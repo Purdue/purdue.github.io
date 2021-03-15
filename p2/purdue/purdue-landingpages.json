@@ -60,6 +60,37 @@
                     "source": "https://github.com/Purdue/purdue-landingpages/tree/1.1.0",
                     "issues": "https://github.com/Purdue/purdue-landingpages/issues"
                 }
+            },
+            {
+                "name": "purdue/purdue-landingpages",
+                "version": "1.1.1",
+                "version_normalized": "1.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-landingpages.git",
+                    "reference": "f3a2646e57bd60d66863dcfb1fb3d2f6f5c1ec54"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-landingpages/purdue-purdue-landingpages-f3a2646e57bd60d66863dcfb1fb3d2f6f5c1ec54-zip-ce9cc7.tar",
+                    "reference": "f3a2646e57bd60d66863dcfb1fb3d2f6f5c1ec54",
+                    "shasum": "7fe2b5a118c4266c7537e79d3cdf965a75783ee7"
+                },
+                "time": "2021-03-15T14:48:41+00:00",
+                "type": "wordpress-muplugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu/"
+                    }
+                ],
+                "description": "Convert a site to support landing pages ONLY!",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-landingpages/tree/1.1.1",
+                    "issues": "https://github.com/Purdue/purdue-landingpages/issues"
+                }
             }
         ]
     }
