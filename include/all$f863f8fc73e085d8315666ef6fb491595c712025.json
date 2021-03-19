@@ -160,9 +160,9 @@
                 "source": {
                     "type": "git",
                     "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "2ee57edb3f564aced404cac91d8cee9fbebee9fb"
+                    "reference": "4e1748721e60bf2af19595cc391f7ae52429ffa4"
                 },
-                "time": "2021-01-12T04:07:43+00:00",
+                "time": "2021-03-19T17:12:31+00:00",
                 "type": "wordpress-muplugin",
                 "license": [
                     "GPL-3.0+"
@@ -1425,7 +1425,6 @@
                 },
                 "time": "2021-03-18T21:25:09+00:00",
                 "type": "wordpress-muplugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -1448,15 +1447,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/boilerup-wp.git",
-                    "reference": "ab67b1cb43dc19b5641d8580b0d2ca55cc8f1d06"
+                    "reference": "e270affb07eac0430ff6ed9ad1c9c0babef71e9e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/ab67b1cb43dc19b5641d8580b0d2ca55cc8f1d06",
-                    "reference": "ab67b1cb43dc19b5641d8580b0d2ca55cc8f1d06",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/e270affb07eac0430ff6ed9ad1c9c0babef71e9e",
+                    "reference": "e270affb07eac0430ff6ed9ad1c9c0babef71e9e",
                     "shasum": ""
                 },
-                "time": "2021-03-18T21:25:09+00:00",
+                "time": "2021-03-18T21:48:42+00:00",
                 "type": "wordpress-muplugin",
                 "license": [
                     "GPL-3.0+"
@@ -1469,7 +1468,7 @@
                 ],
                 "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
                 "support": {
-                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.7.3",
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/master",
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             }
