@@ -1233,6 +1233,36 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.2.4": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.2.4",
+                "version_normalized": "1.2.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "b90bd3638c58edc37310eaabfda03739a5397ed2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-b90bd3638c58edc37310eaabfda03739a5397ed2-zip-0399b9.tar",
+                    "reference": "b90bd3638c58edc37310eaabfda03739a5397ed2",
+                    "shasum": "6b2b284637582954830cf9ad628f851b53cffd0a"
+                },
+                "time": "2021-04-01T12:57:38+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.4",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "dev-master",
@@ -1240,15 +1270,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "2595828515b6657933da6f22fdd1ab7cd43e442d"
+                    "reference": "b90bd3638c58edc37310eaabfda03739a5397ed2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/2595828515b6657933da6f22fdd1ab7cd43e442d",
-                    "reference": "2595828515b6657933da6f22fdd1ab7cd43e442d",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/b90bd3638c58edc37310eaabfda03739a5397ed2",
+                    "reference": "b90bd3638c58edc37310eaabfda03739a5397ed2",
                     "shasum": ""
                 },
-                "time": "2021-02-22T21:20:00+00:00",
+                "time": "2021-04-01T12:57:38+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -1258,7 +1288,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.3.2",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.4",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -1475,15 +1505,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/boilerup-wp.git",
-                    "reference": "e270affb07eac0430ff6ed9ad1c9c0babef71e9e"
+                    "reference": "9a1dd7c03f4cb2a71b75dcffae902912094bdf54"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/e270affb07eac0430ff6ed9ad1c9c0babef71e9e",
-                    "reference": "e270affb07eac0430ff6ed9ad1c9c0babef71e9e",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/9a1dd7c03f4cb2a71b75dcffae902912094bdf54",
+                    "reference": "9a1dd7c03f4cb2a71b75dcffae902912094bdf54",
                     "shasum": ""
                 },
-                "time": "2021-03-18T21:48:42+00:00",
+                "time": "2021-03-30T17:46:22+00:00",
                 "type": "wordpress-muplugin",
                 "license": [
                     "GPL-3.0+"
