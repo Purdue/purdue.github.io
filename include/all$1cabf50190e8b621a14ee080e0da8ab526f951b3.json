@@ -1250,7 +1250,6 @@
                 },
                 "time": "2021-04-01T12:57:38+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Connekt",
@@ -5754,6 +5753,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.5.7.1": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.5.7.1",
+                "version_normalized": "1.5.7.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "23a0ba713812a38a368d01417af05dc1309eb9a7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-23a0ba713812a38a368d01417af05dc1309eb9a7-zip-211f3c.tar",
+                    "reference": "23a0ba713812a38a368d01417af05dc1309eb9a7",
+                    "shasum": "d055edae4780d07b5b43227d0d282853602fa764"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2021-04-01T16:21:56+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.7.1",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
@@ -5761,12 +5799,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "c8231c9350ca1c707f92365c40278f6fac5ef08c"
+                    "reference": "23a0ba713812a38a368d01417af05dc1309eb9a7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/c8231c9350ca1c707f92365c40278f6fac5ef08c",
-                    "reference": "c8231c9350ca1c707f92365c40278f6fac5ef08c",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/23a0ba713812a38a368d01417af05dc1309eb9a7",
+                    "reference": "23a0ba713812a38a368d01417af05dc1309eb9a7",
                     "shasum": ""
                 },
                 "require": {
@@ -5774,7 +5812,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2021-03-23T21:44:32+00:00",
+                "time": "2021-04-01T16:21:56+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -5788,7 +5826,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.7",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.7.1",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
