@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "publishpress/publishpress-revisions-pro": [
+            {
+                "name": "publishpress/publishpress-revisions-pro",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "2045283743d30f8da1f387d0986ac1552de0cfb0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/2045283743d30f8da1f387d0986ac1552de0cfb0",
+                    "reference": "2045283743d30f8da1f387d0986ac1552de0cfb0",
+                    "shasum": ""
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "^2.3",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0"
+                },
+                "time": "2021-04-02T00:02:05+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/2.5.1",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
+            }
+        ]
+    }
+}
