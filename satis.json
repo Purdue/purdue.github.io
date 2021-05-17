@@ -1,0 +1,246 @@
+{
+  "name": "purdue/university-packagist",
+  "homepage": "https://purdue.github.io",
+  "description": "Private Repository Library used by Purdue University developers.  Please contact Purdue Marketing and Media through your strategist or Brand Council memeber to request access.",
+  "repositories": [
+    { "type": "vcs", "url": "git@bitbucket.org:alquemie/alquemie-config/" },
+    { "type": "vcs", "url": "git@github.com:roots/soil/" },
+    { "type": "vcs", "url": "git@github.com:cedaro/gravity-forms-iframe/" },
+    { "type": "vcs", "url": "git@github.com:publishpress/PublishPress-Permissions/" },
+    { "type": "vcs", "url": "git@github.com:Purdue/ajax-load-more-pro",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+    { "type": "vcs", "url": "git@github.com:Purdue/advanced-custom-fields-pro",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+     { "type": "vcs", "url": "git@github.com:Purdue/bulma-blocks/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+     { "type": "vcs", "url": "git@github.com:Purdue/email-signature-builder/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+    { "type": "vcs", "url": "git@github.com:Purdue/gravityforms/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+    { "type": "vcs", "url": "git@github.com:Purdue/gravityformswebhooks/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      }
+     },
+    { "type": "vcs", "url": "git@github.com:Purdue/gravityformsdebug/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+    { "type": "vcs", "url": "git@github.com:Purdue/gravityformszapier/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     }
+     ,
+    { "type": "vcs", "url": "git@github.com:Purdue/gravityformssignature/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+     { "type": "vcs", "url": "git@github.com:Purdue/purdue-blocks/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+     { "type": "vcs", "url": "git@github.com:Purdue/purdue-cpt/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+     { "type": "vcs", "url": "git@github.com:Purdue/purdue-landingpages/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+    { "type": "vcs", "url": "git@github.com:Purdue/boilerup-wp/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+     },
+     { "type": "vcs", "url": "git@github.com:Purdue/purdue-wp-theme/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/purduetheme/",
+     "options":  {
+       "ssh2": {
+         "username": "git",
+         "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+         "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+       }
+     } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/user-role-editor-pro/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/wp-file-download/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/wp-file-download-addon/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/wpdatatables/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/presspermit-pro/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/capabilities-pro/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    },
+    { "type": "vcs", "url": "git@github.com:Purdue/revisionary-pro/",
+      "options":  {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "/Users/cjcarrel/.ssh/id_rsa.pub",
+          "privkey_file": "/Users/cjcarrel/.ssh/id_rsa"
+        }
+      } 
+    }
+
+  ],
+  "require-all": false,
+  "require": {
+    "alquemie/alquemie-config": ">0.1",
+    "cedaro/gravity-forms-iframe": ">1.0.3",
+    "purdue/ajax-load-more-pro": ">1.1",
+    "purdue/advanced-custom-fields-pro": ">5.8",
+    "purdue/boilerup-wp": ">1.3|dev-master",
+    "purdue/bulma-blocks": ">1.1|dev-master",
+    "purdue/email-signature-builder": ">0.2|dev-master",
+    "purdue/gravityforms": ">2.4",
+    "purdue/gravityformswebhooks": ">=1.4",
+    "purdue/gravityformsdebug": "1.0-beta12",
+    "purdue/gravityformssignature": ">3.0",
+    "purdue/gravityformszapier": ">3.2",
+    "purdue/purdue-blocks": ">1.1|dev-master",
+    "purdue/purdue-cpt": ">0.2|dev-master",
+    "purdue/purduetheme": "*",
+    "purdue/purdue-landingpages": ">=1.0|dev-master",
+    "purdue/purdue-wp-theme": ">1.1|dev-master",
+    "purdue/user-role-editor-pro": ">4.50",
+    "purdue/wp-file-download": ">4.7",
+    "purdue/wp-file-download-addon": ">4.4",
+    "purdue/wpdatatables": ">3.0",
+    "publishpress/publishpress-permissions": "3.*",
+    "publishpress/publishpress-permissions-pro": "*",
+    "publishpress/publishpress-capabilities-pro": "*",
+    "publishpress/publishpress-revisions-pro": "*",
+    "roots/soil": ">3.0"
+  },
+  "archive": {
+    "directory": "dist",
+    "format": "tar",
+    "skip-dev": true
+  },
+  "output-dir": "/Users/cjcarrel/Pantheon/Purdue/purdue.github.io"
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+php bin/satis build ./satis.json 
+
+dt=$(date '+%d/%m/%Y %H:%M:%S');
+cd ../purdue.github.io
+git pull --all
+git add .
+git commit -am "Repo Updated $dt"
+git push
+
+cd ../satis
