@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-3292473080f7daba10a09f2ab60a29e56d36c179-zip-ff7beb.tar",
                     "reference": "3292473080f7daba10a09f2ab60a29e56d36c179",
-                    "shasum": "05b06ee3c17bfe03057e4e72cbfa8be9e9ccbaaf"
+                    "shasum": "536ab157d47355f37872e9b354323c5363a3dd0b"
                 },
                 "require": {
                     "php": ">=5.6"
@@ -49,7 +49,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-26b9066a3826e4bef71bcbbfe07f53570912f4c0-zip-9f5161.tar",
                     "reference": "26b9066a3826e4bef71bcbbfe07f53570912f4c0",
-                    "shasum": "53e162cd32eb9adcce95e915d70bddf3a42944a4"
+                    "shasum": "deaf205288099da468f95c6c9d264490fc003d7e"
                 },
                 "require": {
                     "php": ">=5.6"
@@ -84,7 +84,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-5611ee7a60cb6910162db654b99135637e896ff8-zip-8eb1b1.tar",
                     "reference": "5611ee7a60cb6910162db654b99135637e896ff8",
-                    "shasum": "f7705fb134df71c1fd8989bf9923118cf2363f96"
+                    "shasum": "ba0df61cac63682429f03c7d64d127c4f5e44cb1"
                 },
                 "require": {
                     "php": ">=5.6"
@@ -119,14 +119,13 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/gravityformszapier/purdue-gravityformszapier-1a5a196d1205f2c2aa8abb9cc340047c367cb002-zip-fa1273.tar",
                     "reference": "1a5a196d1205f2c2aa8abb9cc340047c367cb002",
-                    "shasum": "66054081e8d07fe65ee201cdbe3429f4d7fd4662"
+                    "shasum": "2705fd8b7aa4c8ab2e3252a3d8db21eefc90df54"
                 },
                 "require": {
                     "php": ">=5.6"
                 },
                 "time": "2021-05-05T23:14:08+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],

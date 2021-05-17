@@ -1,9 +1,37 @@
 {
     "packages": [],
     "includes": {
-        "include/all$9f1e66e452fa3153d6f43544b6c848af8482ae05.json": {
-            "sha1": "9f1e66e452fa3153d6f43544b6c848af8482ae05"
+        "include/all$5427301efb3349881b3e1440186f8e4807647bea.json": {
+            "sha1": "5427301efb3349881b3e1440186f8e4807647bea"
         }
     },
-    "metadata-url": "/p2/%package%.json"
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": [
+        "alquemie/alquemie-config",
+        "cedaro/gravity-forms-iframe",
+        "publishpress/publishpress-capabilities-pro",
+        "publishpress/publishpress-permissions",
+        "publishpress/publishpress-permissions-pro",
+        "publishpress/publishpress-revisions-pro",
+        "purdue/advanced-custom-fields-pro",
+        "purdue/ajax-load-more-pro",
+        "purdue/boilerup-wp",
+        "purdue/bulma-blocks",
+        "purdue/email-signature-builder",
+        "purdue/gravityforms",
+        "purdue/gravityformsdebug",
+        "purdue/gravityformssignature",
+        "purdue/gravityformswebhooks",
+        "purdue/gravityformszapier",
+        "purdue/purdue-blocks",
+        "purdue/purdue-cpt",
+        "purdue/purdue-landingpages",
+        "purdue/purdue-wp-theme",
+        "purdue/purduetheme",
+        "purdue/user-role-editor-pro",
+        "purdue/wp-file-download",
+        "purdue/wp-file-download-addon",
+        "purdue/wpdatatables",
+        "roots/soil"
+    ]
 }
