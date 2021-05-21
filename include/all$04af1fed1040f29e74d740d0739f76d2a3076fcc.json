@@ -1,209 +1,5 @@
 {
     "packages": {
-        "alquemie/alquemie-config": {
-            "0.1.10": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.10",
-                "version_normalized": "0.1.10.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "3c556de7965066d8674437e2840f5abc46ad8e44"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.10-19a89d.tar",
-                    "reference": "3c556de7965066d8674437e2840f5abc46ad8e44",
-                    "shasum": "221ed77eeddcfe09f9ef102456e03e1bb3c4c1fe"
-                },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-11-03T01:57:39+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
-            "0.1.11": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.11",
-                "version_normalized": "0.1.11.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "2ee57edb3f564aced404cac91d8cee9fbebee9fb"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.11-d8d2d9.tar",
-                    "reference": "2ee57edb3f564aced404cac91d8cee9fbebee9fb",
-                    "shasum": "ea86cc713e029f5eba5da8cfc27c3ea8e34a71d7"
-                },
-                "time": "2021-01-12T04:07:43+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
-            "0.1.12": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.12",
-                "version_normalized": "0.1.12.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "e30910eef3f7500252f473dcc4f3cdc13e5b0aac"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.12-8c7b0e.tar",
-                    "reference": "e30910eef3f7500252f473dcc4f3cdc13e5b0aac",
-                    "shasum": "1f57c51e190e694cacfa94231368b918b96cd333"
-                },
-                "time": "2021-03-19T17:25:26+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
-            "0.1.6": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.6",
-                "version_normalized": "0.1.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "0c20c18d85fe0b2376e8252f36f487cf4f8c87b7"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.6-7f9b5c.tar",
-                    "reference": "0c20c18d85fe0b2376e8252f36f487cf4f8c87b7",
-                    "shasum": "8f1bd19e81750e8335dfe49c0500d5fc409bb0f2"
-                },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-03-20T04:26:38+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
-            "0.1.8": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.8",
-                "version_normalized": "0.1.8.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "982010c0538249a6ea60518467df46c129df2adb"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.8-82cbb8.tar",
-                    "reference": "982010c0538249a6ea60518467df46c129df2adb",
-                    "shasum": "2354448986425deaf3078a898f0f94e5170a3da3"
-                },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-03-20T07:10:16+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
-            "0.1.9": {
-                "name": "alquemie/alquemie-config",
-                "version": "0.1.9",
-                "version_normalized": "0.1.9.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "08602708604c2ef39df2fd8ef0959e532672a34e"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/alquemie/alquemie-config/alquemie-alquemie-config-0.1.9-06ad75.tar",
-                    "reference": "08602708604c2ef39df2fd8ef0959e532672a34e",
-                    "shasum": "ba784b37055797de58ba0490960a740a3b55c9c8"
-                },
-                "require": {
-                    "php": ">=7.0"
-                },
-                "time": "2020-03-30T02:37:21+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            },
-            "dev-master": {
-                "name": "alquemie/alquemie-config",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@bitbucket.org:alquemie/alquemie-config/",
-                    "reference": "e30910eef3f7500252f473dcc4f3cdc13e5b0aac"
-                },
-                "time": "2021-03-19T17:25:26+00:00",
-                "type": "wordpress-muplugin",
-                "license": [
-                    "GPL-3.0+"
-                ],
-                "authors": [
-                    {
-                        "name": "Chris Carrel",
-                        "email": "support@alquemie.net"
-                    }
-                ],
-                "description": "Wordpress Must-Use Plugin that tweaks site based on best practices as defined by Chris Carrel"
-            }
-        },
         "cedaro/gravity-forms-iframe": {
             "v2.0.0": {
                 "name": "cedaro/gravity-forms-iframe",
@@ -2106,6 +1902,50 @@
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
+            "v3.5.5": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "v3.5.5",
+                "version_normalized": "3.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "d325d5beb16de8e5cd2f38e90d2367ea484d5841"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-d325d5beb16de8e5cd2f38e90d2367ea484d5841-zip-0b15f1.tar",
+                    "reference": "d325d5beb16de8e5cd2f38e90d2367ea484d5841",
+                    "shasum": "0dceb73f70950b460f373046da62fffd8f6b810c"
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2021-05-19T16:00:37+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.5.5",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-permissions",
                 "version": "dev-master",
@@ -2113,19 +1953,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "fb19555027a0bf26fb43185c3ac937105c7f3a48"
+                    "reference": "d325d5beb16de8e5cd2f38e90d2367ea484d5841"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/fb19555027a0bf26fb43185c3ac937105c7f3a48",
-                    "reference": "fb19555027a0bf26fb43185c3ac937105c7f3a48",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/d325d5beb16de8e5cd2f38e90d2367ea484d5841",
+                    "reference": "d325d5beb16de8e5cd2f38e90d2367ea484d5841",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6.20",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2021-05-19T15:56:35+00:00",
+                "time": "2021-05-19T16:00:37+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -2145,7 +1985,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/master",
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.5.5",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -2156,19 +1996,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "3eeadb252a6329d4988dd092ea8f04e8368dc3da"
+                    "reference": "77b7a3a5d2c100a31f6c400c3de20d092828966d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/3eeadb252a6329d4988dd092ea8f04e8368dc3da",
-                    "reference": "3eeadb252a6329d4988dd092ea8f04e8368dc3da",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/77b7a3a5d2c100a31f6c400c3de20d092828966d",
+                    "reference": "77b7a3a5d2c100a31f6c400c3de20d092828966d",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6.20",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2021-05-19T15:57:05+00:00",
+                "time": "2021-05-19T16:01:03+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -2535,19 +2375,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "c6414e85f6705e4d5dcf9b5b0ed2457876a2ead9"
+                    "reference": "8d3251b0b95c5489ff8e444ad6e5e0aa8fa67470"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/c6414e85f6705e4d5dcf9b5b0ed2457876a2ead9",
-                    "reference": "c6414e85f6705e4d5dcf9b5b0ed2457876a2ead9",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/8d3251b0b95c5489ff8e444ad6e5e0aa8fa67470",
+                    "reference": "8d3251b0b95c5489ff8e444ad6e5e0aa8fa67470",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6.20",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2021-05-19T15:53:19+00:00",
+                "time": "2021-05-19T16:00:13+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -3609,7 +3449,6 @@
                 },
                 "time": "2021-05-19T15:55:59+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Connekt",
@@ -8333,6 +8172,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.5.8": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.5.8",
+                "version_normalized": "1.5.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "b1984bd9a3ea9843606c418b5fc688f86c8fccfb"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-b1984bd9a3ea9843606c418b5fc688f86c8fccfb-zip-cb54e4.tar",
+                    "reference": "b1984bd9a3ea9843606c418b5fc688f86c8fccfb",
+                    "shasum": "b6ddabe80a88faa179e2aa77aaaedbe6035040b3"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2021-05-20T18:43:21+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.8",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
@@ -8340,12 +8218,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "cd61dbf3575ccfbfa741cd171064b099221bdfe4"
+                    "reference": "b1984bd9a3ea9843606c418b5fc688f86c8fccfb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/cd61dbf3575ccfbfa741cd171064b099221bdfe4",
-                    "reference": "cd61dbf3575ccfbfa741cd171064b099221bdfe4",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/b1984bd9a3ea9843606c418b5fc688f86c8fccfb",
+                    "reference": "b1984bd9a3ea9843606c418b5fc688f86c8fccfb",
                     "shasum": ""
                 },
                 "require": {
@@ -8353,7 +8231,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2021-04-02T00:55:03+00:00",
+                "time": "2021-05-20T18:43:21+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -8367,7 +8245,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.7.3",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.5.8",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }

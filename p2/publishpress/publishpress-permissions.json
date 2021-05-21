@@ -1699,6 +1699,50 @@
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.5.4",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "v3.5.5",
+                "version_normalized": "3.5.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "d325d5beb16de8e5cd2f38e90d2367ea484d5841"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-d325d5beb16de8e5cd2f38e90d2367ea484d5841-zip-0b15f1.tar",
+                    "reference": "d325d5beb16de8e5cd2f38e90d2367ea484d5841",
+                    "shasum": "0dceb73f70950b460f373046da62fffd8f6b810c"
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2021-05-19T16:00:37+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.5.5",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
             }
         ]
     }
