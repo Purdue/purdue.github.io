@@ -813,7 +813,6 @@
                 },
                 "time": "2021-06-03T19:31:00+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -827,6 +826,43 @@
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-blocks/tree/1.18.1",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-blocks",
+                "version": "1.18.2",
+                "version_normalized": "1.18.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "3587d1568f1834aa11d0e0826d21621db9a35358"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-3587d1568f1834aa11d0e0826d21621db9a35358-zip-176fd5.tar",
+                    "reference": "3587d1568f1834aa11d0e0826d21621db9a35358",
+                    "shasum": "ef5ac35e33788ae56d88f412dd43e2c543f61d8b"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2021-06-14T18:47:22+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.18.2",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
