@@ -4975,18 +4975,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "c2334dc3fe2e34ba2351f6faab71764e76b4bc5d"
+                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/c2334dc3fe2e34ba2351f6faab71764e76b4bc5d",
-                    "reference": "c2334dc3fe2e34ba2351f6faab71764e76b4bc5d",
+                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/f613744e47f0f1c3c0bc5a27f6c87880cedad762",
+                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2021-08-05T21:48:34+00:00",
+                "time": "2021-09-10T14:00:56+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -4999,7 +4999,7 @@
                 ],
                 "description": "GravityForms Plugin by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.8",
+                    "source": "https://github.com/Purdue/gravityforms/tree/master",
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
             }
@@ -6677,7 +6677,6 @@
                 },
                 "time": "2021-09-09T16:10:14+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
