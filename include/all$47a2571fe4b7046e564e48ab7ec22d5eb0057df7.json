@@ -4863,6 +4863,42 @@
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
             },
+            "2.5.10": {
+                "name": "purdue/gravityforms",
+                "version": "2.5.10",
+                "version_normalized": "2.5.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityforms.git",
+                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-f613744e47f0f1c3c0bc5a27f6c87880cedad762-zip-e5c743.tar",
+                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762",
+                    "shasum": "252b647f27b404a7c8f92518be47e4f0d4a59938"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2021-09-10T14:00:56+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.10",
+                    "issues": "https://github.com/Purdue/gravityforms/issues"
+                }
+            },
             "2.5.5.3": {
                 "name": "purdue/gravityforms",
                 "version": "2.5.5.3",
@@ -4999,7 +5035,7 @@
                 ],
                 "description": "GravityForms Plugin by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/master",
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.10",
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
             }
