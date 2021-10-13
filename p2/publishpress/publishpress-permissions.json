@@ -1828,6 +1828,50 @@
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.5.7",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "v3.6-rc",
+                "version_normalized": "3.6.0.0-RC",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "4fce602c90b1cc4b845dad638b56810550263745"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-4fce602c90b1cc4b845dad638b56810550263745-zip-47cde6.tar",
+                    "reference": "4fce602c90b1cc4b845dad638b56810550263745",
+                    "shasum": "e0f3719f65e52810f6a597f93d39800f7ea8d94f"
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2021-09-30T22:44:25+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.6-rc",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
             }
         ]
     }
