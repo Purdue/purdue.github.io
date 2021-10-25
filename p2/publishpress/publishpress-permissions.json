@@ -1831,6 +1831,50 @@
             },
             {
                 "name": "publishpress/publishpress-permissions",
+                "version": "v3.6",
+                "version_normalized": "3.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "0c35432434e137bf991060175053e99774622f6a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-0c35432434e137bf991060175053e99774622f6a-zip-8dc434.tar",
+                    "reference": "0c35432434e137bf991060175053e99774622f6a",
+                    "shasum": "6269dba63f7ef3d897b54c2e22766f26f81fe52b"
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2021-10-14T20:56:18+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.6",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
                 "version": "v3.6-rc",
                 "version_normalized": "3.6.0.0-RC",
                 "source": {
@@ -1850,7 +1894,6 @@
                 },
                 "time": "2021-09-30T22:44:25+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
