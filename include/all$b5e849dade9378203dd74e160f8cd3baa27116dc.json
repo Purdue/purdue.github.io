@@ -4147,6 +4147,36 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.2.7": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.2.7",
+                "version_normalized": "1.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "ba86cf8a6de49a494bf472a88c9b7a88359250a7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-ba86cf8a6de49a494bf472a88c9b7a88359250a7-zip-3f7a22.tar",
+                    "reference": "ba86cf8a6de49a494bf472a88c9b7a88359250a7",
+                    "shasum": "70087caaa4026f880750dddd5ecbbb978f7bb367"
+                },
+                "time": "2021-11-24T19:22:48+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.7",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "dev-master",
@@ -4154,15 +4184,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "15a313cb9e5df5896bd1fb6c1470ab6c05fcbf0c"
+                    "reference": "ba86cf8a6de49a494bf472a88c9b7a88359250a7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/15a313cb9e5df5896bd1fb6c1470ab6c05fcbf0c",
-                    "reference": "15a313cb9e5df5896bd1fb6c1470ab6c05fcbf0c",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/ba86cf8a6de49a494bf472a88c9b7a88359250a7",
+                    "reference": "ba86cf8a6de49a494bf472a88c9b7a88359250a7",
                     "shasum": ""
                 },
-                "time": "2021-05-19T15:55:59+00:00",
+                "time": "2021-11-24T19:22:48+00:00",
                 "type": "wordpress-plugin",
                 "authors": [
                     {
@@ -4172,7 +4202,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.6",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.7",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -5665,6 +5695,42 @@
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
             },
+            "2.5.15.1": {
+                "name": "purdue/gravityforms",
+                "version": "2.5.15.1",
+                "version_normalized": "2.5.15.1",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityforms.git",
+                    "reference": "76b996c95eaae42c6493b2864d1d00b3f0e9da0f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-76b996c95eaae42c6493b2864d1d00b3f0e9da0f-zip-3fd00c.tar",
+                    "reference": "76b996c95eaae42c6493b2864d1d00b3f0e9da0f",
+                    "shasum": "0c937f9e5f344c1d5418b09aaad0b9cdc8bf3ba1"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2021-11-24T20:15:14+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.15.1",
+                    "issues": "https://github.com/Purdue/gravityforms/issues"
+                }
+            },
             "2.5.5.3": {
                 "name": "purdue/gravityforms",
                 "version": "2.5.5.3",
@@ -5777,18 +5843,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762"
+                    "reference": "76b996c95eaae42c6493b2864d1d00b3f0e9da0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/f613744e47f0f1c3c0bc5a27f6c87880cedad762",
-                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762",
+                    "url": "https://api.github.com/repos/Purdue/gravityforms/zipball/76b996c95eaae42c6493b2864d1d00b3f0e9da0f",
+                    "reference": "76b996c95eaae42c6493b2864d1d00b3f0e9da0f",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2021-09-10T14:00:56+00:00",
+                "time": "2021-11-24T20:15:14+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -5801,7 +5867,7 @@
                 ],
                 "description": "GravityForms Plugin by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.10",
+                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.15.1",
                     "issues": "https://github.com/Purdue/gravityforms/issues"
                 }
             }
@@ -7623,7 +7689,6 @@
                 },
                 "time": "2021-11-22T19:10:40+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -11820,6 +11885,42 @@
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             },
+            "3.6": {
+                "name": "purdue/wpdatatables",
+                "version": "3.6",
+                "version_normalized": "3.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wpdatatables.git",
+                    "reference": "de728fd77e5507918e682efdc3f25cee92359f95"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wpdatatables/purdue-wpdatatables-de728fd77e5507918e682efdc3f25cee92359f95-zip-9cdfae.tar",
+                    "reference": "de728fd77e5507918e682efdc3f25cee92359f95",
+                    "shasum": "5743e4e44af6437e0d5a022ea321fcb3992f5f5c"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2021-11-24T20:05:58+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "TOUCH ME SOFT D.O.O.",
+                        "homepage": "https://www.wpdatatables.com"
+                    }
+                ],
+                "description": "WP chart and table plugin",
+                "support": {
+                    "source": "https://github.com/Purdue/wpdatatables/tree/3.6",
+                    "issues": "https://github.com/Purdue/wpdatatables/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/wpdatatables",
                 "version": "dev-master",
@@ -11827,18 +11928,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/wpdatatables.git",
-                    "reference": "407af7cca80d379a9318661243d490ba8dc09b91"
+                    "reference": "de728fd77e5507918e682efdc3f25cee92359f95"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/407af7cca80d379a9318661243d490ba8dc09b91",
-                    "reference": "407af7cca80d379a9318661243d490ba8dc09b91",
+                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/de728fd77e5507918e682efdc3f25cee92359f95",
+                    "reference": "de728fd77e5507918e682efdc3f25cee92359f95",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2021-04-20T14:38:54+00:00",
+                "time": "2021-11-24T20:05:58+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv2"
@@ -11851,7 +11952,7 @@
                 ],
                 "description": "WP chart and table plugin",
                 "support": {
-                    "source": "https://github.com/Purdue/wpdatatables/tree/3.4.2",
+                    "source": "https://github.com/Purdue/wpdatatables/tree/3.6",
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             }
