@@ -36,6 +36,44 @@
                     "source": "https://github.com/Purdue/capabilities-pro/tree/2.0.1",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.3",
+                "version_normalized": "2.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "af20b8a8ff0b8fc10bf07e9491501280c479bfff"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-af20b8a8ff0b8fc10bf07e9491501280c479bfff-zip-2fc6d5.tar",
+                    "reference": "af20b8a8ff0b8fc10bf07e9491501280c479bfff",
+                    "shasum": "f2fb0e2794bd514c6a788008578d61cbac3d264b"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "~2.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "3.2.3.*",
+                    "publishpress/wordpress-reviews": "^1.1"
+                },
+                "time": "2021-11-24T21:52:42+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.3",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
             }
         ]
     }
