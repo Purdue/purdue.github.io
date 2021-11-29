@@ -59,7 +59,6 @@
                 },
                 "time": "2021-11-24T21:58:01+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -71,6 +70,43 @@
                 ],
                 "support": {
                     "source": "https://github.com/Purdue/revisionary-pro/tree/3.0.5",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-revisions-pro",
+                "version": "3.0.6",
+                "version_normalized": "3.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "c89ae87a81f360c2abffab015bee09031eb32dd2"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-c89ae87a81f360c2abffab015bee09031eb32dd2-zip-231f4f.tar",
+                    "reference": "c89ae87a81f360c2abffab015bee09031eb32dd2",
+                    "shasum": "07addfa45f7ac4d273a882c65c03f7238dd9b38b"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "^2.3",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0"
+                },
+                "time": "2021-11-29T20:43:31+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.0.6",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             }
