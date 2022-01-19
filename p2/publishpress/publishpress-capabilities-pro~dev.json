@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "af20b8a8ff0b8fc10bf07e9491501280c479bfff"
+                    "reference": "ef495152da290ad2b5f7010d99ac6dc8c69500ca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/af20b8a8ff0b8fc10bf07e9491501280c479bfff",
-                    "reference": "af20b8a8ff0b8fc10bf07e9491501280c479bfff",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/ef495152da290ad2b5f7010d99ac6dc8c69500ca",
+                    "reference": "ef495152da290ad2b5f7010d99ac6dc8c69500ca",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "pimple/pimple": "3.2.3.*",
                     "publishpress/wordpress-reviews": "^1.1"
                 },
-                "time": "2021-11-24T21:52:42+00:00",
+                "time": "2022-01-19T15:12:55+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -34,7 +34,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.3",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.3.3",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }
