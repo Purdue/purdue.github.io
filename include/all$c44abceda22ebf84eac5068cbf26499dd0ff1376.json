@@ -3485,6 +3485,52 @@
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             },
+            "3.6.8": {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "3.6.8",
+                "version_normalized": "3.6.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-b39bb0e31add7baddc832fefc827bde6c65ea6c6-zip-626c07.tar",
+                    "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6",
+                    "shasum": "fdd8a24ff420b10601ee8037c41a057f30806107"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": ">=2.3.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0",
+                    "publishpress/publishpress-permissions": ">=3.6.8"
+                },
+                "time": "2022-01-21T15:44:04+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.6.8",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-permissions-pro",
                 "version": "dev-master",
@@ -3492,21 +3538,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "af0699d03b18b98fd084cd3ea2ea924528af709c"
+                    "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/af0699d03b18b98fd084cd3ea2ea924528af709c",
-                    "reference": "af0699d03b18b98fd084cd3ea2ea924528af709c",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/b39bb0e31add7baddc832fefc827bde6c65ea6c6",
+                    "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6",
                     "shasum": ""
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
                     "php": ">=5.6.20",
                     "pimple/pimple": "~3.0",
-                    "publishpress/publishpress-permissions": ">=3.6.6"
+                    "publishpress/publishpress-permissions": ">=3.6.8"
                 },
-                "time": "2022-01-19T15:28:55+00:00",
+                "time": "2022-01-21T15:44:04+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -3526,7 +3572,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.6.7",
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.6.8",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             }
@@ -6391,6 +6437,42 @@
                     "issues": "https://github.com/Purdue/gravityformssignature/issues"
                 }
             },
+            "4.1.2": {
+                "name": "purdue/gravityformssignature",
+                "version": "4.1.2",
+                "version_normalized": "4.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformssignature.git",
+                    "reference": "ca0a15134a131b484954a6fc867a9ca3da59e45e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformssignature/purdue-gravityformssignature-ca0a15134a131b484954a6fc867a9ca3da59e45e-zip-8fe7fb.tar",
+                    "reference": "ca0a15134a131b484954a6fc867a9ca3da59e45e",
+                    "shasum": "820880f668fc3ee1c2936f0216b742bef4e229f7"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2022-01-21T15:41:41+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Signature Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.1.2",
+                    "issues": "https://github.com/Purdue/gravityformssignature/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/gravityformssignature",
                 "version": "dev-master",
@@ -6398,18 +6480,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityformssignature.git",
-                    "reference": "e83ed19d77f7f40f72ad1790f05700da90791c48"
+                    "reference": "ca0a15134a131b484954a6fc867a9ca3da59e45e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/e83ed19d77f7f40f72ad1790f05700da90791c48",
-                    "reference": "e83ed19d77f7f40f72ad1790f05700da90791c48",
+                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/ca0a15134a131b484954a6fc867a9ca3da59e45e",
+                    "reference": "ca0a15134a131b484954a6fc867a9ca3da59e45e",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2021-01-11T03:08:04+00:00",
+                "time": "2022-01-21T15:41:41+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -6422,7 +6504,7 @@
                 ],
                 "description": "GravityForms Plugin Signature Add On by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.0.1",
+                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.1.2",
                     "issues": "https://github.com/Purdue/gravityformssignature/issues"
                 }
             }
@@ -11049,7 +11131,6 @@
                 },
                 "time": "2022-01-20T20:47:39+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
