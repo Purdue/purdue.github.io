@@ -244,15 +244,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/boilerup-wp.git",
-                    "reference": "2f71119791bffeb2db4502103bd7c4555fa5a6b5"
+                    "reference": "e5eb491b05f754d817b558a4f5ac1c5802b47801"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-2f71119791bffeb2db4502103bd7c4555fa5a6b5-zip-b464dd.tar",
-                    "reference": "2f71119791bffeb2db4502103bd7c4555fa5a6b5",
-                    "shasum": "51d03e995c67486e02e9b976a20b925fc54f42f9"
+                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-e5eb491b05f754d817b558a4f5ac1c5802b47801-zip-6a558d.tar",
+                    "reference": "e5eb491b05f754d817b558a4f5ac1c5802b47801",
+                    "shasum": "dc5f006c227dd9b3d33c050c67ca58ccef1ed86b"
                 },
-                "time": "2022-02-14T18:58:23+00:00",
+                "time": "2022-02-18T20:36:27+00:00",
                 "type": "wordpress-muplugin",
                 "installation-source": "dist",
                 "license": [
