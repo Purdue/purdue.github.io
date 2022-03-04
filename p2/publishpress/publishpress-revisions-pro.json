@@ -39,6 +39,43 @@
             },
             {
                 "name": "publishpress/publishpress-revisions-pro",
+                "version": "3.0.12",
+                "version_normalized": "3.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-4c636cb51df66e69ff39fedae52879b20dd356ed-zip-0c6411.tar",
+                    "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed",
+                    "shasum": "4f8b80ebf3ad8dae240d34c28a5361a629a7635f"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "^2.3",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0"
+                },
+                "time": "2022-03-04T19:44:49+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.0.12",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-revisions-pro",
                 "version": "3.0.5",
                 "version_normalized": "3.0.5.0",
                 "source": {

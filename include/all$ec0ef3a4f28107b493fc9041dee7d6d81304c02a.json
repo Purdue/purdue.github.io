@@ -281,6 +281,44 @@
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             },
+            "2.3.4": {
+                "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.3.4",
+                "version_normalized": "2.3.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc-zip-d7bdc4.tar",
+                    "reference": "7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc",
+                    "shasum": "7da1828a6aad30965e4ef1cd72a5d6e0197334fb"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "~2.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "3.2.3.*",
+                    "publishpress/wordpress-reviews": "^1.1"
+                },
+                "time": "2022-03-04T19:37:49+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.3.4",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-capabilities-pro",
                 "version": "dev-master",
@@ -288,12 +326,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "ef495152da290ad2b5f7010d99ac6dc8c69500ca"
+                    "reference": "7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/ef495152da290ad2b5f7010d99ac6dc8c69500ca",
-                    "reference": "ef495152da290ad2b5f7010d99ac6dc8c69500ca",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc",
+                    "reference": "7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc",
                     "shasum": ""
                 },
                 "require": {
@@ -302,7 +340,7 @@
                     "pimple/pimple": "3.2.3.*",
                     "publishpress/wordpress-reviews": "^1.1"
                 },
-                "time": "2022-01-19T15:12:55+00:00",
+                "time": "2022-03-04T19:37:49+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -314,7 +352,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.3.3",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.3.4",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }
@@ -2427,7 +2465,6 @@
                 },
                 "time": "2022-02-17T20:26:11+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2471,7 +2508,6 @@
                 },
                 "time": "2022-02-17T20:27:30+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2515,7 +2551,6 @@
                 },
                 "time": "2022-02-17T20:33:19+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2559,7 +2594,6 @@
                 },
                 "time": "2022-02-17T20:33:44+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2603,7 +2637,6 @@
                 },
                 "time": "2022-02-17T21:07:45+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2647,7 +2680,6 @@
                 },
                 "time": "2022-02-18T20:22:15+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2691,7 +2723,6 @@
                 },
                 "time": "2022-02-22T22:03:54+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -4182,6 +4213,52 @@
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             },
+            "3.7.3": {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "3.7.3",
+                "version_normalized": "3.7.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "d27bec49b6f4635861ada437e96b657d483eb15e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-d27bec49b6f4635861ada437e96b657d483eb15e-zip-612b7d.tar",
+                    "reference": "d27bec49b6f4635861ada437e96b657d483eb15e",
+                    "shasum": "1f7226cd5cb1be95e656523889cd2e1ed5e58a29"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": ">=2.3.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0",
+                    "publishpress/publishpress-permissions": ">=3.7.3"
+                },
+                "time": "2022-03-04T19:42:02+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.7.3",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-permissions-pro",
                 "version": "dev-master",
@@ -4189,21 +4266,21 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6"
+                    "reference": "d27bec49b6f4635861ada437e96b657d483eb15e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/b39bb0e31add7baddc832fefc827bde6c65ea6c6",
-                    "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/d27bec49b6f4635861ada437e96b657d483eb15e",
+                    "reference": "d27bec49b6f4635861ada437e96b657d483eb15e",
                     "shasum": ""
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
                     "php": ">=5.6.20",
                     "pimple/pimple": "~3.0",
-                    "publishpress/publishpress-permissions": ">=3.6.8"
+                    "publishpress/publishpress-permissions": ">=3.7.3"
                 },
-                "time": "2022-01-21T15:44:04+00:00",
+                "time": "2022-03-04T19:42:02+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -4223,7 +4300,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.6.8",
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.7.3",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             }
@@ -4262,6 +4339,43 @@
                 ],
                 "support": {
                     "source": "https://github.com/Purdue/revisionary-pro/tree/2.5.1",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
+            },
+            "3.0.12": {
+                "name": "publishpress/publishpress-revisions-pro",
+                "version": "3.0.12",
+                "version_normalized": "3.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-4c636cb51df66e69ff39fedae52879b20dd356ed-zip-0c6411.tar",
+                    "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed",
+                    "shasum": "4f8b80ebf3ad8dae240d34c28a5361a629a7635f"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "^2.3",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0"
+                },
+                "time": "2022-03-04T19:44:49+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.0.12",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             },
@@ -4380,12 +4494,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/revisionary-pro.git",
-                    "reference": "fa9b05896cd76e64e1458be869799e6b47a6232e"
+                    "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/fa9b05896cd76e64e1458be869799e6b47a6232e",
-                    "reference": "fa9b05896cd76e64e1458be869799e6b47a6232e",
+                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/4c636cb51df66e69ff39fedae52879b20dd356ed",
+                    "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed",
                     "shasum": ""
                 },
                 "require": {
@@ -4393,7 +4507,7 @@
                     "php": ">=5.6.20",
                     "pimple/pimple": "~3.0"
                 },
-                "time": "2022-01-19T15:23:18+00:00",
+                "time": "2022-03-04T19:44:49+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -4405,7 +4519,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.0.7",
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.0.12",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             }
@@ -5500,7 +5614,6 @@
                 },
                 "time": "2022-02-18T20:36:27+00:00",
                 "type": "wordpress-muplugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -9009,7 +9122,6 @@
                 },
                 "time": "2022-02-17T21:02:05+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -9082,7 +9194,6 @@
                 },
                 "time": "2022-03-02T14:42:48+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
