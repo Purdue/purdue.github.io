@@ -1623,6 +1623,43 @@
             },
             {
                 "name": "purdue/purdue-blocks",
+                "version": "1.22.21",
+                "version_normalized": "1.22.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "fea021fcc477a2bc90daba957fdc6200beeb7319"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-fea021fcc477a2bc90daba957fdc6200beeb7319-zip-f7a7f3.tar",
+                    "reference": "fea021fcc477a2bc90daba957fdc6200beeb7319",
+                    "shasum": "9c4e95e5b53a200c80c9901f73a06bd646339851"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-03-07T18:39:31+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.22.21",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-blocks",
                 "version": "1.22.3",
                 "version_normalized": "1.22.3.0",
                 "source": {
