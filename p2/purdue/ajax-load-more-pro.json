@@ -282,6 +282,36 @@
             },
             {
                 "name": "purdue/ajax-load-more-pro",
+                "version": "1.2.10",
+                "version_normalized": "1.2.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "9226e09ce4f4d438a5d6d6a47e10a842d590b328"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-9226e09ce4f4d438a5d6d6a47e10a842d590b328-zip-129511.tar",
+                    "reference": "9226e09ce4f4d438a5d6d6a47e10a842d590b328",
+                    "shasum": "c1fee73f6318fbc2f3f5cbaa7005b48b3b39f922"
+                },
+                "time": "2022-03-07T19:19:26+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.10",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
+            {
+                "name": "purdue/ajax-load-more-pro",
                 "version": "1.2.2",
                 "version_normalized": "1.2.2.0",
                 "source": {
