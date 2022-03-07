@@ -7266,6 +7266,42 @@
                     "issues": "https://github.com/Purdue/gravityformssignature/issues"
                 }
             },
+            "4.2": {
+                "name": "purdue/gravityformssignature",
+                "version": "4.2",
+                "version_normalized": "4.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformssignature.git",
+                    "reference": "10a7564c778a0157c1dc836ac449f21b7042c441"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformssignature/purdue-gravityformssignature-10a7564c778a0157c1dc836ac449f21b7042c441-zip-77317f.tar",
+                    "reference": "10a7564c778a0157c1dc836ac449f21b7042c441",
+                    "shasum": "2f15015b45602f8f01f3cc11746cf5f022db8f49"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2022-03-07T19:02:56+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Signature Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.2",
+                    "issues": "https://github.com/Purdue/gravityformssignature/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/gravityformssignature",
                 "version": "dev-master",
@@ -7273,18 +7309,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityformssignature.git",
-                    "reference": "ca0a15134a131b484954a6fc867a9ca3da59e45e"
+                    "reference": "10a7564c778a0157c1dc836ac449f21b7042c441"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/ca0a15134a131b484954a6fc867a9ca3da59e45e",
-                    "reference": "ca0a15134a131b484954a6fc867a9ca3da59e45e",
+                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/10a7564c778a0157c1dc836ac449f21b7042c441",
+                    "reference": "10a7564c778a0157c1dc836ac449f21b7042c441",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2022-01-21T15:41:41+00:00",
+                "time": "2022-03-07T19:02:56+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -7297,7 +7333,7 @@
                 ],
                 "description": "GravityForms Plugin Signature Add On by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.1.2",
+                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.2",
                     "issues": "https://github.com/Purdue/gravityformssignature/issues"
                 }
             }
@@ -9227,7 +9263,6 @@
                 },
                 "time": "2022-03-07T18:39:31+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -13671,6 +13706,42 @@
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             },
+            "4.0.1": {
+                "name": "purdue/wpdatatables",
+                "version": "4.0.1",
+                "version_normalized": "4.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wpdatatables.git",
+                    "reference": "d4d13985b66a7868298a744310b466760bc2d9f7"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wpdatatables/purdue-wpdatatables-d4d13985b66a7868298a744310b466760bc2d9f7-zip-ae2be4.tar",
+                    "reference": "d4d13985b66a7868298a744310b466760bc2d9f7",
+                    "shasum": "cdcfbdade282f12e7e794158fbae063686d4a9bb"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2022-03-07T18:59:24+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "TOUCH ME SOFT D.O.O.",
+                        "homepage": "https://www.wpdatatables.com"
+                    }
+                ],
+                "description": "WP chart and table plugin",
+                "support": {
+                    "source": "https://github.com/Purdue/wpdatatables/tree/4.0.1",
+                    "issues": "https://github.com/Purdue/wpdatatables/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/wpdatatables",
                 "version": "dev-master",
@@ -13678,18 +13749,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/wpdatatables.git",
-                    "reference": "5c722ee4960d56a76a745cd0544fe412f5b75bfd"
+                    "reference": "d4d13985b66a7868298a744310b466760bc2d9f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/5c722ee4960d56a76a745cd0544fe412f5b75bfd",
-                    "reference": "5c722ee4960d56a76a745cd0544fe412f5b75bfd",
+                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/d4d13985b66a7868298a744310b466760bc2d9f7",
+                    "reference": "d4d13985b66a7868298a744310b466760bc2d9f7",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2021-12-22T16:04:55+00:00",
+                "time": "2022-03-07T18:59:24+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv2"
@@ -13702,7 +13773,7 @@
                 ],
                 "description": "WP chart and table plugin",
                 "support": {
-                    "source": "https://github.com/Purdue/wpdatatables/tree/3.7.1",
+                    "source": "https://github.com/Purdue/wpdatatables/tree/4.0.1",
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             }
