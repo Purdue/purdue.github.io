@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityformszapier.git",
-                    "reference": "1a5a196d1205f2c2aa8abb9cc340047c367cb002"
+                    "reference": "d61fa025d75d7c24d1605731fd3514b87f381f77"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/1a5a196d1205f2c2aa8abb9cc340047c367cb002",
-                    "reference": "1a5a196d1205f2c2aa8abb9cc340047c367cb002",
+                    "url": "https://api.github.com/repos/Purdue/gravityformszapier/zipball/d61fa025d75d7c24d1605731fd3514b87f381f77",
+                    "reference": "d61fa025d75d7c24d1605731fd3514b87f381f77",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2021-05-05T23:14:08+00:00",
+                "time": "2022-03-08T14:07:33+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -32,7 +32,7 @@
                 ],
                 "description": "GravityForms Plugin Zapier Add On by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityformszapier/tree/4.1",
+                    "source": "https://github.com/Purdue/gravityformszapier/tree/4.2",
                     "issues": "https://github.com/Purdue/gravityformszapier/issues"
                 }
             }
