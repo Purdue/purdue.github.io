@@ -6416,19 +6416,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "f4acedfcf4a05711656dc3856608598c0f69e8c4"
+                    "reference": "b427920d0ad8e0d0351babd7645ed862307c3ea5"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-f4acedfcf4a05711656dc3856608598c0f69e8c4-zip-261115.tar",
-                    "reference": "f4acedfcf4a05711656dc3856608598c0f69e8c4",
-                    "shasum": "799d67460ef3eab5bec76c57ef8b0ec08a520627"
+                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-b427920d0ad8e0d0351babd7645ed862307c3ea5-zip-95eb5a.tar",
+                    "reference": "b427920d0ad8e0d0351babd7645ed862307c3ea5",
+                    "shasum": "e866f75eff1579239d498ca4f25f5e6cbcca27c0"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-03-08T20:54:57+00:00",
+                "time": "2022-03-08T22:23:08+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -6452,18 +6453,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "f4acedfcf4a05711656dc3856608598c0f69e8c4"
+                    "reference": "b427920d0ad8e0d0351babd7645ed862307c3ea5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/f4acedfcf4a05711656dc3856608598c0f69e8c4",
-                    "reference": "f4acedfcf4a05711656dc3856608598c0f69e8c4",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/b427920d0ad8e0d0351babd7645ed862307c3ea5",
+                    "reference": "b427920d0ad8e0d0351babd7645ed862307c3ea5",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-03-08T20:54:57+00:00",
+                "time": "2022-03-08T22:23:08+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -9385,19 +9386,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "316a80502ceac6681b6d5e156a3fd8a46e4585e4"
+                    "reference": "0763ddb25864b67f4640f14c1f3e95d0b0fd2a88"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-316a80502ceac6681b6d5e156a3fd8a46e4585e4-zip-768f7f.tar",
-                    "reference": "316a80502ceac6681b6d5e156a3fd8a46e4585e4",
-                    "shasum": "6a5cc6bd157906140459fed0c2bd2f5d7527be17"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-0763ddb25864b67f4640f14c1f3e95d0b0fd2a88-zip-e580ee.tar",
+                    "reference": "0763ddb25864b67f4640f14c1f3e95d0b0fd2a88",
+                    "shasum": "a016e64cf81fa4d448780f7f2488c09b92792bc0"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-03-08T21:09:30+00:00",
+                "time": "2022-03-08T22:25:04+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -10069,18 +10071,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "316a80502ceac6681b6d5e156a3fd8a46e4585e4"
+                    "reference": "0763ddb25864b67f4640f14c1f3e95d0b0fd2a88"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/316a80502ceac6681b6d5e156a3fd8a46e4585e4",
-                    "reference": "316a80502ceac6681b6d5e156a3fd8a46e4585e4",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/0763ddb25864b67f4640f14c1f3e95d0b0fd2a88",
+                    "reference": "0763ddb25864b67f4640f14c1f3e95d0b0fd2a88",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-03-08T21:09:30+00:00",
+                "time": "2022-03-08T22:25:04+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -12350,7 +12352,6 @@
                 },
                 "time": "2022-03-08T22:09:29+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],

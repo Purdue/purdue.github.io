@@ -728,19 +728,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "f4acedfcf4a05711656dc3856608598c0f69e8c4"
+                    "reference": "b427920d0ad8e0d0351babd7645ed862307c3ea5"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-f4acedfcf4a05711656dc3856608598c0f69e8c4-zip-261115.tar",
-                    "reference": "f4acedfcf4a05711656dc3856608598c0f69e8c4",
-                    "shasum": "799d67460ef3eab5bec76c57ef8b0ec08a520627"
+                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-b427920d0ad8e0d0351babd7645ed862307c3ea5-zip-95eb5a.tar",
+                    "reference": "b427920d0ad8e0d0351babd7645ed862307c3ea5",
+                    "shasum": "e866f75eff1579239d498ca4f25f5e6cbcca27c0"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-03-08T20:54:57+00:00",
+                "time": "2022-03-08T22:23:08+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],

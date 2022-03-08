@@ -1664,19 +1664,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "316a80502ceac6681b6d5e156a3fd8a46e4585e4"
+                    "reference": "0763ddb25864b67f4640f14c1f3e95d0b0fd2a88"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-316a80502ceac6681b6d5e156a3fd8a46e4585e4-zip-768f7f.tar",
-                    "reference": "316a80502ceac6681b6d5e156a3fd8a46e4585e4",
-                    "shasum": "6a5cc6bd157906140459fed0c2bd2f5d7527be17"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-0763ddb25864b67f4640f14c1f3e95d0b0fd2a88-zip-e580ee.tar",
+                    "reference": "0763ddb25864b67f4640f14c1f3e95d0b0fd2a88",
+                    "shasum": "a016e64cf81fa4d448780f7f2488c09b92792bc0"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-03-08T21:09:30+00:00",
+                "time": "2022-03-08T22:25:04+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
