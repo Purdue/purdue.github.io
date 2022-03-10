@@ -1,5 +1,58 @@
 {
     "packages": {
+        "casted/casted": {
+            "1.0.0": {
+                "name": "casted/casted",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/casted.git",
+                    "reference": "0b7a6eb126d4c230886174e4518c663a9a3f1ef6"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/casted/casted/casted-casted-0b7a6eb126d4c230886174e4518c663a9a3f1ef6-zip-fec361.tar",
+                    "reference": "0b7a6eb126d4c230886174e4518c663a9a3f1ef6",
+                    "shasum": "cb42de4899679fec205b605dde86ef63b21b8bbd"
+                },
+                "require": {
+                    "vlucas/phpdotenv": "*"
+                },
+                "time": "2022-03-10T19:00:20+00:00",
+                "type": "library",
+                "installation-source": "dist",
+                "support": {
+                    "source": "https://github.com/Purdue/casted/tree/1.0.0",
+                    "issues": "https://github.com/Purdue/casted/issues"
+                }
+            },
+            "dev-master": {
+                "name": "casted/casted",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/casted.git",
+                    "reference": "0b7a6eb126d4c230886174e4518c663a9a3f1ef6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/casted/zipball/0b7a6eb126d4c230886174e4518c663a9a3f1ef6",
+                    "reference": "0b7a6eb126d4c230886174e4518c663a9a3f1ef6",
+                    "shasum": ""
+                },
+                "require": {
+                    "vlucas/phpdotenv": "*"
+                },
+                "time": "2022-03-10T19:00:20+00:00",
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/Purdue/casted/tree/1.0.0",
+                    "issues": "https://github.com/Purdue/casted/issues"
+                }
+            }
+        },
         "cedaro/gravity-forms-iframe": {
             "v2.0.0": {
                 "name": "cedaro/gravity-forms-iframe",
