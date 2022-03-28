@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$591a255483743a47300b74e86c4b71f53ad51fd0.json": {
-            "sha1": "591a255483743a47300b74e86c4b71f53ad51fd0"
+        "include/all$84d805081b0966783c7fbb01410d526d4db5115f.json": {
+            "sha1": "84d805081b0966783c7fbb01410d526d4db5115f"
         }
     },
     "metadata-url": "/p2/%package%.json",
@@ -22,6 +22,7 @@
         "purdue/gravityformssignature",
         "purdue/gravityformswebhooks",
         "purdue/gravityformszapier",
+        "purdue/hhs-blocks",
         "purdue/purdue-blocks",
         "purdue/purdue-cpt",
         "purdue/purdue-landingpages",

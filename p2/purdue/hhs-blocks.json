@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "purdue/hhs-blocks": [
+            {
+                "name": "purdue/hhs-blocks",
+                "version": "1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/hhs-blocks.git",
+                    "reference": "5593e653bdebb8569c875c8c0706d4bbc55d87cb"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/hhs-blocks/purdue-hhs-blocks-5593e653bdebb8569c875c8c0706d4bbc55d87cb-zip-d57f7a.tar",
+                    "reference": "5593e653bdebb8569c875c8c0706d4bbc55d87cb",
+                    "shasum": "cdd82d4e29d6ceb66be7e08caa88b66e8c027302"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-03-28T13:52:17+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/hhs-blocks/tree/1.1.0",
+                    "issues": "https://github.com/Purdue/hhs-blocks/issues"
+                }
+            }
+        ]
+    }
+}
