@@ -2109,7 +2109,6 @@
                 },
                 "time": "2022-04-01T15:24:14+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -2123,6 +2122,43 @@
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-blocks/tree/1.23.0",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-blocks",
+                "version": "1.23.1",
+                "version_normalized": "1.23.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "c39a88325befb1adc7a6e9a7ad7c9933076a6661"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-c39a88325befb1adc7a6e9a7ad7c9933076a6661-zip-10a2ca.tar",
+                    "reference": "c39a88325befb1adc7a6e9a7ad7c9933076a6661",
+                    "shasum": "b557c9e2bb0bee4e8af3ba7a01515231a869d28f"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-04-01T18:07:10+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.23.1",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
