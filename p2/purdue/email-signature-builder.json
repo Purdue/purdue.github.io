@@ -36,6 +36,43 @@
                     "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.1",
                     "issues": "https://github.com/Purdue/email-signature-builder/issues"
                 }
+            },
+            {
+                "name": "purdue/email-signature-builder",
+                "version": "0.2.3",
+                "version_normalized": "0.2.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/email-signature-builder.git",
+                    "reference": "946092dc7eb73bb715c2f9255fee07e1fe5e28ce"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/email-signature-builder/purdue-email-signature-builder-946092dc7eb73bb715c2f9255fee07e1fe5e28ce-zip-5918af.tar",
+                    "reference": "946092dc7eb73bb715c2f9255fee07e1fe5e28ce",
+                    "shasum": "3e482a1e44fc1a33a65a0d09667456efa20c65b7"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-04-12T14:22:19+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Plugin to build email signatures",
+                "support": {
+                    "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.3",
+                    "issues": "https://github.com/Purdue/email-signature-builder/issues"
+                }
             }
         ]
     }
