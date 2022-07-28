@@ -273,6 +273,52 @@
             },
             {
                 "name": "publishpress/publishpress-permissions-pro",
+                "version": "3.7.10",
+                "version_normalized": "3.7.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-404985138e8aa4ad2d9d824ec7d64a0dd058829b-zip-c6fbf0.tar",
+                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b",
+                    "shasum": "6ebf1c65bb02e4f24490d3fbee8100121326291a"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": ">=2.3.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0",
+                    "publishpress/publishpress-permissions": ">=3.7.10"
+                },
+                "time": "2022-07-28T20:15:37+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.7.10",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions-pro",
                 "version": "3.7.3",
                 "version_normalized": "3.7.3.0",
                 "source": {
