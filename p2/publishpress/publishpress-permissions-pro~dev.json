@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b"
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/404985138e8aa4ad2d9d824ec7d64a0dd058829b",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "pimple/pimple": "~3.0",
                     "publishpress/publishpress-permissions": ">=3.7.10"
                 },
-                "time": "2022-07-28T20:15:37+00:00",
+                "time": "2022-08-01T16:18:02+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"

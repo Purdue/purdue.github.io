@@ -278,13 +278,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b"
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-404985138e8aa4ad2d9d824ec7d64a0dd058829b-zip-c6fbf0.tar",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b",
-                    "shasum": "6ebf1c65bb02e4f24490d3fbee8100121326291a"
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-de3cd9822d6c5604d3bd7d5c0805154cbab21a1d-zip-4dd0cb.tar",
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
+                    "shasum": "f45cab70d96ff2ebbb95ece80a63d9ba0cfdb510"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -292,8 +292,9 @@
                     "pimple/pimple": "~3.0",
                     "publishpress/publishpress-permissions": ">=3.7.10"
                 },
-                "time": "2022-07-28T20:15:37+00:00",
+                "time": "2022-08-01T16:18:02+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],

@@ -341,7 +341,6 @@
                 },
                 "time": "2022-07-29T20:35:35+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -5160,13 +5159,13 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b"
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-404985138e8aa4ad2d9d824ec7d64a0dd058829b-zip-c6fbf0.tar",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b",
-                    "shasum": "6ebf1c65bb02e4f24490d3fbee8100121326291a"
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-de3cd9822d6c5604d3bd7d5c0805154cbab21a1d-zip-4dd0cb.tar",
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
+                    "shasum": "f45cab70d96ff2ebbb95ece80a63d9ba0cfdb510"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -5174,8 +5173,9 @@
                     "pimple/pimple": "~3.0",
                     "publishpress/publishpress-permissions": ">=3.7.10"
                 },
-                "time": "2022-07-28T20:15:37+00:00",
+                "time": "2022-08-01T16:18:02+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -5250,12 +5250,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b"
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/404985138e8aa4ad2d9d824ec7d64a0dd058829b",
-                    "reference": "404985138e8aa4ad2d9d824ec7d64a0dd058829b",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
+                    "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
                     "shasum": ""
                 },
                 "require": {
@@ -5264,7 +5264,7 @@
                     "pimple/pimple": "~3.0",
                     "publishpress/publishpress-permissions": ">=3.7.10"
                 },
-                "time": "2022-07-28T20:15:37+00:00",
+                "time": "2022-08-01T16:18:02+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -17500,6 +17500,102 @@
                     "issues": "https://github.com/roots/soil/issues",
                     "forum": "https://discourse.roots.io/",
                     "source": "https://github.com/roots/soil/tree/4.0.5"
+                },
+                "funding": [
+                    {
+                        "type": "patreon",
+                        "url": "https://www.patreon.com/rootsdev"
+                    },
+                    {
+                        "type": "custom",
+                        "url": "https://roots.io/plugins/soil/"
+                    }
+                ]
+            },
+            "4.1.0": {
+                "name": "roots/soil",
+                "version": "4.1.0",
+                "version_normalized": "4.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/roots/soil.git",
+                    "reference": "99499faf19a272f6aae3dd145b5a90d8f9a49d3e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/roots/soil/roots-soil-99499faf19a272f6aae3dd145b5a90d8f9a49d3e-zip-6fe4d7.tar",
+                    "reference": "99499faf19a272f6aae3dd145b5a90d8f9a49d3e",
+                    "shasum": "9f793e0c4837fa7945bdaf2cbf0e00c9d6feb367"
+                },
+                "require": {
+                    "php": ">=5.6.0"
+                },
+                "require-dev": {
+                    "brain/monkey": "^2.5",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                    "mockery/mockery": "^1.3 | ^1.4",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpunit/phpunit": "<= 9.3",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2022-08-01T14:57:35+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "Roots\\Soil\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Roots\\Soil\\Tests\\": "tests/",
+                        "Roots\\Soil\\Tests\\Fixtures\\Modules\\": "tests/__fixtures__/modules/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "phpunit"
+                    ],
+                    "lint": [
+                        "phpcs"
+                    ],
+                    "lint:fix": [
+                        "phpcbf"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ben Word",
+                        "email": "ben@benword.com",
+                        "homepage": "https://github.com/retlehs"
+                    },
+                    {
+                        "name": "Scott Walkinshaw",
+                        "email": "scott.walkinshaw@gmail.com",
+                        "homepage": "https://github.com/swalkinshaw"
+                    },
+                    {
+                        "name": "QWp6t",
+                        "email": "craig@roots.io",
+                        "homepage": "https://github.com/qwp6t"
+                    }
+                ],
+                "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
+                "homepage": "https://roots.io/plugins/soil/",
+                "keywords": [
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/roots/soil/issues",
+                    "forum": "https://discourse.roots.io/",
+                    "source": "https://github.com/roots/soil/tree/4.1.0"
                 },
                 "funding": [
                     {
