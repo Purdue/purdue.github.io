@@ -11380,7 +11380,6 @@
                 },
                 "time": "2022-08-10T14:45:25+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -11394,6 +11393,43 @@
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.0",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "1.24.1": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.24.1",
+                "version_normalized": "1.24.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-e94ee88ee139604f8d21e5b1cbd994a955e53699-zip-98df1c.tar",
+                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699",
+                    "shasum": "a45bc5cea8088d33097f4966ccba340481afab9e"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-08-10T20:51:58+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.1",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
@@ -11800,18 +11836,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "ce388626db3046a807e74e804e6affc99447982a"
+                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/ce388626db3046a807e74e804e6affc99447982a",
-                    "reference": "ce388626db3046a807e74e804e6affc99447982a",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/e94ee88ee139604f8d21e5b1cbd994a955e53699",
+                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-08-10T14:45:25+00:00",
+                "time": "2022-08-10T20:51:58+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -11825,7 +11861,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.0",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.1",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
@@ -14456,7 +14492,6 @@
                 },
                 "time": "2022-08-08T15:25:56+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -14495,7 +14530,6 @@
                 },
                 "time": "2022-08-10T13:54:52+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -17879,7 +17913,6 @@
                 },
                 "time": "2022-08-01T17:32:31+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "Roots\\Soil\\": "src/"
