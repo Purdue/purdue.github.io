@@ -11403,18 +11403,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699"
+                    "reference": "5f3b1cd16eedaa7478652487c5044915661a474b"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-e94ee88ee139604f8d21e5b1cbd994a955e53699-zip-98df1c.tar",
-                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699",
-                    "shasum": "a45bc5cea8088d33097f4966ccba340481afab9e"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-5f3b1cd16eedaa7478652487c5044915661a474b-zip-a46e0e.tar",
+                    "reference": "5f3b1cd16eedaa7478652487c5044915661a474b",
+                    "shasum": "0d2828f5fc950ff098670fe8ef721c5c02120db6"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-08-10T20:51:58+00:00",
+                "time": "2022-08-11T13:43:16+00:00",
                 "type": "wordpress-plugin",
                 "installation-source": "dist",
                 "license": [
@@ -11836,18 +11836,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699"
+                    "reference": "5f3b1cd16eedaa7478652487c5044915661a474b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/e94ee88ee139604f8d21e5b1cbd994a955e53699",
-                    "reference": "e94ee88ee139604f8d21e5b1cbd994a955e53699",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/5f3b1cd16eedaa7478652487c5044915661a474b",
+                    "reference": "5f3b1cd16eedaa7478652487c5044915661a474b",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-08-10T20:51:58+00:00",
+                "time": "2022-08-11T13:43:16+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
