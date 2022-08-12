@@ -11416,7 +11416,6 @@
                 },
                 "time": "2022-08-11T13:43:16+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -14546,6 +14545,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.6.25": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.6.25",
+                "version_normalized": "1.6.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "17de4509c6467ff0d04dc297b9c06d10a1347023"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-17de4509c6467ff0d04dc297b9c06d10a1347023-zip-3388bd.tar",
+                    "reference": "17de4509c6467ff0d04dc297b9c06d10a1347023",
+                    "shasum": "34a2ee0ad5a44a5051032d1cf81066b62ee4aee2"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2022-08-12T13:53:00+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.25",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "1.6.3": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "1.6.3",
@@ -14819,12 +14857,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "ef859de6ed6e2732cb2e485ce3574a41119a30e4"
+                    "reference": "17de4509c6467ff0d04dc297b9c06d10a1347023"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/ef859de6ed6e2732cb2e485ce3574a41119a30e4",
-                    "reference": "ef859de6ed6e2732cb2e485ce3574a41119a30e4",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/17de4509c6467ff0d04dc297b9c06d10a1347023",
+                    "reference": "17de4509c6467ff0d04dc297b9c06d10a1347023",
                     "shasum": ""
                 },
                 "require": {
@@ -14832,7 +14870,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2022-08-10T13:54:52+00:00",
+                "time": "2022-08-12T13:53:00+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -14846,7 +14884,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.24",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.25",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
