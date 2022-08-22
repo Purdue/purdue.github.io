@@ -5,214 +5,262 @@
   "repositories": [
     { "type": "vcs", "url": "git@github.com:roots/soil/" },
     { "type": "vcs", "url": "git@github.com:cedaro/gravity-forms-iframe/" },
-    { "type": "vcs", "url": "git@github.com:publishpress/PublishPress-Permissions/" },
-    { "type": "vcs", "url": "git@github.com:Purdue/ajax-load-more-pro",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-    { "type": "vcs", "url": "git@github.com:Purdue/advanced-custom-fields-pro",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-     { "type": "vcs", "url": "git@github.com:Purdue/bulma-blocks/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-     { "type": "vcs", "url": "git@github.com:Purdue/email-signature-builder/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-    { "type": "vcs", "url": "git@github.com:Purdue/gravityforms/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-    { "type": "vcs", "url": "git@github.com:Purdue/gravityformswebhooks/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:publishpress/PublishPress-Permissions/"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/ajax-load-more-pro",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
       }
-     },
-    { "type": "vcs", "url": "git@github.com:Purdue/gravityformsdebug/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-    { "type": "vcs", "url": "git@github.com:Purdue/gravityformszapier/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     }
-     ,
-    { "type": "vcs", "url": "git@github.com:Purdue/gravityformssignature/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-     { "type": "vcs", "url": "git@github.com:Purdue/purdue-blocks/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-     { "type": "vcs", "url": "git@github.com:Purdue/purdue-cpt/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-     { "type": "vcs", "url": "git@github.com:Purdue/purdue-landingpages/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-    { "type": "vcs", "url": "git@github.com:Purdue/boilerup-wp/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
-     },
-     { "type": "vcs", "url": "git@github.com:Purdue/purdue-wp-theme/",
-      "options":  {
-        "ssh2": {
-          "username": "git",
-          "pubkey_file": "~/.ssh/id_ed25519.pub",
-          "privkey_file": "~/.ssh/id_ed25519"
-        }
-      } 
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/hhs-blocks/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/advanced-custom-fields-pro",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/purduetheme/",
-     "options":  {
-       "ssh2": {
-         "username": "git",
-         "pubkey_file": "~/.ssh/id_ed25519.pub",
-         "privkey_file": "~/.ssh/id_ed25519"
-       }
-     } 
-    },
-    { "type": "vcs", "url": "git@github.com:Purdue/user-role-editor-pro/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/bulma-blocks/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/wp-file-download/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/email-signature-builder/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/wp-file-download-addon/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/gravityforms/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/wpdatatables/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/gravityformswebhooks/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/presspermit-pro/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/gravityformsdebug/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/capabilities-pro/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/gravityformszapier/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
     },
-    { "type": "vcs", "url": "git@github.com:Purdue/revisionary-pro/",
-      "options":  {
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/gravityformssignature/",
+      "options": {
         "ssh2": {
           "username": "git",
           "pubkey_file": "~/.ssh/id_ed25519.pub",
           "privkey_file": "~/.ssh/id_ed25519"
         }
-      } 
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/purdue-blocks/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/purdue-cpt/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/purdue-landingpages/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/boilerup-wp/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/purdue-wp-theme/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/hhs-blocks/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/purduetheme/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/user-role-editor-pro/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/wp-file-download/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/wp-file-download-addon/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/wpdatatables/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/presspermit-pro/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/capabilities-pro/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:Purdue/revisionary-pro/",
+      "options": {
+        "ssh2": {
+          "username": "git",
+          "pubkey_file": "~/.ssh/id_ed25519.pub",
+          "privkey_file": "~/.ssh/id_ed25519"
+        }
+      }
     }
   ],
   "require-all": false,
