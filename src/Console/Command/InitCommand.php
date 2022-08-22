@@ -25,7 +25,7 @@ use Symfony\Component\Console\Question\Question;
 
 class InitCommand extends BaseCommand
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setName('init')
@@ -35,12 +35,12 @@ class InitCommand extends BaseCommand
                 new InputOption('name', null, InputOption::VALUE_REQUIRED, 'Repository name'),
                 new InputOption('homepage', null, InputOption::VALUE_REQUIRED, 'Home page'),
             ])
-            ->setHelp(<<<'EOT'
-The <info>init</info> generates configuration file (satis.json is used by default).
-You will need to run <comment>build</comment> command to build repository.
-EOT
-            )
-        ;
+            ->setHelp(
+                <<<'EOT'
+                The <info>init</info> generates configuration file (satis.json is used by default).
+                You will need to run <comment>build</comment> command to build repository.
+                EOT
+            );
     }
 
     protected function initialize(InputInterface $input, OutputInterface $output): void
@@ -125,7 +125,7 @@ EOT
         });
     }
 
-    protected function prompt(InputInterface $input, OutputInterface $output, string $prompt, string $optionName, callable $validator)
+    protected function prompt(InputInterface $input, OutputInterface $output, string $prompt, string $optionName, callable $validator): void
     {
         /** @var QuestionHelper $helper */
         $helper = $this->getHelper('question');
@@ -138,7 +138,7 @@ EOT
 
     protected function getQuestion(string $prompt, ?string $default): Question
     {
-        $prompt = ($default ? sprintf('%s (%s)', $prompt, null === $default ? 'null' : $default) : $prompt) . ': ';
+        $prompt = ($default && '' !== $default ? sprintf('%s (%s)', $prompt, $default) : $prompt) . ': ';
 
         return new Question($prompt, $default);
     }

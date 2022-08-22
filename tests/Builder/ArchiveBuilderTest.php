@@ -16,8 +16,11 @@ namespace Composer\Satis\Builder;
 use Composer\Composer;
 use Composer\Config;
 use Composer\Config\JsonConfigSource;
+use Composer\Downloader\DownloadManager;
 use Composer\Json\JsonFile;
+use Composer\Package\Archiver\ArchiveManager;
 use Composer\Package\CompletePackage;
+use Composer\Package\CompletePackageInterface;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Filesystem\Filesystem;
@@ -64,7 +67,7 @@ class ArchiveBuilderTest extends TestCase
         $composerConfig->setConfigSource(new JsonConfigSource(new JsonFile($this->home . '/.config/composer/config.json')));
         $composerConfig->setAuthConfigSource(new JsonConfigSource(new JsonFile($this->home . '/.config/composer/auth.json')));
 
-        $downloadManager = $this->getMockBuilder('Composer\Downloader\DownloadManager')->disableOriginalConstructor()->getMock();
+        $downloadManager = $this->getMockBuilder(DownloadManager::class)->disableOriginalConstructor()->getMock();
         $downloadManager->method('download')->will(
             $this->returnCallback(
                 function ($package, $source) {
@@ -74,9 +77,24 @@ class ArchiveBuilderTest extends TestCase
             )
         );
 
+        $archiveManager = new class() extends ArchiveManager {
+            public function __construct()
+            {
+            }
+
+            public function archive(CompletePackageInterface $package, $format, $targetDir, $fileName = null, $ignoreFilters = false)
+            {
+                $target = $targetDir.'/'.$this->getPackageFilename($package).'.'.$format;
+                touch($target);
+
+                return $target;
+            }
+        };
+
         $this->composer = new Composer();
         $this->composer->setConfig($composerConfig);
         $this->composer->setDownloadManager($downloadManager);
+        $this->composer->setArchiveManager($archiveManager);
 
         $this->input = $this->getMockBuilder('Symfony\Component\Console\Input\InputInterface')->disableOriginalConstructor()->getMock();
         $this->input->method('getOption')->with('stats')->willReturn($this->returnValue(false));

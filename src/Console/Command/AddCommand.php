@@ -18,6 +18,7 @@ use Composer\Factory;
 use Composer\IO\NullIO;
 use Composer\Json\JsonFile;
 use Composer\Repository\VcsRepository;
+use Composer\Util\HttpDownloader;
 use Symfony\Component\Console\Helper\FormatterHelper;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -26,7 +27,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class AddCommand extends BaseCommand
 {
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setName('add')
@@ -37,13 +38,13 @@ class AddCommand extends BaseCommand
                 new InputOption('type', null, InputOption::VALUE_OPTIONAL, 'VCS driver (see https://getcomposer.org/doc/05-repositories.md#git-alternatives)', 'vcs'),
                 new InputOption('name', null, InputOption::VALUE_OPTIONAL, 'The name of the repository, will be added to satis.json', null),
             ])
-            ->setHelp(<<<'EOT'
-The <info>add</info> command adds given repository URL to the json file
-(satis.json is used by default). You will need to run <comment>build</comment> command to
-fetch updates from repository.
-EOT
-            )
-        ;
+            ->setHelp(
+                <<<'EOT'
+                The <info>add</info> command adds given repository URL to the json file
+                (satis.json is used by default). You will need to run <comment>build</comment> command to
+                fetch updates from repository.
+                EOT
+            );
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -118,7 +119,8 @@ EOT
         $io = new NullIO();
         $config = Factory::createConfig();
         $io->loadConfiguration($config);
-        $repository = new VcsRepository(['url' => $repositoryUrl, 'type' => $type], $io, $config);
+        $downloader = new HttpDownloader($io, $config);
+        $repository = new VcsRepository(['url' => $repositoryUrl, 'type' => $type], $io, $config, $downloader);
 
         if (!($driver = $repository->getDriver())) {
             return false;

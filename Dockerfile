@@ -1,4 +1,4 @@
-FROM composer:1 AS build
+FROM composer:latest AS build
 
 WORKDIR /satis
 
@@ -16,21 +16,27 @@ RUN set -eux ; \
     --no-suggest \
     --classmap-authoritative
 
-FROM php:7-cli-alpine
+FROM php:8-cli-alpine
+
+COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 
 RUN set -eux ; \
+  apk upgrade --no-cache ; \
   apk add --no-cache --upgrade \
     bash \
     curl \
     git \
-    libzip-dev \
     mercurial \
     openssh \
     openssl \
+    p7zip \
     subversion \
     unzip \
     zip ; \
-  docker-php-ext-install zip
+  install-php-extensions \
+    bz2 \
+    sockets \
+    zip
 
 ENV COMPOSER_HOME /composer
 

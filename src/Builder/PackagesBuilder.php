@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Composer\Satis\Builder;
 
 use Composer\Json\JsonFile;
+use Composer\MetadataMinifier\MetadataMinifier;
 use Composer\Package\Dumper\ArrayDumper;
 use Composer\Package\PackageInterface;
 use Composer\Semver\VersionParser;
@@ -27,13 +28,16 @@ class PackagesBuilder extends Builder
     private $includeFileName;
     /** @var array */
     private $writtenIncludeJsons = [];
+    /** @var bool */
+    private $minify;
 
-    public function __construct(OutputInterface $output, string $outputDir, array $config, bool $skipErrors)
+    public function __construct(OutputInterface $output, string $outputDir, array $config, bool $skipErrors, bool $minify = false)
     {
         parent::__construct($output, $outputDir, $config, $skipErrors);
 
         $this->filename = $this->outputDir . '/packages.json';
         $this->includeFileName = $config['include-filename'] ?? 'include/all$%hash%.json';
+        $this->minify = $minify;
     }
 
     /**
@@ -106,13 +110,13 @@ class PackagesBuilder extends Builder
 
             // Stable versions
             $this->dumpPackageIncludeJson(
-                [$packageName => $stableVersions],
+                [$packageName => $this->minify ? MetadataMinifier::minify($stableVersions) : $stableVersions],
                 str_replace('%package%', $packageName, $metadataUrl)
             );
 
             // Dev versions
             $this->dumpPackageIncludeJson(
-                [$packageName => $devVersions],
+                [$packageName => $this->minify ? MetadataMinifier::minify($devVersions) : $devVersions],
                 str_replace('%package%', $packageName.'~dev', $metadataUrl)
             );
         }

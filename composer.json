@@ -1,55 +1,82 @@
 {
     "name": "composer/satis",
     "description": "Simple Repository Generator",
-    "keywords": ["package", "repository", "generator", "static", "composer"],
+    "keywords": [
+        "package",
+        "repository",
+        "generator",
+        "static",
+        "composer"
+    ],
     "homepage": "https://github.com/composer/satis",
     "type": "project",
     "license": "MIT",
-    "authors": [{
-        "name": "Jordi Boggiano",
-        "email": "j.boggiano@seld.be",
-        "homepage": "https://seld.be"
-    }, {
-        "name": "Nils Adermann",
-        "email": "naderman@naderman.de",
-        "homepage": "http://www.naderman.de"
-    }, {
-        "name": "Rob Bast",
-        "email": "rob.bast@gmail.com",
-        "homepage": "https://robbast.nl"
-    }],
+    "authors": [
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "https://seld.be"
+        },
+        {
+            "name": "Nils Adermann",
+            "email": "naderman@naderman.de",
+            "homepage": "https://www.naderman.de"
+        },
+        {
+            "name": "Rob Bast",
+            "email": "rob.bast@gmail.com",
+            "homepage": "https://robbast.nl"
+        }
+    ],
     "support": {
         "issues": "https://github.com/composer/satis",
         "source": "https://github.com/composer/satis",
         "forum": "https://gitter.com/composer/satis",
         "irc": "irc://freenode.net/composer"
     },
-    "bin": ["bin/satis"],
+    "bin": [
+        "bin/satis"
+    ],
+    "replace": {
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php73": "*"
+    },
     "require": {
-        "php": "^7.3||^8.0",
-        "composer/composer": "^1.10",
+        "php": "^7.4||^8.0",
+        "composer/composer": "^2.2.12, < 2.3",
         "symfony/console": "^4.4||^5.0",
-        "twig/twig": "^2.12||^3.0",
-        "twig/html-extra": "^3.2"
+        "twig/twig": "^3.3",
+        "twig/html-extra": "^3.3"
     },
     "autoload": {
-        "psr-4": { "Composer\\Satis\\": "src" }
+        "psr-4": {
+            "Composer\\Satis\\": "src"
+        }
     },
     "require-dev": {
         "ext-json": "*",
-        "friendsofphp/php-cs-fixer": "^2.15",
-        "mikey179/vfsstream": "^1.6.7",
-        "phpunit/phpunit": "^9.3"
+        "mikey179/vfsstream": "^1.6.8",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload-dev": {
-        "psr-4": { "Composer\\Satis\\": "tests" }
+        "psr-4": {
+            "Composer\\Satis\\": "tests"
+        }
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "2.0-dev"
+            "dev-main": "3.0-dev"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.28"
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit",
+        "phpstan": "tools/phpstan/vendor/bin/phpstan",
+        "php-cs-fixer": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix --dry-run --diff",
+        "php-cs-fixer-fix": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix"
     }
 }
