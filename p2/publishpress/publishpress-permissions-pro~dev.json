@@ -4,7 +4,7 @@
             {
                 "name": "publishpress/publishpress-permissions-pro",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
@@ -23,6 +23,7 @@
                     "publishpress/publishpress-permissions": ">=3.7.10"
                 },
                 "time": "2022-08-01T16:18:02+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"

@@ -4,7 +4,7 @@
             {
                 "name": "publishpress/publishpress-capabilities-pro",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
@@ -23,6 +23,7 @@
                     "publishpress/wordpress-reviews": "^1.1"
                 },
                 "time": "2022-07-29T20:35:35+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"

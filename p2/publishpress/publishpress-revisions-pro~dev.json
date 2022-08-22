@@ -4,7 +4,7 @@
             {
                 "name": "publishpress/publishpress-revisions-pro",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/revisionary-pro.git",
@@ -24,6 +24,7 @@
                     "publishpress/wordpress-reviews": "^1.1"
                 },
                 "time": "2022-07-28T20:17:49+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"

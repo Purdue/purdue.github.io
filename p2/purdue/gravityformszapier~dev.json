@@ -4,7 +4,7 @@
             {
                 "name": "purdue/gravityformszapier",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityformszapier.git",
@@ -20,6 +20,7 @@
                     "php": ">=5.6"
                 },
                 "time": "2022-03-08T14:07:33+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
