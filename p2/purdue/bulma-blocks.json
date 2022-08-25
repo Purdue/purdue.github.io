@@ -435,6 +435,43 @@
             },
             {
                 "name": "purdue/bulma-blocks",
+                "version": "1.4.10",
+                "version_normalized": "1.4.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "8e1a21a79efbe1f22c3cefdc1f9a6aa62942b766"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-8e1a21a79efbe1f22c3cefdc1f9a6aa62942b766-zip-aa7eef.tar",
+                    "reference": "8e1a21a79efbe1f22c3cefdc1f9a6aa62942b766",
+                    "shasum": "e14682720412ed2f9002274551d430534aa6a848"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-08-25T20:02:37+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.10",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/bulma-blocks",
                 "version": "1.4.2",
                 "version_normalized": "1.4.2.0",
                 "source": {
