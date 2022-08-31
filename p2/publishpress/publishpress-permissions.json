@@ -2433,6 +2433,50 @@
             },
             {
                 "name": "publishpress/publishpress-permissions",
+                "version": "v3.7.12",
+                "version_normalized": "3.7.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "105f40923ace4bb349d0c36bd8dfbeabbc561e2a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-105f40923ace4bb349d0c36bd8dfbeabbc561e2a-zip-07c7ea.tar",
+                    "reference": "105f40923ace4bb349d0c36bd8dfbeabbc561e2a",
+                    "shasum": "80dba5c2e645b93071eca489dd42c75f5b54cbeb"
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-08-30T16:41:34+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.7.12",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
                 "version": "v3.7.2",
                 "version_normalized": "3.7.2.0",
                 "source": {
