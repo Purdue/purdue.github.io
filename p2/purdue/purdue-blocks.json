@@ -2379,6 +2379,43 @@
             },
             {
                 "name": "purdue/purdue-blocks",
+                "version": "1.24.10",
+                "version_normalized": "1.24.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "ec631a450fba4c8bce123abe7fd0e5254be2c451"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-ec631a450fba4c8bce123abe7fd0e5254be2c451-zip-605cac.tar",
+                    "reference": "ec631a450fba4c8bce123abe7fd0e5254be2c451",
+                    "shasum": "09395f0eac98e1772ff156778cbed37d5ecb5501"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-09-06T12:49:00+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.10",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-blocks",
                 "version": "1.24.2",
                 "version_normalized": "1.24.2.0",
                 "source": {
@@ -2649,7 +2686,6 @@
                 },
                 "time": "2022-09-01T20:46:10+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
