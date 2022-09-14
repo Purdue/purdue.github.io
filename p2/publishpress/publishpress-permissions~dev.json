@@ -8,19 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "e83d36e321167b97a9d24e636430131d12f4e9f6"
+                    "reference": "bf986acada9011cf2d223dcc54f372b563db334a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/e83d36e321167b97a9d24e636430131d12f4e9f6",
-                    "reference": "e83d36e321167b97a9d24e636430131d12f4e9f6",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/bf986acada9011cf2d223dcc54f372b563db334a",
+                    "reference": "bf986acada9011cf2d223dcc54f372b563db334a",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6.20",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-08-30T18:19:52+00:00",
+                "time": "2022-09-08T15:56:37+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -1159,6 +1159,49 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-715-revisions-category-permissions-fail",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-719-apply-term-manage-restrictions-to-listing",
+                "version_normalized": "dev-hotfix-719-apply-term-manage-restrictions-to-listing",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "c798e56d84cf6f0314e2faf91059a46824ab7125"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/c798e56d84cf6f0314e2faf91059a46824ab7125",
+                    "reference": "c798e56d84cf6f0314e2faf91059a46824ab7125",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-09-08T15:56:04+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-719-apply-term-manage-restrictions-to-listing",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
