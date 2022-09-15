@@ -11991,7 +11991,6 @@
                 },
                 "time": "2022-09-14T19:44:12+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -15749,6 +15748,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.6.32": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.6.32",
+                "version_normalized": "1.6.32.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "27e46c45479dff4ec67adc708b468c874972c8ec"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-27e46c45479dff4ec67adc708b468c874972c8ec-zip-ab2cc0.tar",
+                    "reference": "27e46c45479dff4ec67adc708b468c874972c8ec",
+                    "shasum": "9ee0c82aabd03547e9a15759b34e000f4f01bc37"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2022-09-15T18:52:02+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.32",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "1.6.4": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "1.6.4",
@@ -15984,12 +16022,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "bcf713476eb342bf1973289ceb379a8925cd17ab"
+                    "reference": "27e46c45479dff4ec67adc708b468c874972c8ec"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/bcf713476eb342bf1973289ceb379a8925cd17ab",
-                    "reference": "bcf713476eb342bf1973289ceb379a8925cd17ab",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/27e46c45479dff4ec67adc708b468c874972c8ec",
+                    "reference": "27e46c45479dff4ec67adc708b468c874972c8ec",
                     "shasum": ""
                 },
                 "require": {
@@ -15997,7 +16035,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2022-09-14T18:43:34+00:00",
+                "time": "2022-09-15T18:52:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -16012,7 +16050,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.31",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.32",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
