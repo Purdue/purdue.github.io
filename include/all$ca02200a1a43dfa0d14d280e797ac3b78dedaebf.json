@@ -3177,12 +3177,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "357977d39665b62541dceacf1691ccedc82a0412"
+                    "reference": "234f33f7ed6e1a370f59b2405855f6663bda97b4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/357977d39665b62541dceacf1691ccedc82a0412",
-                    "reference": "357977d39665b62541dceacf1691ccedc82a0412",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/234f33f7ed6e1a370f59b2405855f6663bda97b4",
+                    "reference": "234f33f7ed6e1a370f59b2405855f6663bda97b4",
                     "shasum": ""
                 },
                 "require": {
@@ -3191,7 +3191,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-09-28T18:11:38+00:00",
+                "time": "2022-10-05T00:47:42+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -3215,19 +3215,19 @@
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
-            "dev-feature-improved-teaser-settings-ui": {
+            "dev-feature-702-remove-data-on-uninstall": {
                 "name": "publishpress/publishpress-permissions",
-                "version": "dev-feature-improved-teaser-settings-ui",
-                "version_normalized": "dev-feature-improved-teaser-settings-ui",
+                "version": "dev-feature-702-remove-data-on-uninstall",
+                "version_normalized": "dev-feature-702-remove-data-on-uninstall",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "fcd3f09e442e9fa1266f1cb083a3d02782540d48"
+                    "reference": "eef3ffc3117ba33a69c8cace36e15c915f7ad170"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/fcd3f09e442e9fa1266f1cb083a3d02782540d48",
-                    "reference": "fcd3f09e442e9fa1266f1cb083a3d02782540d48",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/eef3ffc3117ba33a69c8cace36e15c915f7ad170",
+                    "reference": "eef3ffc3117ba33a69c8cace36e15c915f7ad170",
                     "shasum": ""
                 },
                 "require": {
@@ -3236,7 +3236,52 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-09-23T23:50:10+00:00",
+                "time": "2022-09-30T15:44:56+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/feature-702-remove-data-on-uninstall",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-feature-improved-teaser-settings-ui": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-feature-improved-teaser-settings-ui",
+                "version_normalized": "dev-feature-improved-teaser-settings-ui",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "859f21adaa9d8fb48f527dfd3d63ca8271620a67"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/859f21adaa9d8fb48f527dfd3d63ca8271620a67",
+                    "reference": "859f21adaa9d8fb48f527dfd3d63ca8271620a67",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-09-30T15:55:49+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -3257,6 +3302,140 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/feature-improved-teaser-settings-ui",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-455-default-disable-author-page-creation": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-455-default-disable-author-page-creation",
+                "version_normalized": "dev-hotfix-455-default-disable-author-page-creation",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "d61bdf7cb89ed2c0890b66f4c1a880f3cb9d14d4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/d61bdf7cb89ed2c0890b66f4c1a880f3cb9d14d4",
+                    "reference": "d61bdf7cb89ed2c0890b66f4c1a880f3cb9d14d4",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-10-03T21:56:51+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-455-default-disable-author-page-creation",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-455-default-list-others-uneditable-posts": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-455-default-list-others-uneditable-posts",
+                "version_normalized": "dev-hotfix-455-default-list-others-uneditable-posts",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "3df93a8cd9114197d4d3d811f982a1dc05f66c61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/3df93a8cd9114197d4d3d811f982a1dc05f66c61",
+                    "reference": "3df93a8cd9114197d4d3d811f982a1dc05f66c61",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-10-05T00:47:24+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-455-default-list-others-uneditable-posts",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-646-instance-protection-library": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-646-instance-protection-library",
+                "version_normalized": "dev-hotfix-646-instance-protection-library",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "ce997f9db7c93feff5320d1714d353eb7f768def"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/ce997f9db7c93feff5320d1714d353eb7f768def",
+                    "reference": "ce997f9db7c93feff5320d1714d353eb7f768def",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-09-28T20:58:28+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-646-instance-protection-library",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -10542,7 +10721,6 @@
                 },
                 "time": "2022-09-28T18:24:01+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -10556,6 +10734,43 @@
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.17",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
+            "1.24.18": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.24.18",
+                "version_normalized": "1.24.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "17e86b5f49aefe2436ef3c38c8a312311d515627"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-17e86b5f49aefe2436ef3c38c8a312311d515627-zip-8c4bc7.tar",
+                    "reference": "17e86b5f49aefe2436ef3c38c8a312311d515627",
+                    "shasum": "a5ca7a33fc5318d9ed15005853a3c3eccabc34ca"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2022-10-06T13:12:43+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.18",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
@@ -11250,18 +11465,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "202e3422c270ad67d8858ca46c861a2847c350c2"
+                    "reference": "17e86b5f49aefe2436ef3c38c8a312311d515627"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/202e3422c270ad67d8858ca46c861a2847c350c2",
-                    "reference": "202e3422c270ad67d8858ca46c861a2847c350c2",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/17e86b5f49aefe2436ef3c38c8a312311d515627",
+                    "reference": "17e86b5f49aefe2436ef3c38c8a312311d515627",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-09-28T18:24:01+00:00",
+                "time": "2022-10-06T13:12:43+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -11276,7 +11491,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.17",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.18",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
