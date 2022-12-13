@@ -2969,7 +2969,6 @@
                 },
                 "time": "2022-10-27T16:47:59+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3060,7 +3059,6 @@
                 },
                 "time": "2022-11-17T19:24:57+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3900,7 +3898,6 @@
                 },
                 "time": "2022-11-16T19:36:43+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -4214,7 +4211,6 @@
                 },
                 "time": "2022-11-16T19:39:28+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -4948,7 +4944,6 @@
                 },
                 "time": "2022-11-16T19:29:24+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Connekt",
@@ -7098,7 +7093,6 @@
                 },
                 "time": "2022-11-16T19:05:18+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -10661,7 +10655,6 @@
                 },
                 "time": "2022-12-12T20:08:12+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -14557,7 +14550,6 @@
                 },
                 "time": "2022-12-12T20:12:29+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -14571,6 +14563,45 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.37",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
+            "1.6.38": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.6.38",
+                "version_normalized": "1.6.38.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "bcdec8ff1f4a3c6c6c0fcf47efd40e4d81d4eba5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-bcdec8ff1f4a3c6c6c0fcf47efd40e4d81d4eba5-zip-705be8.tar",
+                    "reference": "bcdec8ff1f4a3c6c6c0fcf47efd40e4d81d4eba5",
+                    "shasum": "6ca23e3d0f7a7d1350a24e01360fca962a371afb"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2022-12-13T16:39:54+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.38",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
@@ -14809,12 +14840,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "2407d6ab5055885cf7b4539ec5c39f6895838922"
+                    "reference": "bcdec8ff1f4a3c6c6c0fcf47efd40e4d81d4eba5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/2407d6ab5055885cf7b4539ec5c39f6895838922",
-                    "reference": "2407d6ab5055885cf7b4539ec5c39f6895838922",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/bcdec8ff1f4a3c6c6c0fcf47efd40e4d81d4eba5",
+                    "reference": "bcdec8ff1f4a3c6c6c0fcf47efd40e4d81d4eba5",
                     "shasum": ""
                 },
                 "require": {
@@ -14822,7 +14853,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2022-12-12T20:12:29+00:00",
+                "time": "2022-12-13T16:39:54+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -14837,7 +14868,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.37",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.38",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
