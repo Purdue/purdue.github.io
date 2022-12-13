@@ -1,13 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$0dc44f4da2cc81740279fb0f9537b9eaa558f3ef.json": {
-            "sha1": "0dc44f4da2cc81740279fb0f9537b9eaa558f3ef"
+        "include/all$6993b9e3ebc9e534024a28e2d1cad0488a75848e.json": {
+            "sha1": "6993b9e3ebc9e534024a28e2d1cad0488a75848e"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "cedaro/gravity-forms-iframe",
+        "publishpress/publishpress-capabilities-pro",
         "publishpress/publishpress-permissions",
         "publishpress/publishpress-permissions-pro",
         "publishpress/publishpress-revisions-pro",
