@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "0c365f053baa2f1414cb57dbb1afc756a08ba05a"
+                    "reference": "da02725cf9ab7a55c02582dbd3966c379fa26876"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/0c365f053baa2f1414cb57dbb1afc756a08ba05a",
-                    "reference": "0c365f053baa2f1414cb57dbb1afc756a08ba05a",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/da02725cf9ab7a55c02582dbd3966c379fa26876",
+                    "reference": "da02725cf9ab7a55c02582dbd3966c379fa26876",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-11-17T19:25:24+00:00",
+                "time": "2022-12-15T05:11:37+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -43,6 +43,276 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/development",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-794-edit-term-extra-update-button",
+                "version_normalized": "dev-hotfix-794-edit-term-extra-update-button",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "dbdb508901967a45958e2550f417d125d5991c0c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/dbdb508901967a45958e2550f417d125d5991c0c",
+                    "reference": "dbdb508901967a45958e2550f417d125d5991c0c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T04:00:31+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-794-edit-term-extra-update-button",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-796-edit-permissions-nav-menu-manager-label",
+                "version_normalized": "dev-hotfix-796-edit-permissions-nav-menu-manager-label",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "248f640d3688674f023dafbdeb6209aebf215ddb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/248f640d3688674f023dafbdeb6209aebf215ddb",
+                    "reference": "248f640d3688674f023dafbdeb6209aebf215ddb",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T03:31:25+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-796-edit-permissions-nav-menu-manager-label",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-798",
+                "version_normalized": "dev-hotfix-798",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "744f04533dc5f0f8945c6de991301065a28884e3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/744f04533dc5f0f8945c6de991301065a28884e3",
+                    "reference": "744f04533dc5f0f8945c6de991301065a28884e3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T03:34:42+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-798",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-802-get-pages-use-in-clause",
+                "version_normalized": "dev-hotfix-802-get-pages-use-in-clause",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "9b9cc45b138a034cee4f2ef42632af7d0e00b707"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/9b9cc45b138a034cee4f2ef42632af7d0e00b707",
+                    "reference": "9b9cc45b138a034cee4f2ef42632af7d0e00b707",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T04:34:04+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-802-get-pages-use-in-clause",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-804-classic-editor-new-page-editing-lockout",
+                "version_normalized": "dev-hotfix-804-classic-editor-new-page-editing-lockout",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "2be15c2f22dd54f2b214610ce2b6d822dda079ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/2be15c2f22dd54f2b214610ce2b6d822dda079ca",
+                    "reference": "2be15c2f22dd54f2b214610ce2b6d822dda079ca",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T05:07:07+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-804-classic-editor-new-page-editing-lockout",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-ignore-netwide-groups-if-not-multisite",
+                "version_normalized": "dev-hotfix-ignore-netwide-groups-if-not-multisite",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "22b61f3c9f22703797718b90bc2b3a5e727c7e8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/22b61f3c9f22703797718b90bc2b3a5e727c7e8f",
+                    "reference": "22b61f3c9f22703797718b90bc2b3a5e727c7e8f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T05:11:07+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-ignore-netwide-groups-if-not-multisite",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -96,12 +366,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "f4b247ff5013f36146bc9a9dbd42de9c67f50087"
+                    "reference": "e6a71a04bc98c8bd2dd8862395480e211ac89747"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/f4b247ff5013f36146bc9a9dbd42de9c67f50087",
-                    "reference": "f4b247ff5013f36146bc9a9dbd42de9c67f50087",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/e6a71a04bc98c8bd2dd8862395480e211ac89747",
+                    "reference": "e6a71a04bc98c8bd2dd8862395480e211ac89747",
                     "shasum": ""
                 },
                 "require": {
@@ -110,7 +380,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-11-17T19:24:57+00:00",
+                "time": "2022-12-15T03:35:00+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -131,7 +401,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.8.2",
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/master",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -384,6 +654,51 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/release-3.8.2",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-release-3.8.4",
+                "version_normalized": "dev-release-3.8.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "97649eb0d391e3e6c6d1f41d54096e649441e7d3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/97649eb0d391e3e6c6d1f41d54096e649441e7d3",
+                    "reference": "97649eb0d391e3e6c6d1f41d54096e649441e7d3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T05:17:14+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/release-3.8.4",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
