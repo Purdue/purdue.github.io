@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "da02725cf9ab7a55c02582dbd3966c379fa26876"
+                    "reference": "eb36d10f534e56daaa14385d060cc43f3a95bed5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/da02725cf9ab7a55c02582dbd3966c379fa26876",
-                    "reference": "da02725cf9ab7a55c02582dbd3966c379fa26876",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/eb36d10f534e56daaa14385d060cc43f3a95bed5",
+                    "reference": "eb36d10f534e56daaa14385d060cc43f3a95bed5",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-12-15T05:11:37+00:00",
+                "time": "2022-12-15T21:15:25+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -233,12 +233,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "2be15c2f22dd54f2b214610ce2b6d822dda079ca"
+                    "reference": "faa7957fec3bc96b6ad5cb6a825bf746239c305c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/2be15c2f22dd54f2b214610ce2b6d822dda079ca",
-                    "reference": "2be15c2f22dd54f2b214610ce2b6d822dda079ca",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/faa7957fec3bc96b6ad5cb6a825bf746239c305c",
+                    "reference": "faa7957fec3bc96b6ad5cb6a825bf746239c305c",
                     "shasum": ""
                 },
                 "require": {
@@ -247,7 +247,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-12-15T05:07:07+00:00",
+                "time": "2022-12-15T21:15:00+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -268,6 +268,51 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-804-classic-editor-new-page-editing-lockout",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-813-page-list-exclude-include-args",
+                "version_normalized": "dev-hotfix-813-page-list-exclude-include-args",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "08ae38986783c254d8e9caed3c0e01ea642326dc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/08ae38986783c254d8e9caed3c0e01ea642326dc",
+                    "reference": "08ae38986783c254d8e9caed3c0e01ea642326dc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2022-12-15T20:50:34+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-813-page-list-exclude-include-args",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -366,12 +411,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "e6a71a04bc98c8bd2dd8862395480e211ac89747"
+                    "reference": "96a09c139d317a9d50b9010aa3cfe3a699aef290"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/e6a71a04bc98c8bd2dd8862395480e211ac89747",
-                    "reference": "e6a71a04bc98c8bd2dd8862395480e211ac89747",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/96a09c139d317a9d50b9010aa3cfe3a699aef290",
+                    "reference": "96a09c139d317a9d50b9010aa3cfe3a699aef290",
                     "shasum": ""
                 },
                 "require": {
@@ -380,7 +425,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-12-15T03:35:00+00:00",
+                "time": "2022-12-15T21:23:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -401,7 +446,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/master",
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.8.4",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -664,12 +709,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "97649eb0d391e3e6c6d1f41d54096e649441e7d3"
+                    "reference": "34b0d6bf29a4dc899d773a34bd6d0b4b42314a89"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/97649eb0d391e3e6c6d1f41d54096e649441e7d3",
-                    "reference": "97649eb0d391e3e6c6d1f41d54096e649441e7d3",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/34b0d6bf29a4dc899d773a34bd6d0b4b42314a89",
+                    "reference": "34b0d6bf29a4dc899d773a34bd6d0b4b42314a89",
                     "shasum": ""
                 },
                 "require": {
@@ -678,7 +723,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-12-15T05:17:14+00:00",
+                "time": "2022-12-15T21:15:47+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
