@@ -3410,12 +3410,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "eb36d10f534e56daaa14385d060cc43f3a95bed5"
+                    "reference": "668da843be730e6bb2090783dd53534f0f8d0674"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/eb36d10f534e56daaa14385d060cc43f3a95bed5",
-                    "reference": "eb36d10f534e56daaa14385d060cc43f3a95bed5",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/668da843be730e6bb2090783dd53534f0f8d0674",
+                    "reference": "668da843be730e6bb2090783dd53534f0f8d0674",
                     "shasum": ""
                 },
                 "require": {
@@ -3424,7 +3424,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-12-15T21:15:25+00:00",
+                "time": "2023-01-06T22:23:22+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -3718,6 +3718,141 @@
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
+            "dev-hotfix-824-permissions-admin-redundant-role-caption": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-824-permissions-admin-redundant-role-caption",
+                "version_normalized": "dev-hotfix-824-permissions-admin-redundant-role-caption",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "8cf9e283a7acd03ebbcdb056a6c1664faf0d0358"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/8cf9e283a7acd03ebbcdb056a6c1664faf0d0358",
+                    "reference": "8cf9e283a7acd03ebbcdb056a6c1664faf0d0358",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-01-06T22:03:05+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-824-permissions-admin-redundant-role-caption",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-826-revision-creation-limit-blocks-reading": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-826-revision-creation-limit-blocks-reading",
+                "version_normalized": "dev-hotfix-826-revision-creation-limit-blocks-reading",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "a7c55e34486ad3b189df655f7ef059cf14914b6e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/a7c55e34486ad3b189df655f7ef059cf14914b6e",
+                    "reference": "a7c55e34486ad3b189df655f7ef059cf14914b6e",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-01-06T22:07:04+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-826-revision-creation-limit-blocks-reading",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-828-nav-menu-manage-uneditable-items-lost-on-update": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-828-nav-menu-manage-uneditable-items-lost-on-update",
+                "version_normalized": "dev-hotfix-828-nav-menu-manage-uneditable-items-lost-on-update",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "03fc25e01e442a0e6f5d36a8ca522e6df3547df1"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/03fc25e01e442a0e6f5d36a8ca522e6df3547df1",
+                    "reference": "03fc25e01e442a0e6f5d36a8ca522e6df3547df1",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-01-06T22:17:21+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-828-nav-menu-manage-uneditable-items-lost-on-update",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
             "dev-hotfix-ignore-netwide-groups-if-not-multisite": {
                 "name": "publishpress/publishpress-permissions",
                 "version": "dev-hotfix-ignore-netwide-groups-if-not-multisite",
@@ -3760,6 +3895,51 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-ignore-netwide-groups-if-not-multisite",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-pro-api-network-wide-option-storage": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-pro-api-network-wide-option-storage",
+                "version_normalized": "dev-hotfix-pro-api-network-wide-option-storage",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "275cd376249d8b67e536b71c89d17d7a554c804b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/275cd376249d8b67e536b71c89d17d7a554c804b",
+                    "reference": "275cd376249d8b67e536b71c89d17d7a554c804b",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-01-06T21:54:34+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-pro-api-network-wide-option-storage",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -4056,6 +4236,51 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/ppr-506",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-pro-api-user-has-post-cap-filter-arg": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-pro-api-user-has-post-cap-filter-arg",
+                "version_normalized": "dev-pro-api-user-has-post-cap-filter-arg",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "259e94e9b49b6a5eeef44d99bda61d1891fe1dcc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/259e94e9b49b6a5eeef44d99bda61d1891fe1dcc",
+                    "reference": "259e94e9b49b6a5eeef44d99bda61d1891fe1dcc",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-01-06T22:21:52+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/pro-api-user-has-post-cap-filter-arg",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -6112,6 +6337,39 @@
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             },
+            "1.8.3": {
+                "name": "purdue/boilerup-wp",
+                "version": "1.8.3",
+                "version_normalized": "1.8.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/boilerup-wp.git",
+                    "reference": "8f5d5e7336d4cfd11f3b8e1f4fe8ce4a96dbda5c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-8f5d5e7336d4cfd11f3b8e1f4fe8ce4a96dbda5c-zip-3b4d5a.tar",
+                    "reference": "8f5d5e7336d4cfd11f3b8e1f4fe8ce4a96dbda5c",
+                    "shasum": "e2fe7ef5ec0a748289bafa1b774fd6b7bc4eb219"
+                },
+                "time": "2023-01-10T16:17:10+00:00",
+                "type": "wordpress-muplugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communicatons",
+                        "email": "digitalmarketing@groups.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
+                "support": {
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.3",
+                    "issues": "https://github.com/Purdue/boilerup-wp/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/boilerup-wp",
                 "version": "dev-master",
@@ -6119,15 +6377,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/boilerup-wp.git",
-                    "reference": "e5eb491b05f754d817b558a4f5ac1c5802b47801"
+                    "reference": "8f5d5e7336d4cfd11f3b8e1f4fe8ce4a96dbda5c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/e5eb491b05f754d817b558a4f5ac1c5802b47801",
-                    "reference": "e5eb491b05f754d817b558a4f5ac1c5802b47801",
+                    "url": "https://api.github.com/repos/Purdue/boilerup-wp/zipball/8f5d5e7336d4cfd11f3b8e1f4fe8ce4a96dbda5c",
+                    "reference": "8f5d5e7336d4cfd11f3b8e1f4fe8ce4a96dbda5c",
                     "shasum": ""
                 },
-                "time": "2022-02-18T20:36:27+00:00",
+                "time": "2023-01-10T16:17:10+00:00",
                 "default-branch": true,
                 "type": "wordpress-muplugin",
                 "license": [
@@ -6141,7 +6399,7 @@
                 ],
                 "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
                 "support": {
-                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.2",
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.3",
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             }
@@ -12116,18 +12374,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "f6889653da4c93aba1a89216490d402d6a4a9734"
+                    "reference": "a2da5a42573d5cdf6ee4f1a22bd93136bb181331"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/f6889653da4c93aba1a89216490d402d6a4a9734",
-                    "reference": "f6889653da4c93aba1a89216490d402d6a4a9734",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/a2da5a42573d5cdf6ee4f1a22bd93136bb181331",
+                    "reference": "a2da5a42573d5cdf6ee4f1a22bd93136bb181331",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2023-01-05T17:11:54+00:00",
+                "time": "2023-01-09T23:20:48+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -12142,7 +12400,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.25",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/master",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
@@ -15606,7 +15864,6 @@
                 },
                 "time": "2023-01-05T19:58:58+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
