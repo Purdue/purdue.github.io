@@ -2781,6 +2781,45 @@
             },
             {
                 "name": "purdue/purdue-wp-theme",
+                "version": "1.6.44",
+                "version_normalized": "1.6.44.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "e20d99d3f851274e14e729e312fd3531ffc778b4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-e20d99d3f851274e14e729e312fd3531ffc778b4-zip-dc31c9.tar",
+                    "reference": "e20d99d3f851274e14e729e312fd3531ffc778b4",
+                    "shasum": "d20fe3d42812002ca0e8b5c071f73f90812fd1f1"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2023-01-20T20:48:41+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.44",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
+            {
+                "name": "purdue/purdue-wp-theme",
                 "version": "1.6.5",
                 "version_normalized": "1.6.5.0",
                 "source": {
