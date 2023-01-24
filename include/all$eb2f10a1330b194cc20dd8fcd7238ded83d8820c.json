@@ -6369,6 +6369,39 @@
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             },
+            "1.8.4": {
+                "name": "purdue/boilerup-wp",
+                "version": "1.8.4",
+                "version_normalized": "1.8.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/boilerup-wp.git",
+                    "reference": "800eefe628225701facc5c444020862942438509"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-800eefe628225701facc5c444020862942438509-zip-d722e1.tar",
+                    "reference": "800eefe628225701facc5c444020862942438509",
+                    "shasum": "b894e008ac7dca03f4eb360a20175794cd4b5933"
+                },
+                "time": "2023-01-24T14:30:42+00:00",
+                "type": "wordpress-muplugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communicatons",
+                        "email": "digitalmarketing@groups.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
+                "support": {
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.4",
+                    "issues": "https://github.com/Purdue/boilerup-wp/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/boilerup-wp",
                 "version": "dev-master",
@@ -6398,7 +6431,7 @@
                 ],
                 "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
                 "support": {
-                    "source": "https://github.com/Purdue/boilerup-wp/tree/master",
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.4",
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
             }
