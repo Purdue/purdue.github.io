@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/email-signature-builder.git",
-                    "reference": "1d60069360bf49573e50277648b761e1379d25f3"
+                    "reference": "7493b3165e6bb7e15f5a90f5163500e0b1c6ca92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/email-signature-builder/zipball/1d60069360bf49573e50277648b761e1379d25f3",
-                    "reference": "1d60069360bf49573e50277648b761e1379d25f3",
+                    "url": "https://api.github.com/repos/Purdue/email-signature-builder/zipball/7493b3165e6bb7e15f5a90f5163500e0b1c6ca92",
+                    "reference": "7493b3165e6bb7e15f5a90f5163500e0b1c6ca92",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2023-01-25T22:03:33+00:00",
+                "time": "2023-01-26T14:47:42+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -34,7 +34,7 @@
                 ],
                 "description": "Wordpress Plugin to build email signatures",
                 "support": {
-                    "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.6",
+                    "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.7",
                     "issues": "https://github.com/Purdue/email-signature-builder/issues"
                 }
             }

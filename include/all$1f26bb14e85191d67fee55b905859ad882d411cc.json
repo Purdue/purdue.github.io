@@ -7467,7 +7467,6 @@
                 },
                 "time": "2023-01-25T22:03:33+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -7484,6 +7483,43 @@
                     "issues": "https://github.com/Purdue/email-signature-builder/issues"
                 }
             },
+            "0.2.7": {
+                "name": "purdue/email-signature-builder",
+                "version": "0.2.7",
+                "version_normalized": "0.2.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/email-signature-builder.git",
+                    "reference": "7493b3165e6bb7e15f5a90f5163500e0b1c6ca92"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/email-signature-builder/purdue-email-signature-builder-7493b3165e6bb7e15f5a90f5163500e0b1c6ca92-zip-cb3cc7.tar",
+                    "reference": "7493b3165e6bb7e15f5a90f5163500e0b1c6ca92",
+                    "shasum": "f1b43d8d961e2848910245f602889f9620f9c9e5"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2023-01-26T14:47:42+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Plugin to build email signatures",
+                "support": {
+                    "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.7",
+                    "issues": "https://github.com/Purdue/email-signature-builder/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/email-signature-builder",
                 "version": "dev-master",
@@ -7491,18 +7527,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/email-signature-builder.git",
-                    "reference": "1d60069360bf49573e50277648b761e1379d25f3"
+                    "reference": "7493b3165e6bb7e15f5a90f5163500e0b1c6ca92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/email-signature-builder/zipball/1d60069360bf49573e50277648b761e1379d25f3",
-                    "reference": "1d60069360bf49573e50277648b761e1379d25f3",
+                    "url": "https://api.github.com/repos/Purdue/email-signature-builder/zipball/7493b3165e6bb7e15f5a90f5163500e0b1c6ca92",
+                    "reference": "7493b3165e6bb7e15f5a90f5163500e0b1c6ca92",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2023-01-25T22:03:33+00:00",
+                "time": "2023-01-26T14:47:42+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -7517,7 +7553,7 @@
                 ],
                 "description": "Wordpress Plugin to build email signatures",
                 "support": {
-                    "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.6",
+                    "source": "https://github.com/Purdue/email-signature-builder/tree/0.2.7",
                     "issues": "https://github.com/Purdue/email-signature-builder/issues"
                 }
             }
@@ -11915,7 +11951,6 @@
                 },
                 "time": "2023-01-24T15:46:30+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -11952,7 +11987,6 @@
                 },
                 "time": "2023-01-25T21:59:08+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
