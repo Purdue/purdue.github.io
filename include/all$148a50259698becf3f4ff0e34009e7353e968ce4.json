@@ -3410,12 +3410,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "668da843be730e6bb2090783dd53534f0f8d0674"
+                    "reference": "26ae55409e7203cacb0f86be62934593531eddbc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/668da843be730e6bb2090783dd53534f0f8d0674",
-                    "reference": "668da843be730e6bb2090783dd53534f0f8d0674",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/26ae55409e7203cacb0f86be62934593531eddbc",
+                    "reference": "26ae55409e7203cacb0f86be62934593531eddbc",
                     "shasum": ""
                 },
                 "require": {
@@ -3424,7 +3424,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2023-01-06T22:23:22+00:00",
+                "time": "2023-02-07T21:12:56+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -3850,6 +3850,96 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-828-nav-menu-manage-uneditable-items-lost-on-update",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-842-page-parent-limit-all-pages-selectable": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-842-page-parent-limit-all-pages-selectable",
+                "version_normalized": "dev-hotfix-842-page-parent-limit-all-pages-selectable",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "95eb68583d8de8700312191418930460c4df8a5c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/95eb68583d8de8700312191418930460c4df8a5c",
+                    "reference": "95eb68583d8de8700312191418930460c4df8a5c",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-02-07T21:10:03+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-842-page-parent-limit-all-pages-selectable",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-hotfix-844-group-description-cleared": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-hotfix-844-group-description-cleared",
+                "version_normalized": "dev-hotfix-844-group-description-cleared",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "10d919caa66301cfd04e58663efe06326f479f61"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/10d919caa66301cfd04e58663efe06326f479f61",
+                    "reference": "10d919caa66301cfd04e58663efe06326f479f61",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-02-07T21:12:32+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/hotfix-844-group-description-cleared",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -4371,6 +4461,51 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/release-3.8.4",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            "dev-release-3.8.5": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-release-3.8.5",
+                "version_normalized": "dev-release-3.8.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "0125aebd19352fcf53545d47ab1437f16a7a56e2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/0125aebd19352fcf53545d47ab1437f16a7a56e2",
+                    "reference": "0125aebd19352fcf53545d47ab1437f16a7a56e2",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-02-07T21:18:04+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/release-3.8.5",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -6940,6 +7075,43 @@
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             },
+            "1.4.12": {
+                "name": "purdue/bulma-blocks",
+                "version": "1.4.12",
+                "version_normalized": "1.4.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/bulma-blocks.git",
+                    "reference": "8f20b3c329b27a60e77d8dde425f000d37cbae4a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/bulma-blocks/purdue-bulma-blocks-8f20b3c329b27a60e77d8dde425f000d37cbae4a-zip-c84154.tar",
+                    "reference": "8f20b3c329b27a60e77d8dde425f000d37cbae4a",
+                    "shasum": "324c9766bbf1738a9059d7b61c52d49b5de426f0"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2023-02-08T20:13:54+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
+                "support": {
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.12",
+                    "issues": "https://github.com/Purdue/bulma-blocks/issues"
+                }
+            },
             "1.4.2": {
                 "name": "purdue/bulma-blocks",
                 "version": "1.4.2",
@@ -7271,18 +7443,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "cbcb55384d903a0481c3cb15eb485533fc3c822b"
+                    "reference": "8f20b3c329b27a60e77d8dde425f000d37cbae4a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/cbcb55384d903a0481c3cb15eb485533fc3c822b",
-                    "reference": "cbcb55384d903a0481c3cb15eb485533fc3c822b",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/8f20b3c329b27a60e77d8dde425f000d37cbae4a",
+                    "reference": "8f20b3c329b27a60e77d8dde425f000d37cbae4a",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2022-09-13T18:45:35+00:00",
+                "time": "2023-02-08T20:13:54+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -7297,7 +7469,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.11",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.12",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
@@ -12073,6 +12245,43 @@
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             },
+            "1.24.30": {
+                "name": "purdue/purdue-blocks",
+                "version": "1.24.30",
+                "version_normalized": "1.24.30.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-blocks.git",
+                    "reference": "23032ad5611a88d657d72c9d447cea615230bca8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-blocks/purdue-purdue-blocks-23032ad5611a88d657d72c9d447cea615230bca8-zip-05b081.tar",
+                    "reference": "23032ad5611a88d657d72c9d447cea615230bca8",
+                    "shasum": "39fe5923930b295443cc12699e50e678307957a9"
+                },
+                "require": {
+                    "php": ">=7.0"
+                },
+                "time": "2023-02-08T18:31:34+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Media",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "Adds Gutenberg blocks based on Purdue brand elements",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.30",
+                    "issues": "https://github.com/Purdue/purdue-blocks/issues"
+                }
+            },
             "1.24.4": {
                 "name": "purdue/purdue-blocks",
                 "version": "1.24.4",
@@ -12692,18 +12901,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-blocks.git",
-                    "reference": "b18953c55c53836ec4d06de1522a2e99a32dcacb"
+                    "reference": "23032ad5611a88d657d72c9d447cea615230bca8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/b18953c55c53836ec4d06de1522a2e99a32dcacb",
-                    "reference": "b18953c55c53836ec4d06de1522a2e99a32dcacb",
+                    "url": "https://api.github.com/repos/Purdue/purdue-blocks/zipball/23032ad5611a88d657d72c9d447cea615230bca8",
+                    "reference": "23032ad5611a88d657d72c9d447cea615230bca8",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2023-01-25T21:59:08+00:00",
+                "time": "2023-02-08T18:31:34+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -12718,7 +12927,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Purdue brand elements",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.29",
+                    "source": "https://github.com/Purdue/purdue-blocks/tree/1.24.30",
                     "issues": "https://github.com/Purdue/purdue-blocks/issues"
                 }
             }
@@ -16236,6 +16445,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.6.45": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.6.45",
+                "version_normalized": "1.6.45.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "4caf4852cff256f28560e58c94513eebc883af88"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-4caf4852cff256f28560e58c94513eebc883af88-zip-38d56a.tar",
+                    "reference": "4caf4852cff256f28560e58c94513eebc883af88",
+                    "shasum": "de460f7e982a36b4179bf3a787624993660e8b3a"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2023-02-08T18:27:30+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.45",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "1.6.5": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "1.6.5",
@@ -16433,12 +16681,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "e20d99d3f851274e14e729e312fd3531ffc778b4"
+                    "reference": "33112c4657db3f614cb06384b2de7b5a86996243"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/e20d99d3f851274e14e729e312fd3531ffc778b4",
-                    "reference": "e20d99d3f851274e14e729e312fd3531ffc778b4",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/33112c4657db3f614cb06384b2de7b5a86996243",
+                    "reference": "33112c4657db3f614cb06384b2de7b5a86996243",
                     "shasum": ""
                 },
                 "require": {
@@ -16446,7 +16694,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2023-01-20T20:48:41+00:00",
+                "time": "2023-02-08T18:26:03+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -16461,7 +16709,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.44",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/master",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
