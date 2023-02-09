@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "26ae55409e7203cacb0f86be62934593531eddbc"
+                    "reference": "c4c16fa756269ec0050171bafc69303017fe9060"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/26ae55409e7203cacb0f86be62934593531eddbc",
-                    "reference": "26ae55409e7203cacb0f86be62934593531eddbc",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/c4c16fa756269ec0050171bafc69303017fe9060",
+                    "reference": "c4c16fa756269ec0050171bafc69303017fe9060",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2023-02-07T21:12:56+00:00",
+                "time": "2023-02-09T18:30:40+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
@@ -681,12 +681,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "96a09c139d317a9d50b9010aa3cfe3a699aef290"
+                    "reference": "bba280bb3aa559991a5907e37b351f2798707c80"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/96a09c139d317a9d50b9010aa3cfe3a699aef290",
-                    "reference": "96a09c139d317a9d50b9010aa3cfe3a699aef290",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/bba280bb3aa559991a5907e37b351f2798707c80",
+                    "reference": "bba280bb3aa559991a5907e37b351f2798707c80",
                     "shasum": ""
                 },
                 "require": {
@@ -695,7 +695,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2022-12-15T21:23:46+00:00",
+                "time": "2023-02-09T18:29:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -716,7 +716,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.8.4",
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.8.5",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -1069,12 +1069,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "0125aebd19352fcf53545d47ab1437f16a7a56e2"
+                    "reference": "1090d3b0b2b088e6b14b4d877b8fb21c9bfa1077"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/0125aebd19352fcf53545d47ab1437f16a7a56e2",
-                    "reference": "0125aebd19352fcf53545d47ab1437f16a7a56e2",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/1090d3b0b2b088e6b14b4d877b8fb21c9bfa1077",
+                    "reference": "1090d3b0b2b088e6b14b4d877b8fb21c9bfa1077",
                     "shasum": ""
                 },
                 "require": {
@@ -1083,7 +1083,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "1.1.1"
                 },
-                "time": "2023-02-07T21:18:04+00:00",
+                "time": "2023-02-09T17:31:31+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"

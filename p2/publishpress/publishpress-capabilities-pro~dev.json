@@ -8,23 +8,39 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "9f50600db5261f8cae3815a4d8c726c241997b9a"
+                    "reference": "54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/9f50600db5261f8cae3815a4d8c726c241997b9a",
-                    "reference": "9f50600db5261f8cae3815a4d8c726c241997b9a",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af",
+                    "reference": "54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af",
                     "shasum": ""
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
                     "php": ">=5.6.20",
                     "pimple/pimple": "3.2.3.*",
+                    "psr/container": "1.0.0",
+                    "publishpress/publishpress-instance-protection": "1.0.2",
+                    "publishpress/wordpress-banners": "^1.2",
                     "publishpress/wordpress-reviews": "^1.1"
                 },
-                "time": "2022-12-13T17:29:15+00:00",
+                "time": "2023-02-09T20:59:08+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro"
+                },
+                "scripts": {
+                    "build": [
+                        "builder/docker/scripts/build build"
+                    ],
+                    "build-unpacked": [
+                        "builder/docker/scripts/build build-dir"
+                    ]
+                },
                 "license": [
                     "GPL-2"
                 ],
@@ -35,7 +51,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/master",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.6.1",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }

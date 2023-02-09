@@ -210,6 +210,42 @@
                     "source": "https://github.com/Purdue/gravityformssignature/tree/4.3",
                     "issues": "https://github.com/Purdue/gravityformssignature/issues"
                 }
+            },
+            {
+                "name": "purdue/gravityformssignature",
+                "version": "4.4",
+                "version_normalized": "4.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityformssignature.git",
+                    "reference": "c341deed7b909bf6eddad97e38a0ecc44cdb5624"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityformssignature/purdue-gravityformssignature-c341deed7b909bf6eddad97e38a0ecc44cdb5624-zip-3377fa.tar",
+                    "reference": "c341deed7b909bf6eddad97e38a0ecc44cdb5624",
+                    "shasum": "0773003b77e59068b0b649854780dc4c63c06589"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2023-02-09T20:30:57+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Rocketgenius, Inc.",
+                        "homepage": "http://www.gravityforms.com"
+                    }
+                ],
+                "description": "GravityForms Plugin Signature Add On by Rocketgenius, Inc.",
+                "support": {
+                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.4",
+                    "issues": "https://github.com/Purdue/gravityformssignature/issues"
+                }
             }
         ]
     }

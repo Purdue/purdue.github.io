@@ -237,6 +237,60 @@
                     "source": "https://github.com/Purdue/capabilities-pro/tree/2.6.0",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.6.1",
+                "version_normalized": "2.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af-zip-a1d005.tar",
+                    "reference": "54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af",
+                    "shasum": "0674d21192017ee0b22e65373cae38d9637b8f52"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "~2.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "3.2.3.*",
+                    "psr/container": "1.0.0",
+                    "publishpress/publishpress-instance-protection": "1.0.2",
+                    "publishpress/wordpress-banners": "^1.2",
+                    "publishpress/wordpress-reviews": "^1.1"
+                },
+                "time": "2023-02-09T20:59:08+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "builder/docker/scripts/build build"
+                    ],
+                    "build-unpacked": [
+                        "builder/docker/scripts/build build-dir"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.6.1",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
             }
         ]
     }

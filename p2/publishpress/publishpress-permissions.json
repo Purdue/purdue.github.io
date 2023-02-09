@@ -2954,6 +2954,52 @@
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.8.4",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "v3.8.5",
+                "version_normalized": "3.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "bba280bb3aa559991a5907e37b351f2798707c80"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-bba280bb3aa559991a5907e37b351f2798707c80-zip-f88e5b.tar",
+                    "reference": "bba280bb3aa559991a5907e37b351f2798707c80",
+                    "shasum": "5376ab808e222ca1fa7301741fe60db2a231d768"
+                },
+                "require": {
+                    "php": ">=5.6.20",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "1.1.1"
+                },
+                "time": "2023-02-09T18:29:40+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.8.5",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
             }
         ]
     }

@@ -406,6 +406,53 @@
                     "source": "https://github.com/Purdue/presspermit-pro/tree/3.8.1",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "3.8.5",
+                "version_normalized": "3.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "5e45319a34539780131d43ec81282e71090590ff"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-5e45319a34539780131d43ec81282e71090590ff-zip-88b5ab.tar",
+                    "reference": "5e45319a34539780131d43ec81282e71090590ff",
+                    "shasum": "96dd0daeb641a049e7d8fd74226eb00fba6ba1b6"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": ">=2.3.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/publishpress-permissions": ">=3.8.5"
+                },
+                "time": "2023-02-09T21:02:38+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.8.5",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
             }
         ]
     }
