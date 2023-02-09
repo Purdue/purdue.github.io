@@ -440,7 +440,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -3496,7 +3495,6 @@
                 },
                 "time": "2023-02-09T18:29:40+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -5102,7 +5100,6 @@
                 },
                 "time": "2023-02-09T21:02:38+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -5378,7 +5375,6 @@
                 },
                 "time": "2023-02-09T20:43:16+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -6200,6 +6196,36 @@
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
+            "1.2.13": {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.2.13",
+                "version_normalized": "1.2.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "ba4e9a317605c975cd35d214ec6a1ee9c48e316f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-ba4e9a317605c975cd35d214ec6a1ee9c48e316f-zip-2f7288.tar",
+                    "reference": "ba4e9a317605c975cd35d214ec6a1ee9c48e316f",
+                    "shasum": "d9bba3be87d1f1e2434177c5b6c61cc56d4b7849"
+                },
+                "time": "2023-02-09T21:37:15+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.13",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
             "1.2.2": {
                 "name": "purdue/ajax-load-more-pro",
                 "version": "1.2.2",
@@ -6381,15 +6407,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "7c69850b8fb60d6e34f8e8fbc563b2de54b278ed"
+                    "reference": "ba4e9a317605c975cd35d214ec6a1ee9c48e316f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/7c69850b8fb60d6e34f8e8fbc563b2de54b278ed",
-                    "reference": "7c69850b8fb60d6e34f8e8fbc563b2de54b278ed",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/ba4e9a317605c975cd35d214ec6a1ee9c48e316f",
+                    "reference": "ba4e9a317605c975cd35d214ec6a1ee9c48e316f",
                     "shasum": ""
                 },
-                "time": "2022-11-16T19:29:24+00:00",
+                "time": "2023-02-09T21:37:15+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "authors": [
@@ -6400,7 +6426,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.11",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.13",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
@@ -8651,7 +8677,6 @@
                 },
                 "time": "2023-02-09T20:26:13+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -8972,7 +8997,6 @@
                 },
                 "time": "2023-02-09T20:30:57+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -18267,6 +18291,42 @@
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             },
+            "5.3": {
+                "name": "purdue/wpdatatables",
+                "version": "5.3",
+                "version_normalized": "5.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wpdatatables.git",
+                    "reference": "b64156d81b45b1772bcf684812c88564c46a2de8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wpdatatables/purdue-wpdatatables-b64156d81b45b1772bcf684812c88564c46a2de8-zip-833d5b.tar",
+                    "reference": "b64156d81b45b1772bcf684812c88564c46a2de8",
+                    "shasum": "5a3fa668820e3839a78e308b90fd3d272f82d891"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2023-02-09T21:38:40+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "TOUCH ME SOFT D.O.O.",
+                        "homepage": "https://www.wpdatatables.com"
+                    }
+                ],
+                "description": "WP chart and table plugin",
+                "support": {
+                    "source": "https://github.com/Purdue/wpdatatables/tree/5.3",
+                    "issues": "https://github.com/Purdue/wpdatatables/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/wpdatatables",
                 "version": "dev-master",
@@ -18274,18 +18334,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/wpdatatables.git",
-                    "reference": "59a763589a0458f3ec7a29b5edd9a538a251a1d1"
+                    "reference": "b64156d81b45b1772bcf684812c88564c46a2de8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/59a763589a0458f3ec7a29b5edd9a538a251a1d1",
-                    "reference": "59a763589a0458f3ec7a29b5edd9a538a251a1d1",
+                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/b64156d81b45b1772bcf684812c88564c46a2de8",
+                    "reference": "b64156d81b45b1772bcf684812c88564c46a2de8",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2022-07-28T18:50:52+00:00",
+                "time": "2023-02-09T21:38:40+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -18299,7 +18359,7 @@
                 ],
                 "description": "WP chart and table plugin",
                 "support": {
-                    "source": "https://github.com/Purdue/wpdatatables/tree/4.4",
+                    "source": "https://github.com/Purdue/wpdatatables/tree/5.3",
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             }
