@@ -355,7 +355,6 @@
                 },
                 "time": "2023-02-09T21:37:15+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "authors": [
                     {
                         "name": "Connekt",
@@ -365,6 +364,36 @@
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
                     "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.13",
+                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
+                }
+            },
+            {
+                "name": "purdue/ajax-load-more-pro",
+                "version": "1.2.17",
+                "version_normalized": "1.2.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
+                    "reference": "16f5bc87a0c9083ebea2d23dce80a278474f0396"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/ajax-load-more-pro/purdue-ajax-load-more-pro-16f5bc87a0c9083ebea2d23dce80a278474f0396-zip-9c1786.tar",
+                    "reference": "16f5bc87a0c9083ebea2d23dce80a278474f0396",
+                    "shasum": "f4315acd18993f7e5446e4da8afff67ee7406b82"
+                },
+                "time": "2023-03-14T19:26:06+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Connekt",
+                        "homepage": "https://connekthq.com/"
+                    }
+                ],
+                "description": "All premium AJAX Load More add-ons in a single installation",
+                "support": {
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.17",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             },
