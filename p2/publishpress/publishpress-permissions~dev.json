@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "ac380f9aae5565c13bf868e692bd0d4fc90c7cbb"
+                    "reference": "ecfbb35c8e9a14f957e60f1efec513de8463f267"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/ac380f9aae5565c13bf868e692bd0d4fc90c7cbb",
-                    "reference": "ac380f9aae5565c13bf868e692bd0d4fc90c7cbb",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/ecfbb35c8e9a14f957e60f1efec513de8463f267",
+                    "reference": "ecfbb35c8e9a14f957e60f1efec513de8463f267",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "^2.1"
                 },
-                "time": "2023-05-10T20:59:46+00:00",
+                "time": "2023-05-11T18:34:28+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -73,25 +73,42 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "d028fb2fa4f2ad4c7e95d98eac7f0f877a00fe89"
+                    "reference": "85c0265c2660f65cfa1483541321718ba0801a32"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/d028fb2fa4f2ad4c7e95d98eac7f0f877a00fe89",
-                    "reference": "d028fb2fa4f2ad4c7e95d98eac7f0f877a00fe89",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/85c0265c2660f65cfa1483541321718ba0801a32",
+                    "reference": "85c0265c2660f65cfa1483541321718ba0801a32",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5",
                     "publishpress/instance-protection": "^2.0",
-                    "publishpress/pimple-pimple": "^3.5.0.9",
-                    "publishpress/psr-container": "^2.0.1.9",
                     "publishpress/vendor-locator-permissions": "^1.0",
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "^2.1"
                 },
-                "time": "2023-05-10T15:09:23+00:00",
+                "time": "2023-05-11T20:22:47+00:00",
                 "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "/project/dev-workspace/docker/scripts/ppbuild build"
+                    ],
+                    "build:dir": [
+                        "/project/dev-workspace/docker/scripts/ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "/project/dev-workspace/docker/scripts/ppbuild clean"
+                    ],
+                    "get-version": [
+                        "/project/dev-workspace/docker/scripts/ppbuild version"
+                    ]
+                },
                 "license": [
                     "GPL-2"
                 ],
@@ -1343,26 +1360,43 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "aceb9eff6c41e8b4dfffde455bb4e2bef1ee12ef"
+                    "reference": "61114fe77fd1be905cea5afa73093ccfe9a97d73"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/aceb9eff6c41e8b4dfffde455bb4e2bef1ee12ef",
-                    "reference": "aceb9eff6c41e8b4dfffde455bb4e2bef1ee12ef",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/61114fe77fd1be905cea5afa73093ccfe9a97d73",
+                    "reference": "61114fe77fd1be905cea5afa73093ccfe9a97d73",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5",
                     "publishpress/instance-protection": "^2.0",
-                    "publishpress/pimple-pimple": "^3.5.0.9",
-                    "publishpress/psr-container": "^2.0.1.9",
                     "publishpress/vendor-locator-permissions": "^1.0",
                     "publishpress/wordpress-reviews": "^1.1",
                     "publishpress/wordpress-version-notices": "^2.1"
                 },
-                "time": "2023-05-10T15:12:25+00:00",
+                "time": "2023-05-11T19:45:05+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "/project/dev-workspace/docker/scripts/ppbuild build"
+                    ],
+                    "build:dir": [
+                        "/project/dev-workspace/docker/scripts/ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "/project/dev-workspace/docker/scripts/ppbuild clean"
+                    ],
+                    "get-version": [
+                        "/project/dev-workspace/docker/scripts/ppbuild version"
+                    ]
+                },
                 "license": [
                     "GPL-2"
                 ],
@@ -1381,7 +1415,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/master",
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.9.3",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },

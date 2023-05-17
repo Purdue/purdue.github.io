@@ -3113,7 +3113,6 @@
                 },
                 "time": "2023-05-04T15:28:51+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3160,7 +3159,6 @@
                 },
                 "time": "2023-05-04T17:59:47+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3209,7 +3207,6 @@
                 },
                 "time": "2023-05-09T19:23:31+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3229,6 +3226,72 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.9.1",
+                    "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-permissions",
+                "version": "v3.9.3",
+                "version_normalized": "3.9.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/PublishPress-Permissions.git",
+                    "reference": "61114fe77fd1be905cea5afa73093ccfe9a97d73"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-61114fe77fd1be905cea5afa73093ccfe9a97d73-zip-3c08f5.tar",
+                    "reference": "61114fe77fd1be905cea5afa73093ccfe9a97d73",
+                    "shasum": "1286151a0ce18588b9ad9a283a9f86c2449cdab3"
+                },
+                "require": {
+                    "php": ">=7.2.5",
+                    "publishpress/instance-protection": "^2.0",
+                    "publishpress/vendor-locator-permissions": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1",
+                    "publishpress/wordpress-version-notices": "^2.1"
+                },
+                "time": "2023-05-11T19:45:05+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "/project/dev-workspace/docker/scripts/ppbuild build"
+                    ],
+                    "build:dir": [
+                        "/project/dev-workspace/docker/scripts/ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "/project/dev-workspace/docker/scripts/ppbuild clean"
+                    ],
+                    "get-version": [
+                        "/project/dev-workspace/docker/scripts/ppbuild version"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v3.9.3",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             }
