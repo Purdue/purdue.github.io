@@ -221,6 +221,45 @@
             },
             {
                 "name": "publishpress/publishpress-revisions-pro",
+                "version": "3.1.13",
+                "version_normalized": "3.1.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "4f2191ce5fda770ff6b8ca0dc3bef9eb45054513"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-4f2191ce5fda770ff6b8ca0dc3bef9eb45054513-zip-159db4.tar",
+                    "reference": "4f2191ce5fda770ff6b8ca0dc3bef9eb45054513",
+                    "shasum": "180d3efa3fea36ff6b5901121b2089696447a733"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": "^2.3",
+                    "php": ">=7.2.5",
+                    "pimple/pimple": "^3.5",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/wordpress-reviews": "^1.1"
+                },
+                "time": "2023-06-05T17:57:53+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.1.13",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-revisions-pro",
                 "version": "3.1.3",
                 "version_normalized": "3.1.3.0",
                 "source": {

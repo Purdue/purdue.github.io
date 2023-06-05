@@ -315,6 +315,42 @@
                     "source": "https://github.com/Purdue/wpdatatables/tree/5.3",
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
+            },
+            {
+                "name": "purdue/wpdatatables",
+                "version": "5.6.1",
+                "version_normalized": "5.6.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/wpdatatables.git",
+                    "reference": "bf5fa0546ed3d2302f2d6815eef332c798fc7ba8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/wpdatatables/purdue-wpdatatables-bf5fa0546ed3d2302f2d6815eef332c798fc7ba8-zip-f62330.tar",
+                    "reference": "bf5fa0546ed3d2302f2d6815eef332c798fc7ba8",
+                    "shasum": "8d5f9dffd54daba76b034eff69b54c96d09791f8"
+                },
+                "require": {
+                    "php": ">=5.6"
+                },
+                "time": "2023-06-05T17:41:13+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "TOUCH ME SOFT D.O.O.",
+                        "homepage": "https://www.wpdatatables.com"
+                    }
+                ],
+                "description": "WP chart and table plugin",
+                "support": {
+                    "source": "https://github.com/Purdue/wpdatatables/tree/5.6.1",
+                    "issues": "https://github.com/Purdue/wpdatatables/issues"
+                }
             }
         ]
     }
