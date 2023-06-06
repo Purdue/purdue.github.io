@@ -546,7 +546,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -576,12 +575,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "0a1eba80f50555a563cc39dd7c3f46706ebb1ad0"
+                    "reference": "ece9e0a2f74491c73fd2743ca02c448239394801"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/0a1eba80f50555a563cc39dd7c3f46706ebb1ad0",
-                    "reference": "0a1eba80f50555a563cc39dd7c3f46706ebb1ad0",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/ece9e0a2f74491c73fd2743ca02c448239394801",
+                    "reference": "ece9e0a2f74491c73fd2743ca02c448239394801",
                     "shasum": ""
                 },
                 "require": {
@@ -593,7 +592,7 @@
                     "publishpress/wordpress-banners": "^1.2",
                     "publishpress/wordpress-reviews": "^1.1"
                 },
-                "time": "2023-06-05T17:50:52+00:00",
+                "time": "2023-06-06T13:29:08+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
@@ -619,7 +618,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.8.1",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/master",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }
@@ -5130,7 +5129,6 @@
                 },
                 "time": "2023-06-05T17:54:10+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -5444,7 +5442,6 @@
                 },
                 "time": "2023-06-05T17:57:53+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -8881,7 +8878,6 @@
                 },
                 "time": "2023-06-05T20:10:53+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -13269,7 +13265,6 @@
                 },
                 "time": "2023-05-19T20:04:04+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -19350,7 +19345,6 @@
                 },
                 "time": "2023-06-05T17:41:13+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPLv2"
                 ],
