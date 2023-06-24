@@ -236,7 +236,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -3381,7 +3380,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -3443,7 +3441,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"

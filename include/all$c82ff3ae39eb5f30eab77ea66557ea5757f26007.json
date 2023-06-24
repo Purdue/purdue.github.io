@@ -859,7 +859,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -4004,7 +4003,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -4066,7 +4064,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -14864,6 +14861,40 @@
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             },
+            "1.4.4": {
+                "name": "purdue/purdue-cpt",
+                "version": "1.4.4",
+                "version_normalized": "1.4.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-cpt.git",
+                    "reference": "9067192badc7a0f7032a814b2107738183876e89"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-cpt/purdue-purdue-cpt-9067192badc7a0f7032a814b2107738183876e89-zip-d58d55.tar",
+                    "reference": "9067192badc7a0f7032a814b2107738183876e89",
+                    "shasum": "108fef3021bf25a7f654a87023b65af4df9cd555"
+                },
+                "require": {
+                    "jjgrainger/posttypes": "^2.1"
+                },
+                "time": "2023-06-24T19:45:16+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu/digital/"
+                    }
+                ],
+                "description": "Create custom post types used by Purdue University WordPress websites",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.4.4",
+                    "issues": "https://github.com/Purdue/purdue-cpt/issues"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-cpt",
                 "version": "dev-master",
@@ -14871,18 +14902,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-cpt.git",
-                    "reference": "e080f8db565f1c145aa0d5f0e85bf92f91e77f8d"
+                    "reference": "9067192badc7a0f7032a814b2107738183876e89"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/e080f8db565f1c145aa0d5f0e85bf92f91e77f8d",
-                    "reference": "e080f8db565f1c145aa0d5f0e85bf92f91e77f8d",
+                    "url": "https://api.github.com/repos/Purdue/purdue-cpt/zipball/9067192badc7a0f7032a814b2107738183876e89",
+                    "reference": "9067192badc7a0f7032a814b2107738183876e89",
                     "shasum": ""
                 },
                 "require": {
                     "jjgrainger/posttypes": "^2.1"
                 },
-                "time": "2023-06-24T19:42:14+00:00",
+                "time": "2023-06-24T19:45:16+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "authors": [
@@ -14894,7 +14925,7 @@
                 ],
                 "description": "Create custom post types used by Purdue University WordPress websites",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-cpt/tree/master",
+                    "source": "https://github.com/Purdue/purdue-cpt/tree/1.4.4",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
                 }
             }
