@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "16f5bc87a0c9083ebea2d23dce80a278474f0396"
+                    "reference": "e8b652e2c6c7a06d95cb4f6e61b2b39de617d9c8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/16f5bc87a0c9083ebea2d23dce80a278474f0396",
-                    "reference": "16f5bc87a0c9083ebea2d23dce80a278474f0396",
+                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/e8b652e2c6c7a06d95cb4f6e61b2b39de617d9c8",
+                    "reference": "e8b652e2c6c7a06d95cb4f6e61b2b39de617d9c8",
                     "shasum": ""
                 },
-                "time": "2023-03-14T19:26:06+00:00",
+                "time": "2023-07-18T15:20:19+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "authors": [
@@ -27,7 +27,7 @@
                 ],
                 "description": "All premium AJAX Load More add-ons in a single installation",
                 "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.17",
+                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.2.18",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
             }
