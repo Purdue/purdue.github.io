@@ -332,6 +332,39 @@
                     "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.4",
                     "issues": "https://github.com/Purdue/boilerup-wp/issues"
                 }
+            },
+            {
+                "name": "purdue/boilerup-wp",
+                "version": "1.8.5",
+                "version_normalized": "1.8.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/boilerup-wp.git",
+                    "reference": "1d20b3fbb28581c900797f321469a45696736ac4"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/boilerup-wp/purdue-boilerup-wp-1d20b3fbb28581c900797f321469a45696736ac4-zip-d93a0f.tar",
+                    "reference": "1d20b3fbb28581c900797f321469a45696736ac4",
+                    "shasum": "4a1a979d9bd515d890d4b8e8e8924f2f22cf0669"
+                },
+                "time": "2023-09-27T21:16:47+00:00",
+                "type": "wordpress-muplugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-3.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communicatons",
+                        "email": "digitalmarketing@groups.purdue.edu"
+                    }
+                ],
+                "description": "Wordpress Must-Use Plugin that provides Purdue brand assets",
+                "support": {
+                    "source": "https://github.com/Purdue/boilerup-wp/tree/1.8.5",
+                    "issues": "https://github.com/Purdue/boilerup-wp/issues"
+                }
             }
         ]
     }

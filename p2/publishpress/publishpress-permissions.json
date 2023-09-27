@@ -352,18 +352,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "0d136c97f577d070ddcd5231d449effeca2a9ed6"
+                    "reference": "98e71a7c70e0d05b0ff5484b55c88c371ac1db67"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-0d136c97f577d070ddcd5231d449effeca2a9ed6-zip-53f191.tar",
-                    "reference": "0d136c97f577d070ddcd5231d449effeca2a9ed6",
-                    "shasum": "126c92b7690d67192d63dbec89983a2190845ee7"
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-98e71a7c70e0d05b0ff5484b55c88c371ac1db67-zip-685646.tar",
+                    "reference": "98e71a7c70e0d05b0ff5484b55c88c371ac1db67",
+                    "shasum": "e03c26551a4fe3aeff3cc87f3811434016918edf"
                 },
                 "require": {
                     "php": ">=7.2.5"
                 },
-                "time": "2023-08-18T12:53:36+00:00",
+                "time": "2023-08-11T18:13:26+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -373,28 +373,16 @@
                 "installation-source": "dist",
                 "scripts": {
                     "build": [
-                        "ppbuild build"
+                        "/project/dev-workspace/docker/scripts/ppbuild build"
                     ],
                     "build:dir": [
-                        "ppbuild build-dir"
+                        "/project/dev-workspace/docker/scripts/ppbuild build-dir"
                     ],
                     "build:clean": [
-                        "ppbuild clean"
+                        "/project/dev-workspace/docker/scripts/ppbuild clean"
                     ],
-                    "get:version": [
-                        "ppbuild version"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
-                    ],
-                    "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
-                    ],
-                    "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
-                    ],
-                    "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
+                    "get-version": [
+                        "/project/dev-workspace/docker/scripts/ppbuild version"
                     ]
                 },
                 "license": [
