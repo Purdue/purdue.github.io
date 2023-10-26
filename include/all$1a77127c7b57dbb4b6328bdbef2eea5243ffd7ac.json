@@ -1198,7 +1198,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -16102,6 +16101,45 @@
                 "support": {
                     "source": "https://github.com/Purdue/purdue-cpt/tree/1.4.6",
                     "issues": "https://github.com/Purdue/purdue-cpt/issues"
+                }
+            }
+        },
+        "purdue/purdue-home-theme": {
+            "dev-main": {
+                "name": "purdue/purdue-home-theme",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "c90c8d447a32b3d8d7afeffe20380ee95ae16c29"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/c90c8d447a32b3d8d7afeffe20380ee95ae16c29",
+                    "reference": "c90c8d447a32b3d8d7afeffe20380ee95ae16c29",
+                    "shasum": ""
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2023-10-26T19:39:06+00:00",
+                "default-branch": true,
+                "type": "wordpress-theme",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.0.0",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             }
         },
