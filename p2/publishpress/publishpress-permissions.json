@@ -413,13 +413,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "c68c78ad6ee01cf09f20de5dcef1bc9e4ff1e12e"
+                    "reference": "d6b4c8ea4f4da8b1369a99159ecece1211c9f2b6"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-c68c78ad6ee01cf09f20de5dcef1bc9e4ff1e12e-zip-dcf8e0.tar",
-                    "reference": "c68c78ad6ee01cf09f20de5dcef1bc9e4ff1e12e",
-                    "shasum": "b47e9e6840a37f268e931aa542d4c64f33cf3fad"
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-d6b4c8ea4f4da8b1369a99159ecece1211c9f2b6-zip-3f2a4f.tar",
+                    "reference": "d6b4c8ea4f4da8b1369a99159ecece1211c9f2b6",
+                    "shasum": "e6cda180ae191e93f5bffaa3ed15551c95ad4e5b"
                 },
                 "require": {
                     "ext-json": "*",
@@ -438,7 +438,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2023-10-20T21:13:45+00:00",
+                "time": "2023-10-25T18:33:19+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -463,7 +463,7 @@
                         "wp i18n make-mo ./languages ./languages --allow-root"
                     ],
                     "gen:pot": [
-                        "wp i18n make-pot . languages/publishpress-statuses.pot --domain=publishpress-statuses --exclude=dev-workspace,.wordpress-org,.github,dist,tests, --allow-root"
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root"
                     ],
                     "check:longpath": [
                         "longpath ."
@@ -483,7 +483,7 @@
                         "@check:php82"
                     ],
                     "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./publishpress-statuses.php"
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
                     ],
                     "check:php72": [
                         "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
