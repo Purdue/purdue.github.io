@@ -8,37 +8,49 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "ece9e0a2f74491c73fd2743ca02c448239394801"
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/ece9e0a2f74491c73fd2743ca02c448239394801",
-                    "reference": "ece9e0a2f74491c73fd2743ca02c448239394801",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/a4434a9d28df80aa0dca6c34eae6a52b567a7485",
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485",
                     "shasum": ""
                 },
                 "require": {
-                    "alledia/wordpress-edd-license-integration": "~2.2",
-                    "php": ">=5.6.20",
-                    "pimple/pimple": "3.2.3.*",
-                    "psr/container": "1.0.0",
-                    "publishpress/publishpress-instance-protection": "1.0.2",
-                    "publishpress/wordpress-banners": "^1.2",
-                    "publishpress/wordpress-reviews": "^1.1"
+                    "php": ">=7.2.5"
                 },
-                "time": "2023-06-06T13:29:08+00:00",
+                "time": "2023-11-16T18:52:47+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
-                    "plugin-name": "capabilities-pro",
+                    "plugin-name": "publishpress-capabilities-pro",
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
                 "scripts": {
                     "build": [
-                        "builder/docker/scripts/build build"
+                        "ppbuild build"
                     ],
-                    "build-unpacked": [
-                        "builder/docker/scripts/build build-dir"
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get-version": [
+                        "ppbuild version"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
                     ]
                 },
                 "license": [
@@ -51,7 +63,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/master",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.10.2",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }

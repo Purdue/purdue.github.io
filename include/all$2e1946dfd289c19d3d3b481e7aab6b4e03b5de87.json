@@ -208,6 +208,72 @@
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             },
+            "2.10.2": {
+                "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.10.2",
+                "version_normalized": "2.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-a4434a9d28df80aa0dca6c34eae6a52b567a7485-zip-603534.tar",
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485",
+                    "shasum": "1be1cf84ef9ad8eab8b908498a98ee8635980dec"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "time": "2023-11-16T18:52:47+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "publishpress-capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "ppbuild build"
+                    ],
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get-version": [
+                        "ppbuild version"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.10.2",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
+            },
             "2.3": {
                 "name": "publishpress/publishpress-capabilities-pro",
                 "version": "2.3",
@@ -575,37 +641,49 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "ece9e0a2f74491c73fd2743ca02c448239394801"
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/ece9e0a2f74491c73fd2743ca02c448239394801",
-                    "reference": "ece9e0a2f74491c73fd2743ca02c448239394801",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/a4434a9d28df80aa0dca6c34eae6a52b567a7485",
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485",
                     "shasum": ""
                 },
                 "require": {
-                    "alledia/wordpress-edd-license-integration": "~2.2",
-                    "php": ">=5.6.20",
-                    "pimple/pimple": "3.2.3.*",
-                    "psr/container": "1.0.0",
-                    "publishpress/publishpress-instance-protection": "1.0.2",
-                    "publishpress/wordpress-banners": "^1.2",
-                    "publishpress/wordpress-reviews": "^1.1"
+                    "php": ">=7.2.5"
                 },
-                "time": "2023-06-06T13:29:08+00:00",
+                "time": "2023-11-16T18:52:47+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
-                    "plugin-name": "capabilities-pro",
+                    "plugin-name": "publishpress-capabilities-pro",
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
                 "scripts": {
                     "build": [
-                        "builder/docker/scripts/build build"
+                        "ppbuild build"
                     ],
-                    "build-unpacked": [
-                        "builder/docker/scripts/build build-dir"
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get-version": [
+                        "ppbuild version"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
                     ]
                 },
                 "license": [
@@ -618,7 +696,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/master",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.10.2",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }
@@ -5748,6 +5826,53 @@
             }
         },
         "publishpress/publishpress-permissions-pro": {
+            "3.11.5": {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "3.11.5",
+                "version_normalized": "3.11.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "f747ed03137396bae66356bd12060d145fb98254"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-f747ed03137396bae66356bd12060d145fb98254-zip-89764d.tar",
+                    "reference": "f747ed03137396bae66356bd12060d145fb98254",
+                    "shasum": "8cfe28ab0c9166bc3f150c2ccd1f298c4af12c9b"
+                },
+                "require": {
+                    "alledia/wordpress-edd-license-integration": ">=2.3.2",
+                    "php": ">=5.6.20",
+                    "pimple/pimple": "~3.0",
+                    "publishpress/publishpress-instance-protection": "^1.0",
+                    "publishpress/publishpress-permissions": ">=3.8.5"
+                },
+                "time": "2023-11-16T18:55:01+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.11.5",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
+            },
             "3.4.3": {
                 "name": "publishpress/publishpress-permissions-pro",
                 "version": "3.4.3",
@@ -6253,12 +6378,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "135d83fb91f00f63312c2e38ce607e29f055f380"
+                    "reference": "f747ed03137396bae66356bd12060d145fb98254"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/135d83fb91f00f63312c2e38ce607e29f055f380",
-                    "reference": "135d83fb91f00f63312c2e38ce607e29f055f380",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/f747ed03137396bae66356bd12060d145fb98254",
+                    "reference": "f747ed03137396bae66356bd12060d145fb98254",
                     "shasum": ""
                 },
                 "require": {
@@ -6268,7 +6393,7 @@
                     "publishpress/publishpress-instance-protection": "^1.0",
                     "publishpress/publishpress-permissions": ">=3.8.5"
                 },
-                "time": "2023-06-05T17:54:10+00:00",
+                "time": "2023-11-16T18:55:01+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -6289,7 +6414,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.9.3",
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.11.5",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             }
@@ -19708,7 +19833,6 @@
                 },
                 "time": "2023-11-16T18:36:20+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],

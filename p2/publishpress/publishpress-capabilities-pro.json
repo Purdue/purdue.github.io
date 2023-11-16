@@ -39,6 +39,72 @@
             },
             {
                 "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.10.2",
+                "version_normalized": "2.10.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-a4434a9d28df80aa0dca6c34eae6a52b567a7485-zip-603534.tar",
+                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485",
+                    "shasum": "1be1cf84ef9ad8eab8b908498a98ee8635980dec"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "time": "2023-11-16T18:52:47+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "publishpress-capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "ppbuild build"
+                    ],
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get-version": [
+                        "ppbuild version"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.10.2",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-capabilities-pro",
                 "version": "2.3",
                 "version_normalized": "2.3.0.0",
                 "source": {
