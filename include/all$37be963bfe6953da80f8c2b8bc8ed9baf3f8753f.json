@@ -4822,18 +4822,32 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "f55076700611214d3e531c97bf166bc1ab06b866"
+                    "reference": "99b4bf41f2155d0739c364640d3ceed83b2716dd"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/f55076700611214d3e531c97bf166bc1ab06b866",
-                    "reference": "f55076700611214d3e531c97bf166bc1ab06b866",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/99b4bf41f2155d0739c364640d3ceed83b2716dd",
+                    "reference": "99b4bf41f2155d0739c364640d3ceed83b2716dd",
                     "shasum": ""
                 },
                 "require": {
+                    "ext-json": "*",
                     "php": ">=7.2.5"
                 },
-                "time": "2023-09-09T00:47:13+00:00",
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "dev-main",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2023-11-15T23:35:42+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -4853,17 +4867,58 @@
                     "get:version": [
                         "ppbuild version"
                     ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root"
+                    ],
                     "check:longpath": [
                         "longpath ."
                     ],
-                    "pre-autoload-dump": [
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./publishpress-statuses.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "-pre-autoload-dump": [
                         "composer dumpautoload --working-dir=./lib"
                     ],
-                    "pre-update-cmd": [
+                    "-pre-update-cmd": [
                         "composer update --working-dir=./lib"
                     ],
-                    "pre-install-cmd": [
+                    "-pre-install-cmd": [
                         "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
                     ]
                 },
                 "license": [
@@ -4872,7 +4927,9 @@
                 "authors": [
                     {
                         "name": "PublishPress",
-                        "email": "help@publishpress.com"
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
                     },
                     {
                         "name": "Kevin Behrens",
@@ -5566,12 +5623,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "dda400f2ec6bb72ae59422540620228ae637abf5"
+                    "reference": "9786b3399a60f45f324c15de64680ce8dc4f75da"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/dda400f2ec6bb72ae59422540620228ae637abf5",
-                    "reference": "dda400f2ec6bb72ae59422540620228ae637abf5",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/9786b3399a60f45f324c15de64680ce8dc4f75da",
+                    "reference": "9786b3399a60f45f324c15de64680ce8dc4f75da",
                     "shasum": ""
                 },
                 "require": {
@@ -5591,7 +5648,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2023-11-01T18:20:00+00:00",
+                "time": "2023-11-15T23:33:36+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -16126,18 +16183,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "4ec2ca1284ce0d2324ff03bf04b6208fdf992cd5"
+                    "reference": "e6237e64c9cfea65ada861967403111ae66c10d7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/4ec2ca1284ce0d2324ff03bf04b6208fdf992cd5",
-                    "reference": "4ec2ca1284ce0d2324ff03bf04b6208fdf992cd5",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/e6237e64c9cfea65ada861967403111ae66c10d7",
+                    "reference": "e6237e64c9cfea65ada861967403111ae66c10d7",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2023-11-13T22:30:54+00:00",
+                "time": "2023-11-16T18:30:11+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -16152,7 +16209,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.0.3",
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/main",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             }
@@ -19629,6 +19686,45 @@
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             },
+            "1.6.59": {
+                "name": "purdue/purdue-wp-theme",
+                "version": "1.6.59",
+                "version_normalized": "1.6.59.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme.git",
+                    "reference": "97ccde442431cfc9280a8c236101e87e0e970e92"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme/purdue-purdue-wp-theme-97ccde442431cfc9280a8c236101e87e0e970e92-zip-647255.tar",
+                    "reference": "97ccde442431cfc9280a8c236101e87e0e970e92",
+                    "shasum": "0cd06d64c0d618fa26578c798d473c404ce44cad"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2023-11-16T18:36:20+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.59",
+                    "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
+                }
+            },
             "1.6.6": {
                 "name": "purdue/purdue-wp-theme",
                 "version": "1.6.6",
@@ -19788,12 +19884,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
-                    "reference": "9f51502c8206c6d72902d5f3519fb8ffcf7d69fb"
+                    "reference": "97ccde442431cfc9280a8c236101e87e0e970e92"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/9f51502c8206c6d72902d5f3519fb8ffcf7d69fb",
-                    "reference": "9f51502c8206c6d72902d5f3519fb8ffcf7d69fb",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme/zipball/97ccde442431cfc9280a8c236101e87e0e970e92",
+                    "reference": "97ccde442431cfc9280a8c236101e87e0e970e92",
                     "shasum": ""
                 },
                 "require": {
@@ -19801,7 +19897,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2023-11-13T21:10:32+00:00",
+                "time": "2023-11-16T18:36:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -19816,7 +19912,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.58",
+                    "source": "https://github.com/Purdue/purdue-wp-theme/tree/1.6.59",
                     "issues": "https://github.com/Purdue/purdue-wp-theme/issues"
                 }
             }
