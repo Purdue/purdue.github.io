@@ -358,7 +358,6 @@
                     "plugin-name": "publishpress-revisions-pro",
                     "plugin-folder": "revisionary-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
