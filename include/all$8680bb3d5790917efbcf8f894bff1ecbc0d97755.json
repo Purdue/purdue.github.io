@@ -4899,12 +4899,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "e4bbebf043cf3d7e3c709a328884d711feb7d018"
+                    "reference": "0d0d6e7a65e027b79bb99bc9c8c786d2746463d0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/e4bbebf043cf3d7e3c709a328884d711feb7d018",
-                    "reference": "e4bbebf043cf3d7e3c709a328884d711feb7d018",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/0d0d6e7a65e027b79bb99bc9c8c786d2746463d0",
+                    "reference": "0d0d6e7a65e027b79bb99bc9c8c786d2746463d0",
                     "shasum": ""
                 },
                 "require": {
@@ -4924,7 +4924,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2023-11-17T19:09:54+00:00",
+                "time": "2023-11-17T21:38:13+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -5700,12 +5700,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "e7eb9e4d84a2762c811e55fb03804245899436a6"
+                    "reference": "a40f1ba30e699f3afe58bbf2ac0f0b210bad517a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/e7eb9e4d84a2762c811e55fb03804245899436a6",
-                    "reference": "e7eb9e4d84a2762c811e55fb03804245899436a6",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/a40f1ba30e699f3afe58bbf2ac0f0b210bad517a",
+                    "reference": "a40f1ba30e699f3afe58bbf2ac0f0b210bad517a",
                     "shasum": ""
                 },
                 "require": {
@@ -5725,7 +5725,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2023-11-17T19:09:02+00:00",
+                "time": "2023-11-17T21:37:30+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -16400,18 +16400,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "48d5b706a89a67370e5536793b7d8fb030ed5938"
+                    "reference": "0f160b714871d858ac01e99e2343089f77c8cf1c"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-48d5b706a89a67370e5536793b7d8fb030ed5938-zip-8abeed.tar",
-                    "reference": "48d5b706a89a67370e5536793b7d8fb030ed5938",
-                    "shasum": "cd018f4fe7189ff5dadb7537dfb00a8c68f3fabc"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-0f160b714871d858ac01e99e2343089f77c8cf1c-zip-c32fca.tar",
+                    "reference": "0f160b714871d858ac01e99e2343089f77c8cf1c",
+                    "shasum": "8d16bf3eaca2f4a106daf04ea3c89833074a96b5"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2023-11-17T20:57:05+00:00",
+                "time": "2023-11-20T14:20:38+00:00",
                 "type": "wordpress-theme",
                 "installation-source": "dist",
                 "license": [
@@ -16437,18 +16437,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "48d5b706a89a67370e5536793b7d8fb030ed5938"
+                    "reference": "0f160b714871d858ac01e99e2343089f77c8cf1c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/48d5b706a89a67370e5536793b7d8fb030ed5938",
-                    "reference": "48d5b706a89a67370e5536793b7d8fb030ed5938",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/0f160b714871d858ac01e99e2343089f77c8cf1c",
+                    "reference": "0f160b714871d858ac01e99e2343089f77c8cf1c",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2023-11-17T20:57:05+00:00",
+                "time": "2023-11-20T14:20:38+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
