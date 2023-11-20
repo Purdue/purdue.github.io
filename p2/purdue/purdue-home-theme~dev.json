@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "99305f9a641decbe8f627301806add2a344cd4bd"
+                    "reference": "e06f4eacdef626f43dc1e9c8b82227b27e4d804b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/99305f9a641decbe8f627301806add2a344cd4bd",
-                    "reference": "99305f9a641decbe8f627301806add2a344cd4bd",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/e06f4eacdef626f43dc1e9c8b82227b27e4d804b",
+                    "reference": "e06f4eacdef626f43dc1e9c8b82227b27e4d804b",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2023-11-20T16:30:48+00:00",
+                "time": "2023-11-20T16:35:25+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
