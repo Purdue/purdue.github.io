@@ -273,6 +273,126 @@
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             },
+            "2.12.1": {
+                "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.12.1",
+                "version_normalized": "2.12.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1-zip-6b8881.tar",
+                    "reference": "06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1",
+                    "shasum": "e39c2092c075df54a58c69ed4610d59145014264"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "dev-main",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2024-02-08T21:25:20+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "publishpress-capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "ppbuild build"
+                    ],
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get:version": [
+                        "ppbuild version"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root;wp i18n make-mo ./lib/status-capabilities/languages ./lib/status-capabilities/languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/capabilities-pro.pot --domain=capabilities-pro --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root;wp i18n make-pot ./lib/status-capabilities lib/status-capabilities/languages/publishpress-status-capabilities.pot --domain=publishpress-status-capabilities --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./capabilities-pro.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.12.1",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
+            },
             "2.3": {
                 "name": "publishpress/publishpress-capabilities-pro",
                 "version": "2.3",
@@ -640,18 +760,31 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485"
+                    "reference": "06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/a4434a9d28df80aa0dca6c34eae6a52b567a7485",
-                    "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1",
+                    "reference": "06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5"
                 },
-                "time": "2023-11-16T18:52:47+00:00",
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "dev-main",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2024-02-08T21:25:20+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
@@ -669,11 +802,49 @@
                     "build:clean": [
                         "ppbuild clean"
                     ],
-                    "get-version": [
+                    "get:version": [
                         "ppbuild version"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root;wp i18n make-mo ./lib/status-capabilities/languages ./lib/status-capabilities/languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/capabilities-pro.pot --domain=capabilities-pro --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root;wp i18n make-pot ./lib/status-capabilities lib/status-capabilities/languages/publishpress-status-capabilities.pot --domain=publishpress-status-capabilities --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root"
                     ],
                     "check:longpath": [
                         "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./capabilities-pro.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
                     ],
                     "pre-autoload-dump": [
                         "composer dumpautoload --working-dir=./lib"
@@ -683,6 +854,9 @@
                     ],
                     "pre-install-cmd": [
                         "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
                     ]
                 },
                 "license": [
@@ -695,7 +869,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.10.2",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.12.1",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }
@@ -4899,12 +5073,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "523755694e6780692b07e63fab52ffed0b023417"
+                    "reference": "d07c513d02bfe80f4a158bc74f9ce0ad7991e3f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/523755694e6780692b07e63fab52ffed0b023417",
-                    "reference": "523755694e6780692b07e63fab52ffed0b023417",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/d07c513d02bfe80f4a158bc74f9ce0ad7991e3f0",
+                    "reference": "d07c513d02bfe80f4a158bc74f9ce0ad7991e3f0",
                     "shasum": ""
                 },
                 "require": {
@@ -4924,7 +5098,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2024-02-08T21:04:15+00:00",
+                "time": "2024-02-08T21:06:43+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -8636,6 +8810,34 @@
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             },
+            "4.0.15": {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "4.0.15",
+                "version_normalized": "4.0.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "9986dfee749334763f34292f8cf843a1078c1a9a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-9986dfee749334763f34292f8cf843a1078c1a9a-zip-2c0b63.tar",
+                    "reference": "9986dfee749334763f34292f8cf843a1078c1a9a",
+                    "shasum": "4883aade95aec0bcf012790c5e780b7917385299"
+                },
+                "time": "2024-02-08T21:20:55+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.15",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-permissions-pro",
                 "version": "dev-master",
@@ -8643,15 +8845,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "7beacbb052f970c0e76cef49bbfd44e21caf7571"
+                    "reference": "9986dfee749334763f34292f8cf843a1078c1a9a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/7beacbb052f970c0e76cef49bbfd44e21caf7571",
-                    "reference": "7beacbb052f970c0e76cef49bbfd44e21caf7571",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/9986dfee749334763f34292f8cf843a1078c1a9a",
+                    "reference": "9986dfee749334763f34292f8cf843a1078c1a9a",
                     "shasum": ""
                 },
-                "time": "2024-02-08T21:04:13+00:00",
+                "time": "2024-02-08T21:20:55+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -8660,7 +8862,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/presspermit-pro/tree/master",
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.15",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             }

@@ -69,12 +69,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "523755694e6780692b07e63fab52ffed0b023417"
+                    "reference": "d07c513d02bfe80f4a158bc74f9ce0ad7991e3f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/523755694e6780692b07e63fab52ffed0b023417",
-                    "reference": "523755694e6780692b07e63fab52ffed0b023417",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/d07c513d02bfe80f4a158bc74f9ce0ad7991e3f0",
+                    "reference": "d07c513d02bfe80f4a158bc74f9ce0ad7991e3f0",
                     "shasum": ""
                 },
                 "require": {
@@ -94,7 +94,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2024-02-08T21:04:15+00:00",
+                "time": "2024-02-08T21:06:43+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
