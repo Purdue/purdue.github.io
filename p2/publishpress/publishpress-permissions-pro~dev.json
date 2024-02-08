@@ -8,43 +8,24 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "f747ed03137396bae66356bd12060d145fb98254"
+                    "reference": "7beacbb052f970c0e76cef49bbfd44e21caf7571"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/f747ed03137396bae66356bd12060d145fb98254",
-                    "reference": "f747ed03137396bae66356bd12060d145fb98254",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/7beacbb052f970c0e76cef49bbfd44e21caf7571",
+                    "reference": "7beacbb052f970c0e76cef49bbfd44e21caf7571",
                     "shasum": ""
                 },
-                "require": {
-                    "alledia/wordpress-edd-license-integration": ">=2.3.2",
-                    "php": ">=5.6.20",
-                    "pimple/pimple": "~3.0",
-                    "publishpress/publishpress-instance-protection": "^1.0",
-                    "publishpress/publishpress-permissions": ">=3.8.5"
-                },
-                "time": "2023-11-16T18:55:01+00:00",
+                "time": "2024-02-08T21:04:13+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2"
                 ],
-                "authors": [
-                    {
-                        "name": "PublishPress",
-                        "email": "help@publishpress.com"
-                    },
-                    {
-                        "name": "Kevin Behrens",
-                        "email": "kevin@agapetry.net",
-                        "homepage": "https://agapetry.net",
-                        "role": "Lead Developer"
-                    }
-                ],
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/presspermit-pro/tree/3.11.5",
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/master",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             }
