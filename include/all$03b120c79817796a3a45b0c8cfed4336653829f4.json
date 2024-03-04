@@ -5303,7 +5303,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -17626,7 +17625,6 @@
                 },
                 "time": "2024-03-04T17:07:14+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -17643,6 +17641,43 @@
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
+            "1.1.4": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.4",
+                "version_normalized": "1.1.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "1d567e4e0da097d011f3fa05b48476b7a93d7cc5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-1d567e4e0da097d011f3fa05b48476b7a93d7cc5-zip-7d46e8.tar",
+                    "reference": "1d567e4e0da097d011f3fa05b48476b7a93d7cc5",
+                    "shasum": "64eada2694afdaeb64d26cab7cce1825b51587e3"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2024-03-04T22:35:19+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.4",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
             "dev-main": {
                 "name": "purdue/purdue-home-theme",
                 "version": "dev-main",
@@ -17650,18 +17685,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "6bd66c57ae97ae3c7899a5b9572ee1aef6cf153b"
+                    "reference": "1d567e4e0da097d011f3fa05b48476b7a93d7cc5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/6bd66c57ae97ae3c7899a5b9572ee1aef6cf153b",
-                    "reference": "6bd66c57ae97ae3c7899a5b9572ee1aef6cf153b",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/1d567e4e0da097d011f3fa05b48476b7a93d7cc5",
+                    "reference": "1d567e4e0da097d011f3fa05b48476b7a93d7cc5",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-03-04T17:07:14+00:00",
+                "time": "2024-03-04T22:35:19+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -17676,7 +17711,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.3",
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.4",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             }
@@ -17765,7 +17800,6 @@
                 },
                 "time": "2024-03-04T17:13:04+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
