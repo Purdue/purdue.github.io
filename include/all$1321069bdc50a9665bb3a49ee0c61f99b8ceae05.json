@@ -17697,7 +17697,6 @@
                 },
                 "time": "2024-03-06T20:32:54+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -17714,6 +17713,43 @@
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
+            "1.1.6": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.6",
+                "version_normalized": "1.1.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "ccf070e9831f613a8ab4af38df4a923e4c64808e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-ccf070e9831f613a8ab4af38df4a923e4c64808e-zip-ce4c8b.tar",
+                    "reference": "ccf070e9831f613a8ab4af38df4a923e4c64808e",
+                    "shasum": "cc84f58e65a5858a3c87c9e183a0099d5bc1841c"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2024-03-18T15:03:59+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.6",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
             "dev-main": {
                 "name": "purdue/purdue-home-theme",
                 "version": "dev-main",
@@ -17721,18 +17757,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "c853b98e8d9a4a42932e005d8245390cb1517ed2"
+                    "reference": "ccf070e9831f613a8ab4af38df4a923e4c64808e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/c853b98e8d9a4a42932e005d8245390cb1517ed2",
-                    "reference": "c853b98e8d9a4a42932e005d8245390cb1517ed2",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/ccf070e9831f613a8ab4af38df4a923e4c64808e",
+                    "reference": "ccf070e9831f613a8ab4af38df4a923e4c64808e",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-03-06T21:39:18+00:00",
+                "time": "2024-03-18T15:03:59+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -17747,7 +17783,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-home-theme/tree/main",
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.6",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             }
@@ -18001,7 +18037,6 @@
                 },
                 "time": "2024-03-18T13:18:36+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
