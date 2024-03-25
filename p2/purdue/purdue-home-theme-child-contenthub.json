@@ -264,6 +264,40 @@
                     "source": "https://github.com/Purdue/purdue-home-theme-child-contenthub/tree/1.0.7",
                     "issues": "https://github.com/Purdue/purdue-home-theme-child-contenthub/issues"
                 }
+            },
+            {
+                "name": "purdue/purdue-home-theme-child-contenthub",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme-child-contenthub.git",
+                    "reference": "40c68c019082b85429e2e61e4f4545cb52549f2d"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme-child-contenthub/purdue-purdue-home-theme-child-contenthub-40c68c019082b85429e2e61e4f4545cb52549f2d-zip-2ed56f.tar",
+                    "reference": "40c68c019082b85429e2e61e4f4545cb52549f2d",
+                    "shasum": "20ff741c67bb91e3ba30fcdc1799a93db50d9cea"
+                },
+                "time": "2024-03-25T15:40:42+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme-child-contenthub/tree/1.0.8",
+                    "issues": "https://github.com/Purdue/purdue-home-theme-child-contenthub/issues"
+                }
             }
         ]
     }
