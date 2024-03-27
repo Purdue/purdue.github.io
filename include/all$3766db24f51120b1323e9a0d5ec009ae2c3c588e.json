@@ -18146,19 +18146,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "a3c2eee43f112e672281e859e2e32fdf349da997"
+                    "reference": "7a5246ac08d88c560998bce4371e68581f708fac"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-a3c2eee43f112e672281e859e2e32fdf349da997-zip-543c47.tar",
-                    "reference": "a3c2eee43f112e672281e859e2e32fdf349da997",
-                    "shasum": "e215c9650c31ce37d4fd33a9438efee3201b679b"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-7a5246ac08d88c560998bce4371e68581f708fac-zip-909e07.tar",
+                    "reference": "7a5246ac08d88c560998bce4371e68581f708fac",
+                    "shasum": "ca17543d38f06b6fcd383084188b537ef2d61709"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-03-26T20:29:28+00:00",
+                "time": "2024-03-27T15:50:57+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -18182,18 +18183,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "a3c2eee43f112e672281e859e2e32fdf349da997"
+                    "reference": "7a5246ac08d88c560998bce4371e68581f708fac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/a3c2eee43f112e672281e859e2e32fdf349da997",
-                    "reference": "a3c2eee43f112e672281e859e2e32fdf349da997",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/7a5246ac08d88c560998bce4371e68581f708fac",
+                    "reference": "7a5246ac08d88c560998bce4371e68581f708fac",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-03-26T20:29:28+00:00",
+                "time": "2024-03-27T15:50:57+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -18495,7 +18496,6 @@
                 },
                 "time": "2024-03-26T21:04:02+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -22365,21 +22365,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme-updated.git",
-                    "reference": "340f7bb7d403866181e50c1895c143161611bd2f"
+                    "reference": "03b3d118254ab2e442cc38ab4fcf0e013f8cc359"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-340f7bb7d403866181e50c1895c143161611bd2f-zip-58cf26.tar",
-                    "reference": "340f7bb7d403866181e50c1895c143161611bd2f",
-                    "shasum": "99d13543849af3779df1130cf15b79e0aae89ad8"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-03b3d118254ab2e442cc38ab4fcf0e013f8cc359-zip-b20be9.tar",
+                    "reference": "03b3d118254ab2e442cc38ab4fcf0e013f8cc359",
+                    "shasum": "7652d7aff67af537852269d18235254e7ce71b2d"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*",
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2024-01-19T22:03:35+00:00",
+                "time": "2024-03-27T16:29:02+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -22402,12 +22403,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme-updated.git",
-                    "reference": "bdee9d0a4e37ac070f7fce891d69cec5461f83b8"
+                    "reference": "03b3d118254ab2e442cc38ab4fcf0e013f8cc359"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme-updated/zipball/bdee9d0a4e37ac070f7fce891d69cec5461f83b8",
-                    "reference": "bdee9d0a4e37ac070f7fce891d69cec5461f83b8",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme-updated/zipball/03b3d118254ab2e442cc38ab4fcf0e013f8cc359",
+                    "reference": "03b3d118254ab2e442cc38ab4fcf0e013f8cc359",
                     "shasum": ""
                 },
                 "require": {
@@ -22415,7 +22416,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2024-02-26T16:23:31+00:00",
+                "time": "2024-03-27T16:29:02+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -22430,7 +22431,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/master"
+                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.0.1"
                 }
             }
         },
