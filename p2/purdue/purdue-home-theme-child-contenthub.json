@@ -272,16 +272,17 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme-child-contenthub.git",
-                    "reference": "c387fa63d0a4741db453646c7e85c8044cb28c6e"
+                    "reference": "0323a873b076b1b45a8c6f19bfb57c2e36442a55"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme-child-contenthub/purdue-purdue-home-theme-child-contenthub-c387fa63d0a4741db453646c7e85c8044cb28c6e-zip-2be8f2.tar",
-                    "reference": "c387fa63d0a4741db453646c7e85c8044cb28c6e",
-                    "shasum": "5ef3b0aeed3ec65ee48d0973e9d06042ab0ee479"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme-child-contenthub/purdue-purdue-home-theme-child-contenthub-0323a873b076b1b45a8c6f19bfb57c2e36442a55-zip-57a267.tar",
+                    "reference": "0323a873b076b1b45a8c6f19bfb57c2e36442a55",
+                    "shasum": "bea26c21b9eafdfb624bcad4c245370f22f4ae43"
                 },
-                "time": "2024-03-26T21:04:02+00:00",
+                "time": "2024-03-28T14:16:03+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
