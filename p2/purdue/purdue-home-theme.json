@@ -620,19 +620,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "6c258c08c26e3cdd8b6c2f646d041bad73c47f89"
+                    "reference": "f3ce1e9bc76ebdedaa26632a0a56b966b2695f6d"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-6c258c08c26e3cdd8b6c2f646d041bad73c47f89-zip-f89cee.tar",
-                    "reference": "6c258c08c26e3cdd8b6c2f646d041bad73c47f89",
-                    "shasum": "a0389c5d46ddf2670acc8d784f84da51ae350a0f"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-f3ce1e9bc76ebdedaa26632a0a56b966b2695f6d-zip-623551.tar",
+                    "reference": "f3ce1e9bc76ebdedaa26632a0a56b966b2695f6d",
+                    "shasum": "ff1db7121203f83d72e7a691527d70ce46980a93"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-04-05T17:35:47+00:00",
+                "time": "2024-04-05T20:22:30+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
