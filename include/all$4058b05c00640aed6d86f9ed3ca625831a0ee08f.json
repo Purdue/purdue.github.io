@@ -18308,7 +18308,6 @@
                 },
                 "time": "2024-04-05T20:50:29+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -18322,6 +18321,43 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.10",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.11": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.11",
+                "version_normalized": "1.1.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "021198f5d87e7f26fee29a3f6ad4798a930a49b8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-021198f5d87e7f26fee29a3f6ad4798a930a49b8-zip-9ce4f3.tar",
+                    "reference": "021198f5d87e7f26fee29a3f6ad4798a930a49b8",
+                    "shasum": "155a6327d7f7b0871a26e04e3bb103371b00f6f4"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2024-04-09T19:44:26+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.11",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
@@ -18620,18 +18656,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "d14585fbc9e2f7fb1da6c1f4152544cd29f05edd"
+                    "reference": "021198f5d87e7f26fee29a3f6ad4798a930a49b8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/d14585fbc9e2f7fb1da6c1f4152544cd29f05edd",
-                    "reference": "d14585fbc9e2f7fb1da6c1f4152544cd29f05edd",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/021198f5d87e7f26fee29a3f6ad4798a930a49b8",
+                    "reference": "021198f5d87e7f26fee29a3f6ad4798a930a49b8",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-04-05T20:50:29+00:00",
+                "time": "2024-04-09T19:44:26+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -18646,7 +18682,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.10",
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.11",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             }
@@ -18814,6 +18850,40 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-home-theme-child-contenthub/tree/1.0.12",
+                    "issues": "https://github.com/Purdue/purdue-home-theme-child-contenthub/issues"
+                }
+            },
+            "1.0.13": {
+                "name": "purdue/purdue-home-theme-child-contenthub",
+                "version": "1.0.13",
+                "version_normalized": "1.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme-child-contenthub.git",
+                    "reference": "a7acaf2d8128e85e600d7ceda93fbecfcef24d28"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme-child-contenthub/purdue-purdue-home-theme-child-contenthub-a7acaf2d8128e85e600d7ceda93fbecfcef24d28-zip-66fd28.tar",
+                    "reference": "a7acaf2d8128e85e600d7ceda93fbecfcef24d28",
+                    "shasum": "c5f43ce3eb6b453d912acbe7d48c45fee90c7c1d"
+                },
+                "time": "2024-04-09T19:45:28+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme-child-contenthub/tree/1.0.13",
                     "issues": "https://github.com/Purdue/purdue-home-theme-child-contenthub/issues"
                 }
             },
@@ -19088,15 +19158,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme-child-contenthub.git",
-                    "reference": "9de5f4386c466a40a264c5d41353a48a9981392b"
+                    "reference": "a7acaf2d8128e85e600d7ceda93fbecfcef24d28"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme-child-contenthub/zipball/9de5f4386c466a40a264c5d41353a48a9981392b",
-                    "reference": "9de5f4386c466a40a264c5d41353a48a9981392b",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme-child-contenthub/zipball/a7acaf2d8128e85e600d7ceda93fbecfcef24d28",
+                    "reference": "a7acaf2d8128e85e600d7ceda93fbecfcef24d28",
                     "shasum": ""
                 },
-                "time": "2024-04-05T20:21:26+00:00",
+                "time": "2024-04-09T19:45:28+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -19111,7 +19181,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-home-theme-child-contenthub/tree/1.0.12",
+                    "source": "https://github.com/Purdue/purdue-home-theme-child-contenthub/tree/1.0.13",
                     "issues": "https://github.com/Purdue/purdue-home-theme-child-contenthub/issues"
                 }
             },
