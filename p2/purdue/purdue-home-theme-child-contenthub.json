@@ -239,16 +239,17 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme-child-contenthub.git",
-                    "reference": "5cfe30ba712e9ba852608691827ceb72c025616e"
+                    "reference": "6060028f9e18180fe6da8ab9fd579dec5b6ad7c4"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme-child-contenthub/purdue-purdue-home-theme-child-contenthub-5cfe30ba712e9ba852608691827ceb72c025616e-zip-868c87.tar",
-                    "reference": "5cfe30ba712e9ba852608691827ceb72c025616e",
-                    "shasum": "0fffe7d7935417fffceb659a853e0c8a1060350d"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme-child-contenthub/purdue-purdue-home-theme-child-contenthub-6060028f9e18180fe6da8ab9fd579dec5b6ad7c4-zip-c6f838.tar",
+                    "reference": "6060028f9e18180fe6da8ab9fd579dec5b6ad7c4",
+                    "shasum": "239c8f94190797edc205ec0e75e9a38629f1778f"
                 },
-                "time": "2024-04-12T15:49:22+00:00",
+                "time": "2024-04-22T21:04:31+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
