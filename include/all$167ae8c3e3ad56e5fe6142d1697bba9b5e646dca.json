@@ -18367,18 +18367,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "86b4a80b6e19c76c154ac2221b8e9eb4072fc216"
+                    "reference": "5654d522eef298259380ab07c213c82ec05a34c5"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-86b4a80b6e19c76c154ac2221b8e9eb4072fc216-zip-9b67f8.tar",
-                    "reference": "86b4a80b6e19c76c154ac2221b8e9eb4072fc216",
-                    "shasum": "6fd6f7ec107d0ae6d961aaad24f1ac9a26e5c9b6"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-5654d522eef298259380ab07c213c82ec05a34c5-zip-133efb.tar",
+                    "reference": "5654d522eef298259380ab07c213c82ec05a34c5",
+                    "shasum": "e1c37914ef443b51b6eb7d1d6431556942ee33aa"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-04-22T21:05:25+00:00",
+                "time": "2024-04-23T15:09:41+00:00",
                 "type": "wordpress-theme",
                 "installation-source": "dist",
                 "license": [
@@ -18692,18 +18692,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "86b4a80b6e19c76c154ac2221b8e9eb4072fc216"
+                    "reference": "5654d522eef298259380ab07c213c82ec05a34c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/86b4a80b6e19c76c154ac2221b8e9eb4072fc216",
-                    "reference": "86b4a80b6e19c76c154ac2221b8e9eb4072fc216",
+                    "url": "https://api.github.com/repos/Purdue/purdue-home-theme/zipball/5654d522eef298259380ab07c213c82ec05a34c5",
+                    "reference": "5654d522eef298259380ab07c213c82ec05a34c5",
                     "shasum": ""
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-04-22T21:05:25+00:00",
+                "time": "2024-04-23T15:09:41+00:00",
                 "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
@@ -18972,7 +18972,6 @@
                 },
                 "time": "2024-04-22T21:04:31+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
