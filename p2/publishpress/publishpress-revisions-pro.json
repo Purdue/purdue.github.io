@@ -500,6 +500,91 @@
                     "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.6",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-revisions-pro",
+                "version": "3.5.9",
+                "version_normalized": "3.5.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-629668514dc5082ac4b41394299dd8b589544f82-zip-6319e8.tar",
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82",
+                    "shasum": "5c5fa377dffdac2b387c0216d8b6782e4c369628"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "time": "2024-05-15T18:27:51+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "revisionary-pro",
+                    "plugin-name": "publishpress-revisions-pro",
+                    "plugin-folder": "revisionary-pro"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "ppbuild build"
+                    ],
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get-version": [
+                        "ppbuild version"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/revisionary-pro.pot --domain=revisionary-pro --exclude=dev-workspace,.wordpress-org,.github,dist,tests, --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:deps": [
+                        "composer check:deps --working-dir=./lib"
+                    ],
+                    "fix:deps": [
+                        "composer fix:deps --working-dir=./lib"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.9",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
             }
         ]
     }

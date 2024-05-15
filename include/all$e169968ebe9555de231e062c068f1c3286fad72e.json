@@ -7292,6 +7292,34 @@
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             },
+            "4.0.23": {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "4.0.23",
+                "version_normalized": "4.0.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f-zip-6effb9.tar",
+                    "reference": "1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f",
+                    "shasum": "46910002501f8ae4f51812eb70be13721f3515ba"
+                },
+                "time": "2024-05-15T18:43:11+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.23",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-permissions-pro",
                 "version": "dev-master",
@@ -7299,15 +7327,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/presspermit-pro.git",
-                    "reference": "9c51f00969d33c8f7a34314130273c2f4217091d"
+                    "reference": "1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/9c51f00969d33c8f7a34314130273c2f4217091d",
-                    "reference": "9c51f00969d33c8f7a34314130273c2f4217091d",
+                    "url": "https://api.github.com/repos/Purdue/presspermit-pro/zipball/1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f",
+                    "reference": "1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f",
                     "shasum": ""
                 },
-                "time": "2024-03-29T20:52:47+00:00",
+                "time": "2024-05-15T18:43:11+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
@@ -7316,7 +7344,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.20",
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.23",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
             }
@@ -7822,6 +7850,91 @@
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             },
+            "3.5.9": {
+                "name": "publishpress/publishpress-revisions-pro",
+                "version": "3.5.9",
+                "version_normalized": "3.5.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/revisionary-pro.git",
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-629668514dc5082ac4b41394299dd8b589544f82-zip-6319e8.tar",
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82",
+                    "shasum": "5c5fa377dffdac2b387c0216d8b6782e4c369628"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "time": "2024-05-15T18:27:51+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "revisionary-pro",
+                    "plugin-name": "publishpress-revisions-pro",
+                    "plugin-folder": "revisionary-pro"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "ppbuild build"
+                    ],
+                    "build:dir": [
+                        "ppbuild build-dir"
+                    ],
+                    "build:clean": [
+                        "ppbuild clean"
+                    ],
+                    "get-version": [
+                        "ppbuild version"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/revisionary-pro.pot --domain=revisionary-pro --exclude=dev-workspace,.wordpress-org,.github,dist,tests, --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:deps": [
+                        "composer check:deps --working-dir=./lib"
+                    ],
+                    "fix:deps": [
+                        "composer fix:deps --working-dir=./lib"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.9",
+                    "issues": "https://github.com/Purdue/revisionary-pro/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-revisions-pro",
                 "version": "dev-master",
@@ -7829,18 +7942,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/revisionary-pro.git",
-                    "reference": "2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07"
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07",
-                    "reference": "2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07",
+                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/629668514dc5082ac4b41394299dd8b589544f82",
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5"
                 },
-                "time": "2024-03-29T20:55:41+00:00",
+                "time": "2024-05-15T18:27:51+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
@@ -7903,7 +8016,7 @@
                 ],
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.6",
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.9",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             }
@@ -19171,7 +19284,6 @@
                 },
                 "time": "2024-05-15T17:24:10+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],

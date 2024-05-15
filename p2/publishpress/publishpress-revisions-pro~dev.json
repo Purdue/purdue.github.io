@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/revisionary-pro.git",
-                    "reference": "2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07"
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07",
-                    "reference": "2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07",
+                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/629668514dc5082ac4b41394299dd8b589544f82",
+                    "reference": "629668514dc5082ac4b41394299dd8b589544f82",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5"
                 },
-                "time": "2024-03-29T20:55:41+00:00",
+                "time": "2024-05-15T18:27:51+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
@@ -82,7 +82,7 @@
                 ],
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.6",
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.9",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             }
