@@ -50,7 +50,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-a4434a9d28df80aa0dca6c34eae6a52b567a7485-zip-603534.tar",
                     "reference": "a4434a9d28df80aa0dca6c34eae6a52b567a7485",
-                    "shasum": "1be1cf84ef9ad8eab8b908498a98ee8635980dec"
+                    "shasum": "591057ff8d7cc038f528688e4e16b1f30f20fa45"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -62,6 +62,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -115,7 +116,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1-zip-6b8881.tar",
                     "reference": "06f1baaeacc34bcc79b8455a5dc5dc7e19b00ca1",
-                    "shasum": "e39c2092c075df54a58c69ed4610d59145014264"
+                    "shasum": "f1471015a239192de937b5231da8ca2536abebb2"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -140,6 +141,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -234,7 +236,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-143af56f1233ad44754b1d6f628f865596572b1b-zip-6f3d63.tar",
                     "reference": "143af56f1233ad44754b1d6f628f865596572b1b",
-                    "shasum": "3ddb4bf6169dde9f4fcdec78a8bdd52997b2fcba"
+                    "shasum": "c0bd2949e9f5fbf88efbd28526ca0243c87dd049"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -259,6 +261,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -353,7 +356,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-af20b8a8ff0b8fc10bf07e9491501280c479bfff-zip-2fc6d5.tar",
                     "reference": "af20b8a8ff0b8fc10bf07e9491501280c479bfff",
-                    "shasum": "f2fb0e2794bd514c6a788008578d61cbac3d264b"
+                    "shasum": "5eb7c54782d05d73a3fde163edd273933c54aa1a"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -363,6 +366,7 @@
                 },
                 "time": "2021-11-24T21:52:42+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -390,7 +394,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-ef495152da290ad2b5f7010d99ac6dc8c69500ca-zip-601b7d.tar",
                     "reference": "ef495152da290ad2b5f7010d99ac6dc8c69500ca",
-                    "shasum": "b422124ceb08f95ee4f235cfdeafdc67e08cfc7a"
+                    "shasum": "2c90c9b1c476d01a3a085e79776214c553e95aac"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -400,6 +404,7 @@
                 },
                 "time": "2022-01-19T15:12:55+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -427,7 +432,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc-zip-d7bdc4.tar",
                     "reference": "7ad0dda4b5cd03839f9aa694a8ea5980ff2bfddc",
-                    "shasum": "7da1828a6aad30965e4ef1cd72a5d6e0197334fb"
+                    "shasum": "16d193d5da346fbd5649e6ff4b591698117a1b0c"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -437,6 +442,7 @@
                 },
                 "time": "2022-03-04T19:37:49+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -464,7 +470,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-c85c1711b33940631a7cbfff1bc55c10e7b1961b-zip-fb0e0f.tar",
                     "reference": "c85c1711b33940631a7cbfff1bc55c10e7b1961b",
-                    "shasum": "6b84c5742b1831bc14ee074de4edbe487e00fbdc"
+                    "shasum": "8b772e0e9031e17e8aef3e9aae156ff4fe708b48"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -474,6 +480,7 @@
                 },
                 "time": "2022-07-29T20:35:35+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -501,7 +508,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-9e73491a32ac49ae550fb193b8cc4804960b3e7e-zip-246c39.tar",
                     "reference": "9e73491a32ac49ae550fb193b8cc4804960b3e7e",
-                    "shasum": "5a79ff1e20b0d2bb38db0bf3314306d117276f00"
+                    "shasum": "32802269d55e9ae34de324698b4c6bd514c58719"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -519,6 +526,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -554,7 +562,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af-zip-a1d005.tar",
                     "reference": "54cf4d6b3ccc0b9bba5ec614fba4daa1c71238af",
-                    "shasum": "0674d21192017ee0b22e65373cae38d9637b8f52"
+                    "shasum": "2f3998d97f8c61673c5a7b6d935f1b14d09a4134"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -572,6 +580,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -607,7 +616,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-352e9eff79654674a77654cedf0c7e132146aa28-zip-0f8e86.tar",
                     "reference": "352e9eff79654674a77654cedf0c7e132146aa28",
-                    "shasum": "f5f588bbc55e9384387e498d30f0bd51bc02b411"
+                    "shasum": "9c28fc8775007f408d08bc80223e7e7e5f3fca10"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -625,6 +634,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -660,7 +670,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-0a1eba80f50555a563cc39dd7c3f46706ebb1ad0-zip-923690.tar",
                     "reference": "0a1eba80f50555a563cc39dd7c3f46706ebb1ad0",
-                    "shasum": "40b18427c7d7eea08843042b55d406ab972ddc2d"
+                    "shasum": "a455bcfbda7d30c1dc4adc3121f53cc78a50bac1"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "~2.2",
@@ -678,6 +688,7 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"

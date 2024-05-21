@@ -50,7 +50,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-4c636cb51df66e69ff39fedae52879b20dd356ed-zip-0c6411.tar",
                     "reference": "4c636cb51df66e69ff39fedae52879b20dd356ed",
-                    "shasum": "4f8b80ebf3ad8dae240d34c28a5361a629a7635f"
+                    "shasum": "d73528dc2c5d94e68cc00b25305b04b4d17b4e2a"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -59,6 +59,7 @@
                 },
                 "time": "2022-03-04T19:44:49+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -86,7 +87,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-439a0185e427cffc02bcd866a8c873f5cf162585-zip-60a542.tar",
                     "reference": "439a0185e427cffc02bcd866a8c873f5cf162585",
-                    "shasum": "82384b494558b3f412096580c512be75f9247e05"
+                    "shasum": "6729607bf11ae7adced422f423727feecd8da92d"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -95,6 +96,7 @@
                 },
                 "time": "2021-11-24T21:58:01+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -122,7 +124,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-c89ae87a81f360c2abffab015bee09031eb32dd2-zip-231f4f.tar",
                     "reference": "c89ae87a81f360c2abffab015bee09031eb32dd2",
-                    "shasum": "07addfa45f7ac4d273a882c65c03f7238dd9b38b"
+                    "shasum": "57ef3ad28fa12af35d8bfff575c614973afc61e1"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -131,6 +133,7 @@
                 },
                 "time": "2021-11-29T20:43:31+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -158,7 +161,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-fa9b05896cd76e64e1458be869799e6b47a6232e-zip-243412.tar",
                     "reference": "fa9b05896cd76e64e1458be869799e6b47a6232e",
-                    "shasum": "57b3b7b959991f2aef0d65baf898c573622ce6d8"
+                    "shasum": "5be36128cdca03a94fef0f91a4876d9f5bb9295c"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -167,6 +170,7 @@
                 },
                 "time": "2022-01-19T15:23:18+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -194,7 +198,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-ffac5568353125549adfa171196003a9d4426307-zip-8094f4.tar",
                     "reference": "ffac5568353125549adfa171196003a9d4426307",
-                    "shasum": "7ea67976ebeed387869d9ba0de3245555a63a85f"
+                    "shasum": "05e2c7089187f9cd10dcfa60f21935f05a52d1b7"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -205,6 +209,7 @@
                 },
                 "time": "2023-02-09T20:43:16+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -232,7 +237,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-4f2191ce5fda770ff6b8ca0dc3bef9eb45054513-zip-159db4.tar",
                     "reference": "4f2191ce5fda770ff6b8ca0dc3bef9eb45054513",
-                    "shasum": "180d3efa3fea36ff6b5901121b2089696447a733"
+                    "shasum": "74ba74a61c582f6204bdbb7bbde5bfbbff67ce8b"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -243,6 +248,7 @@
                 },
                 "time": "2023-06-05T17:57:53+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -270,7 +276,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-069975b545f70193d425474b2654a7b1784ace26-zip-925929.tar",
                     "reference": "069975b545f70193d425474b2654a7b1784ace26",
-                    "shasum": "0bfcaa1533f7da8783a70296fa1b0417fb87fd12"
+                    "shasum": "f5ffdb9d2c453890ecbd36117faea5566060a1ee"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -281,6 +287,7 @@
                 },
                 "time": "2022-07-28T20:17:49+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -308,7 +315,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-b774bf9f1d0923c8007df6544289a71e5198d5ec-zip-e2ff90.tar",
                     "reference": "b774bf9f1d0923c8007df6544289a71e5198d5ec",
-                    "shasum": "62b6fe57b430117510ac6a095902dce62d3d329f"
+                    "shasum": "1c42fc209c74059f383a18783a6d8a7b27d75575"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": "^2.3",
@@ -319,6 +326,7 @@
                 },
                 "time": "2022-11-16T19:39:28+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -346,7 +354,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-9a8d41c46094ec7b6fa906f613e1ad36c0d8823b-zip-374029.tar",
                     "reference": "9a8d41c46094ec7b6fa906f613e1ad36c0d8823b",
-                    "shasum": "ce8e107ad89c994e5a5140696b61b2cc788c6046"
+                    "shasum": "cf619fc63089fce8c05bc5801556a553b2aea052"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -358,6 +366,7 @@
                     "plugin-name": "publishpress-revisions-pro",
                     "plugin-folder": "revisionary-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -430,7 +439,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07-zip-1d58d5.tar",
                     "reference": "2e009bcacb4e17f523e1ef0ab6df0d48fd62bb07",
-                    "shasum": "5683470d603af923beb46b4c72fc3130aefbe50c"
+                    "shasum": "60fea8821adc8560ccfa036b5173fc2bc222004c"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -442,6 +451,7 @@
                     "plugin-name": "publishpress-revisions-pro",
                     "plugin-folder": "revisionary-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -514,7 +524,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-revisions-pro/publishpress-publishpress-revisions-pro-629668514dc5082ac4b41394299dd8b589544f82-zip-6319e8.tar",
                     "reference": "629668514dc5082ac4b41394299dd8b589544f82",
-                    "shasum": "5c5fa377dffdac2b387c0216d8b6782e4c369628"
+                    "shasum": "13ecf8cf6cae1a124d1a93ebd58553bda818ca01"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -526,6 +536,7 @@
                     "plugin-name": "publishpress-revisions-pro",
                     "plugin-folder": "revisionary-pro"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"

@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-f747ed03137396bae66356bd12060d145fb98254-zip-89764d.tar",
                     "reference": "f747ed03137396bae66356bd12060d145fb98254",
-                    "shasum": "8cfe28ab0c9166bc3f150c2ccd1f298c4af12c9b"
+                    "shasum": "c821c014ba528d3159da170017298160f8321e85"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -25,6 +25,7 @@
                 },
                 "time": "2023-11-16T18:55:01+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -240,7 +241,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-af0699d03b18b98fd084cd3ea2ea924528af709c-zip-6c9970.tar",
                     "reference": "af0699d03b18b98fd084cd3ea2ea924528af709c",
-                    "shasum": "70ffabd44954dd648a5b336931aa32f16036e22a"
+                    "shasum": "54a6b1522f487056d879891498fbb3a20c49af18"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -250,6 +251,7 @@
                 },
                 "time": "2022-01-19T15:28:55+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -285,7 +287,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-b39bb0e31add7baddc832fefc827bde6c65ea6c6-zip-626c07.tar",
                     "reference": "b39bb0e31add7baddc832fefc827bde6c65ea6c6",
-                    "shasum": "fdd8a24ff420b10601ee8037c41a057f30806107"
+                    "shasum": "6b7d480c35b4dda71ff2b5fa7bdcf07849183c2f"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -295,6 +297,7 @@
                 },
                 "time": "2022-01-21T15:44:04+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -330,7 +333,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-de3cd9822d6c5604d3bd7d5c0805154cbab21a1d-zip-4dd0cb.tar",
                     "reference": "de3cd9822d6c5604d3bd7d5c0805154cbab21a1d",
-                    "shasum": "f45cab70d96ff2ebbb95ece80a63d9ba0cfdb510"
+                    "shasum": "dde4bf3350a5248c981a98f83d237d8f325e2d7c"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -340,6 +343,7 @@
                 },
                 "time": "2022-08-01T16:18:02+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -375,7 +379,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-d27bec49b6f4635861ada437e96b657d483eb15e-zip-612b7d.tar",
                     "reference": "d27bec49b6f4635861ada437e96b657d483eb15e",
-                    "shasum": "1f7226cd5cb1be95e656523889cd2e1ed5e58a29"
+                    "shasum": "ce5f53a50d6bdcb5219619011364d770d71f58e2"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -385,6 +389,7 @@
                 },
                 "time": "2022-03-04T19:42:02+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -420,7 +425,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-bb02b738912fef4842b03f48c1cc63de918c63bc-zip-3370f5.tar",
                     "reference": "bb02b738912fef4842b03f48c1cc63de918c63bc",
-                    "shasum": "aa067b2bbf9ed8afe9487b7dbcbab351e161ae34"
+                    "shasum": "6986d777c86333bb2298196af9db8b08656fb2cb"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -431,6 +436,7 @@
                 },
                 "time": "2022-11-16T19:36:43+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -466,7 +472,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-5e45319a34539780131d43ec81282e71090590ff-zip-88b5ab.tar",
                     "reference": "5e45319a34539780131d43ec81282e71090590ff",
-                    "shasum": "96dd0daeb641a049e7d8fd74226eb00fba6ba1b6"
+                    "shasum": "026ea3c799b12011512803639e54bbc0635ab001"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -477,6 +483,7 @@
                 },
                 "time": "2023-02-09T21:02:38+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -512,7 +519,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-135d83fb91f00f63312c2e38ce607e29f055f380-zip-9bfc9a.tar",
                     "reference": "135d83fb91f00f63312c2e38ce607e29f055f380",
-                    "shasum": "18ca0d1cadd005c6f7b87e518b2f7fe9069dfab8"
+                    "shasum": "d0ca1eb2b032c1f483312dc61dfe5aea55df5c83"
                 },
                 "require": {
                     "alledia/wordpress-edd-license-integration": ">=2.3.2",
@@ -523,6 +530,7 @@
                 },
                 "time": "2023-06-05T17:54:10+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -558,10 +566,11 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-9986dfee749334763f34292f8cf843a1078c1a9a-zip-2c0b63.tar",
                     "reference": "9986dfee749334763f34292f8cf843a1078c1a9a",
-                    "shasum": "4883aade95aec0bcf012790c5e780b7917385299"
+                    "shasum": "c01ebc25d42e18eae21db0c3288524f3b4444372"
                 },
                 "time": "2024-02-08T21:20:55+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -585,10 +594,11 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-9c51f00969d33c8f7a34314130273c2f4217091d-zip-f5cfc8.tar",
                     "reference": "9c51f00969d33c8f7a34314130273c2f4217091d",
-                    "shasum": "21232133d3b546a9e4323ca63301052313fcb677"
+                    "shasum": "999e375aa588e4973b42c16bf7c39ee0c3f74623"
                 },
                 "time": "2024-03-29T20:52:47+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -612,10 +622,11 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f-zip-6effb9.tar",
                     "reference": "1b79bc397ba37b4d39f5c01d2bfd755ff0133c9f",
-                    "shasum": "46910002501f8ae4f51812eb70be13721f3515ba"
+                    "shasum": "8def705158cfb62f5f296919fab6cbfaff8880ff"
                 },
                 "time": "2024-05-15T18:43:11+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],

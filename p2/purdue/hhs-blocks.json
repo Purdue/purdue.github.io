@@ -14,13 +14,14 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/hhs-blocks/purdue-hhs-blocks-5593e653bdebb8569c875c8c0706d4bbc55d87cb-zip-d57f7a.tar",
                     "reference": "5593e653bdebb8569c875c8c0706d4bbc55d87cb",
-                    "shasum": "cdd82d4e29d6ceb66be7e08caa88b66e8c027302"
+                    "shasum": "d78c1573e542e24778bc65acb1dab4ea1e6bbd48"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
                 "time": "2022-03-28T13:52:17+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],

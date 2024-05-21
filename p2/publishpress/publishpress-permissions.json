@@ -224,7 +224,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-61e6f0c5139b1cef6619102e71f76520b4fee993-zip-0d1e22.tar",
                     "reference": "61e6f0c5139b1cef6619102e71f76520b4fee993",
-                    "shasum": "b9128ab5de2797995e7def739201733130748284"
+                    "shasum": "850f4db23c4af11cc63287705608d754ce3b9461"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -236,6 +236,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -285,7 +286,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-abba152dc9498e492144704d0f6305f607d07b63-zip-9ddb40.tar",
                     "reference": "abba152dc9498e492144704d0f6305f607d07b63",
-                    "shasum": "0f2723cbef617711eee08b656cf63cac5cbc9ba6"
+                    "shasum": "7551dc3184abcad2c9769aa6574fc6637cdfda2a"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -297,6 +298,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -358,7 +360,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-98e71a7c70e0d05b0ff5484b55c88c371ac1db67-zip-685646.tar",
                     "reference": "98e71a7c70e0d05b0ff5484b55c88c371ac1db67",
-                    "shasum": "e03c26551a4fe3aeff3cc87f3811434016918edf"
+                    "shasum": "c78b3ebe2b390c903c118e054f9015ffde3a1b8b"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -370,6 +372,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -419,7 +422,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-d6b4c8ea4f4da8b1369a99159ecece1211c9f2b6-zip-3f2a4f.tar",
                     "reference": "d6b4c8ea4f4da8b1369a99159ecece1211c9f2b6",
-                    "shasum": "e6cda180ae191e93f5bffaa3ed15551c95ad4e5b"
+                    "shasum": "397f2de0f2eb6cfb0b0b88a6c20eace92b37cfb0"
                 },
                 "require": {
                     "ext-json": "*",
@@ -445,6 +448,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -549,7 +553,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-7b5f87dcb9835d5ad65e05410dbc0f1fb8d6a1bf-zip-ebe445.tar",
                     "reference": "7b5f87dcb9835d5ad65e05410dbc0f1fb8d6a1bf",
-                    "shasum": "773f9633438d3b0ef1655570d2dc2535d02b01b5"
+                    "shasum": "aef019de00c6f7dec3fb67092406eb9140cec004"
                 },
                 "require": {
                     "ext-json": "*",
@@ -575,6 +579,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -679,7 +684,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-7a0103bd0a28a644cf775551d5c659ca8306d264-zip-e82fc3.tar",
                     "reference": "7a0103bd0a28a644cf775551d5c659ca8306d264",
-                    "shasum": "0f7e437ce60656b942e930e90e3583b3dc094881"
+                    "shasum": "14a4a41816e6fe8d096bdbc6087d246b61fc2626"
                 },
                 "require": {
                     "ext-json": "*",
@@ -705,6 +710,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -809,7 +815,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-508b1f7edda4bd0b656ec64851ade66ab9f32fe8-zip-4ca68c.tar",
                     "reference": "508b1f7edda4bd0b656ec64851ade66ab9f32fe8",
-                    "shasum": "6bc35bae4705e3f53035f613a4a93fd18ee4735a"
+                    "shasum": "4e093a9efe243ab8054b5f009e3743605ce27d8a"
                 },
                 "require": {
                     "ext-json": "*",
@@ -835,6 +841,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -2557,7 +2564,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-0c35432434e137bf991060175053e99774622f6a-zip-8dc434.tar",
                     "reference": "0c35432434e137bf991060175053e99774622f6a",
-                    "shasum": "6269dba63f7ef3d897b54c2e22766f26f81fe52b"
+                    "shasum": "c5686deccb8950813b13bbb4610996bec637e7f8"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2565,6 +2572,7 @@
                 },
                 "time": "2021-10-14T20:56:18+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2600,7 +2608,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-4fce602c90b1cc4b845dad638b56810550263745-zip-47cde6.tar",
                     "reference": "4fce602c90b1cc4b845dad638b56810550263745",
-                    "shasum": "e0f3719f65e52810f6a597f93d39800f7ea8d94f"
+                    "shasum": "1ecf81edf415314c4213e92946219cfd42b3b344"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2608,6 +2616,7 @@
                 },
                 "time": "2021-09-30T22:44:25+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2643,7 +2652,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-2afb540bd0034b3193d8e5b41d39aa80c675571d-zip-8c1dd6.tar",
                     "reference": "2afb540bd0034b3193d8e5b41d39aa80c675571d",
-                    "shasum": "8f0b6c23ddd1aef439cce7b1a675e8a493f5fd09"
+                    "shasum": "1ddfa062e9cf510396b5fd397849c77c69ee4836"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2651,6 +2660,7 @@
                 },
                 "time": "2021-11-09T21:27:43+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2686,7 +2696,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-def9d538fca96c964f35654f5af4d5a89cd52272-zip-8a241c.tar",
                     "reference": "def9d538fca96c964f35654f5af4d5a89cd52272",
-                    "shasum": "d74c4a039e8ebb3026c105610c7912aeb1601a41"
+                    "shasum": "84ad0f215039d91a53ea5f0bdfd384f68aec7f7f"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2694,6 +2704,7 @@
                 },
                 "time": "2021-11-16T20:46:21+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2729,7 +2740,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-5781eb455b653620683e25fa70b318803ede12d6-zip-08be02.tar",
                     "reference": "5781eb455b653620683e25fa70b318803ede12d6",
-                    "shasum": "9f2b208e68c118c126eff69220293aa94fa667e2"
+                    "shasum": "b5acc867ec34f4ef99edd8fef6fa4a248634c67b"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2737,6 +2748,7 @@
                 },
                 "time": "2021-11-23T19:45:24+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2772,7 +2784,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-4a20b6649d169e56b69c9e135cab6875a2f9433d-zip-aca57d.tar",
                     "reference": "4a20b6649d169e56b69c9e135cab6875a2f9433d",
-                    "shasum": "d9194207828ff6fff46f062cf0c9de5341d35cb7"
+                    "shasum": "a4281d0766aed74539ff3a0fb2282188f6b458a1"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2780,6 +2792,7 @@
                 },
                 "time": "2021-11-24T17:15:21+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2815,7 +2828,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-50da5513bff5bfb49b8a85baf7b72f02623a8184-zip-9c3609.tar",
                     "reference": "50da5513bff5bfb49b8a85baf7b72f02623a8184",
-                    "shasum": "739f707d88eed22f5d4655a4d3240902301a7204"
+                    "shasum": "fc62d694013ca633d40f274d9812246e4ba33122"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2823,6 +2836,7 @@
                 },
                 "time": "2022-02-17T20:26:11+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2858,7 +2872,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-0e98950dd4f3f99baedb7153c0efbb298718dc7f-zip-d25dec.tar",
                     "reference": "0e98950dd4f3f99baedb7153c0efbb298718dc7f",
-                    "shasum": "71768ecfe85d9ae3a8bcdc9279317c41b44ba381"
+                    "shasum": "b4427b193bfadc3be4e9272bc3b4a3ddef02eb76"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2866,6 +2880,7 @@
                 },
                 "time": "2022-02-17T20:27:30+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2901,7 +2916,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-e691ad40d3957b6a36249e3da814ea03500e1680-zip-f62f0a.tar",
                     "reference": "e691ad40d3957b6a36249e3da814ea03500e1680",
-                    "shasum": "b0af6dbebe45db6cc2b2c11e445c04ceb633cfe0"
+                    "shasum": "629b33484e247fc16d861c38999328fe33a22f66"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2909,6 +2924,7 @@
                 },
                 "time": "2022-02-17T20:33:19+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2944,7 +2960,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-63fb44880c1609cadb0f2cd3ee491a0a3f58ce73-zip-3b198c.tar",
                     "reference": "63fb44880c1609cadb0f2cd3ee491a0a3f58ce73",
-                    "shasum": "851ad3ef0d9d62017f01ca4ed1f54a534c5a6dec"
+                    "shasum": "89d93cc64f735d002643b5d1593ba96101188944"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2952,6 +2968,7 @@
                 },
                 "time": "2022-02-17T20:33:44+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -2987,7 +3004,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-4dcf7248a0385cc96891ce4967f276b0384c90bc-zip-d642d1.tar",
                     "reference": "4dcf7248a0385cc96891ce4967f276b0384c90bc",
-                    "shasum": "c780d8c96f69d2c9daf168ecb1f1aaa99a7bb62f"
+                    "shasum": "b54a282640a85aee2c6b34a005c225ab7ad7f1ab"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -2995,6 +3012,7 @@
                 },
                 "time": "2022-02-17T21:07:45+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3030,7 +3048,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-e2493e4ac1e6bd72c5abc1207f935756479ed8a8-zip-042122.tar",
                     "reference": "e2493e4ac1e6bd72c5abc1207f935756479ed8a8",
-                    "shasum": "3149378264a85d2fffd65687255827a9e1058d62"
+                    "shasum": "3df82ff0f83689a283b1199cbebad7211bda08bf"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3038,6 +3056,7 @@
                 },
                 "time": "2022-02-18T20:22:15+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3073,7 +3092,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-339e312a47da0a14b29aaadfdbe8d72c8be6d562-zip-7d5192.tar",
                     "reference": "339e312a47da0a14b29aaadfdbe8d72c8be6d562",
-                    "shasum": "6d5f2e8d207cb327c5f5b3c3203e323dc4acb5fc"
+                    "shasum": "988800bfa193dcde5f1b683177e33eb41a96b42f"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3081,6 +3100,7 @@
                 },
                 "time": "2022-07-07T20:25:29+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3116,7 +3136,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-1a42fadb06c5bff0d982045eda3ecbe0d159a6a3-zip-e5ce91.tar",
                     "reference": "1a42fadb06c5bff0d982045eda3ecbe0d159a6a3",
-                    "shasum": "a8d323a8b9dafecf3e49b7f12fbee8b621ff1525"
+                    "shasum": "6b5d36a648e652da05a45fd18c19bc54ec1416eb"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3124,6 +3144,7 @@
                 },
                 "time": "2022-08-17T19:09:56+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3159,7 +3180,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-105f40923ace4bb349d0c36bd8dfbeabbc561e2a-zip-07c7ea.tar",
                     "reference": "105f40923ace4bb349d0c36bd8dfbeabbc561e2a",
-                    "shasum": "80dba5c2e645b93071eca489dd42c75f5b54cbeb"
+                    "shasum": "52841dd56ac59c6fdc21058106eb90f17420b543"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3167,6 +3188,7 @@
                 },
                 "time": "2022-08-30T16:41:34+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3202,7 +3224,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-942c12110fe267e1a064b7606f4a23fad2322c24-zip-7d3d26.tar",
                     "reference": "942c12110fe267e1a064b7606f4a23fad2322c24",
-                    "shasum": "7a5cc13ab3648b2efc1675029ee44c04aa8b37f0"
+                    "shasum": "07f83a898eff4f52e73230275bbef4b65a4d2f59"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3210,6 +3232,7 @@
                 },
                 "time": "2022-02-22T22:03:54+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3245,7 +3268,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-2b44c01e27273490cd8e669c598c3d1692a64912-zip-00fee8.tar",
                     "reference": "2b44c01e27273490cd8e669c598c3d1692a64912",
-                    "shasum": "f4a3ac2bd3cb5ea0aa49e9dd6fdd098dde148448"
+                    "shasum": "e5338ee459308ccd9946e50d2d731e2ca4571675"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3253,6 +3276,7 @@
                 },
                 "time": "2022-04-21T20:45:25+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3288,7 +3312,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-ddd970f9ec0db85f57e2d89a493391c1f70a4156-zip-d766a6.tar",
                     "reference": "ddd970f9ec0db85f57e2d89a493391c1f70a4156",
-                    "shasum": "fcb8fcafd9c19d2392bb5963ae05a137066fcc26"
+                    "shasum": "94d7d0682b7250f3bacc5caa9501565ff650000b"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3296,6 +3320,7 @@
                 },
                 "time": "2022-05-02T18:56:54+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3331,7 +3356,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-81dcc85109e91a1ff4a69746556f00fd74b8621e-zip-2f63cd.tar",
                     "reference": "81dcc85109e91a1ff4a69746556f00fd74b8621e",
-                    "shasum": "2819b5601968925a4b7f91f38aca980d69182616"
+                    "shasum": "5cbe1bd6c5e6d1bf92817997cff77cb79772e696"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3339,6 +3364,7 @@
                 },
                 "time": "2022-06-01T19:57:01+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3374,7 +3400,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-e0512ea09cf80bd805ccc5665ae9efbbbdcd2825-zip-e60f3d.tar",
                     "reference": "e0512ea09cf80bd805ccc5665ae9efbbbdcd2825",
-                    "shasum": "615ec9db9eb21d5b04e3be8f0ca9cfb9ec30f543"
+                    "shasum": "8969a1136bdc6c6025ab9b77110be5ef886650ae"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3382,6 +3408,7 @@
                 },
                 "time": "2022-06-02T16:44:08+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3417,7 +3444,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-efdbce0c113dfaa5bade66feb92c26b06d11bf37-zip-6b3bee.tar",
                     "reference": "efdbce0c113dfaa5bade66feb92c26b06d11bf37",
-                    "shasum": "4df9c5306344043d8d1b2a2173f198a398197667"
+                    "shasum": "fc67bd33255388d4c0370ea4fab963760d89ee65"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3425,6 +3452,7 @@
                 },
                 "time": "2022-06-02T18:55:13+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3460,7 +3488,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-e14503f58aa863596b99e87ebcd7702a8ff2b552-zip-34761f.tar",
                     "reference": "e14503f58aa863596b99e87ebcd7702a8ff2b552",
-                    "shasum": "ed4946472862038adfdb4858d50d925d9497ac1e"
+                    "shasum": "5620240853f730f3908e7f7c2133d501f5a6270f"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3468,6 +3496,7 @@
                 },
                 "time": "2022-06-08T19:12:28+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3503,7 +3532,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-2a0aef95b2528c9c3b5bb1ce737ecd55b944d7f8-zip-7132b4.tar",
                     "reference": "2a0aef95b2528c9c3b5bb1ce737ecd55b944d7f8",
-                    "shasum": "b6c07be2b1708c2d0a6a0d9b73dd592c4bf3d348"
+                    "shasum": "2702d4d7655c5013d99ae802b42108299afc1c92"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3548,7 +3577,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-2a0aef95b2528c9c3b5bb1ce737ecd55b944d7f8-zip-7132b4.tar",
                     "reference": "2a0aef95b2528c9c3b5bb1ce737ecd55b944d7f8",
-                    "shasum": "b6c07be2b1708c2d0a6a0d9b73dd592c4bf3d348"
+                    "shasum": "2702d4d7655c5013d99ae802b42108299afc1c92"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3558,6 +3587,7 @@
                 },
                 "time": "2022-10-27T16:47:59+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3593,7 +3623,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-f4b247ff5013f36146bc9a9dbd42de9c67f50087-zip-917123.tar",
                     "reference": "f4b247ff5013f36146bc9a9dbd42de9c67f50087",
-                    "shasum": "0cf87ff88ba005775c8eb2604c426df59c0148ff"
+                    "shasum": "7495d07a78f5a75ae87e3108b5fda8b10a0e1f2f"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3603,6 +3633,7 @@
                 },
                 "time": "2022-11-17T19:24:57+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3638,7 +3669,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-96a09c139d317a9d50b9010aa3cfe3a699aef290-zip-2d42ea.tar",
                     "reference": "96a09c139d317a9d50b9010aa3cfe3a699aef290",
-                    "shasum": "bc8599c26df3238e74a5f44ae861e48344ba73ce"
+                    "shasum": "2eb1bb56be762f00cad9519f9a3a6e509cca0ee3"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3648,6 +3679,7 @@
                 },
                 "time": "2022-12-15T21:23:46+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3683,7 +3715,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-bba280bb3aa559991a5907e37b351f2798707c80-zip-f88e5b.tar",
                     "reference": "bba280bb3aa559991a5907e37b351f2798707c80",
-                    "shasum": "5376ab808e222ca1fa7301741fe60db2a231d768"
+                    "shasum": "85efb349cebf89937c62ac345a7b372f855d18d1"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3693,6 +3725,7 @@
                 },
                 "time": "2023-02-09T18:29:40+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3728,7 +3761,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-50bfaf6200138c14257edfe1d897dc66a9e9d1ed-zip-409a18.tar",
                     "reference": "50bfaf6200138c14257edfe1d897dc66a9e9d1ed",
-                    "shasum": "85a26852c820a7497cc5b371c625074d3e5cc813"
+                    "shasum": "4dd84f129d035d9f07dde22059361ccd6730dcbc"
                 },
                 "require": {
                     "php": ">=5.6.20",
@@ -3738,6 +3771,7 @@
                 },
                 "time": "2023-03-23T18:19:02+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3773,7 +3807,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-bbf7aecc132aab67134592123e6ee9d34f817a46-zip-76641d.tar",
                     "reference": "bbf7aecc132aab67134592123e6ee9d34f817a46",
-                    "shasum": "3e71a4864bfb7ea28f3186f178067f4405209a87"
+                    "shasum": "4f2a059fd2e703be873e3f0df8ebe9458a395687"
                 },
                 "require": {
                     "php": ">=7.2.5",
@@ -3783,6 +3817,7 @@
                 },
                 "time": "2023-03-30T19:33:23+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3818,7 +3853,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-dda303e2400439a8bc6ad4fe12fa0b358291de84-zip-f18a6f.tar",
                     "reference": "dda303e2400439a8bc6ad4fe12fa0b358291de84",
-                    "shasum": "36a09054361e00a857444299b56dff786cf5f2b6"
+                    "shasum": "f4f71e00f2a9dfcea8d61bee39db33982d93e0db"
                 },
                 "require": {
                     "php": ">=7.2.5",
@@ -3828,6 +3863,7 @@
                 },
                 "time": "2023-05-04T15:28:51+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3863,7 +3899,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-d61fa7bcbf4da9d726a8ec681e45db51899db6fe-zip-c39f82.tar",
                     "reference": "d61fa7bcbf4da9d726a8ec681e45db51899db6fe",
-                    "shasum": "ac9fd76d06953845e6e3e705bec65067820a3ffa"
+                    "shasum": "c6abe2ab3d45b724062079f4a460489feece3fdf"
                 },
                 "require": {
                     "php": ">=7.2.5",
@@ -3874,6 +3910,7 @@
                 },
                 "time": "2023-05-04T17:59:47+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3909,7 +3946,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-3856d35f1fedfff92a684a126d91640fc2e0fa79-zip-8b0239.tar",
                     "reference": "3856d35f1fedfff92a684a126d91640fc2e0fa79",
-                    "shasum": "3e30e27b3b2f09a3d38daa8a153abd1baf986abe"
+                    "shasum": "bbc813a4a57fdb7a913a5493332cf1dc64d51160"
                 },
                 "require": {
                     "php": ">=7.2.5",
@@ -3922,6 +3959,7 @@
                 },
                 "time": "2023-05-09T19:23:31+00:00",
                 "type": "wordpress-plugin",
+                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -3957,7 +3995,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-61114fe77fd1be905cea5afa73093ccfe9a97d73-zip-3c08f5.tar",
                     "reference": "61114fe77fd1be905cea5afa73093ccfe9a97d73",
-                    "shasum": "1286151a0ce18588b9ad9a283a9f86c2449cdab3"
+                    "shasum": "981f5733f87a2b3b95f212c0b977da9539869fd9"
                 },
                 "require": {
                     "php": ">=7.2.5",
@@ -3973,6 +4011,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -4022,7 +4061,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-613cdacce255d3ab8d7c7c0e99aaa01f6b762a17-zip-e9119f.tar",
                     "reference": "613cdacce255d3ab8d7c7c0e99aaa01f6b762a17",
-                    "shasum": "3860a2e8e8caff8d192bab49cbc255837e46c0df"
+                    "shasum": "9e7710e71aaa2641c8890559762fc11e1062f66f"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -4034,6 +4073,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -4083,7 +4123,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-5aaa39573740ca9399d5ebab540e9358818881ea-zip-281dec.tar",
                     "reference": "5aaa39573740ca9399d5ebab540e9358818881ea",
-                    "shasum": "c60dec11509c4c24488fc7263fa9619eee71b9e9"
+                    "shasum": "66d0e6c9ab5a01517ae8942d82f58c4cb7b0478d"
                 },
                 "require": {
                     "php": ">=7.2.5"
@@ -4095,6 +4135,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "/project/dev-workspace/docker/scripts/ppbuild build"
@@ -4144,7 +4185,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-f84be395a79587005305c98b20d1b3ded1821091-zip-4229aa.tar",
                     "reference": "f84be395a79587005305c98b20d1b3ded1821091",
-                    "shasum": "2766706c64d1678a21eddc6f2985e5688c6de5b8"
+                    "shasum": "b1d483aecf52ca0142bb579c324fe8d276523719"
                 },
                 "require": {
                     "ext-json": "*",
@@ -4170,6 +4211,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -4274,7 +4316,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-f2413be5528576a4fd2d4c4b10caa1319e4d97ac-zip-28b363.tar",
                     "reference": "f2413be5528576a4fd2d4c4b10caa1319e4d97ac",
-                    "shasum": "f7172562dff1a84242e81a7e9cfb192ab6f47ccb"
+                    "shasum": "6bb03900ae8cd3d8d694d3795cf0687f799e9f7b"
                 },
                 "require": {
                     "ext-json": "*",
@@ -4300,6 +4342,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -4404,7 +4447,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-f437a096cf6bc82d32c807db65d4a1ba5b62b9bf-zip-b4dca1.tar",
                     "reference": "f437a096cf6bc82d32c807db65d4a1ba5b62b9bf",
-                    "shasum": "1b51fa0c7dc2e3b2739358440164ffd20e2b4fcb"
+                    "shasum": "6b54d9abc57655fd55be7ea2677d2be8872c1f37"
                 },
                 "require": {
                     "ext-json": "*",
@@ -4430,6 +4473,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -4534,7 +4578,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-dcb5ca6fdf91954b7f360ef7efdec3631b843270-zip-6d10fe.tar",
                     "reference": "dcb5ca6fdf91954b7f360ef7efdec3631b843270",
-                    "shasum": "a72d81c8ab903a344ecca26de842ae40cf008580"
+                    "shasum": "0993fa1ea05030af6c5a3a22bb5074e50ec4f566"
                 },
                 "require": {
                     "ext-json": "*",
@@ -4560,6 +4604,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -4664,7 +4709,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-85cfced6e6e7d095c39f9a11d1ae47784de5215c-zip-3c1300.tar",
                     "reference": "85cfced6e6e7d095c39f9a11d1ae47784de5215c",
-                    "shasum": "4ec5fb6b0107f8fbc013ff59b8b71ca0a25fc6de"
+                    "shasum": "236e2cfbc670cc8d6711f2cbcf2d5bc3c9c01900"
                 },
                 "require": {
                     "ext-json": "*",
@@ -4690,6 +4735,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -4794,7 +4840,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-943f6190a6956aa2e47a4c66e6eff36ef22c6b96-zip-feef3c.tar",
                     "reference": "943f6190a6956aa2e47a4c66e6eff36ef22c6b96",
-                    "shasum": "fb083bfa2ad862e367265a20707fb862ed8fba8d"
+                    "shasum": "a0bc343aed7e66c0d7a5d67da2e9deb3fab75765"
                 },
                 "require": {
                     "ext-json": "*",
@@ -4820,6 +4866,7 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
+                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
