@@ -4,7 +4,7 @@
             {
                 "name": "purdue/purdue-cpt",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-cpt.git",
@@ -20,6 +20,7 @@
                     "jjgrainger/posttypes": "^2.1"
                 },
                 "time": "2023-10-06T14:11:05+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "authors": [
                     {

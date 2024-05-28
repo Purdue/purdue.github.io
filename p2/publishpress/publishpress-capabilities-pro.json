@@ -62,7 +62,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -141,7 +140,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -261,7 +259,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -366,7 +363,6 @@
                 },
                 "time": "2021-11-24T21:52:42+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -404,7 +400,6 @@
                 },
                 "time": "2022-01-19T15:12:55+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -442,7 +437,6 @@
                 },
                 "time": "2022-03-04T19:37:49+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -480,7 +474,6 @@
                 },
                 "time": "2022-07-29T20:35:35+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2"
                 ],
@@ -526,7 +519,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -580,7 +572,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -634,7 +625,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
@@ -688,7 +678,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "builder/docker/scripts/build build"
