@@ -849,7 +849,6 @@
                 },
                 "time": "2024-06-06T20:42:10+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -886,7 +885,6 @@
                 },
                 "time": "2024-06-14T19:23:45+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -923,7 +921,6 @@
                 },
                 "time": "2024-06-18T19:10:45+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -960,7 +957,6 @@
                 },
                 "time": "2024-06-20T14:20:01+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -984,18 +980,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/purdue-home-theme.git",
-                    "reference": "8982e25d18f16e99862a183547a9154ccad21de2"
+                    "reference": "c54aad37b903da25b2696306a60d33d0cae01672"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-8982e25d18f16e99862a183547a9154ccad21de2-zip-e18463.tar",
-                    "reference": "8982e25d18f16e99862a183547a9154ccad21de2",
-                    "shasum": "611b98fc9e3459c887309f23d39c3689cf9fbd77"
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-c54aad37b903da25b2696306a60d33d0cae01672-zip-4353e6.tar",
+                    "reference": "c54aad37b903da25b2696306a60d33d0cae01672",
+                    "shasum": "664c272c3a35aaee207685d4b4905d8caa867e8c"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
-                "time": "2024-07-01T13:00:54+00:00",
+                "time": "2024-07-02T17:40:31+00:00",
                 "type": "wordpress-theme",
                 "installation-source": "dist",
                 "license": [
