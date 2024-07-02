@@ -199,7 +199,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-ba86b9f5b40efb0510d3d30285c9a584af43a825-zip-f5d2a6.tar",
                     "reference": "ba86b9f5b40efb0510d3d30285c9a584af43a825",
-                    "shasum": "2ba1d783ceea26837f9a6484189371814cc0df31"
+                    "shasum": "b92d23e9b307b46871cc687e714cfb48b8f488ea"
                 },
                 "require": {
                     "php": ">=7.0",
@@ -209,6 +209,7 @@
                 },
                 "time": "2020-05-30T06:54:16+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -237,7 +238,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-cc087c1ddf09af303d837f8f8427947d4d649290-zip-e4fe43.tar",
                     "reference": "cc087c1ddf09af303d837f8f8427947d4d649290",
-                    "shasum": "8b78d720e7d233096b697de201c841b3bd6d5e29"
+                    "shasum": "184f7d248efb6a959038b434b0902509b7a6440b"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*",
@@ -246,6 +247,7 @@
                 },
                 "time": "2024-01-17T22:28:46+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -274,7 +276,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-758ce42e88c76262323929338594fe5293fcb7e6-zip-f3beb7.tar",
                     "reference": "758ce42e88c76262323929338594fe5293fcb7e6",
-                    "shasum": "19f16393561ae41a030ae921e7224dd050de235e"
+                    "shasum": "e442a860ddc7140425ba9ac0cdacffd1b621910d"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*",
@@ -283,6 +285,7 @@
                 },
                 "time": "2024-05-23T22:22:55+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -311,7 +314,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-d09a2f38e40d62685f3b3fabcc146937db0e869d-zip-c45d4f.tar",
                     "reference": "d09a2f38e40d62685f3b3fabcc146937db0e869d",
-                    "shasum": "b5821b801eaaf3fb4d358d30d3a4b0b6468c51a8"
+                    "shasum": "cd925614455933974a746fb3fd22beb94a87991d"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*",
@@ -320,6 +323,7 @@
                 },
                 "time": "2024-06-14T19:52:40+00:00",
                 "type": "wordpress-theme",
+                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -333,6 +337,44 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.1"
+                }
+            },
+            {
+                "name": "purdue/purdue-wp-theme-updated",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme-updated.git",
+                    "reference": "259856d8d2d174086036eabaa36d8a80e7a49dd3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-259856d8d2d174086036eabaa36d8a80e7a49dd3-zip-5dd1d9.tar",
+                    "reference": "259856d8d2d174086036eabaa36d8a80e7a49dd3",
+                    "shasum": "a71b5a11816a553495b1c66bdbac0ee23a5a4911"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2024-07-01T19:40:50+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.2"
                 }
             }
         ]
