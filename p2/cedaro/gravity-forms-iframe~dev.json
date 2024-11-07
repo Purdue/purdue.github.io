@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/cedaro/gravity-forms-iframe.git",
-                    "reference": "45b45cf9adfd0e87040d54004afbbb2ccc8a85b9"
+                    "reference": "2320282af19cc8f5042de4bc33ca7e114cdc1cc5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/cedaro/gravity-forms-iframe/zipball/45b45cf9adfd0e87040d54004afbbb2ccc8a85b9",
-                    "reference": "45b45cf9adfd0e87040d54004afbbb2ccc8a85b9",
+                    "url": "https://api.github.com/repos/cedaro/gravity-forms-iframe/zipball/2320282af19cc8f5042de4bc33ca7e114cdc1cc5",
+                    "reference": "2320282af19cc8f5042de4bc33ca7e114cdc1cc5",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "~1.0"
+                    "composer/installers": "^1.0 || ^2.0"
                 },
-                "time": "2021-05-31T16:51:36+00:00",
+                "time": "2024-10-10T18:02:15+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2.0+"

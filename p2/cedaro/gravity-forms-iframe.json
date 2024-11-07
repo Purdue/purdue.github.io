@@ -126,6 +126,92 @@
                     "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
                     "source": "https://github.com/cedaro/gravity-forms-iframe"
                 }
+            },
+            {
+                "name": "cedaro/gravity-forms-iframe",
+                "version": "v2.0.3",
+                "version_normalized": "2.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedaro/gravity-forms-iframe.git",
+                    "reference": "400e69af555a211ee481a41e5a5c7968da7be554"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/cedaro/gravity-forms-iframe/cedaro-gravity-forms-iframe-400e69af555a211ee481a41e5a5c7968da7be554-zip-ddd572.tar",
+                    "reference": "400e69af555a211ee481a41e5a5c7968da7be554",
+                    "shasum": "11d65b07fb15df16e49cadc9cacf1d14f3beea6e"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2024-10-08T15:22:49+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Brady Vercher",
+                        "email": "brady@blazersix.com",
+                        "homepage": "http://www.cedaro.com/"
+                    }
+                ],
+                "description": "Embed a Gravity Form on any site using an iframe.",
+                "homepage": "https://github.com/cedaro/gravity-forms-iframe",
+                "keywords": [
+                    "gravity forms",
+                    "iframe",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
+                    "source": "https://github.com/cedaro/gravity-forms-iframe"
+                }
+            },
+            {
+                "name": "cedaro/gravity-forms-iframe",
+                "version": "v2.0.4",
+                "version_normalized": "2.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedaro/gravity-forms-iframe.git",
+                    "reference": "2320282af19cc8f5042de4bc33ca7e114cdc1cc5"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/cedaro/gravity-forms-iframe/cedaro-gravity-forms-iframe-2320282af19cc8f5042de4bc33ca7e114cdc1cc5-zip-eed753.tar",
+                    "reference": "2320282af19cc8f5042de4bc33ca7e114cdc1cc5",
+                    "shasum": "ea17c81bee9ac3c14e07e4771026f5104bb66f3b"
+                },
+                "require": {
+                    "composer/installers": "^1.0 || ^2.0"
+                },
+                "time": "2024-10-10T18:02:15+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Brady Vercher",
+                        "email": "brady@blazersix.com",
+                        "homepage": "http://www.cedaro.com/"
+                    }
+                ],
+                "description": "Embed a Gravity Form on any site using an iframe.",
+                "homepage": "https://github.com/cedaro/gravity-forms-iframe",
+                "keywords": [
+                    "gravity forms",
+                    "iframe",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
+                    "source": "https://github.com/cedaro/gravity-forms-iframe"
+                }
             }
         ]
     }
