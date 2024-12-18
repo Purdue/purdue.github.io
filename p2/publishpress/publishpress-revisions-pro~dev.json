@@ -8,18 +8,31 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/revisionary-pro.git",
-                    "reference": "629668514dc5082ac4b41394299dd8b589544f82"
+                    "reference": "77aa361aa1a8536d8abf40ada5ad8b27f3579086"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/629668514dc5082ac4b41394299dd8b589544f82",
-                    "reference": "629668514dc5082ac4b41394299dd8b589544f82",
+                    "url": "https://api.github.com/repos/Purdue/revisionary-pro/zipball/77aa361aa1a8536d8abf40ada5ad8b27f3579086",
+                    "reference": "77aa361aa1a8536d8abf40ada5ad8b27f3579086",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5"
                 },
-                "time": "2024-05-15T18:27:51+00:00",
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "dev-main",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2024-12-18T13:51:38+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "revisionary-pro",
@@ -81,7 +94,7 @@
                 ],
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.9",
+                    "source": "https://github.com/Purdue/revisionary-pro/tree/3.5.16",
                     "issues": "https://github.com/Purdue/revisionary-pro/issues"
                 }
             }

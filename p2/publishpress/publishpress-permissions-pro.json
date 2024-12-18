@@ -625,6 +625,34 @@
                     "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.23",
                     "issues": "https://github.com/Purdue/presspermit-pro/issues"
                 }
+            },
+            {
+                "name": "publishpress/publishpress-permissions-pro",
+                "version": "4.0.34",
+                "version_normalized": "4.0.34.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/presspermit-pro.git",
+                    "reference": "c6fa8ab84f68a80c67318ac2f6b0e3c5a4d29dae"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions-pro/publishpress-publishpress-permissions-pro-c6fa8ab84f68a80c67318ac2f6b0e3c5a4d29dae-zip-04866c.tar",
+                    "reference": "c6fa8ab84f68a80c67318ac2f6b0e3c5a4d29dae",
+                    "shasum": "9090c72b9c2e307d3aee75d1e9ad08061c34b573"
+                },
+                "time": "2024-12-17T21:24:33+00:00",
+                "type": "wordpress-plugin",
+                "installation-source": "dist",
+                "license": [
+                    "GPL-2"
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/Purdue/presspermit-pro/tree/4.0.34",
+                    "issues": "https://github.com/Purdue/presspermit-pro/issues"
+                }
             }
         ]
     }

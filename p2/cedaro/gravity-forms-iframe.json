@@ -147,7 +147,6 @@
                 },
                 "time": "2024-10-08T15:22:49+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-2.0+"
                 ],
@@ -189,6 +188,48 @@
                     "composer/installers": "^1.0 || ^2.0"
                 },
                 "time": "2024-10-10T18:02:15+00:00",
+                "type": "wordpress-plugin",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Brady Vercher",
+                        "email": "brady@blazersix.com",
+                        "homepage": "http://www.cedaro.com/"
+                    }
+                ],
+                "description": "Embed a Gravity Form on any site using an iframe.",
+                "homepage": "https://github.com/cedaro/gravity-forms-iframe",
+                "keywords": [
+                    "gravity forms",
+                    "iframe",
+                    "wordpress"
+                ],
+                "support": {
+                    "issues": "https://github.com/cedaro/gravity-forms-iframe/issues",
+                    "source": "https://github.com/cedaro/gravity-forms-iframe"
+                }
+            },
+            {
+                "name": "cedaro/gravity-forms-iframe",
+                "version": "v2.0.5",
+                "version_normalized": "2.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/cedaro/gravity-forms-iframe.git",
+                    "reference": "acc77716abc8924189c0349664ee31e14852be71"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/cedaro/gravity-forms-iframe/cedaro-gravity-forms-iframe-acc77716abc8924189c0349664ee31e14852be71-zip-3ef154.tar",
+                    "reference": "acc77716abc8924189c0349664ee31e14852be71",
+                    "shasum": "5ac96b54c361d43e82d10c86b88ce7ed508af5ce"
+                },
+                "require": {
+                    "composer/installers": "^1.0 || ^2.0"
+                },
+                "time": "2024-11-24T17:51:32+00:00",
                 "type": "wordpress-plugin",
                 "installation-source": "dist",
                 "license": [
