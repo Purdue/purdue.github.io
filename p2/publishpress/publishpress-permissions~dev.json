@@ -127,7 +127,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/master",
+                    "source": "https://github.com/publishpress/PublishPress-Permissions/tree/v4.1.0",
                     "issues": "https://github.com/publishpress/PublishPress-Permissions/issues"
                 }
             },
@@ -138,12 +138,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/PublishPress-Permissions.git",
-                    "reference": "674a9c501fd444f67c7b1542e7a6fd254e802668"
+                    "reference": "6fada3512fda2d83663b02d76410cd8144ebc094"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/674a9c501fd444f67c7b1542e7a6fd254e802668",
-                    "reference": "674a9c501fd444f67c7b1542e7a6fd254e802668",
+                    "url": "https://api.github.com/repos/publishpress/PublishPress-Permissions/zipball/6fada3512fda2d83663b02d76410cd8144ebc094",
+                    "reference": "6fada3512fda2d83663b02d76410cd8144ebc094",
                     "shasum": ""
                 },
                 "require": {
@@ -163,7 +163,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2024-12-18T18:39:43+00:00",
+                "time": "2024-12-18T20:03:33+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
