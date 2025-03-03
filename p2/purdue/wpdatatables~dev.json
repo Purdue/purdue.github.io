@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/wpdatatables.git",
-                    "reference": "9606efcad45ea423050e4059100636b6a853f234"
+                    "reference": "70e04a8ff3ea5d8ef25f192b0ef0058cf714de1a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/9606efcad45ea423050e4059100636b6a853f234",
-                    "reference": "9606efcad45ea423050e4059100636b6a853f234",
+                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/70e04a8ff3ea5d8ef25f192b0ef0058cf714de1a",
+                    "reference": "70e04a8ff3ea5d8ef25f192b0ef0058cf714de1a",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2024-03-29T21:05:21+00:00",
+                "time": "2025-01-29T16:52:44+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv2"
@@ -32,7 +32,7 @@
                 ],
                 "description": "WP chart and table plugin",
                 "support": {
-                    "source": "https://github.com/Purdue/wpdatatables/tree/6.2.1",
+                    "source": "https://github.com/Purdue/wpdatatables/tree/7.1",
                     "issues": "https://github.com/Purdue/wpdatatables/issues"
                 }
             }
