@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityformssignature.git",
-                    "reference": "94137ee6cace2df728c7d099f82dcd733ca933cb"
+                    "reference": "596cf5406ad4ec0401b262c22a2bbbe66ef0df62"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/94137ee6cace2df728c7d099f82dcd733ca933cb",
-                    "reference": "94137ee6cace2df728c7d099f82dcd733ca933cb",
+                    "url": "https://api.github.com/repos/Purdue/gravityformssignature/zipball/596cf5406ad4ec0401b262c22a2bbbe66ef0df62",
+                    "reference": "596cf5406ad4ec0401b262c22a2bbbe66ef0df62",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
                 },
-                "time": "2024-12-18T14:48:27+00:00",
+                "time": "2025-06-18T15:53:29+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPLv3"
@@ -32,7 +32,7 @@
                 ],
                 "description": "GravityForms Plugin Signature Add On by Rocketgenius, Inc.",
                 "support": {
-                    "source": "https://github.com/Purdue/gravityformssignature/tree/4.6.1",
+                    "source": "https://github.com/Purdue/gravityformssignature/tree/master",
                     "issues": "https://github.com/Purdue/gravityformssignature/issues"
                 }
             }
