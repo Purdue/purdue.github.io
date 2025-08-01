@@ -1,0 +1,39 @@
+.breadcrumbs{
+    background-color:#ededed;
+    padding:0.9375rem $side-padding-desktop;
+    font-size: .875rem;
+    color:$steel-gray;
+    @include touch{
+        padding:0.9375rem $side-padding-tablet; 
+    }
+    @include touch{
+        padding:0.9375rem $side-padding-mobile; 
+    }
+    a{
+        font-family: $acumin-pro;
+        font-size: 0.875rem;
+        color:$steel-gray;
+        text-decoration: none;
+        font-weight:400;
+        &:hover{
+            text-decoration:underline;
+            color:$steel-gray;
+        }
+    }
+    .current-item{
+        font-weight:700;
+    }
+    ul{
+        font-family: $acumin-pro;
+        font-size: 0.875rem;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        li{
+            &:not(:last-child):after{
+                content:">";
+                padding: 0 0.3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.related-content-item {
+    text-decoration:none;
+    &:hover{
+        text-decoration:underline;
+    }
+    &.media {
+        flex-direction: column;
+
+        &+.media {
+            margin-top: 0;
+        }
+    }
+
+    .media {
+        &-left {
+            margin: 0 0 1.5rem 0;
+
+            .image {
+                width: 160px;
+                display: block;
+                box-sizing: border-box;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        &-content{
+            font-weight: 600;
+            max-width:100%;
+        }
+    }
+}

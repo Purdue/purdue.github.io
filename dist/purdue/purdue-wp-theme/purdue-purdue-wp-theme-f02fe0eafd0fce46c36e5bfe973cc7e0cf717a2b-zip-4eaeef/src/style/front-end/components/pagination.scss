@@ -1,0 +1,26 @@
+.pagination{
+    justify-content:center;
+    padding: 2.5rem 0 2rem 0 !important;
+    .page-numbers {
+        display: inline-block;
+        padding: 0px 8px;
+        border-radius: 2px;
+        color: #666;
+        border: 1px solid #f1f1f1;
+        background: #f7f7f7;
+        text-decoration: none;
+        -webkit-transition: all 0.15s ease;
+        transition: all 0.15s ease;
+    }
+    .page-numbers.current{
+        color: #fff;
+        border-color: $aged-gold;
+        background-color: $aged-gold;
+        text-decoration: none;
+    }
+    a.page-numbers:hover {
+        color: #222;
+        border-color: #e1e1e1;
+        background-color: #efefef;
+    }
+}

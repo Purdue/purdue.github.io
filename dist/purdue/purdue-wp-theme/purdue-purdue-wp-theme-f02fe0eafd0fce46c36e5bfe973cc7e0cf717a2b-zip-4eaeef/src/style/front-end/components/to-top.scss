@@ -1,0 +1,39 @@
+#to-top {
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $boiler-gold;
+    background: black;
+    font-size: 1.1rem;
+    padding: 1.5rem;
+    margin: 0;
+    border: none;
+    transition: transform 0.2s ease;
+    border-radius: 100%;
+    z-index:1000;
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.to-top-hidden {
+        transform: translateY(300%);
+    }
+
+    &.to-top-shown {
+        transform: translateX(0);
+    }
+
+    @media (max-width: 414px) {
+        font-size: 0.9rem;
+        right: 2rem;
+        padding: 1.2rem;
+    }
+}
+.to-top-relative{
+    position:relative !important;
+    float:right; 
+    margin-bottom: -5rem !important;
+}

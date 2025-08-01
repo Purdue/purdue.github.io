@@ -1,0 +1,18 @@
+figure {
+    margin: 0 !important;
+    max-width:100%;
+    min-height:1px;
+}
+.wp-block-image .aligncenter, .wp-block-image .alignleft, .wp-block-image .alignright, .wp-block-image.is-resized{
+    display:block;
+}
+.wp-block-image .aligncenter>figcaption, .wp-block-image .alignleft>figcaption, .wp-block-image .alignright>figcaption, .wp-block-image.is-resized>figcaption{
+    display:block
+}
+.content figure figcaption {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: $steel-gray;
+    font-weight: 400;
+    max-width: 900px;
+}

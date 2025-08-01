@@ -1,0 +1,18 @@
+.content ol li{
+    ol:not([type]){
+        list-style-type: lower-alpha !important;
+        li{
+            ol:not([type]){
+                list-style-type: lower-roman !important;
+            }
+        }
+    }
+}
+.content{
+    ul,ol{
+        font-size: 1rem;
+        li + li{
+            margin-top:0.5em;
+        }
+    }
+}  

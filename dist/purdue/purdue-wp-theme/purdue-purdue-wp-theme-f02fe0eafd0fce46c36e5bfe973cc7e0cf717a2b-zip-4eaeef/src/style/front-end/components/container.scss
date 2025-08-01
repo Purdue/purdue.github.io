@@ -1,0 +1,31 @@
+.header-container{
+    padding:3rem 0;
+    @include touch{
+        padding:2rem 1.5rem;
+    }
+}
+.section-container{
+    padding:3rem 0;
+    @include touch{
+        padding:3rem 1.5rem;
+    }
+}
+.filter-container{
+    padding:1.5rem 0;
+    @include touch{
+        padding:1.5rem $side-padding-tablet;
+    }
+    @include mobile{
+        padding:1.5rem $side-padding-mobile;
+    }
+}
+.section{
+    padding:3rem $side-padding-desktop !important;
+    @include touch{
+        padding:3rem $side-padding-tablet !important;
+    }
+    @include mobile{
+        padding:3rem $side-padding-mobile !important;
+    }
+}
+

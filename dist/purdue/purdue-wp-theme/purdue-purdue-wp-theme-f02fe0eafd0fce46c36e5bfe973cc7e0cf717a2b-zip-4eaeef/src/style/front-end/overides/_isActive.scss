@@ -1,0 +1,27 @@
+.is-active{
+    display:flex;
+}
+
+.side-nav 
+{
+    .is-active{
+        display:block;
+    }
+}
+aside.is-active{
+    display:block !important;
+}
+.purdue-navbar-black{
+    .is-active{
+        display:flex !important;
+    }
+}
+.purdue-navbar-white.is-active{
+    display: block;
+}
+.purdue-navbar-black .navbar-brand .icon .close-icon.is-active{
+    display: block;
+}
+.purdue-navbar-black .navbar-brand .icon .burger-icon.is-hide{
+    display: none;
+}
