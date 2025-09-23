@@ -912,7 +912,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -9024,7 +9023,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -9155,7 +9153,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -9286,7 +9283,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
@@ -23945,7 +23941,6 @@
                 },
                 "time": "2025-09-16T13:48:53+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28029,7 +28024,6 @@
                 },
                 "time": "2025-09-16T14:14:23+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28704,7 +28698,6 @@
                 },
                 "time": "2025-09-16T14:00:17+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28720,6 +28713,44 @@
                     "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.6"
                 }
             },
+            "1.8.7": {
+                "name": "purdue/purdue-wp-theme-updated",
+                "version": "1.8.7",
+                "version_normalized": "1.8.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Purdue/purdue-wp-theme-updated.git",
+                    "reference": "57c1215d7b4f86a0de526cec84f2e5c622fe37f0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-wp-theme-updated/purdue-purdue-wp-theme-updated-57c1215d7b4f86a0de526cec84f2e5c622fe37f0-zip-cc6874.tar",
+                    "reference": "57c1215d7b4f86a0de526cec84f2e5c622fe37f0",
+                    "shasum": "4afbddcfb984361c05580196aa8744066c414c8b"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*",
+                    "purdue/bulma-blocks": "*",
+                    "purdue/purdue-blocks": "*"
+                },
+                "time": "2025-09-22T18:41:06+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://brand.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.7"
+                }
+            },
             "dev-master": {
                 "name": "purdue/purdue-wp-theme-updated",
                 "version": "dev-master",
@@ -28727,12 +28758,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme-updated.git",
-                    "reference": "94b3f1d8204f8640b87893d960555291fde792b4"
+                    "reference": "57c1215d7b4f86a0de526cec84f2e5c622fe37f0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme-updated/zipball/94b3f1d8204f8640b87893d960555291fde792b4",
-                    "reference": "94b3f1d8204f8640b87893d960555291fde792b4",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme-updated/zipball/57c1215d7b4f86a0de526cec84f2e5c622fe37f0",
+                    "reference": "57c1215d7b4f86a0de526cec84f2e5c622fe37f0",
                     "shasum": ""
                 },
                 "require": {
@@ -28740,7 +28771,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2025-09-16T14:00:17+00:00",
+                "time": "2025-09-22T18:41:06+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -28754,7 +28785,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.6"
+                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.7"
                 }
             }
         },

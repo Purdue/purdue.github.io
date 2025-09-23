@@ -616,7 +616,6 @@
                     "plugin-slug": "capabilities-pro",
                     "plugin-folder": "capabilities-pro"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "ppbuild build"
