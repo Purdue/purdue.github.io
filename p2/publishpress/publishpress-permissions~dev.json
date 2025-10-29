@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "0f2b235ea0de77ee490c48978f59bb6bcdf5bf69"
+                    "reference": "6ec099e8dd892d77d0da716cb3223df57983ac88"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/0f2b235ea0de77ee490c48978f59bb6bcdf5bf69",
-                    "reference": "0f2b235ea0de77ee490c48978f59bb6bcdf5bf69",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/6ec099e8dd892d77d0da716cb3223df57983ac88",
+                    "reference": "6ec099e8dd892d77d0da716cb3223df57983ac88",
                     "shasum": ""
                 },
                 "require": {
@@ -33,7 +33,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2025-10-01T15:09:55+00:00",
+                "time": "2025-10-27T16:58:17+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -127,7 +127,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/v4.5.1",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/v4.5.2",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
@@ -138,12 +138,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "94cba838b5aed5327088873d1da7dbe00352a27c"
+                    "reference": "fcd8ed29bc7b42fb4f8a118eef1cea11a676b8f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/94cba838b5aed5327088873d1da7dbe00352a27c",
-                    "reference": "94cba838b5aed5327088873d1da7dbe00352a27c",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/fcd8ed29bc7b42fb4f8a118eef1cea11a676b8f7",
+                    "reference": "fcd8ed29bc7b42fb4f8a118eef1cea11a676b8f7",
                     "shasum": ""
                 },
                 "require": {
@@ -163,7 +163,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2025-10-22T14:37:05+00:00",
+                "time": "2025-10-29T19:12:03+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -172,16 +172,16 @@
                 },
                 "scripts": {
                     "build": [
-                        "ppbuild build"
+                        "pbuild build"
                     ],
                     "build:dir": [
-                        "ppbuild build-dir"
+                        "pbuild build-dir"
                     ],
                     "build:clean": [
-                        "ppbuild clean"
+                        "pbuild clean"
                     ],
-                    "get:version": [
-                        "ppbuild version"
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
                     ],
                     "gen:mo": [
                         "wp i18n make-mo ./languages ./languages --allow-root"
@@ -238,7 +238,7 @@
                     ]
                 },
                 "license": [
-                    "GPL-2"
+                    "GPL-2.0-or-later"
                 ],
                 "authors": [
                     {
