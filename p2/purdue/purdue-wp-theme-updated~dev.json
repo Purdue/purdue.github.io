@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme-updated.git",
-                    "reference": "b9002fc5208e5c160f03fb010f2d4f70ad3f7288"
+                    "reference": "0092fbd84e36be230c5f3ee02a0de33bf1edc0ce"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme-updated/zipball/b9002fc5208e5c160f03fb010f2d4f70ad3f7288",
-                    "reference": "b9002fc5208e5c160f03fb010f2d4f70ad3f7288",
+                    "url": "https://api.github.com/repos/Purdue/purdue-wp-theme-updated/zipball/0092fbd84e36be230c5f3ee02a0de33bf1edc0ce",
+                    "reference": "0092fbd84e36be230c5f3ee02a0de33bf1edc0ce",
                     "shasum": ""
                 },
                 "require": {
@@ -21,7 +21,7 @@
                     "purdue/bulma-blocks": "*",
                     "purdue/purdue-blocks": "*"
                 },
-                "time": "2025-10-03T16:20:11+00:00",
+                "time": "2026-01-05T21:05:46+00:00",
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
@@ -35,7 +35,7 @@
                 ],
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
-                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.8"
+                    "source": "https://github.com/Purdue/purdue-wp-theme-updated/tree/1.8.9"
                 }
             }
         ]
