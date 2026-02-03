@@ -3,8 +3,8 @@
         "cedaro/gravity-forms-iframe": [
             {
                 "name": "cedaro/gravity-forms-iframe",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/cedaro/gravity-forms-iframe.git",
@@ -20,7 +20,6 @@
                     "composer/installers": "^1.0 || ^2.0"
                 },
                 "time": "2024-11-24T17:51:32+00:00",
-                "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-2.0+"
