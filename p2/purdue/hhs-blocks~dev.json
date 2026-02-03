@@ -4,7 +4,7 @@
             {
                 "name": "purdue/hhs-blocks",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/hhs-blocks.git",
@@ -20,6 +20,7 @@
                     "php": ">=7.0"
                 },
                 "time": "2022-03-29T20:23:15+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"

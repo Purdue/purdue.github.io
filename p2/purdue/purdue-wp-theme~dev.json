@@ -4,7 +4,7 @@
             {
                 "name": "purdue/purdue-wp-theme",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-wp-theme.git",
@@ -22,6 +22,7 @@
                     "purdue/purdue-blocks": "*"
                 },
                 "time": "2026-01-20T16:34:18+00:00",
+                "default-branch": true,
                 "type": "wordpress-theme",
                 "license": [
                     "GPLv3"
