@@ -11057,21 +11057,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-<<<<<<<< HEAD:include/all$480da3628b9b4cebb337fb07b98a6fa0d78d3775.json
                     "reference": "9cd192376bf965022595b5dcef9bd6c8e984b4cb"
                 },
                 "dist": {
                     "type": "zip",
                     "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/9cd192376bf965022595b5dcef9bd6c8e984b4cb",
                     "reference": "9cd192376bf965022595b5dcef9bd6c8e984b4cb",
-========
-                    "reference": "d83a079b0d3a2c39a04c6dab77c53942fde65e04"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/d83a079b0d3a2c39a04c6dab77c53942fde65e04",
-                    "reference": "d83a079b0d3a2c39a04c6dab77c53942fde65e04",
->>>>>>>> ec0171d704aeb07a3aedd9fb1e0260ff0e307412:include/all$f024118a3c580c129ac8ed92d7acccbd4148809e.json
                     "shasum": ""
                 },
                 "require": {
@@ -11092,11 +11083,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-<<<<<<<< HEAD:include/all$480da3628b9b4cebb337fb07b98a6fa0d78d3775.json
                 "time": "2026-05-05T06:58:08+00:00",
-========
-                "time": "2026-03-26T16:50:32+00:00",
->>>>>>>> ec0171d704aeb07a3aedd9fb1e0260ff0e307412:include/all$f024118a3c580c129ac8ed92d7acccbd4148809e.json
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -11247,7 +11234,6 @@
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-<<<<<<<< HEAD:include/all$480da3628b9b4cebb337fb07b98a6fa0d78d3775.json
             "dev-hotfix-support-no-revision-exceptions-bypass-constant": {
                 "name": "publishpress/publishpress-permissions",
                 "version": "dev-hotfix-support-no-revision-exceptions-bypass-constant",
@@ -11378,8 +11364,6 @@
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-========
->>>>>>>> ec0171d704aeb07a3aedd9fb1e0260ff0e307412:include/all$f024118a3c580c129ac8ed92d7acccbd4148809e.json
             "dev-richaferry/issue1737": {
                 "name": "publishpress/publishpress-permissions",
                 "version": "dev-richaferry/issue1737",
@@ -24577,21 +24561,13 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-6fb74d1bd1053c307cce1ca3e5789d7a4d663eee-zip-cb1dd9.tar",
                     "reference": "6fb74d1bd1053c307cce1ca3e5789d7a4d663eee",
-<<<<<<<< HEAD:include/all$480da3628b9b4cebb337fb07b98a6fa0d78d3775.json
                     "shasum": "770cb1253180a69b3c313be6b013400a8dddf782"
-========
-                    "shasum": "3c370ef5c379364a11921896921f1f5e09101dfe"
->>>>>>>> ec0171d704aeb07a3aedd9fb1e0260ff0e307412:include/all$f024118a3c580c129ac8ed92d7acccbd4148809e.json
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
                 },
                 "time": "2026-03-31T17:14:10+00:00",
                 "type": "wordpress-theme",
-<<<<<<<< HEAD:include/all$480da3628b9b4cebb337fb07b98a6fa0d78d3775.json
-========
-                "installation-source": "dist",
->>>>>>>> ec0171d704aeb07a3aedd9fb1e0260ff0e307412:include/all$f024118a3c580c129ac8ed92d7acccbd4148809e.json
                 "license": [
                     "GPLv3"
                 ],
@@ -24608,7 +24584,6 @@
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
-<<<<<<<< HEAD:include/all$480da3628b9b4cebb337fb07b98a6fa0d78d3775.json
             "1.1.47": {
                 "name": "purdue/purdue-home-theme",
                 "version": "1.1.47",
@@ -24717,8 +24692,6 @@
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
-========
->>>>>>>> ec0171d704aeb07a3aedd9fb1e0260ff0e307412:include/all$f024118a3c580c129ac8ed92d7acccbd4148809e.json
             "1.1.5": {
                 "name": "purdue/purdue-home-theme",
                 "version": "1.1.5",
