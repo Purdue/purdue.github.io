@@ -338,14 +338,13 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/email-signature-builder/purdue-email-signature-builder-fcaa1ada2e5c0ee39a8f4430a179ee543793063e-zip-9f5056.tar",
                     "reference": "fcaa1ada2e5c0ee39a8f4430a179ee543793063e",
-                    "shasum": "1db9def3eabbc2b3fd24963ac221ac215ce44984"
+                    "shasum": "867725eed7d780872745825244a10c68e55bcc33"
                 },
                 "require": {
                     "php": ">=7.0"
                 },
                 "time": "2025-12-19T16:00:33+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
