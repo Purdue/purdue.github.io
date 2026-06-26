@@ -2102,7 +2102,7 @@
                     "type": "tar",
                     "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-e74fffe82de5d5280d92cff622bbc85ec04e73d0-zip-1ec22b.tar",
                     "reference": "e74fffe82de5d5280d92cff622bbc85ec04e73d0",
-                    "shasum": "e5808df91d4f71b5eb82fa86f879d7505e973a1c"
+                    "shasum": "3ac7e7bdf24bdeefd48871606e55698efc885a65"
                 },
                 "require": {
                     "purdue/boilerup-wp": "*"
@@ -2145,7 +2145,6 @@
                 },
                 "time": "2026-06-26T17:39:32+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -2182,7 +2181,6 @@
                 },
                 "time": "2026-06-26T18:43:33+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
