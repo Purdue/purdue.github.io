@@ -1141,6 +1141,58 @@
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             },
+            "2.45.0": {
+                "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.45.0",
+                "version_normalized": "2.45.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "7a6b2e71d996914aecfbb0365b5337d9a885f5ad"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-7a6b2e71d996914aecfbb0365b5337d9a885f5ad-zip-9b3ae2.tar",
+                    "reference": "7a6b2e71d996914aecfbb0365b5337d9a885f5ad",
+                    "shasum": "b108dad49bf122e8b352a56df4be696ec59fc9dd"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "publishpress/dev-workspace": "^1.0"
+                },
+                "time": "2026-07-22T18:53:07+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "publishpress-capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro",
+                    "version-constant": "PUBLISHPRESS_CAPS_PRO_VERSION",
+                    "plugin-lang-domain": "capabilities-pro",
+                    "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
+                    "plugin-composer-package": "publishpress/publishpress-capabilities"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.45.0",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
+            },
             "2.6.0": {
                 "name": "publishpress/publishpress-capabilities-pro",
                 "version": "2.6.0",
@@ -1360,102 +1412,34 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
-                    "reference": "c350caa1de7ceb4f9c57f507253a7c01cf379694"
+                    "reference": "7a6b2e71d996914aecfbb0365b5337d9a885f5ad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/c350caa1de7ceb4f9c57f507253a7c01cf379694",
-                    "reference": "c350caa1de7ceb4f9c57f507253a7c01cf379694",
+                    "url": "https://api.github.com/repos/Purdue/capabilities-pro/zipball/7a6b2e71d996914aecfbb0365b5337d9a885f5ad",
+                    "reference": "7a6b2e71d996914aecfbb0365b5337d9a885f5ad",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.2.5"
                 },
                 "require-dev": {
-                    "automattic/vipwpcs": "^2.3",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/publishpress-phpcs-standards": "dev-main",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^2.3"
+                    "publishpress/dev-workspace": "^1.0"
                 },
-                "time": "2025-09-16T16:24:09+00:00",
+                "time": "2026-07-22T18:53:07+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-name": "publishpress-capabilities-pro",
                     "plugin-slug": "capabilities-pro",
-                    "plugin-folder": "capabilities-pro"
+                    "plugin-folder": "capabilities-pro",
+                    "version-constant": "PUBLISHPRESS_CAPS_PRO_VERSION",
+                    "plugin-lang-domain": "capabilities-pro",
+                    "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
+                    "plugin-composer-package": "publishpress/publishpress-capabilities"
                 },
                 "scripts": {
-                    "build": [
-                        "ppbuild build"
-                    ],
-                    "build:dir": [
-                        "ppbuild build-dir"
-                    ],
-                    "build:clean": [
-                        "ppbuild clean"
-                    ],
-                    "get:version": [
-                        "ppbuild version"
-                    ],
-                    "gen:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root;wp i18n make-mo ./lib/status-capabilities/languages ./lib/status-capabilities/languages --allow-root"
-                    ],
-                    "gen:pot": [
-                        "wp i18n make-pot . languages/capabilities-pro.pot --domain=capabilities-pro --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root;wp i18n make-pot ./lib/status-capabilities lib/status-capabilities/languages/publishpress-status-capabilities.pot --domain=publishpress-status-capabilities --exclude=dev-workspace,.wordpress-org,.github,dist,tests,vendor, --allow-root"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
-                    ],
-                    "check:lint": [
-                        "phplint"
-                    ],
-                    "check:phpcs": [
-                        "phpcs"
-                    ],
-                    "check:php": [
-                        "@check:php56",
-                        "@check:php72",
-                        "@check:php74",
-                        "@check:php80",
-                        "@check:php81",
-                        "@check:php82"
-                    ],
-                    "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./capabilities-pro.php"
-                    ],
-                    "check:php72": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
-                    ],
-                    "check:php74": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
-                    ],
-                    "check:php80": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
-                    ],
-                    "check:php81": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
-                    ],
-                    "check:php82": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
-                    ],
-                    "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
-                    ],
-                    "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
-                    ],
-                    "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
-                    ],
-                    "term": [
-                        "cd dev-workspace && ./run"
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
                     ]
                 },
                 "license": [
@@ -1468,7 +1452,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.20.0",
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.45.0",
                     "issues": "https://github.com/Purdue/capabilities-pro/issues"
                 }
             }
@@ -11257,19 +11241,19 @@
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-            "dev-development": {
+            "dev-chore/milestone-47-plan": {
                 "name": "publishpress/publishpress-permissions",
-                "version": "dev-development",
-                "version_normalized": "dev-development",
+                "version": "dev-chore/milestone-47-plan",
+                "version_normalized": "dev-chore/milestone-47-plan",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "511a702e2069cdaf1c89fd4c3574df7aeb7c3395"
+                    "reference": "b9dc5f918b1e3108f0aac47489d10d1cf69501db"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/511a702e2069cdaf1c89fd4c3574df7aeb7c3395",
-                    "reference": "511a702e2069cdaf1c89fd4c3574df7aeb7c3395",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/b9dc5f918b1e3108f0aac47489d10d1cf69501db",
+                    "reference": "b9dc5f918b1e3108f0aac47489d10d1cf69501db",
                     "shasum": ""
                 },
                 "require": {
@@ -11290,7 +11274,559 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^2.3"
                 },
-                "time": "2026-06-19T20:11:23+00:00",
+                "time": "2026-08-07T01:17:07+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/chore/milestone-47-plan",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-codex/content-visibility": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-codex/content-visibility",
+                "version_normalized": "dev-codex/content-visibility",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "57b6f0999b7496cd63f066fc6bafa3d36c731d12"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/57b6f0999b7496cd63f066fc6bafa3d36c731d12",
+                    "reference": "57b6f0999b7496cd63f066fc6bafa3d36c731d12",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-07-28T08:28:38+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/codex/content-visibility",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-codex/teaser-live-preview": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-codex/teaser-live-preview",
+                "version_normalized": "dev-codex/teaser-live-preview",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "839a53df99f93a3d34f39eb3b54b0f7a4a93ca0e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/839a53df99f93a3d34f39eb3b54b0f7a4a93ca0e",
+                    "reference": "839a53df99f93a3d34f39eb3b54b0f7a4a93ca0e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-10T20:20:48+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/codex/teaser-live-preview",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-development": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-development",
+                "version_normalized": "dev-development",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "f2a298900ac0766383c143dc92614b4ef7c6162a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/f2a298900ac0766383c143dc92614b4ef7c6162a",
+                    "reference": "f2a298900ac0766383c143dc92614b4ef7c6162a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-18T09:33:49+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -11438,6 +11974,1217 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/publishpress-permissions/tree/development",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-feat-migrate-dev-workspace": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-feat-migrate-dev-workspace",
+                "version_normalized": "dev-feat-migrate-dev-workspace",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "a37f61d0661db6f61f4c6074c3435a549b2385a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/a37f61d0661db6f61f4c6074c3435a549b2385a8",
+                    "reference": "a37f61d0661db6f61f4c6074c3435a549b2385a8",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "publishpress/dev-workspace": "^1.5.0"
+                },
+                "time": "2026-07-09T20:28:19+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core",
+                    "version-constant": "PRESSPERMIT_VERSION",
+                    "plugin-lang-domain": "press-permit-core",
+                    "plugin-github-repo": "publishpress/publishpress-permissions",
+                    "plugin-composer-package": "publishpress/publishpress-permissions"
+                },
+                "scripts": {
+                    "build:dir": [
+                        "@pack:dir"
+                    ],
+                    "build:clean": [
+                        "@pack:clean"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace-cache,vendor,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:lint": [
+                        "@lint:php"
+                    ],
+                    "check:phpcs": [
+                        "@lint:phpcs"
+                    ],
+                    "check:php56": [
+                        "@check:php-5.6"
+                    ],
+                    "check:php72": [
+                        "@check:php-7.2"
+                    ],
+                    "check:php74": [
+                        "@check:php-7.4"
+                    ],
+                    "check:php80": [
+                        "@check:php-8.0"
+                    ],
+                    "check:php81": [
+                        "@check:php-8.1"
+                    ],
+                    "check:php82": [
+                        "@check:php-8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "bash ./vendor/publishpress/dev-workspace/scripts/run.sh"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/feat-migrate-dev-workspace",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-fix-workflow-instawp-preview": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-fix-workflow-instawp-preview",
+                "version_normalized": "dev-fix-workflow-instawp-preview",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "d8d986d87cc005cc82d13091f18a14caecbb28ab"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/d8d986d87cc005cc82d13091f18a14caecbb28ab",
+                    "reference": "d8d986d87cc005cc82d13091f18a14caecbb28ab",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-07-22T06:17:52+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix-workflow-instawp-preview",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-fix/attachment-term-counts-2422": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-fix/attachment-term-counts-2422",
+                "version_normalized": "dev-fix/attachment-term-counts-2422",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "15d3b0b4f0a49216a625b4e46b0ae9e6c4037b9f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/15d3b0b4f0a49216a625b4e46b0ae9e6c4037b9f",
+                    "reference": "15d3b0b4f0a49216a625b4e46b0ae9e6c4037b9f",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-06T19:33:26+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/attachment-term-counts-2422",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-fix/multisite-uninstall-batching-2316": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-fix/multisite-uninstall-batching-2316",
+                "version_normalized": "dev-fix/multisite-uninstall-batching-2316",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "a41efcb1cc6d4cf04034ba082dc23000d4c26d4d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/a41efcb1cc6d4cf04034ba082dc23000d4c26d4d",
+                    "reference": "a41efcb1cc6d4cf04034ba082dc23000d4c26d4d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-06T19:53:28+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/multisite-uninstall-batching-2316",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-fix/tabbed-metabox-legacy-settings-2420": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-fix/tabbed-metabox-legacy-settings-2420",
+                "version_normalized": "dev-fix/tabbed-metabox-legacy-settings-2420",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "b4a6385db34a9aca48ea7ce8c7d6c62f34920f33"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/b4a6385db34a9aca48ea7ce8c7d6c62f34920f33",
+                    "reference": "b4a6385db34a9aca48ea7ce8c7d6c62f34920f33",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-06T19:47:48+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/tabbed-metabox-legacy-settings-2420",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-fix/targeted-cache-invalidation-2315": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-fix/targeted-cache-invalidation-2315",
+                "version_normalized": "dev-fix/targeted-cache-invalidation-2315",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "484a45732141fc563eb817d45e8915b31b6b5cda"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/484a45732141fc563eb817d45e8915b31b6b5cda",
+                    "reference": "484a45732141fc563eb817d45e8915b31b6b5cda",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-18T09:52:07+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/targeted-cache-invalidation-2315",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
+            "dev-fix/term-checklist-hierarchy-2421": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "dev-fix/term-checklist-hierarchy-2421",
+                "version_normalized": "dev-fix/term-checklist-hierarchy-2421",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "bd27afb4df6c2de69763d54a0aea4c2f3441f5fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/bd27afb4df6c2de69763d54a0aea4c2f3441f5fa",
+                    "reference": "bd27afb4df6c2de69763d54a0aea4c2f3441f5fa",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^2.3",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^2.3"
+                },
+                "time": "2026-08-14T04:45:00+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/term-checklist-hierarchy-2421",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
@@ -14337,35 +16084,6 @@
                     "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.3.2.1",
                     "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
                 }
-            },
-            "dev-master": {
-                "name": "purdue/ajax-load-more-pro",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/ajax-load-more-pro.git",
-                    "reference": "4604874a12e00b2682db505ced73f6d063a8614c"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/ajax-load-more-pro/zipball/4604874a12e00b2682db505ced73f6d063a8614c",
-                    "reference": "4604874a12e00b2682db505ced73f6d063a8614c",
-                    "shasum": ""
-                },
-                "time": "2025-06-18T15:48:22+00:00",
-                "type": "wordpress-plugin",
-                "authors": [
-                    {
-                        "name": "Connekt",
-                        "homepage": "https://connekthq.com/"
-                    }
-                ],
-                "description": "All premium AJAX Load More add-ons in a single installation",
-                "support": {
-                    "source": "https://github.com/Purdue/ajax-load-more-pro/tree/1.3.2.1",
-                    "issues": "https://github.com/Purdue/ajax-load-more-pro/issues"
-                }
             }
         },
         "purdue/boilerup-wp": {
@@ -15674,18 +17392,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/bulma-blocks.git",
-                    "reference": "d2019f562970e6c6c3f509f738f999e9b70fb9b4"
+                    "reference": "351dbf00ef7fa2790cc2fa3ae507aec8cbf3f393"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/d2019f562970e6c6c3f509f738f999e9b70fb9b4",
-                    "reference": "d2019f562970e6c6c3f509f738f999e9b70fb9b4",
+                    "url": "https://api.github.com/repos/Purdue/bulma-blocks/zipball/351dbf00ef7fa2790cc2fa3ae507aec8cbf3f393",
+                    "reference": "351dbf00ef7fa2790cc2fa3ae507aec8cbf3f393",
                     "shasum": ""
                 },
                 "require": {
                     "php": ">=7.0"
                 },
-                "time": "2023-02-16T18:26:44+00:00",
+                "time": "2026-08-04T15:10:26+00:00",
                 "type": "wordpress-plugin",
                 "license": [
                     "GPL-3.0+"
@@ -15699,7 +17417,7 @@
                 ],
                 "description": "Adds Gutenberg blocks based on Bulma.io CSS framework",
                 "support": {
-                    "source": "https://github.com/Purdue/bulma-blocks/tree/1.4.13",
+                    "source": "https://github.com/Purdue/bulma-blocks/tree/master",
                     "issues": "https://github.com/Purdue/bulma-blocks/issues"
                 }
             }
@@ -25387,7 +27105,6 @@
                 },
                 "time": "2026-07-09T17:37:01+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -25401,6 +27118,43 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.58",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.59": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.59",
+                "version_normalized": "1.1.59.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "cc18c8f1dbecc7d73904325af8fdb1dbd81dce6f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-cc18c8f1dbecc7d73904325af8fdb1dbd81dce6f-zip-d3421c.tar",
+                    "reference": "cc18c8f1dbecc7d73904325af8fdb1dbd81dce6f",
+                    "shasum": "a2a3bf6c1a4eeae924792457cec0d4e575daf948"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-07-10T13:13:40+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.59",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
@@ -25437,6 +27191,265 @@
                 "description": "WordPress theme based on Purdue University digital brand standards ",
                 "support": {
                     "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.6",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.60": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.60",
+                "version_normalized": "1.1.60.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "2de16066991eb65156de88568e344e4038e8790e"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-2de16066991eb65156de88568e344e4038e8790e-zip-eeb3a9.tar",
+                    "reference": "2de16066991eb65156de88568e344e4038e8790e",
+                    "shasum": "0b0aa7326d7d93330ff26ec3c87776ece098969b"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-07-28T18:40:42+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.60",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.61": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.61",
+                "version_normalized": "1.1.61.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "c3442b7c82c58bb8efdfa38223b11393db279e51"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-c3442b7c82c58bb8efdfa38223b11393db279e51-zip-de6a55.tar",
+                    "reference": "c3442b7c82c58bb8efdfa38223b11393db279e51",
+                    "shasum": "210270c28d9126077dddbb027fa770fc7f10d1c9"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-08-05T13:40:25+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.61",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.62": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.62",
+                "version_normalized": "1.1.62.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "5dc86a0105829375a36f60b2977698fd8235de84"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-5dc86a0105829375a36f60b2977698fd8235de84-zip-e6dc43.tar",
+                    "reference": "5dc86a0105829375a36f60b2977698fd8235de84",
+                    "shasum": "737ddd39f588c28660d7923a817b59f7a7c3699b"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-08-07T16:08:57+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.62",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.63": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.63",
+                "version_normalized": "1.1.63.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "6e90ce55679c20d9d4f87d018640b4a9637e9e3a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-6e90ce55679c20d9d4f87d018640b4a9637e9e3a-zip-5b5a92.tar",
+                    "reference": "6e90ce55679c20d9d4f87d018640b4a9637e9e3a",
+                    "shasum": "99704d75ae4930d2e7f5e585f43136e8374f3311"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-08-07T19:06:46+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.63",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.64": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.64",
+                "version_normalized": "1.1.64.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "05d02191af5f6e78bf7f4f428bdb3e6454f21bd3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-05d02191af5f6e78bf7f4f428bdb3e6454f21bd3-zip-904efc.tar",
+                    "reference": "05d02191af5f6e78bf7f4f428bdb3e6454f21bd3",
+                    "shasum": "27b7000ed2068682807277421e354e5075dd9cd2"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-08-07T20:27:44+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.64",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.65": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.65",
+                "version_normalized": "1.1.65.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "bc17db7b40ebfb32399ea3103fd4bbc0c8b125a0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-bc17db7b40ebfb32399ea3103fd4bbc0c8b125a0-zip-764d1e.tar",
+                    "reference": "bc17db7b40ebfb32399ea3103fd4bbc0c8b125a0",
+                    "shasum": "34179667ba53b4ffa64d92f60d9e2e4ccd567919"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-08-17T13:54:06+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.65",
+                    "issues": "https://github.com/Purdue/purdue-home-theme/issues"
+                }
+            },
+            "1.1.66": {
+                "name": "purdue/purdue-home-theme",
+                "version": "1.1.66",
+                "version_normalized": "1.1.66.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/purdue-home-theme.git",
+                    "reference": "38e588f6c4f43e31b093dd1e618ce889de7e4062"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/purdue-home-theme/purdue-purdue-home-theme-38e588f6c4f43e31b093dd1e618ce889de7e4062-zip-5de5ef.tar",
+                    "reference": "38e588f6c4f43e31b093dd1e618ce889de7e4062",
+                    "shasum": "eff1fd224d723b58d0ad6ec2637717a7a9e595f9"
+                },
+                "require": {
+                    "purdue/boilerup-wp": "*"
+                },
+                "time": "2026-08-19T17:17:42+00:00",
+                "type": "wordpress-theme",
+                "installation-source": "dist",
+                "license": [
+                    "GPLv3"
+                ],
+                "authors": [
+                    {
+                        "name": "Purdue Marketing and Communications",
+                        "email": "digital-marketing@groups.purdue.edu",
+                        "homepage": "https://marcom.purdue.edu"
+                    }
+                ],
+                "description": "WordPress theme based on Purdue University digital brand standards ",
+                "support": {
+                    "source": "https://github.com/Purdue/purdue-home-theme/tree/1.1.66",
                     "issues": "https://github.com/Purdue/purdue-home-theme/issues"
                 }
             },
@@ -33156,41 +35169,6 @@
                     "url": "https://purdue.github.io/dist/purdue/wpdatatables/purdue-wpdatatables-7f20f393518f20f284181466048b7fc144161aba-zip-79b32f.tar",
                     "reference": "7f20f393518f20f284181466048b7fc144161aba",
                     "shasum": "580b22e4ccf8c79d108f4e752a8b5fae5e3c3c6f"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2025-06-18T16:06:31+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv2"
-                ],
-                "authors": [
-                    {
-                        "name": "TOUCH ME SOFT D.O.O.",
-                        "homepage": "https://www.wpdatatables.com"
-                    }
-                ],
-                "description": "WP chart and table plugin",
-                "support": {
-                    "source": "https://github.com/Purdue/wpdatatables/tree/7.3",
-                    "issues": "https://github.com/Purdue/wpdatatables/issues"
-                }
-            },
-            "dev-master": {
-                "name": "purdue/wpdatatables",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/wpdatatables.git",
-                    "reference": "7f20f393518f20f284181466048b7fc144161aba"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/wpdatatables/zipball/7f20f393518f20f284181466048b7fc144161aba",
-                    "reference": "7f20f393518f20f284181466048b7fc144161aba",
-                    "shasum": ""
                 },
                 "require": {
                     "php": ">=5.6"
