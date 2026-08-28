@@ -1224,7 +1224,6 @@
                     "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
                     "plugin-composer-package": "publishpress/publishpress-capabilities"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "translate:repair-plurals": [
                         "vendor/bin/publishpress-translate --repair-plurals"
@@ -27822,7 +27821,6 @@
                 },
                 "time": "2026-08-26T16:23:48+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -27859,7 +27857,6 @@
                 },
                 "time": "2026-08-28T16:32:12+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],

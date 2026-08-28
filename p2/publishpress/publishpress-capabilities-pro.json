@@ -928,7 +928,6 @@
                     "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
                     "plugin-composer-package": "publishpress/publishpress-capabilities"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "translate:repair-plurals": [
                         "vendor/bin/publishpress-translate --repair-plurals"
