@@ -3,20 +3,21 @@
         "purdue/gravityforms": [
             {
                 "name": "purdue/gravityforms",
-                "version": "2.10.5",
-                "version_normalized": "2.10.5.0",
+                "version": "3.1.0.3",
+                "version_normalized": "3.1.0.3",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "2.10.5"
+                    "reference": "3.1.0.3"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-2.10.5-077dd5.tar",
-                    "reference": "2.10.5",
-                    "shasum": "4b933bb45eee5bb5f5ea029e2133c72f43da2534"
+                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-3.1.0.3-e4c86a.tar",
+                    "reference": "3.1.0.3",
+                    "shasum": "0810a5040c823e57abd41bf5566b620b3469b5f6"
                 },
                 "type": "wordpress-plugin",
+                "installation-source": "source",
                 "description": "Gravity Forms"
             }
         ]

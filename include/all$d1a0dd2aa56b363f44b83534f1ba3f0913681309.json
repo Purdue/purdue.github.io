@@ -19158,6 +19158,27 @@
                 }
             }
         },
+        "purdue/gravityforms": {
+            "3.1.0.3": {
+                "name": "purdue/gravityforms",
+                "version": "3.1.0.3",
+                "version_normalized": "3.1.0.3",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/gravityforms.git",
+                    "reference": "3.1.0.3"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-3.1.0.3-e4c86a.tar",
+                    "reference": "3.1.0.3",
+                    "shasum": "0810a5040c823e57abd41bf5566b620b3469b5f6"
+                },
+                "type": "wordpress-plugin",
+                "installation-source": "source",
+                "description": "Gravity Forms"
+            }
+        },
         "purdue/gravityformsdebug": {
             "1.0-beta12": {
                 "name": "purdue/gravityformsdebug",
