@@ -898,6 +898,58 @@
             },
             {
                 "name": "publishpress/publishpress-capabilities-pro",
+                "version": "2.50.1",
+                "version_normalized": "2.50.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:Purdue/capabilities-pro.git",
+                    "reference": "643c3b4daac20db130e327d16355f3bfc46c506c"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-capabilities-pro/publishpress-publishpress-capabilities-pro-643c3b4daac20db130e327d16355f3bfc46c506c-zip-144b62.tar",
+                    "reference": "643c3b4daac20db130e327d16355f3bfc46c506c",
+                    "shasum": "61e3538eda485164dd647b831487643b77f7327f"
+                },
+                "require": {
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "publishpress/dev-workspace": "^1.0"
+                },
+                "time": "2026-08-28T16:01:54+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-name": "publishpress-capabilities-pro",
+                    "plugin-slug": "capabilities-pro",
+                    "plugin-folder": "capabilities-pro",
+                    "version-constant": "PUBLISHPRESS_CAPS_PRO_VERSION",
+                    "plugin-lang-domain": "capabilities-pro",
+                    "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
+                    "plugin-composer-package": "publishpress/publishpress-capabilities"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ]
+                },
+                "license": [
+                    "GPL-2"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/Purdue/capabilities-pro/tree/2.50.1",
+                    "issues": "https://github.com/Purdue/capabilities-pro/issues"
+                }
+            },
+            {
+                "name": "publishpress/publishpress-capabilities-pro",
                 "version": "2.6.0",
                 "version_normalized": "2.6.0.0",
                 "source": {
