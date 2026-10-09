@@ -1224,7 +1224,6 @@
                     "plugin-github-repo": "publishpress/publishpress-capabilities-pro",
                     "plugin-composer-package": "publishpress/publishpress-capabilities"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "translate:repair-plurals": [
                         "vendor/bin/publishpress-translate --repair-plurals"
@@ -10964,7 +10963,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "build zip"
@@ -11149,7 +11147,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "build zip"
@@ -11334,7 +11331,6 @@
                     "plugin-name": "publishpress-permissions",
                     "plugin-folder": "press-permit-core"
                 },
-                "installation-source": "dist",
                 "scripts": {
                     "build": [
                         "build zip"
@@ -17515,7 +17511,6 @@
                 },
                 "time": "2026-09-23T15:25:48+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -23960,7 +23955,6 @@
                 },
                 "time": "2026-09-23T15:02:26+00:00",
                 "type": "wordpress-plugin",
-                "installation-source": "dist",
                 "license": [
                     "GPL-3.0+"
                 ],
@@ -27973,7 +27967,6 @@
                 },
                 "time": "2026-08-26T16:23:48+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28010,7 +28003,6 @@
                 },
                 "time": "2026-08-28T16:32:12+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28047,7 +28039,6 @@
                 },
                 "time": "2026-09-03T13:53:05+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28120,7 +28111,6 @@
                 },
                 "time": "2026-09-21T19:12:57+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28157,7 +28147,6 @@
                 },
                 "time": "2026-09-28T17:34:20+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -28194,7 +28183,6 @@
                 },
                 "time": "2026-10-09T13:01:13+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -29391,7 +29379,6 @@
                 },
                 "time": "2026-09-17T19:40:51+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
@@ -33741,7 +33728,6 @@
                 },
                 "time": "2026-09-23T15:06:56+00:00",
                 "type": "wordpress-theme",
-                "installation-source": "dist",
                 "license": [
                     "GPLv3"
                 ],
