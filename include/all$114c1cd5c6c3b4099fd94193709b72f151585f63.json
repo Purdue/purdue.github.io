@@ -11475,6 +11475,191 @@
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
+            "v4.9.1": {
+                "name": "publishpress/publishpress-permissions",
+                "version": "v4.9.1",
+                "version_normalized": "4.9.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/publishpress/publishpress-permissions.git",
+                    "reference": "5bf13209abd9678e7ed0612ce3615ce285392354"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://purdue.github.io/dist/publishpress/publishpress-permissions/publishpress-publishpress-permissions-5bf13209abd9678e7ed0612ce3615ce285392354-zip-2ac56b.tar",
+                    "reference": "5bf13209abd9678e7ed0612ce3615ce285392354",
+                    "shasum": "1d2f606fe93e36dff22ef6f454fef7287c1eac6e"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.2.5"
+                },
+                "require-dev": {
+                    "automattic/vipwpcs": "^3.0",
+                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                    "friendsofphp/php-cs-fixer": "^3.4",
+                    "overtrue/phplint": "^2.1",
+                    "phpcompatibility/php-compatibility": "^9.3",
+                    "phpstan/extension-installer": "^1.2",
+                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
+                    "publishpress/translations": "^1.0.0",
+                    "squizlabs/php_codesniffer": "^3.5",
+                    "szepeviktor/phpstan-wordpress": "^1.1",
+                    "wp-cli/i18n-command": "^2.2",
+                    "wp-coding-standards/wpcs": "^3.0"
+                },
+                "time": "2026-10-14T13:04:05+00:00",
+                "type": "wordpress-plugin",
+                "extra": {
+                    "plugin-slug": "press-permit-core",
+                    "plugin-name": "publishpress-permissions",
+                    "plugin-folder": "press-permit-core"
+                },
+                "installation-source": "dist",
+                "scripts": {
+                    "build": [
+                        "build zip"
+                    ],
+                    "build:dir": [
+                        "build dir"
+                    ],
+                    "build:clean": [
+                        "build clean"
+                    ],
+                    "info:versions": [
+                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                    ],
+                    "gen:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "gen:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "check:longpath": [
+                        "longpath ."
+                    ],
+                    "check:lint": [
+                        "phplint"
+                    ],
+                    "check:phpcs": [
+                        "phpcs"
+                    ],
+                    "check:php": [
+                        "@check:php56",
+                        "@check:php72",
+                        "@check:php74",
+                        "@check:php80",
+                        "@check:php81",
+                        "@check:php82"
+                    ],
+                    "check:php56": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                    ],
+                    "check:php72": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                    ],
+                    "check:php74": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                    ],
+                    "check:php80": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                    ],
+                    "check:php81": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                    ],
+                    "check:php82": [
+                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                    ],
+                    "pre-autoload-dump": [
+                        "composer dumpautoload --working-dir=./lib"
+                    ],
+                    "pre-update-cmd": [
+                        "composer update --working-dir=./lib"
+                    ],
+                    "pre-install-cmd": [
+                        "composer install --working-dir=./lib"
+                    ],
+                    "term": [
+                        "cd dev-workspace && ./run"
+                    ],
+                    "translate": [
+                        "vendor/bin/publishpress-translate"
+                    ],
+                    "translate:dry-run": [
+                        "vendor/bin/publishpress-translate --dry-run"
+                    ],
+                    "translate:download": [
+                        "vendor/bin/publishpress-translate --download"
+                    ],
+                    "translate:upload": [
+                        "vendor/bin/publishpress-translate --upload"
+                    ],
+                    "translate:custom": [
+                        "vendor/bin/publishpress-translate --languages"
+                    ],
+                    "translate:force": [
+                        "vendor/bin/publishpress-translate --force"
+                    ],
+                    "translate:force-custom": [
+                        "vendor/bin/publishpress-translate --force --languages"
+                    ],
+                    "translate:repair-plurals": [
+                        "vendor/bin/publishpress-translate --repair-plurals"
+                    ],
+                    "translate:clean-po": [
+                        "vendor/bin/publishpress-translate --clean-po"
+                    ],
+                    "translate:sync-files": [
+                        "vendor/bin/publishpress-translate --sync-files"
+                    ],
+                    "translate:audit": [
+                        "vendor/bin/publishpress-translate --audit"
+                    ],
+                    "translate:audit:report": [
+                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
+                    ],
+                    "translate:compile": [
+                        "@translate:mo",
+                        "@translate:json",
+                        "@translate:php"
+                    ],
+                    "translate:pot": [
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
+                    ],
+                    "translate:mo": [
+                        "wp i18n make-mo ./languages ./languages --allow-root"
+                    ],
+                    "translate:json": [
+                        "bash ./dev-workspace/scripts/lang-make-json.sh"
+                    ],
+                    "translate:php": [
+                        "wp i18n make-php ./languages --allow-root"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0-or-later"
+                ],
+                "authors": [
+                    {
+                        "name": "PublishPress",
+                        "email": "help@publishpress.com",
+                        "homepage": "https://publishpress.com",
+                        "role": "Developer"
+                    },
+                    {
+                        "name": "Kevin Behrens",
+                        "email": "kevin@agapetry.net",
+                        "homepage": "https://agapetry.net",
+                        "role": "Lead Developer"
+                    }
+                ],
+                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
+                "homepage": "https://publishpress.com/",
+                "support": {
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/v4.9.1",
+                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
+                }
+            },
             "dev-master": {
                 "name": "publishpress/publishpress-permissions",
                 "version": "dev-master",
@@ -11482,12 +11667,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "f102eece64b074edd92a997b2e0aa2e045d061ad"
+                    "reference": "5bf13209abd9678e7ed0612ce3615ce285392354"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/f102eece64b074edd92a997b2e0aa2e045d061ad",
-                    "reference": "f102eece64b074edd92a997b2e0aa2e045d061ad",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/5bf13209abd9678e7ed0612ce3615ce285392354",
+                    "reference": "5bf13209abd9678e7ed0612ce3615ce285392354",
                     "shasum": ""
                 },
                 "require": {
@@ -11508,7 +11693,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^3.0"
                 },
-                "time": "2026-09-21T13:56:01+00:00",
+                "time": "2026-10-14T13:04:05+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -11655,23 +11840,23 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/v4.9.0",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/v4.9.1",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-            "dev-codex/a11y-contrast": {
+            "dev-claude/media-edit-others-radio": {
                 "name": "publishpress/publishpress-permissions",
-                "version": "dev-codex/a11y-contrast",
-                "version_normalized": "dev-codex/a11y-contrast",
+                "version": "dev-claude/media-edit-others-radio",
+                "version_normalized": "dev-claude/media-edit-others-radio",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "3b5b129942faa76207f1399303a5cd6e71ea801a"
+                    "reference": "04e0cfbcb75fd88d7ddbe9fdf9b7f418af6fbef9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/3b5b129942faa76207f1399303a5cd6e71ea801a",
-                    "reference": "3b5b129942faa76207f1399303a5cd6e71ea801a",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/04e0cfbcb75fd88d7ddbe9fdf9b7f418af6fbef9",
+                    "reference": "04e0cfbcb75fd88d7ddbe9fdf9b7f418af6fbef9",
                     "shasum": ""
                 },
                 "require": {
@@ -11692,7 +11877,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^3.0"
                 },
-                "time": "2026-10-08T23:21:47+00:00",
+                "time": "2026-10-15T22:58:42+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -11839,23 +12024,23 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/codex/a11y-contrast",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/claude/media-edit-others-radio",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-            "dev-codex/a11y-focus-status": {
+            "dev-claude/project-thread-r6x30s": {
                 "name": "publishpress/publishpress-permissions",
-                "version": "dev-codex/a11y-focus-status",
-                "version_normalized": "dev-codex/a11y-focus-status",
+                "version": "dev-claude/project-thread-r6x30s",
+                "version_normalized": "dev-claude/project-thread-r6x30s",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "3d58ae3b11f15700989b255440fb6a30c5944601"
+                    "reference": "c182166d1f1f18b1cedadb45d8ce7cd5d1afa320"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/3d58ae3b11f15700989b255440fb6a30c5944601",
-                    "reference": "3d58ae3b11f15700989b255440fb6a30c5944601",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/c182166d1f1f18b1cedadb45d8ce7cd5d1afa320",
+                    "reference": "c182166d1f1f18b1cedadb45d8ce7cd5d1afa320",
                     "shasum": ""
                 },
                 "require": {
@@ -11876,7 +12061,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^3.0"
                 },
-                "time": "2026-10-08T23:17:11+00:00",
+                "time": "2026-10-12T14:30:51+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -12023,23 +12208,23 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/codex/a11y-focus-status",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/claude/project-thread-r6x30s",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-            "dev-codex/a11y-form-labels": {
+            "dev-claude/simplify-media-settings-text": {
                 "name": "publishpress/publishpress-permissions",
-                "version": "dev-codex/a11y-form-labels",
-                "version_normalized": "dev-codex/a11y-form-labels",
+                "version": "dev-claude/simplify-media-settings-text",
+                "version_normalized": "dev-claude/simplify-media-settings-text",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "da1e1375c1ffbe3df0b21dd364509cd3876147b7"
+                    "reference": "5162784165c9984f4ef40407a6aca4092d64e4f6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/da1e1375c1ffbe3df0b21dd364509cd3876147b7",
-                    "reference": "da1e1375c1ffbe3df0b21dd364509cd3876147b7",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/5162784165c9984f4ef40407a6aca4092d64e4f6",
+                    "reference": "5162784165c9984f4ef40407a6aca4092d64e4f6",
                     "shasum": ""
                 },
                 "require": {
@@ -12060,7 +12245,7 @@
                     "wp-cli/i18n-command": "^2.2",
                     "wp-coding-standards/wpcs": "^3.0"
                 },
-                "time": "2026-10-08T23:19:25+00:00",
+                "time": "2026-10-15T22:51:07+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -12207,7 +12392,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/codex/a11y-form-labels",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/claude/simplify-media-settings-text",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
@@ -12395,190 +12580,6 @@
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-            "dev-codex/use-welcome-library": {
-                "name": "publishpress/publishpress-permissions",
-                "version": "dev-codex/use-welcome-library",
-                "version_normalized": "dev-codex/use-welcome-library",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "0eb3649fb858fdfc856175bd63058004500ec0a9"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/0eb3649fb858fdfc856175bd63058004500ec0a9",
-                    "reference": "0eb3649fb858fdfc856175bd63058004500ec0a9",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "php": ">=7.2.5"
-                },
-                "require-dev": {
-                    "automattic/vipwpcs": "^3.0",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
-                    "publishpress/translations": "^1.0.0",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^3.0"
-                },
-                "time": "2026-09-30T23:40:55+00:00",
-                "type": "wordpress-plugin",
-                "extra": {
-                    "plugin-slug": "press-permit-core",
-                    "plugin-name": "publishpress-permissions",
-                    "plugin-folder": "press-permit-core"
-                },
-                "scripts": {
-                    "build": [
-                        "build zip"
-                    ],
-                    "build:dir": [
-                        "build dir"
-                    ],
-                    "build:clean": [
-                        "build clean"
-                    ],
-                    "info:versions": [
-                        "bash ./dev-workspace/scripts/dependency-versions.sh"
-                    ],
-                    "gen:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "gen:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
-                    ],
-                    "check:lint": [
-                        "phplint"
-                    ],
-                    "check:phpcs": [
-                        "phpcs"
-                    ],
-                    "check:php": [
-                        "@check:php56",
-                        "@check:php72",
-                        "@check:php74",
-                        "@check:php80",
-                        "@check:php81",
-                        "@check:php82"
-                    ],
-                    "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
-                    ],
-                    "check:php72": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
-                    ],
-                    "check:php74": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
-                    ],
-                    "check:php80": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
-                    ],
-                    "check:php81": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
-                    ],
-                    "check:php82": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
-                    ],
-                    "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
-                    ],
-                    "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
-                    ],
-                    "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
-                    ],
-                    "term": [
-                        "cd dev-workspace && ./run"
-                    ],
-                    "translate": [
-                        "vendor/bin/publishpress-translate"
-                    ],
-                    "translate:dry-run": [
-                        "vendor/bin/publishpress-translate --dry-run"
-                    ],
-                    "translate:download": [
-                        "vendor/bin/publishpress-translate --download"
-                    ],
-                    "translate:upload": [
-                        "vendor/bin/publishpress-translate --upload"
-                    ],
-                    "translate:custom": [
-                        "vendor/bin/publishpress-translate --languages"
-                    ],
-                    "translate:force": [
-                        "vendor/bin/publishpress-translate --force"
-                    ],
-                    "translate:force-custom": [
-                        "vendor/bin/publishpress-translate --force --languages"
-                    ],
-                    "translate:repair-plurals": [
-                        "vendor/bin/publishpress-translate --repair-plurals"
-                    ],
-                    "translate:clean-po": [
-                        "vendor/bin/publishpress-translate --clean-po"
-                    ],
-                    "translate:sync-files": [
-                        "vendor/bin/publishpress-translate --sync-files"
-                    ],
-                    "translate:audit": [
-                        "vendor/bin/publishpress-translate --audit"
-                    ],
-                    "translate:audit:report": [
-                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
-                    ],
-                    "translate:compile": [
-                        "@translate:mo",
-                        "@translate:json",
-                        "@translate:php"
-                    ],
-                    "translate:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "translate:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "translate:json": [
-                        "bash ./dev-workspace/scripts/lang-make-json.sh"
-                    ],
-                    "translate:php": [
-                        "wp i18n make-php ./languages --allow-root"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "PublishPress",
-                        "email": "help@publishpress.com",
-                        "homepage": "https://publishpress.com",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Kevin Behrens",
-                        "email": "kevin@agapetry.net",
-                        "homepage": "https://agapetry.net",
-                        "role": "Lead Developer"
-                    }
-                ],
-                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
-                "homepage": "https://publishpress.com/",
-                "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/codex/use-welcome-library",
-                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
-                }
-            },
             "dev-development": {
                 "name": "publishpress/publishpress-permissions",
                 "version": "dev-development",
@@ -12586,218 +12587,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "dba122ea766dffaf866f9b835094dd7cb8754ee7"
+                    "reference": "f5aa1fdf819bf55f3d7ade9efedb5127c5b03bbc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/dba122ea766dffaf866f9b835094dd7cb8754ee7",
-                    "reference": "dba122ea766dffaf866f9b835094dd7cb8754ee7",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/f5aa1fdf819bf55f3d7ade9efedb5127c5b03bbc",
+                    "reference": "f5aa1fdf819bf55f3d7ade9efedb5127c5b03bbc",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "php": ">=7.2.5"
+                    "php": ">=8.2"
                 },
                 "require-dev": {
-                    "automattic/vipwpcs": "^3.0",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
-                    "publishpress/translations": "^1.0.0",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^3.0"
+                    "publishpress/dev-workspace": "^2.0.3"
                 },
-                "time": "2026-10-01T18:31:14+00:00",
-                "type": "wordpress-plugin",
-                "extra": {
-                    "plugin-slug": "press-permit-core",
-                    "plugin-name": "publishpress-permissions",
-                    "plugin-folder": "press-permit-core"
-                },
-                "scripts": {
-                    "build": [
-                        "build zip"
-                    ],
-                    "build:dir": [
-                        "build dir"
-                    ],
-                    "build:clean": [
-                        "build clean"
-                    ],
-                    "info:versions": [
-                        "bash ./dev-workspace/scripts/dependency-versions.sh"
-                    ],
-                    "gen:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "gen:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
-                    ],
-                    "check:lint": [
-                        "phplint"
-                    ],
-                    "check:phpcs": [
-                        "phpcs"
-                    ],
-                    "check:php": [
-                        "@check:php56",
-                        "@check:php72",
-                        "@check:php74",
-                        "@check:php80",
-                        "@check:php81",
-                        "@check:php82"
-                    ],
-                    "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
-                    ],
-                    "check:php72": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
-                    ],
-                    "check:php74": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
-                    ],
-                    "check:php80": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
-                    ],
-                    "check:php81": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
-                    ],
-                    "check:php82": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
-                    ],
-                    "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
-                    ],
-                    "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
-                    ],
-                    "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
-                    ],
-                    "term": [
-                        "cd dev-workspace && ./run"
-                    ],
-                    "translate": [
-                        "vendor/bin/publishpress-translate"
-                    ],
-                    "translate:dry-run": [
-                        "vendor/bin/publishpress-translate --dry-run"
-                    ],
-                    "translate:download": [
-                        "vendor/bin/publishpress-translate --download"
-                    ],
-                    "translate:upload": [
-                        "vendor/bin/publishpress-translate --upload"
-                    ],
-                    "translate:custom": [
-                        "vendor/bin/publishpress-translate --languages"
-                    ],
-                    "translate:force": [
-                        "vendor/bin/publishpress-translate --force"
-                    ],
-                    "translate:force-custom": [
-                        "vendor/bin/publishpress-translate --force --languages"
-                    ],
-                    "translate:repair-plurals": [
-                        "vendor/bin/publishpress-translate --repair-plurals"
-                    ],
-                    "translate:clean-po": [
-                        "vendor/bin/publishpress-translate --clean-po"
-                    ],
-                    "translate:sync-files": [
-                        "vendor/bin/publishpress-translate --sync-files"
-                    ],
-                    "translate:audit": [
-                        "vendor/bin/publishpress-translate --audit"
-                    ],
-                    "translate:audit:report": [
-                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
-                    ],
-                    "translate:compile": [
-                        "@translate:mo",
-                        "@translate:json",
-                        "@translate:php"
-                    ],
-                    "translate:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "translate:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "translate:json": [
-                        "bash ./dev-workspace/scripts/lang-make-json.sh"
-                    ],
-                    "translate:php": [
-                        "wp i18n make-php ./languages --allow-root"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "PublishPress",
-                        "email": "help@publishpress.com",
-                        "homepage": "https://publishpress.com",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Kevin Behrens",
-                        "email": "kevin@agapetry.net",
-                        "homepage": "https://agapetry.net",
-                        "role": "Lead Developer"
-                    }
-                ],
-                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
-                "homepage": "https://publishpress.com/",
-                "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/development",
-                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
-                }
-            },
-            "dev-feat-migrate-dev-workspace": {
-                "name": "publishpress/publishpress-permissions",
-                "version": "dev-feat-migrate-dev-workspace",
-                "version_normalized": "dev-feat-migrate-dev-workspace",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "27c929270a96c2fca9c072b9f70eb6a2d68c629d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/27c929270a96c2fca9c072b9f70eb6a2d68c629d",
-                    "reference": "27c929270a96c2fca9c072b9f70eb6a2d68c629d",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "php": ">=7.2.5"
-                },
-                "require-dev": {
-                    "automattic/vipwpcs": "^3.0",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/dev-workspace": "^1.5.0",
-                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
-                    "publishpress/translations": "^1.0.0",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^3.0"
-                },
-                "time": "2026-09-03T08:22:03+00:00",
+                "time": "2026-10-29T20:19:54+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
@@ -12809,6 +12614,9 @@
                     "plugin-composer-package": "publishpress/publishpress-permissions"
                 },
                 "scripts": {
+                    "info:version": [
+                        "@info:versions"
+                    ],
                     "build:dir": [
                         "@pack:dir"
                     ],
@@ -12846,13 +12654,13 @@
                         "@check:php-8.2"
                     ],
                     "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
+                        "@composer dumpautoload --working-dir=./lib"
                     ],
                     "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
+                        "@composer update --working-dir=./lib"
                     ],
                     "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
+                        "@composer install --working-dir=./lib"
                     ],
                     "term": [
                         "bash ./vendor/publishpress/dev-workspace/scripts/run.sh"
@@ -12878,7 +12686,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/feat-migrate-dev-workspace",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/development",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
@@ -13063,374 +12871,6 @@
                 "homepage": "https://publishpress.com/",
                 "support": {
                     "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/2333-teaser-preview",
-                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
-                }
-            },
-            "dev-fix/2580-remove-user-permission-groups": {
-                "name": "publishpress/publishpress-permissions",
-                "version": "dev-fix/2580-remove-user-permission-groups",
-                "version_normalized": "dev-fix/2580-remove-user-permission-groups",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "128d8cba0dd7c4cc8aa1817b81aea003aa9738c2"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/128d8cba0dd7c4cc8aa1817b81aea003aa9738c2",
-                    "reference": "128d8cba0dd7c4cc8aa1817b81aea003aa9738c2",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "php": ">=7.2.5"
-                },
-                "require-dev": {
-                    "automattic/vipwpcs": "^3.0",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
-                    "publishpress/translations": "^1.0.0",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^3.0"
-                },
-                "time": "2026-10-08T22:16:17+00:00",
-                "type": "wordpress-plugin",
-                "extra": {
-                    "plugin-slug": "press-permit-core",
-                    "plugin-name": "publishpress-permissions",
-                    "plugin-folder": "press-permit-core"
-                },
-                "scripts": {
-                    "build": [
-                        "build zip"
-                    ],
-                    "build:dir": [
-                        "build dir"
-                    ],
-                    "build:clean": [
-                        "build clean"
-                    ],
-                    "info:versions": [
-                        "bash ./dev-workspace/scripts/dependency-versions.sh"
-                    ],
-                    "gen:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "gen:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
-                    ],
-                    "check:lint": [
-                        "phplint"
-                    ],
-                    "check:phpcs": [
-                        "phpcs"
-                    ],
-                    "check:php": [
-                        "@check:php56",
-                        "@check:php72",
-                        "@check:php74",
-                        "@check:php80",
-                        "@check:php81",
-                        "@check:php82"
-                    ],
-                    "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
-                    ],
-                    "check:php72": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
-                    ],
-                    "check:php74": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
-                    ],
-                    "check:php80": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
-                    ],
-                    "check:php81": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
-                    ],
-                    "check:php82": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
-                    ],
-                    "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
-                    ],
-                    "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
-                    ],
-                    "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
-                    ],
-                    "term": [
-                        "cd dev-workspace && ./run"
-                    ],
-                    "translate": [
-                        "vendor/bin/publishpress-translate"
-                    ],
-                    "translate:dry-run": [
-                        "vendor/bin/publishpress-translate --dry-run"
-                    ],
-                    "translate:download": [
-                        "vendor/bin/publishpress-translate --download"
-                    ],
-                    "translate:upload": [
-                        "vendor/bin/publishpress-translate --upload"
-                    ],
-                    "translate:custom": [
-                        "vendor/bin/publishpress-translate --languages"
-                    ],
-                    "translate:force": [
-                        "vendor/bin/publishpress-translate --force"
-                    ],
-                    "translate:force-custom": [
-                        "vendor/bin/publishpress-translate --force --languages"
-                    ],
-                    "translate:repair-plurals": [
-                        "vendor/bin/publishpress-translate --repair-plurals"
-                    ],
-                    "translate:clean-po": [
-                        "vendor/bin/publishpress-translate --clean-po"
-                    ],
-                    "translate:sync-files": [
-                        "vendor/bin/publishpress-translate --sync-files"
-                    ],
-                    "translate:audit": [
-                        "vendor/bin/publishpress-translate --audit"
-                    ],
-                    "translate:audit:report": [
-                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
-                    ],
-                    "translate:compile": [
-                        "@translate:mo",
-                        "@translate:json",
-                        "@translate:php"
-                    ],
-                    "translate:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "translate:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "translate:json": [
-                        "bash ./dev-workspace/scripts/lang-make-json.sh"
-                    ],
-                    "translate:php": [
-                        "wp i18n make-php ./languages --allow-root"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "PublishPress",
-                        "email": "help@publishpress.com",
-                        "homepage": "https://publishpress.com",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Kevin Behrens",
-                        "email": "kevin@agapetry.net",
-                        "homepage": "https://agapetry.net",
-                        "role": "Lead Developer"
-                    }
-                ],
-                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
-                "homepage": "https://publishpress.com/",
-                "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/2580-remove-user-permission-groups",
-                    "issues": "https://github.com/publishpress/publishpress-permissions/issues"
-                }
-            },
-            "dev-fix/2582-improve-user-profile": {
-                "name": "publishpress/publishpress-permissions",
-                "version": "dev-fix/2582-improve-user-profile",
-                "version_normalized": "dev-fix/2582-improve-user-profile",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "9529a0e822cd8b30a515ca632a9867389438328e"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/9529a0e822cd8b30a515ca632a9867389438328e",
-                    "reference": "9529a0e822cd8b30a515ca632a9867389438328e",
-                    "shasum": ""
-                },
-                "require": {
-                    "ext-json": "*",
-                    "php": ">=7.2.5"
-                },
-                "require-dev": {
-                    "automattic/vipwpcs": "^3.0",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
-                    "publishpress/translations": "^1.0.0",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^3.0"
-                },
-                "time": "2026-10-08T22:16:59+00:00",
-                "type": "wordpress-plugin",
-                "extra": {
-                    "plugin-slug": "press-permit-core",
-                    "plugin-name": "publishpress-permissions",
-                    "plugin-folder": "press-permit-core"
-                },
-                "scripts": {
-                    "build": [
-                        "build zip"
-                    ],
-                    "build:dir": [
-                        "build dir"
-                    ],
-                    "build:clean": [
-                        "build clean"
-                    ],
-                    "info:versions": [
-                        "bash ./dev-workspace/scripts/dependency-versions.sh"
-                    ],
-                    "gen:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "gen:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
-                    ],
-                    "check:lint": [
-                        "phplint"
-                    ],
-                    "check:phpcs": [
-                        "phpcs"
-                    ],
-                    "check:php": [
-                        "@check:php56",
-                        "@check:php72",
-                        "@check:php74",
-                        "@check:php80",
-                        "@check:php81",
-                        "@check:php82"
-                    ],
-                    "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
-                    ],
-                    "check:php72": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
-                    ],
-                    "check:php74": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
-                    ],
-                    "check:php80": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
-                    ],
-                    "check:php81": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
-                    ],
-                    "check:php82": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
-                    ],
-                    "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
-                    ],
-                    "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
-                    ],
-                    "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
-                    ],
-                    "term": [
-                        "cd dev-workspace && ./run"
-                    ],
-                    "translate": [
-                        "vendor/bin/publishpress-translate"
-                    ],
-                    "translate:dry-run": [
-                        "vendor/bin/publishpress-translate --dry-run"
-                    ],
-                    "translate:download": [
-                        "vendor/bin/publishpress-translate --download"
-                    ],
-                    "translate:upload": [
-                        "vendor/bin/publishpress-translate --upload"
-                    ],
-                    "translate:custom": [
-                        "vendor/bin/publishpress-translate --languages"
-                    ],
-                    "translate:force": [
-                        "vendor/bin/publishpress-translate --force"
-                    ],
-                    "translate:force-custom": [
-                        "vendor/bin/publishpress-translate --force --languages"
-                    ],
-                    "translate:repair-plurals": [
-                        "vendor/bin/publishpress-translate --repair-plurals"
-                    ],
-                    "translate:clean-po": [
-                        "vendor/bin/publishpress-translate --clean-po"
-                    ],
-                    "translate:sync-files": [
-                        "vendor/bin/publishpress-translate --sync-files"
-                    ],
-                    "translate:audit": [
-                        "vendor/bin/publishpress-translate --audit"
-                    ],
-                    "translate:audit:report": [
-                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
-                    ],
-                    "translate:compile": [
-                        "@translate:mo",
-                        "@translate:json",
-                        "@translate:php"
-                    ],
-                    "translate:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "translate:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "translate:json": [
-                        "bash ./dev-workspace/scripts/lang-make-json.sh"
-                    ],
-                    "translate:php": [
-                        "wp i18n make-php ./languages --allow-root"
-                    ]
-                },
-                "license": [
-                    "GPL-2.0-or-later"
-                ],
-                "authors": [
-                    {
-                        "name": "PublishPress",
-                        "email": "help@publishpress.com",
-                        "homepage": "https://publishpress.com",
-                        "role": "Developer"
-                    },
-                    {
-                        "name": "Kevin Behrens",
-                        "email": "kevin@agapetry.net",
-                        "homepage": "https://agapetry.net",
-                        "role": "Lead Developer"
-                    }
-                ],
-                "description": "WordPress plugin: control permissions for publishing workflow and presentation",
-                "homepage": "https://publishpress.com/",
-                "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/fix/2582-improve-user-profile",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
@@ -13802,164 +13242,90 @@
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             },
-            "dev-release-4.9.1": {
+            "dev-release-4.9.2": {
                 "name": "publishpress/publishpress-permissions",
-                "version": "dev-release-4.9.1",
-                "version_normalized": "dev-release-4.9.1",
+                "version": "dev-release-4.9.2",
+                "version_normalized": "dev-release-4.9.2",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/publishpress/publishpress-permissions.git",
-                    "reference": "c20dbaca07376e84fa9c00efe4f7c37a6075666b"
+                    "reference": "59fc520737df7260dcaf49556d546854806a4eb4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/c20dbaca07376e84fa9c00efe4f7c37a6075666b",
-                    "reference": "c20dbaca07376e84fa9c00efe4f7c37a6075666b",
+                    "url": "https://api.github.com/repos/publishpress/publishpress-permissions/zipball/59fc520737df7260dcaf49556d546854806a4eb4",
+                    "reference": "59fc520737df7260dcaf49556d546854806a4eb4",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "php": ">=7.2.5"
+                    "php": ">=8.2"
                 },
                 "require-dev": {
-                    "automattic/vipwpcs": "^3.0",
-                    "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                    "friendsofphp/php-cs-fixer": "^3.4",
-                    "overtrue/phplint": "^2.1",
-                    "phpcompatibility/php-compatibility": "^9.3",
-                    "phpstan/extension-installer": "^1.2",
-                    "publishpress/publishpress-phpcs-standards": "^1.0.0",
-                    "publishpress/translations": "^1.0.0",
-                    "squizlabs/php_codesniffer": "^3.5",
-                    "szepeviktor/phpstan-wordpress": "^1.1",
-                    "wp-cli/i18n-command": "^2.2",
-                    "wp-coding-standards/wpcs": "^3.0"
+                    "publishpress/dev-workspace": "^2.0.3"
                 },
-                "time": "2026-10-01T19:26:02+00:00",
+                "time": "2026-10-29T23:42:38+00:00",
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-slug": "press-permit-core",
                     "plugin-name": "publishpress-permissions",
-                    "plugin-folder": "press-permit-core"
+                    "plugin-folder": "press-permit-core",
+                    "version-constant": "PRESSPERMIT_VERSION",
+                    "plugin-lang-domain": "press-permit-core",
+                    "plugin-github-repo": "publishpress/publishpress-permissions",
+                    "plugin-composer-package": "publishpress/publishpress-permissions"
                 },
                 "scripts": {
-                    "build": [
-                        "build zip"
+                    "info:version": [
+                        "@info:versions"
                     ],
                     "build:dir": [
-                        "build dir"
+                        "@pack:dir"
                     ],
                     "build:clean": [
-                        "build clean"
-                    ],
-                    "info:versions": [
-                        "bash ./dev-workspace/scripts/dependency-versions.sh"
+                        "@pack:clean"
                     ],
                     "gen:mo": [
                         "wp i18n make-mo ./languages ./languages --allow-root"
                     ],
                     "gen:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "check:longpath": [
-                        "longpath ."
+                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace-cache,vendor,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
                     ],
                     "check:lint": [
-                        "phplint"
+                        "@lint:php"
                     ],
                     "check:phpcs": [
-                        "phpcs"
-                    ],
-                    "check:php": [
-                        "@check:php56",
-                        "@check:php72",
-                        "@check:php74",
-                        "@check:php80",
-                        "@check:php81",
-                        "@check:php82"
+                        "@lint:phpcs"
                     ],
                     "check:php56": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 5.6 ./press-permit-core.php"
+                        "@check:php-5.6"
                     ],
                     "check:php72": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.2"
+                        "@check:php-7.2"
                     ],
                     "check:php74": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 7.4"
+                        "@check:php-7.4"
                     ],
                     "check:php80": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.0"
+                        "@check:php-8.0"
                     ],
                     "check:php81": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.1"
+                        "@check:php-8.1"
                     ],
                     "check:php82": [
-                        "phpcs --standard=.phpcs-php-compatibility.xml --runtime-set testVersion 8.2"
+                        "@check:php-8.2"
                     ],
                     "pre-autoload-dump": [
-                        "composer dumpautoload --working-dir=./lib"
+                        "@composer dumpautoload --working-dir=./lib"
                     ],
                     "pre-update-cmd": [
-                        "composer update --working-dir=./lib"
+                        "@composer update --working-dir=./lib"
                     ],
                     "pre-install-cmd": [
-                        "composer install --working-dir=./lib"
+                        "@composer install --working-dir=./lib"
                     ],
                     "term": [
-                        "cd dev-workspace && ./run"
-                    ],
-                    "translate": [
-                        "vendor/bin/publishpress-translate"
-                    ],
-                    "translate:dry-run": [
-                        "vendor/bin/publishpress-translate --dry-run"
-                    ],
-                    "translate:download": [
-                        "vendor/bin/publishpress-translate --download"
-                    ],
-                    "translate:upload": [
-                        "vendor/bin/publishpress-translate --upload"
-                    ],
-                    "translate:custom": [
-                        "vendor/bin/publishpress-translate --languages"
-                    ],
-                    "translate:force": [
-                        "vendor/bin/publishpress-translate --force"
-                    ],
-                    "translate:force-custom": [
-                        "vendor/bin/publishpress-translate --force --languages"
-                    ],
-                    "translate:repair-plurals": [
-                        "vendor/bin/publishpress-translate --repair-plurals"
-                    ],
-                    "translate:clean-po": [
-                        "vendor/bin/publishpress-translate --clean-po"
-                    ],
-                    "translate:sync-files": [
-                        "vendor/bin/publishpress-translate --sync-files"
-                    ],
-                    "translate:audit": [
-                        "vendor/bin/publishpress-translate --audit"
-                    ],
-                    "translate:audit:report": [
-                        "vendor/bin/publishpress-translate --audit --audit-mode=report"
-                    ],
-                    "translate:compile": [
-                        "@translate:mo",
-                        "@translate:json",
-                        "@translate:php"
-                    ],
-                    "translate:pot": [
-                        "wp i18n make-pot . languages/press-permit-core.pot --domain=press-permit-core --exclude=dev-workspace,.wordpress-org,.github,dist,tests,lib,tmp,doc,*.js,*.js.map --allow-root"
-                    ],
-                    "translate:mo": [
-                        "wp i18n make-mo ./languages ./languages --allow-root"
-                    ],
-                    "translate:json": [
-                        "bash ./dev-workspace/scripts/lang-make-json.sh"
-                    ],
-                    "translate:php": [
-                        "wp i18n make-php ./languages --allow-root"
+                        "bash ./vendor/publishpress/dev-workspace/scripts/run.sh"
                     ]
                 },
                 "license": [
@@ -13982,7 +13348,7 @@
                 "description": "WordPress plugin: control permissions for publishing workflow and presentation",
                 "homepage": "https://publishpress.com/",
                 "support": {
-                    "source": "https://github.com/publishpress/publishpress-permissions/tree/release-4.9.1",
+                    "source": "https://github.com/publishpress/publishpress-permissions/tree/release-4.9.2",
                     "issues": "https://github.com/publishpress/publishpress-permissions/issues"
                 }
             }
@@ -18287,985 +17653,23 @@
             }
         },
         "purdue/gravityforms": {
-            "2.4.18": {
+            "3.1.3.1": {
                 "name": "purdue/gravityforms",
-                "version": "2.4.18",
-                "version_normalized": "2.4.18.0",
+                "version": "3.1.3.1",
+                "version_normalized": "3.1.3.1",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "baf72563994691a0c53a056fd0ae774b55a01b68"
+                    "reference": "3.1.3.1"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-baf72563994691a0c53a056fd0ae774b55a01b68-zip-e3d5bd.tar",
-                    "reference": "baf72563994691a0c53a056fd0ae774b55a01b68",
-                    "shasum": "4c83db2e528bf33f0424c6629d8f817dbeebeb7a"
+                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-3.1.3.1-343899.tar",
+                    "reference": "3.1.3.1",
+                    "shasum": "4d263e26e31566e48c37a7272601af34546de0fe"
                 },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-05-13T06:08:25+00:00",
                 "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.18",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.19": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.19",
-                "version_normalized": "2.4.19.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "dc9adf96bf102d50bf26697233d1f95e57bf6279"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-dc9adf96bf102d50bf26697233d1f95e57bf6279-zip-541427.tar",
-                    "reference": "dc9adf96bf102d50bf26697233d1f95e57bf6279",
-                    "shasum": "56696d3f77be807c13ff07419b12253681b338f6"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-07-16T20:37:37+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.19",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.20": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.20",
-                "version_normalized": "2.4.20.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "2909eae766fbf59ec36e9f9f99d5b94c91568cc3"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-2909eae766fbf59ec36e9f9f99d5b94c91568cc3-zip-1b48e1.tar",
-                    "reference": "2909eae766fbf59ec36e9f9f99d5b94c91568cc3",
-                    "shasum": "ff09be5cf04a42b267ada663b87db110efccfca8"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-08-10T18:20:42+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.20",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.20.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.20.1",
-                "version_normalized": "2.4.20.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "7156a483bc5d86902a612028c2bdf4143310df69"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-7156a483bc5d86902a612028c2bdf4143310df69-zip-c3c6b7.tar",
-                    "reference": "7156a483bc5d86902a612028c2bdf4143310df69",
-                    "shasum": "e96d23e801202191066a423002f9d5475b36e595"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-08-23T14:59:32+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.20.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.20.5": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.20.5",
-                "version_normalized": "2.4.20.5",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "c29dcb576ff91819af54f94713f638ee8d4acefd"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-c29dcb576ff91819af54f94713f638ee8d4acefd-zip-1b1378.tar",
-                    "reference": "c29dcb576ff91819af54f94713f638ee8d4acefd",
-                    "shasum": "c535b7f449cf1967465d7b5ae9f918585cbb7896"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-09-24T21:06:21+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.20.5",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.21.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.21.1",
-                "version_normalized": "2.4.21.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "dd7c567cb401dd45b353a440621017c5380ac244"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-dd7c567cb401dd45b353a440621017c5380ac244-zip-093591.tar",
-                    "reference": "dd7c567cb401dd45b353a440621017c5380ac244",
-                    "shasum": "2a11cdcd07bd7bcbc5d3909de2d88b4336493f15"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-10-19T15:39:07+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.21.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.21.6": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.21.6",
-                "version_normalized": "2.4.21.6",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "fa38060690a6dd7f1a40b254844d592b36f71504"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-fa38060690a6dd7f1a40b254844d592b36f71504-zip-17d306.tar",
-                    "reference": "fa38060690a6dd7f1a40b254844d592b36f71504",
-                    "shasum": "a4a995672c49e4b605dfb97985916ef0e1325d32"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2020-12-08T02:21:52+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.21.6",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.22.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.22.1",
-                "version_normalized": "2.4.22.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99-zip-172d22.tar",
-                    "reference": "3cc0d37bbf5d6d47a7c8b1770205b3f452bbda99",
-                    "shasum": "5973bca7f0eede13fd59ec4f4821654469cd034b"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-01-11T03:07:04+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.22.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.23": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.23",
-                "version_normalized": "2.4.23.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "28b8d76b7f83f4d9eb6b6169a475f3d8d11d15bb"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-28b8d76b7f83f4d9eb6b6169a475f3d8d11d15bb-zip-b7bac9.tar",
-                    "reference": "28b8d76b7f83f4d9eb6b6169a475f3d8d11d15bb",
-                    "shasum": "6333ef901574a8063fca66a482d6e048044dbbb7"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-03-10T01:21:45+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.23",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.4.24": {
-                "name": "purdue/gravityforms",
-                "version": "2.4.24",
-                "version_normalized": "2.4.24.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "2464bf7fa684724dc762b8fa860432878da12519"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-2464bf7fa684724dc762b8fa860432878da12519-zip-ce3256.tar",
-                    "reference": "2464bf7fa684724dc762b8fa860432878da12519",
-                    "shasum": "5f3fb1d2dfefecd16970d0d95919f708c4b27cab"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-04-15T18:35:19+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.4.24",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.5.10": {
-                "name": "purdue/gravityforms",
-                "version": "2.5.10",
-                "version_normalized": "2.5.10.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-f613744e47f0f1c3c0bc5a27f6c87880cedad762-zip-e5c743.tar",
-                    "reference": "f613744e47f0f1c3c0bc5a27f6c87880cedad762",
-                    "shasum": "3bee6c2af2c9ddbf09daac364c3fade43c85b046"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-09-10T14:00:56+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.10",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.5.15.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.5.15.1",
-                "version_normalized": "2.5.15.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "76b996c95eaae42c6493b2864d1d00b3f0e9da0f"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-76b996c95eaae42c6493b2864d1d00b3f0e9da0f-zip-3fd00c.tar",
-                    "reference": "76b996c95eaae42c6493b2864d1d00b3f0e9da0f",
-                    "shasum": "ac2ba871ef50d882d32e1c5595d39a2b9b3aad20"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-11-24T20:15:14+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.15.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.5.16": {
-                "name": "purdue/gravityforms",
-                "version": "2.5.16",
-                "version_normalized": "2.5.16.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "6de25e3082da88c5ccc08b656333d2a3e62d7555"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-6de25e3082da88c5ccc08b656333d2a3e62d7555-zip-18a344.tar",
-                    "reference": "6de25e3082da88c5ccc08b656333d2a3e62d7555",
-                    "shasum": "8cfdc329fa98ee1eee8153ed987a3c89a20da8d3"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2022-01-19T15:07:03+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.16",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.5.5.3": {
-                "name": "purdue/gravityforms",
-                "version": "2.5.5.3",
-                "version_normalized": "2.5.5.3",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "269a2bb879c3641bf6a3af3b79c21e478d4966f0"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-269a2bb879c3641bf6a3af3b79c21e478d4966f0-zip-9c15ed.tar",
-                    "reference": "269a2bb879c3641bf6a3af3b79c21e478d4966f0",
-                    "shasum": "ca60e26a038ad1fb14e10f2508c2c306fd2a13bf"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-06-15T16:11:18+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.5.3",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.5.6": {
-                "name": "purdue/gravityforms",
-                "version": "2.5.6",
-                "version_normalized": "2.5.6.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "b697cceefde3eb7c2754bf0348494ab8685dde53"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-b697cceefde3eb7c2754bf0348494ab8685dde53-zip-0a8a11.tar",
-                    "reference": "b697cceefde3eb7c2754bf0348494ab8685dde53",
-                    "shasum": "b8b1c4fbe24d2692abe17f1eb18148af9d449f5d"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-06-22T18:56:22+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.6",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.5.8": {
-                "name": "purdue/gravityforms",
-                "version": "2.5.8",
-                "version_normalized": "2.5.8.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "c2334dc3fe2e34ba2351f6faab71764e76b4bc5d"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-c2334dc3fe2e34ba2351f6faab71764e76b4bc5d-zip-87d2f5.tar",
-                    "reference": "c2334dc3fe2e34ba2351f6faab71764e76b4bc5d",
-                    "shasum": "a04e89e152101461eb350f841e84bc8e9fcb0c53"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2021-08-05T21:48:34+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.5.8",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.6.4.3": {
-                "name": "purdue/gravityforms",
-                "version": "2.6.4.3",
-                "version_normalized": "2.6.4.3",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "5427551c45fa71b16f24bb3730f745b17e748a37"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-5427551c45fa71b16f24bb3730f745b17e748a37-zip-9756d2.tar",
-                    "reference": "5427551c45fa71b16f24bb3730f745b17e748a37",
-                    "shasum": "95c5fa8687a458404fda4e0e18360766db516f43"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2022-07-28T20:26:14+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.6.4.3",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.6.7": {
-                "name": "purdue/gravityforms",
-                "version": "2.6.7",
-                "version_normalized": "2.6.7.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "6066b5d731055e3be39c68b4813655078d3e432b"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-6066b5d731055e3be39c68b4813655078d3e432b-zip-2242fd.tar",
-                    "reference": "6066b5d731055e3be39c68b4813655078d3e432b",
-                    "shasum": "9cca0398b53b22c880d7d0a5b734e9cb8c0bd339"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2022-09-26T20:30:58+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.6.7",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.6.8.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.6.8.1",
-                "version_normalized": "2.6.8.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "d435a354059fb4d7478f2f7886ef89d5944897af"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-d435a354059fb4d7478f2f7886ef89d5944897af-zip-c5c14f.tar",
-                    "reference": "d435a354059fb4d7478f2f7886ef89d5944897af",
-                    "shasum": "e71f539aec953a325d6cf5c85bbd1997a82a81de"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2022-11-16T19:05:18+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.6.8.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.6.9": {
-                "name": "purdue/gravityforms",
-                "version": "2.6.9",
-                "version_normalized": "2.6.9.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "958b87df042bba374504ef0a4e6123e933c118a3"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-958b87df042bba374504ef0a4e6123e933c118a3-zip-82ab75.tar",
-                    "reference": "958b87df042bba374504ef0a4e6123e933c118a3",
-                    "shasum": "65f3aaf87991ce0a1f287a3526bfe324723f75d4"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2023-01-30T13:52:49+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.6.9",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.7.0.2": {
-                "name": "purdue/gravityforms",
-                "version": "2.7.0.2",
-                "version_normalized": "2.7.0.2",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "291a67ac7128dc0354bb8058c77ae6b263ae4647"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-291a67ac7128dc0354bb8058c77ae6b263ae4647-zip-19836d.tar",
-                    "reference": "291a67ac7128dc0354bb8058c77ae6b263ae4647",
-                    "shasum": "bcf08776fe8cb69c04dea32730e04c0cd5f2a73c"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2023-02-09T20:26:13+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.7.0.2",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.7.10.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.7.10.1",
-                "version_normalized": "2.7.10.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "46c73ea8393eee69f21dae547acbed06b6c53fdf"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-46c73ea8393eee69f21dae547acbed06b6c53fdf-zip-f64f6c.tar",
-                    "reference": "46c73ea8393eee69f21dae547acbed06b6c53fdf",
-                    "shasum": "e8776891c37e8a8c0c54424bea4c726803956487"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2023-07-18T15:15:50+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.7.10.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.7.15.2": {
-                "name": "purdue/gravityforms",
-                "version": "2.7.15.2",
-                "version_normalized": "2.7.15.2",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "f61cdc2f8815348d9f17bdb22278567c5a333de4"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-f61cdc2f8815348d9f17bdb22278567c5a333de4-zip-387eb0.tar",
-                    "reference": "f61cdc2f8815348d9f17bdb22278567c5a333de4",
-                    "shasum": "a538f83df6ba26db77f87d43880b3b072f7df827"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2023-10-25T16:32:29+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.7.15.2",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.7.2": {
-                "name": "purdue/gravityforms",
-                "version": "2.7.2",
-                "version_normalized": "2.7.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "6a90edea3a179dcb91f1add3aa1c3bd5b2235c20"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-6a90edea3a179dcb91f1add3aa1c3bd5b2235c20-zip-ae76e7.tar",
-                    "reference": "6a90edea3a179dcb91f1add3aa1c3bd5b2235c20",
-                    "shasum": "eca2db9fa780250855f844f07adaf756dc5c080f"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2023-03-15T17:21:41+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.7.2",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.7.7.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.7.7.1",
-                "version_normalized": "2.7.7.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "d6b996648427e303cc092654ee4075252c6b52e9"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-d6b996648427e303cc092654ee4075252c6b52e9-zip-4f4f7d.tar",
-                    "reference": "d6b996648427e303cc092654ee4075252c6b52e9",
-                    "shasum": "7a574a3d525c964035e59e089a5a4805b3f07e4a"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2023-06-05T20:10:53+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.7.7.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.8.13": {
-                "name": "purdue/gravityforms",
-                "version": "2.8.13",
-                "version_normalized": "2.8.13.0",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "c93d16324c6ed2cdbec11e5dc4e579301522aef2"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-c93d16324c6ed2cdbec11e5dc4e579301522aef2-zip-f414aa.tar",
-                    "reference": "c93d16324c6ed2cdbec11e5dc4e579301522aef2",
-                    "shasum": "2b2c74dfaeeab7ef563760543cb4d7a7aa56c87a"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2024-07-03T15:21:07+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.8.13",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.8.6.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.8.6.1",
-                "version_normalized": "2.8.6.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "23e38cbae9d1a6998da5df233bece0fa892b59ea"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-23e38cbae9d1a6998da5df233bece0fa892b59ea-zip-7a92c5.tar",
-                    "reference": "23e38cbae9d1a6998da5df233bece0fa892b59ea",
-                    "shasum": "0d2cae6b38c881f3dc9bdadd01418f1292c09003"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2024-03-29T20:15:09+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.8.6.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
-            },
-            "2.9.1.1": {
-                "name": "purdue/gravityforms",
-                "version": "2.9.1.1",
-                "version_normalized": "2.9.1.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:Purdue/gravityforms.git",
-                    "reference": "8200d4ba13d76348c18ebcf81381efa5c89b1131"
-                },
-                "dist": {
-                    "type": "tar",
-                    "url": "https://purdue.github.io/dist/purdue/gravityforms/purdue-gravityforms-8200d4ba13d76348c18ebcf81381efa5c89b1131-zip-2df925.tar",
-                    "reference": "8200d4ba13d76348c18ebcf81381efa5c89b1131",
-                    "shasum": "4846841b6196cbdf7622d77c4f6618b8f0338aeb"
-                },
-                "require": {
-                    "php": ">=5.6"
-                },
-                "time": "2024-12-18T14:35:49+00:00",
-                "type": "wordpress-plugin",
-                "license": [
-                    "GPLv3"
-                ],
-                "authors": [
-                    {
-                        "name": "Rocketgenius, Inc.",
-                        "homepage": "http://www.gravityforms.com"
-                    }
-                ],
-                "description": "GravityForms Plugin by Rocketgenius, Inc.",
-                "support": {
-                    "source": "https://github.com/Purdue/gravityforms/tree/2.9.1.1",
-                    "issues": "https://github.com/Purdue/gravityforms/issues"
-                }
+                "description": "Gravity Forms"
             }
         },
         "purdue/gravityformsdebug": {
