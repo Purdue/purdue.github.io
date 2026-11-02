@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-calendar-embed.git",
-                    "reference": "7ef31695220c33c69818f9b92d935679c19e8b28"
+                    "reference": "65b570830565ae3ace9ac87796dfe3d01b9ad123"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/Purdue/purdue-calendar-embed/zipball/7ef31695220c33c69818f9b92d935679c19e8b28",
-                    "reference": "7ef31695220c33c69818f9b92d935679c19e8b28",
+                    "url": "https://api.github.com/repos/Purdue/purdue-calendar-embed/zipball/65b570830565ae3ace9ac87796dfe3d01b9ad123",
+                    "reference": "65b570830565ae3ace9ac87796dfe3d01b9ad123",
                     "shasum": ""
                 },
                 "require": {
@@ -24,7 +24,7 @@
                     "squizlabs/php_codesniffer": "^3.6",
                     "szepeviktor/phpstan-wordpress": "^2.0"
                 },
-                "time": "2026-10-29T19:32:05+00:00",
+                "time": "2026-10-30T20:56:46+00:00",
                 "default-branch": true,
                 "type": "wordpress-plugin",
                 "autoload": {
