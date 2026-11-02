@@ -4,7 +4,7 @@
             {
                 "name": "publishpress/publishpress-capabilities-pro",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:Purdue/capabilities-pro.git",
@@ -23,6 +23,7 @@
                     "publishpress/dev-workspace": "^1.0"
                 },
                 "time": "2026-08-28T16:01:54+00:00",
+                "default-branch": true,
                 "type": "wordpress-plugin",
                 "extra": {
                     "plugin-name": "publishpress-capabilities-pro",

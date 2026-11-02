@@ -4,7 +4,7 @@
             {
                 "name": "purdue/purdue-landingpages",
                 "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version_normalized": "dev-master",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/Purdue/purdue-landingpages.git",
@@ -17,6 +17,7 @@
                     "shasum": ""
                 },
                 "time": "2021-03-15T14:48:41+00:00",
+                "default-branch": true,
                 "type": "wordpress-muplugin",
                 "authors": [
                     {
